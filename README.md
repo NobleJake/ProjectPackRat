@@ -1,4 +1,10 @@
-# Project: Pack Rat requires playing with the latest version of BN to enjoy the content.
+
+![20230724_135902](https://github.com/NobleJake/ProjectPackRat/assets/108422062/cea7f77a-3108-4eec-b4cb-3a4d8329d6cb)
+# What is Project: Pack Rat?
+
+Project: Pack Rat offers comprehensive sci-fi content inspired by various sci-fi games such as Starbound, Halo, Overwatch, Titanfall, and more. This mod adds a selection of particularly desirable combat armor and futuristic weapons to make gameplay more exciting, improve usability, and provide expanded end content. Together with the new gear and features, the mod will bring players a more enriching experience.
+
+* Project: Pack Rat requires playing with the latest version of BN to enjoy the content.
 
 ## 1. Add practical compression storage items
 
