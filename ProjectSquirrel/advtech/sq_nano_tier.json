@@ -328,8 +328,20 @@
       "bandages_power": 6,
       "bleed": 1.0,
       "move_cost": 100,
-      "effects": [ { "id": "sq_nanobandages_effect", "duration": 1 } ]
+      "effects": [ { "id": "sq_nanobandages_effect" } ]
     }
+  },
+  {
+    "type": "effect_type",
+    "id": "sq_nanobandages_effect",
+    "name": [ "나노붕대 치유" ],
+    "desc": [ "나노포장 붕대를 적용했습니다. 상처가 빠른 속도로 치유됩니다." ],
+    "apply_message": "상처가 빠른 속도로 아뭅니다. 조금 아프네요.",
+    "rating": "good",
+	"main_parts_only": true,
+    "base_mods": { "hurt_amount": [ -20 ] },
+    "show_in_info": true,
+    "blood_analysis_description": "나노 치유"
   },
   {
     "result": "sq_nanobandages",
@@ -341,22 +353,12 @@
     "difficulty": 6,
     "time": "120 s",
     "autolearn": true,
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [
       [ [ "graphene", 3 ], [ "sq_monofilament", 50 ] ],
       [ [ "duct_tape", 20 ], [ "medical_tape", 5 ] ],
       [ [ "disinfectant", 5 ], [ "thyme_oil", 1 ], [ "chem_ethanol", 250 ], [ "denat_alcohol", 250 ] ]
     ]
-  },
-  {
-    "type": "effect_type",
-    "id": "sq_nanobandages_effect",
-    "name": [ "나노붕대 치유" ],
-    "desc": [ "나노포장 붕대를 적용했습니다. 상처가 빠른 속도로 치유됩니다." ],
-    "apply_message": "상처가 빠른 속도로 아뭅니다. 조금 아프네요.",
-    "rating": "good",
-    "base_mods": { "hurt_min": [ -20 ] },
-    "blood_analysis_description": "나노 치유"
   },
   {
     "type": "mutation",
@@ -399,7 +401,7 @@
     "difficulty": 6,
     "time": "40 m",
     "autolearn": true,
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "graphene", 3 ] ], [ [ "alloy_sheet", 10 ] ], [ [ "motor_tiny", 4 ] ], [ [ "small_storage_battery", 1 ] ] ]
   },
   {
@@ -433,7 +435,7 @@
     "difficulty": 6,
     "time": "40 m",
     "autolearn": true,
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "graphene", 3 ] ], [ [ "alloy_sheet", 10 ] ], [ [ "motor_tiny", 4 ] ], [ [ "small_storage_battery", 1 ] ] ]
   },
   {
@@ -482,8 +484,8 @@
     "time": "4 h",
     "book_learn": [ [ "textbook_weapwest", 10 ], [ "scots_cookbook", 10 ] ],
     "tools": [
-      [ [ "sq_atomic_forge", -1 ], [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ],
-      [ [ "sq_nanocomp", 50 ], [ "sq_nanoprint", 50 ], [ "sq_nanofab", 50 ] ]
+      [ [ "sq_atomic_forge", -1 ] ],
+      [ [ "sq_nanocomp", -1 ], [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ]
     ],
     "components": [ [ [ "nanomaterial", 40 ] ], [ [ "alloy_sheet", 15 ] ] ]
   },
@@ -517,7 +519,7 @@
     "skills_required": [ "fabrication", 7 ],
     "time": "20 m",
     "autolearn": true,
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "sq_monofilament", 300 ] ] ]
   },
   {
@@ -530,7 +532,7 @@
     "price": 54000,
     "price_postapoc": 1750,
     "to_hit": -5,
-    "material": [ "carbide" ],
+    "material": [ "graphene_sheet" ],
     "symbol": "[",
     "looks_like": "nomex_suit",
     "color": "dark_gray",
@@ -538,9 +540,9 @@
     "coverage": 100,
     "encumbrance": 10,
     "warmth": 0,
-    "material_thickness": 1,
+    "material_thickness": 2,
     "environmental_protection": 5,
-    "flags": [ "VARSIZE", "WATER_FRIENDLY", "SKINTIGHT", "STURDY" ]
+    "flags": [ "VARSIZE", "WATER_FRIENDLY", "SKINTIGHT", "STURDY", "ELECTRIC_IMMUNE" ]
   },
   {
     "result": "sq_carbon_suit",
@@ -555,6 +557,74 @@
     "components": [ [ [ "graphene", 18 ] ] ]
   },
   {
+    "id": "sq_carbon_suit_a",
+    "type": "ARMOR",
+    "name": { "str": "카본 단열슈트" },
+    "description": "그래핀 시트를 겹쳐서 만든 얇은 전신 내복으로 가벼우면서도 내구성이 뛰어나며, 자유로운 움직임을 제공합니다. 극한 지역을 탐험하는 노련한 모험가들에게 필수적인 장비 중 하나입니다.",
+    "weight": "866 g",
+    "volume": "1750 ml",
+    "price": 54000,
+    "price_postapoc": 1750,
+    "to_hit": -5,
+    "material": [ "graphene_sheet" ],
+    "symbol": "[",
+    "looks_like": "sq_carbon_suit",
+    "color": "dark_gray",
+    "covers": [ "legs", "torso", "arms", "hands", "feet" ],
+    "coverage": 100,
+    "encumbrance": 10,
+    "warmth": 30,
+    "material_thickness": 2,
+    "environmental_protection": 5,
+    "flags": [ "VARSIZE", "WATER_FRIENDLY", "SKINTIGHT", "STURDY", "ELECTRIC_IMMUNE" ]
+  },
+  {
+    "result": "sq_carbon_suit_a",
+    "type": "recipe",
+    "category": "CC_첨단기술",
+    "subcategory": "CSC_첨단기술_ARMOR",
+    "skill_used": "tailor",
+    "difficulty": 8,
+    "time": "24 m",
+    "book_learn": [ [ "textbook_fireman", 6 ], [ "tailor_portfolio", 7 ] ],
+    "using": [ [ "sewing_standard", 40 ] ],
+    "components": [ [ [ "graphene", 18 ] ] ]
+  },
+  {
+    "id": "sq_carbon_suit_b",
+    "type": "ARMOR",
+    "name": { "str": "카본 전신슈트" },
+    "description": "그래핀 시트를 겹쳐서 만든 얇은 전신 내복으로 가벼우면서도 내구성이 뛰어나며, 자유로운 움직임을 제공합니다. 스스로 정체를 밝히고 싶지 않아하는 노련한 모험가들에게 필수적인 장비 중 하나입니다.",
+    "weight": "966 g",
+    "volume": "1750 ml",
+    "price": 54000,
+    "price_postapoc": 1750,
+    "to_hit": -5,
+    "material": [ "graphene_sheet" ],
+    "symbol": "[",
+    "looks_like": "zentai",
+    "color": "dark_gray",
+    "covers": [ "head", "legs", "torso", "arms", "hands", "feet" ],
+    "coverage": 100,
+    "encumbrance": 10,
+    "warmth": 0,
+    "material_thickness": 2,
+    "environmental_protection": 5,
+    "flags": [ "VARSIZE", "WATER_FRIENDLY", "SKINTIGHT", "STURDY", "ELECTRIC_IMMUNE" ]
+  },
+  {
+    "result": "sq_carbon_suit_b",
+    "type": "recipe",
+    "category": "CC_첨단기술",
+    "subcategory": "CSC_첨단기술_ARMOR",
+    "skill_used": "tailor",
+    "difficulty": 8,
+    "time": "24 m",
+    "book_learn": [ [ "textbook_fireman", 6 ], [ "tailor_portfolio", 7 ] ],
+    "using": [ [ "sewing_standard", 44 ] ],
+    "components": [ [ [ "graphene", 20 ] ] ]
+  },
+  {
     "type": "recipe",
     "result": "rm20",
     "category": "CC_첨단기술",
@@ -564,7 +634,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 49 ] ] ]
   },
   {
@@ -577,7 +647,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 15 ] ] ]
   },
   {
@@ -590,7 +660,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 30 ] ] ]
   },
   {
@@ -603,7 +673,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 90 ] ] ]
   },
   {
@@ -616,7 +686,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 45 ] ] ]
   },
   {
@@ -629,7 +699,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 40 ] ] ]
   },
   {
@@ -642,7 +712,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 80 ] ] ]
   },
   {
@@ -655,7 +725,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 15 ] ] ]
   },
   {
@@ -668,7 +738,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 50 ] ] ]
   },
   {
@@ -681,7 +751,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 12 ] ] ]
   },
   {
@@ -694,7 +764,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 43 ] ] ]
   },
   {
@@ -707,7 +777,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 55 ] ] ]
   },
   {
@@ -720,7 +790,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 180 ] ] ]
   },
   {
@@ -733,7 +803,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 57 ] ] ]
   },
   {
@@ -746,7 +816,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 25 ] ] ]
   },
   {
@@ -759,7 +829,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 35 ] ] ]
   },
   {
@@ -772,7 +842,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 13 ] ] ]
   },
   {
@@ -785,7 +855,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 70 ] ] ]
   },
   {
@@ -798,7 +868,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 15 ] ] ]
   },
   {
@@ -811,7 +881,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 15 ] ] ]
   },
   {
@@ -824,7 +894,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 10 ] ] ]
   },
   {
@@ -837,7 +907,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 5 ] ] ]
   },
   {
@@ -850,7 +920,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 15 ] ] ]
   },
   {
@@ -863,7 +933,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 10 ] ] ]
   },
   {
@@ -876,7 +946,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 80 ] ] ]
   },
   {
@@ -889,7 +959,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 40 ] ] ]
   },
   {
@@ -902,7 +972,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 5 ] ] ]
   },
   {
@@ -915,7 +985,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 10 ] ] ]
   },
   {
@@ -928,7 +998,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 5 ] ] ]
   },
   {
@@ -941,7 +1011,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 80 ] ] ]
   },
   {
@@ -954,7 +1024,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 15 ] ] ]
   },
   {
@@ -967,7 +1037,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 10 ] ] ]
   },
   {
@@ -976,11 +1046,12 @@
     "category": "CC_첨단기술",
     "subcategory": "CSC_첨단기술_MODS",
     "skill_used": "mechanics",
-    "skills_required": [ "gun", 5 ],
+    "skills_required": [ "gun", 3 ],
     "difficulty": 8,
     "time": "1 h",
+	"autolearn": true,
     "book_learn": [ [ "recipe_lab_elec", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 5 ] ] ]
   },
   {
@@ -989,11 +1060,12 @@
     "category": "CC_첨단기술",
     "subcategory": "CSC_첨단기술_MODS",
     "skill_used": "mechanics",
-    "skills_required": [ "gun", 5 ],
+    "skills_required": [ "gun", 3 ],
     "difficulty": 8,
     "time": "1 h",
+	"autolearn": true,
     "book_learn": [ [ "recipe_lab_elec", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 5 ] ] ]
   },
   {
@@ -1002,11 +1074,12 @@
     "category": "CC_첨단기술",
     "subcategory": "CSC_첨단기술_MODS",
     "skill_used": "mechanics",
-    "skills_required": [ "gun", 5 ],
+    "skills_required": [ "gun", 3 ],
     "difficulty": 8,
     "time": "1 h",
+	"autolearn": true,
     "book_learn": [ [ "recipe_lab_elec", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 20 ] ] ]
   },
   {
@@ -1015,11 +1088,12 @@
     "category": "CC_첨단기술",
     "subcategory": "CSC_첨단기술_MODS",
     "skill_used": "mechanics",
-    "skills_required": [ "gun", 5 ],
+    "skills_required": [ "gun", 3 ],
     "difficulty": 8,
     "time": "1 h",
+	"autolearn": true,
     "book_learn": [ [ "recipe_lab_elec", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 5 ] ] ]
   },
   {
@@ -1028,11 +1102,12 @@
     "category": "CC_첨단기술",
     "subcategory": "CSC_첨단기술_MODS",
     "skill_used": "mechanics",
-    "skills_required": [ "gun", 5 ],
+    "skills_required": [ "gun", 3 ],
     "difficulty": 8,
     "time": "1 h",
+	"autolearn": true,
     "book_learn": [ [ "recipe_lab_elec", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 5 ] ] ]
   },
   {
@@ -1045,7 +1120,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 15 ] ] ]
   },
   {
@@ -1058,7 +1133,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 60 ] ] ]
   },
   {
@@ -1071,7 +1146,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 60 ] ] ]
   },
   {
@@ -1311,7 +1386,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_augs", 5 ], [ "recipe_lab_elec", 5 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "graphene", 2 ] ],
@@ -1332,7 +1407,7 @@
     "autolearn": false,
     "book_learn": [ [ "recipe_mil_augs", 5 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "graphene", 3 ] ],
@@ -1354,7 +1429,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_augs", 5 ], [ "recipe_lab_elec", 5 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "graphene", 2 ] ],
@@ -1375,7 +1450,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_augs", 5 ], [ "recipe_lab_elec", 5 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "graphene", 2 ] ],
@@ -1397,7 +1472,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_mil_augs", 5 ], [ "recipe_lab_elec", 5 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "graphene", 3 ] ],
@@ -1418,7 +1493,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_augs", 5 ], [ "recipe_lab_elec", 5 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "graphene", 2 ] ],
@@ -1439,7 +1514,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_augs", 5 ], [ "recipe_lab_elec", 5 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "graphene", 2 ] ],
@@ -1460,7 +1535,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_mil_augs", 5 ], [ "recipe_lab_elec", 5 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "graphene", 3 ] ],
@@ -1483,7 +1558,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_augs", 5 ], [ "recipe_lab_elec", 5 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "graphene", 8 ] ],
@@ -1505,7 +1580,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_mil_augs", 5 ], [ "recipe_lab_elec", 5 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "graphene", 3 ] ],
@@ -1529,7 +1604,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_augs", 5 ], [ "recipe_lab_elec", 5 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "graphene", 3 ] ],
@@ -1552,7 +1627,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_augs", 5 ], [ "recipe_lab_elec", 5 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "graphene", 2 ] ],
@@ -1575,7 +1650,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_augs", 5 ], [ "recipe_lab_elec", 5 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "graphene", 2 ] ],
@@ -1598,7 +1673,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_augs", 5 ], [ "recipe_lab_elec", 5 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "graphene", 2 ] ],
@@ -1620,7 +1695,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_mil_augs", 5 ], [ "recipe_lab_elec", 5 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "graphene", 3 ] ],
@@ -1644,7 +1719,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_mil_augs", 5 ], [ "recipe_lab_elec", 5 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "graphene", 4 ] ],
@@ -1666,7 +1741,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_mil_augs", 5 ], [ "recipe_lab_elec", 5 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "graphene", 4 ] ],
@@ -1688,7 +1763,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_mil_augs", 5 ], [ "recipe_lab_elec", 5 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "graphene", 4 ] ],
@@ -1710,7 +1785,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_mil_augs", 5 ], [ "recipe_lab_elec", 5 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "graphene", 4 ] ],
