@@ -495,10 +495,10 @@
     "subcategory": "CSC_첨단기술_MATERIALS",
     "skill_used": "fabrication",
     "skills_required": [ "cooking", 9 ],
-    "difficulty": 8,
+    "difficulty": 7,
     "time": "45 m",
     "batch_time_factors": [ 50, 5 ],
-    "book_learn": [ [ "recipe_lab_cvd", 7 ] ],
+    "book_learn": [ [ "recipe_lab_cvd", 5 ] ],
     "autolearn": false,
     "tools": [ [ [ "sq_atomic_forge", -1 ] ] ],
     "components": [ [ [ "carbide_plate", 12 ] ] ]
@@ -524,6 +524,19 @@
       { "item": "carbide_plate", "count": [ 0, 4 ] }
     ],
     "damage_reduction": { "all": 70, "cut": 95, "stab": 118 }
+  },
+  {
+    "type": "recipe",
+    "result": "carbonfiber_boat_hull",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "60 m",
+    "reversible": true,
+    "autolearn": true,
+    "using": [ [ "welding_standard", 25 ] ],
+    "components": [ [ [ "kevlar_plate", 20 ], [ "carbide_plate", 15 ] ] ]
   },
   {
     "type": "GENERIC",
@@ -623,6 +636,65 @@
     "damage_reduction": { "all": 164 }
   },
   {
+    "abstract": "sq_carbide_hdboard",
+    "type": "vehicle_part",
+    "name": { "str": "탄소섬유 장갑판" },
+    "item": "sq_carbide_frame",
+    "location": "center",
+    "color": "dark_gray",
+    "durability": 675,
+    "description": "튼튼한 탄소섬유 벽입니다. 좀비들이 차량에 들어오는 것을 막고 시야를 차단합니다.",
+    "breaks_into": "ig_vp_sq_carbide_plate",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "OPAQUE", "OBSTACLE", "FULL_BOARD", "NO_ROOF_NEEDED" ],
+    "damage_reduction": { "all": 120 }
+  },
+  {
+    "abstract": "sq_carbide_hdhalfboard",
+    "copy-from": "sq_carbide_hdboard",
+    "type": "vehicle_part",
+    "name": { "str": "탄소섬유 쿼터패널" },
+    "description": "절반 높이의 튼튼한 탄소섬유 벽입니다. 좀비들이 차량에 들어오는 것을 막지만 시야를 차단하지는 않습니다.",
+    "proportional": { "durability": 0.8 },
+    "extend": { "flags": [ "HALF_BOARD" ] },
+    "delete": { "flags": [ "OPAQUE", "FULL_BOARD" ] },
+    "damage_reduction": { "all": 120 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "sq_carbide_hdroof",
+    "name": { "str": "탄소섬유 지붕" },
+    "symbol": "#",
+    "color": "dark_gray",
+    "broken_symbol": "#",
+    "broken_color": "dark_gray",
+    "durability": 1500,
+    "description": "두꺼운 탄소섬유 지붕.",
+    "item": "sq_carbide_frame",
+    "location": "roof",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "ROOF" ],
+    "breaks_into": "ig_vp_steel_plate",
+    "damage_reduction": { "all": 125 }
+  },
+  {
+    "type": "item_group",
+    "id": "ig_vp_sq_carbide_plate",
+    "subtype": "collection",
+    "entries": [
+      { "item": "carbide_plate", "count": [ 4, 7 ] },
+      { "item": "graphene", "count": [ 4, 6 ] }
+    ]
+  },
+  {
     "type": "item_group",
     "id": "ig_vp_sq_carbide_frame",
     "subtype": "collection",
@@ -649,6 +721,18 @@
     "copy-from": "sq_carbide_hdframe",
     "type": "vehicle_part",
     "symbol": "^"
+  },
+  {
+    "id": "sq_carbide_hdboard_horizontal",
+    "copy-from": "sq_carbide_hdboard",
+    "type": "vehicle_part",
+    "symbol": "h"
+  },
+  {
+    "id": "sq_carbide_hdhalfboard_horizontal",
+    "copy-from": "sq_carbide_hdhalfboard",
+    "type": "vehicle_part",
+    "symbol": "h"
   },
   {
     "id": "sq_carbide_frame_cross",
@@ -701,6 +785,20 @@
     "symbol": "u"
   },
   {
+    "id": "sq_carbide_hdboard_ne",
+    "looks_like": "board_ne",
+    "copy-from": "sq_carbide_hdboard",
+    "type": "vehicle_part",
+    "symbol": "u"
+  },
+  {
+    "id": "sq_carbide_hdhalfboard_ne",
+    "looks_like": "halfboard_ne",
+    "copy-from": "sq_carbide_hdhalfboard",
+    "type": "vehicle_part",
+    "symbol": "u"
+  },
+  {
     "id": "sq_carbide_frame_nw",
     "copy-from": "sq_carbide_frame",
     "type": "vehicle_part",
@@ -709,6 +807,20 @@
   {
     "id": "sq_carbide_hdframe_nw",
     "copy-from": "sq_carbide_hdframe",
+    "type": "vehicle_part",
+    "symbol": "y"
+  },
+  {
+    "id": "sq_carbide_hdboard_nw",
+    "looks_like": "board_nw",
+    "copy-from": "sq_carbide_hdboard",
+    "type": "vehicle_part",
+    "symbol": "y"
+  },
+  {
+    "id": "sq_carbide_hdhalfboard_nw",
+    "looks_like": "halfboard_nw",
+    "copy-from": "sq_carbide_hdhalfboard",
     "type": "vehicle_part",
     "symbol": "y"
   },
@@ -725,6 +837,20 @@
     "symbol": "n"
   },
   {
+    "id": "sq_carbide_hdboard_se",
+    "looks_like": "board_se",
+    "copy-from": "sq_carbide_hdboard",
+    "type": "vehicle_part",
+    "symbol": "n"
+  },
+  {
+    "id": "sq_carbide_hdhalfboard_se",
+    "looks_like": "halfboard_se",
+    "copy-from": "sq_carbide_hdhalfboard",
+    "type": "vehicle_part",
+    "symbol": "n"
+  },
+  {
     "id": "sq_carbide_frame_sw",
     "copy-from": "sq_carbide_frame",
     "type": "vehicle_part",
@@ -737,6 +863,20 @@
     "symbol": "b"
   },
   {
+    "id": "sq_carbide_hdboard_sw",
+    "looks_like": "board_sw",
+    "copy-from": "sq_carbide_hdboard",
+    "type": "vehicle_part",
+    "symbol": "b"
+  },
+  {
+    "id": "sq_carbide_hdhalfboard_sw",
+    "looks_like": "halfboard_sw",
+    "copy-from": "sq_carbide_hdhalfboard",
+    "type": "vehicle_part",
+    "symbol": "b"
+  },
+  {
     "id": "sq_carbide_frame_vertical",
     "copy-from": "sq_carbide_frame",
     "type": "vehicle_part",
@@ -745,6 +885,18 @@
   {
     "id": "sq_carbide_hdframe_vertical",
     "copy-from": "sq_carbide_hdframe",
+    "type": "vehicle_part",
+    "symbol": "j"
+  },
+  {
+    "id": "sq_carbide_hdboard_vertical",
+    "copy-from": "sq_carbide_hdboard",
+    "type": "vehicle_part",
+    "symbol": "j"
+  },
+  {
+    "id": "sq_carbide_hdhalfboard_vertical",
+    "copy-from": "sq_carbide_hdhalfboard",
     "type": "vehicle_part",
     "symbol": "j"
   },
