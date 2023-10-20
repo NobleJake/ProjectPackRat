@@ -54,13 +54,9 @@ Tier 2: Matter Synthesizer: Nanocompressor (hydrogen container, nanofabricated m
 
 *Superalloys can be disassembled with a metal saw to get thin superalloys.
 
-Isotope Centrifuge Forge: Enriched Uranium (raw material is toxic waste, maybe a g), Degraded Uranium, Uranium Fuel Cells, Plutonium Slurry, Plutonium Fuel Cells)
-
 ┏━━━━━━━━━━━━━━━━┛ 
 
 Tier 3: Matter Synthesizer: Nano-precision sewing machines (e-scraps, RAM, circuits, copper wire, solar cells, CBMs, AI cores, hardlight matrices, fusion cores)
-
-Uranium forge: Use A to continuously create enriched uranium, degraded uranium bullets,
 
 ┏━━━━━━━━━━━━━━━━┛ 
 
