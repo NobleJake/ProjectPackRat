@@ -1,20 +1,41 @@
-# Project: Pack Rat requires rolling with the latest version of BN to enjoy the content.
+# What is Project: Pack Rat?
+
+Project: "Pack Rat Mode" provides comprehensive sci-fi contents. The mod adds combat armor and futuristic weapons, making gameplay more exciting, improving usability, and providing expanded end content.  Unlock atomic-powered tech to gain access to more advanced science! With new equipment and features, this mod will provide players with a more enriching experience.
+
+Yes, all of the sci-fi content in my mod uses a tech tree approach where you start with an Atomic Forge, build a tool called a Matter Synthesizer, and "evolve" the tool through crafting to unlock the number of different sci-fi items you can make. It's a bit like Starbound. At the "Matter Synthesizer: nano-precision sewing machines" stage, you can create not only CBMs, but also RAM, circuits, e-scraps, solar cells, and other materials that have been difficult to source in large quantities. You can create 7 different types of unique combat armor, 7 hard-light weapons, which are fast and accurate optical weapons, and 5 Gauss weapons, which are high-firepowered railguns powered by fusion cores. You can craft 5.56mm, 7.62mm, and 8x40mm with depleted uranium penetrators. You can find recipes in the previously useless Lab journal - Gustav, and the Lab journal - Herrera, where you can create useful electronics, and Rivtech design binders. Recipes for hard-light and Gaussian weapons are rarely found in the lab. I'm creating a faction that will have an impact later in the game.
+
+In addition, I've prepared several items that can be used even before the SF phase and QoL: 4 types of basic shields and 3 types of tactical shields, 6 types of frame packs and 3 types of powered exoskeletons, a dimensional backpack with a huge storage capacity, and a series of 34 survival fireproof items. Most of the clothes can be lined with steel plates or superalloy plates, and we've also added features such as Nomex lining, reducing interference, and adding pockets.
+
+* Project: Pack Rat requires playing with the latest version of BN to enjoy the content.
 
 ## 1. Add practical compression storage items
 
 Bundles of Rags 1L>0.5L
+
 Bundles of Leathers 1L>0.5L
+
 Bundles of Kevlar plates
+
 Bundles of Nomex
+
 Bundles of Plastic chunks
+
 Bundles of Chitins
+
 Bundles of Biosilicified Chitins
+
 Bundles of Planks
+
 Bundles of Splintered Wood
+
 Bundle of Glass Shards
+
 Bundle of Wires
+
 Bundle of pipes
+
 Bundle of scrap metal
+
 Bundles of layered carbides
 
 ## 2. Build a nanomaterial container, add a portable CVD machine
@@ -22,15 +43,21 @@ Bundles of layered carbides
 Requires at least Lab Report-Gustav to build these.
 In PPR 1.1, main tools will all be unified as 'Matter Synthesizer: Lorem Ipsum', and you will be able to evolve your own main tools to increase your skills, so you can make them in one tool instead of having to make multiple tools.
 
-- Tier 1: Atomic Forge (Graphene, Layered Carbide)
+Tier 1: Atomic Forge (Graphene, Layered Carbide)
 Manupulator workbench (workbench that allows you to work at twice the speed)
+
 ┏━━━━━━━━━━━━━━━━┛ 
-- Tier 2: Matter Synthesizer: Nanocompressor (hydrogen container, nanofabricated materials, superalloys) *Superalloys can be disassembled with a hacksaw to get thin superalloys.
-Isotope Centrifuge Forge: Enriched Uranium (raw material is toxic waste, maybe a g), Degraded Uranium, Uranium Fuel Cells, Plutonium Slurry, Plutonium Fuel Cells
+
+Tier 2: Matter Synthesizer: Nanocompressor (hydrogen container, nanofabricated materials, superalloys)
+
+*Superalloys can be disassembled with a metal saw to get thin superalloys.
+
 ┏━━━━━━━━━━━━━━━━┛ 
-- Tier 3: Matter Synthesizer: Nano-precision sewing machines (electronics debris, RAM, wiring circuits, copper wire, solar cells, CBMs, AI cores, hardlight matrices, fusion cores)
-Uranium forge: Use A to continuously create enriched uranium, degraded uranium bullets,
+
+Tier 3: Matter Synthesizer: Nano-precision sewing machines (e-scraps, RAM, circuits, copper wire, solar cells, CBMs, AI cores, hardlight matrices, fusion cores)
+
 ┏━━━━━━━━━━━━━━━━┛ 
+
 - Tier 4: Matter Synthesizer: Nanoprinter (all RM weapon series and RM13 Combat Armor, all Combat Armors, Hardlight weapons, Gauss weapons)
 
 - Portable CVD Machine: Set up, examine, and use as is. To retrieve it, smash it with S.
@@ -53,40 +80,75 @@ Uranium forge: Use A to continuously create enriched uranium, degraded uranium b
 - Hardlight weapons: Highly advanced optical weapons that feed on the Hardlight Matrix. They disrupt the wavelengths of light and fire what they solidify, making it possible to recreate lightsabers and blasters from the original movies with solidified light. These weapons are characterized by high hit rate, short range, and anti-personnel. Ammo uses UPS power.
 - Gaussian weapons: High mass weapons that feed on fusion cores, or fusion cores. These are the arc reactors from the movie What's up? You can't use fusion cores directly, but you can build Gauss weapons, which are personalized railguns. You can also create mechs, which I'll talk about later. Features include Barrett-like damage, low rate of fire, large and heavy, and the ability to break through walls and zombie skulls. Ammunition is steel rails, degraded uranium rails, and scrap metal (!).
 - Fireproof Gears:
+
 ┏━━━━━━━━━━━━━━━━┛
+
 ┣━ Survival fireproof canteen
+
 ┣━ Survival fireproof harness
+
 ┣━ Survival multi-purpose fire belt
+
 ┣━ Survival fireproof headlamp
+
 ┣━ Survival atomic fireproof headlamp
+
 ┣━ Survival fireproof sheath
+
 ┣━ Survival fireproof lantern sheath
+
 ┣━ Survival fireproof handbag
+
 ┣━ Survival fireproof small sheath
+
 ┣━ Survival fireproof ankle sheath
+
 ┣━ Survival fireproof pistol holster
+
 ┣━ Survival fireproof bow sheath
+
 ┣━ Survival fireproof axe ring holster
+
 ┣━ Survival fireproof spear lanyard
+
 ┣━ Survival Fireproof Backpack
+
 ┣━ Survival fireproof rucksack (large backpack)
+
 ┣━ Survival fireproof duffel bag
+
 ┣━ Survival fireproof runner pack
+
 ┣━ Survival fireproof mountain backpack
+
 ┣━ Survival fireproof knee pads
+
 ┣━ Survival fireproof elbow pads
+
 ┣━ Survival Fireproof Arm Guard
+
 ┣━ Survival Fireproof Leg Guards
+
 ┣━ Survival Fireproof Breastplate
+
 ┣━ Survival Fireproof Armor
+
 ┣━ Survival Fireproof Chest Ammo Pouch
+
 ┣━ Survival Fireproof Leg Ammo Pouches
+
 ┣━ Survival Fireproof Ankle Ammo Pouch
+
 ┣━ Survival Large Fireproof Grenade Pouch
+
 ┣━ Survival Fireproof Grenade Pouch
+
 ┣━ Survival fireproof oversized gun holster
+
 ┣━ Survival fireproof back holster
+
 ┣━ Survival Fireproof Duster Coat
+
 ┗━ Survival Fireproof Trench Coat
 
 ## 4. Make Your Own Combat Armor
@@ -164,9 +226,9 @@ Pack Frames (weight bonus equipment worn like a backpack).
 - Pipe A-frame Pack
 - Steel Carrier Frame
 - Frame Backpack: Bag + Pipe A-frame. Drop Only.
-- Industrial Exoskeleton: Reinforced exoskeleton with large weight gain. Droptemplate.
-- Vanguard Exoskeleton: A reinforced exoskeleton with a weapon slot and a Strength stat bonus when worn. Drops as.
-- Sprinter Exoskeleton: Drops as a droplet. A reinforced exoskeleton that provides a bonus to movement speed when worn. Dropped item.
+- Industrial Exoskeleton: Reinforced exoskeleton with large weight gain. Cannot be crafted.
+- Vanguard Exoskeleton: A reinforced exoskeleton with a weapon slot and a Strength stat bonus when worn. Cannot be crafted.
+- Sprinter Exoskeleton: A reinforced exoskeleton that provides a bonus to movement speed when worn. Cannot be crafted.
 - Rat-Pack: A backpack that is fireproof, provides 1.7x its weight, holds a medium-sized pet, holds 3 random weapons, and provides 120L.
 - Dimensional Stabilizer: Lab drop backpack that provides 300L. Also available in black.
 
