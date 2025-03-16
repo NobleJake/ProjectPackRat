@@ -59,19 +59,6 @@
   },
   {
     "type": "clothing_mod",
-    "id": "nomex_padded",
-    "flag": "nomex_padded",
-    "item": "nomex",
-    "implement_prompt": "노멕스 덧대기",
-    "destroy_prompt": "덧댄 노멕스 제거",
-    "mod_value": [
-      { "type": "acid", "value": 1, "round_up": true, "proportion": [ "thickness", "coverage" ] },
-      { "type": "fire", "value": 3.5, "round_up": true, "proportion": [ "thickness", "coverage" ] },
-	  { "type": "encumbrance", "value": 1, "round_up": true, "proportion": [ "thickness", "coverage" ] }
-    ]
-  },
-  {
-    "type": "clothing_mod",
     "id": "furred",
     "flag": "furred",
     "item": "fur",
@@ -100,7 +87,7 @@
     "type": "clothing_mod",
     "id": "lightened",
     "flag": "lightened",
-	"item": "rag",
+    "item": "rag",
     "implement_prompt": "경량화 하기",
     "destroy_prompt": "덧붙이기",
     "restricted": true,
@@ -110,19 +97,6 @@
       { "type": "bullet", "value": -0.5, "round_up": true, "proportion": [ "thickness" ] },
       { "type": "encumbrance", "value": -1, "round_up": true, "proportion": [ "thickness" ] },
       { "type": "warmth", "value": -2, "round_up": true, "proportion": [ "thickness" ] }
-    ]
-  },
-  {
-    "type": "clothing_mod",
-    "id": "pockets",
-    "flag": "pockets",
-	"item": "leather",
-    "implement_prompt": "주머니 만들기",
-    "destroy_prompt": "주머니 떼기",
-    "restricted": true,
-    "mod_value": [
-      { "type": "encumbrance", "value": 1, "round_up" : true, "proportion": [ "thickness" ] },
-      { "type": "storage", "value": 3, "round_up": true, "proportion": [ "thickness", "coverage" ] }
     ]
   },
   {
@@ -138,7 +112,7 @@
       { "type": "bullet", "value": 1, "proportion": [ "thickness" ] },
       { "type": "acid", "value": 2, "round_up": true, "proportion": [ "thickness", "coverage" ] },
       { "type": "fire", "value": 2, "round_up": true, "proportion": [ "thickness", "coverage" ] },
-	  { "type": "encumbrance", "value": 0.25, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+      { "type": "encumbrance", "value": 0.25, "round_up": true, "proportion": [ "thickness", "coverage" ] }
     ]
   }
 ]
