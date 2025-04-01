@@ -7,7 +7,18 @@
     "color": "dark_gray",
     "name": { "str": "정찰꾼 경량형 컴뱃 아머" },
     "description": "맞춤형 비동력 경량 전투복입니다. 뛰어난 방어력과 기동성을 갖춘 보호장비로, 위험한 임무를 수행할 때 사용하기 좋습니다. 특색있는 분위기와 디자인으로, 생존자들에게 있어선 비동력 컴뱃 아머의 존엄이라고 할 수 있습니다.",
-    "flags": [ "FANCY", "OVERSIZE", "VARSIZE", "STURDY", "WATERPROOF", "RAINPROOF", "SWIM_GOGGLES", "SUN_GLASSES", "RAD_RESIST", "SLEEP_IGNORE" ],
+    "flags": [
+      "FANCY",
+      "OVERSIZE",
+      "VARSIZE",
+      "STURDY",
+      "WATERPROOF",
+      "RAINPROOF",
+      "SWIM_GOGGLES",
+      "SUN_GLASSES",
+      "RAD_RESIST",
+      "SLEEP_IGNORE"
+    ],
     "price": 500000,
     "price_postapoc": 7500,
     "material": [ "leather", "kevlar" ],
@@ -31,7 +42,12 @@
         {
           "has": "WORN",
           "condition": "ALWAYS",
-          "values": [ { "value": "STRENGTH", "add": 1 }, { "value": "DEXTERITY", "add": 1 }, { "value": "INTELLIGENCE", "add": 1 }, { "value": "PERCEPTION", "add": 1 } ]
+          "values": [
+            { "value": "STRENGTH", "add": 1 },
+            { "value": "DEXTERITY", "add": 1 },
+            { "value": "INTELLIGENCE", "add": 1 },
+            { "value": "PERCEPTION", "add": 1 }
+          ]
         }
       ]
     }
@@ -48,7 +64,7 @@
     "autolearn": true,
     "using": [ [ "welding_standard", 21 ] ],
     "components": [
-	  [ [ "backpack", 1 ] ],
+      [ [ "backpack", 1 ] ],
       [ [ "trenchcoat_survivor", 1 ], [ "duster_survivor", 1 ] ],
       [ [ "lsurvivor_suit", 1 ], [ "survivor_suit", 1 ] ],
       [ [ "helmet_survivor", 1 ], [ "helmet_army", 1 ], [ "tac_helmet", 1 ], [ "tac_fullhelmet", 1 ] ],
@@ -115,7 +131,7 @@
   },
   {
     "id": "sq_warden_suit_on",
-	"copy-from": "sq_warden_suit",
+    "copy-from": "sq_warden_suit",
     "type": "TOOL_ARMOR",
     "category": "clothing",
     "name": { "str": "'워든' 중량 컴뱃 아머 (켜짐)" },
@@ -130,7 +146,7 @@
         {
           "has": "WORN",
           "condition": "ALWAYS",
-		  "mutations": [ "SQ_POWER_ACTUATOR" ],
+          "mutations": [ "SQ_POWER_ACTUATOR" ],
           "values": [ { "value": "STRENGTH", "add": 2 }, { "value": "ATTACK_COST", "add": -30 } ]
         }
       ]
@@ -144,13 +160,19 @@
     "skill_used": "fabrication",
     "difficulty": 9,
     "skills_required": [ [ "tailor", 7 ], [ "electronics", 5 ], [ "mechanics", 5 ] ],
-    "book_learn": [ [ "advanced_electronics", 5 ], [ "recipe_mil_augs", 6 ], [ "recipe_augs", 6 ], [ "recipe_atomic_battery", 6 ], [ "recipe_melee", 5 ] ],
+    "book_learn": [
+      [ "advanced_electronics", 5 ],
+      [ "recipe_mil_augs", 6 ],
+      [ "recipe_augs", 6 ],
+      [ "recipe_atomic_battery", 6 ],
+      [ "recipe_melee", 5 ]
+    ],
     "time": "5 h 30 m",
     "autolearn": false,
     "using": [ [ "welding_standard", 21 ], [ "blacksmithing_advanced", 7 ] ],
-	"tools": [ [ [ "sq_atomic_forge", -1 ] ] ],
+    "tools": [ [ [ "sq_atomic_forge", -1 ] ] ],
     "components": [
-	  [ [ "sq_advanced_survivor_suit", 1 ] ],
+      [ [ "sq_advanced_survivor_suit", 1 ] ],
       [ [ "small_storage_battery", 1 ] ],
       [ [ "hand_crank_charger", 1 ], [ "alternator_bicycle", 1 ], [ "alternator_motorbike", 1 ] ],
       [ [ "plut_cell", 4 ] ],
@@ -221,7 +243,7 @@
     "encumbrance": 30,
     "flags": [
       "SUPER_FANCY",
-	  "OVERSIZE",
+      "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
       "WATCH",
@@ -236,7 +258,7 @@
       "NO_UNLOAD",
       "NO_RELOAD",
       "HELMET_COMPAT",
-	  "HEAVY_WEAPON_SUPPORT"
+      "HEAVY_WEAPON_SUPPORT"
     ]
   },
   {
@@ -269,7 +291,7 @@
     "encumbrance": 20,
     "flags": [
       "SUPER_FANCY",
-	  "OVERSIZE",
+      "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
       "BLOCK_WHILE_WORN",
@@ -293,7 +315,7 @@
       "NO_RELOAD",
       "NO_TAKEOFF",
       "HELMET_COMPAT",
-	  "HEAVY_WEAPON_SUPPORT"
+      "HEAVY_WEAPON_SUPPORT"
     ]
   },
   {
@@ -342,7 +364,7 @@
     "encumbrance": 25,
     "flags": [
       "SUPER_FANCY",
-	  "OVERSIZE",
+      "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
       "WATCH",
@@ -377,7 +399,7 @@
     "name": { "str": "Debug HVAC" },
     "points": 99,
     "valid": false,
-	"purifiable": false,
+    "purifiable": false,
     "description": "Temperature and weather won't bug you.",
     "debug": false,
     "player_display": false
@@ -420,7 +442,7 @@
     "encumbrance": 17,
     "flags": [
       "SUPER_FANCY",
-	  "OVERSIZE",
+      "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
       "WATCH",
@@ -525,7 +547,7 @@
     "encumbrance": 0,
     "flags": [
       "SUPER_FANCY",
-	  "OVERSIZE",
+      "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
       "WATCH",
@@ -589,7 +611,8 @@
       "USE_UPS",
       "NO_UNLOAD",
       "NO_RELOAD",
-      "HELMET_COMPAT"
+      "HELMET_COMPAT",
+      "ALLOWS_NATURAL_ATTACKS"
     ]
   },
   {
@@ -620,7 +643,8 @@
       "USE_UPS",
       "NO_UNLOAD",
       "NO_RELOAD",
-      "HELMET_COMPAT"
+      "HELMET_COMPAT",
+      "ALLOWS_NATURAL_ATTACKS"
     ]
   },
   {
@@ -629,7 +653,7 @@
     "name": { "str_sp": "파워드 슈트 설계도" },
     "description": "파워드 슈트의 조립 계획도, 설계 사양, 기술 도면.  이 중 대부분은 당신에게 쓸모가 없지만, 조립 계획도는 당신이 부품들을 재활용하는데 사용할 수 있을 것입니다.",
     "copy-from": "schematics_generic",
-	"looks_like": "schematics_eyebot"
+    "looks_like": "schematics_eyebot"
   },
   {
     "type": "mutation",
@@ -664,9 +688,9 @@
     "storage": "15 L",
     "weight_capacity_modifier": 1.7,
     "ammo": "battery",
-	"max_charges": 1200,
-	"initial_charges": 0,
-	"charges_per_use": 100,
+    "max_charges": 1200,
+    "initial_charges": 0,
+    "charges_per_use": 100,
     "use_action": [
       { "type": "cast_spell", "spell_id": "sq_advanced_soldier_suit_spell_x", "no_fail": true, "level": 1, "need_worn": true },
       {
@@ -718,7 +742,7 @@
     "encumbrance": 15,
     "flags": [
       "SUPER_FANCY",
-	  "OVERSIZE",
+      "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
       "WATCH",
@@ -743,7 +767,7 @@
       "NO_UNLOAD",
       "NO_RELOAD",
       "HELMET_COMPAT",
-	  "HEAVY_WEAPON_SUPPORT"
+      "HEAVY_WEAPON_SUPPORT"
     ],
     "qualities": [ [ "GLARE", 3 ] ]
   },
@@ -753,7 +777,7 @@
     "name": { "str_sp": "암살 잠입복 설계도" },
     "description": "암살 잠입복의 조립 계획도, 설계 사양, 기술 도면.  이 중 대부분은 당신에게 쓸모가 없지만, 조립 계획도는 당신이 부품들을 재활용하는데 사용할 수 있을 것입니다.",
     "copy-from": "schematics_generic",
-	"looks_like": "schematics_eyebot"
+    "looks_like": "schematics_eyebot"
   },
   {
     "type": "mutation",
@@ -764,7 +788,7 @@
     "valid": false,
     "purifiable": false,
     "noise_modifier": 0.0,
-	"scent_intensity": 0,
+    "scent_intensity": 0,
     "stealth_modifier": 40,
     "cut_dmg_bonus": 12
   },
@@ -813,7 +837,7 @@
     "encumbrance": 20,
     "flags": [
       "SUPER_FANCY",
-	  "OVERSIZE",
+      "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
       "WATCH",
@@ -827,7 +851,7 @@
       "WATER_FRIENDLY",
       "RAINPROOF",
       "CLIMATE_CONTROL",
-	  "ALLOWS_NATURAL_ATTACKS",
+      "ALLOWS_NATURAL_ATTACKS",
       "SUN_GLASSES",
       "USE_UPS",
       "NO_UNLOAD",
@@ -856,7 +880,7 @@
           "has": "WORN",
           "condition": "ALWAYS",
           "mutations": [ "SQ_ASSASSIN" ],
-          "values": [ { "value": "STRENGTH", "multiply": 0.2  } ]
+          "values": [ { "value": "STRENGTH", "multiply": 0.2 } ]
         }
       ]
     },
@@ -864,7 +888,7 @@
     "encumbrance": 10,
     "flags": [
       "SUPER_FANCY",
-	  "OVERSIZE",
+      "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
       "ACTIVE_CLOAKING",
@@ -877,7 +901,7 @@
       "WATER_FRIENDLY",
       "RAINPROOF",
       "CLIMATE_CONTROL",
-	  "ALLOWS_NATURAL_ATTACKS",
+      "ALLOWS_NATURAL_ATTACKS",
       "SUN_GLASSES",
       "RAD_PROOF",
       "THERMOMETER",
