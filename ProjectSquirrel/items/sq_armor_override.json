@@ -548,18 +548,7 @@
     "type": "TOOL_ARMOR",
     "copy-from": "rm13_armor",
     "name": { "str": "RM13 combat armor" },
-    "flags": [
-      "OVERSIZE",
-      "VARSIZE",
-      "STURDY",
-      "WATERPROOF",
-      "RAINPROOF",
-      "WATCH",
-      "ALARMCLOCK",
-      "SWIM_GOGGLES",
-      "SUN_GLASSES",
-      "RAD_RESIST"
-    ],
+    "extend": { "flags": [ "OVERSIZE" ] },
     "material_thickness": 3
   },
   {
@@ -569,6 +558,13 @@
     "name": { "str": "RM13 combat armor (on)", "str_pl": "RM13 combat armors (on)" },
     "extend": { "flags": [ "OVERSIZE" ] },
     "material_thickness": 5
+  },
+  {
+    "id": "phase_immersion_suit",
+    "copy-from": "phase_immersion_suit",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "phase immersion suit" },
+    "extend": { "flags": [ "OVERSIZE" ] }
   },
   {
     "id": "phase_immersion_suit_on",
