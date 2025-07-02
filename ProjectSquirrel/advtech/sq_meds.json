@@ -171,7 +171,7 @@
     "book_learn": [ [ "textbook_firstaid", 2 ], [ "manual_first_aid", 2 ], [ "emergency_book", 2 ], [ "pocket_firstaid", 2 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 20, "LIST" ] ] ],
-    "components": [ [ [ "water_clean", 1 ] ], [ [ "oxy_powder", 100 ] ], [ [ "datura_seed", 4 ] ], [ [ "charcoal", 5 ], [ "coal_lump", 5 ] ] ]
+    "components": [ [ [ "water_clean", 1 ] ], [ [ "sugar", 70 ] ], [ [ "oxy_powder", 100 ] ], [ [ "datura_seed", 4 ] ], [ [ "charcoal", 5 ], [ "coal_lump", 5 ] ] ]
   },
   {
     "id": "sq_stamina_elixr",
@@ -372,7 +372,7 @@
     "desc": [ "따갑습니다." ],
     "rating": "bad",
     "base_mods": { "pain_min": [ 1 ] },
-    "max_duration": "30 m",
+    "max_duration": "10 m",
     "show_in_info": true
   },
   {
@@ -415,7 +415,6 @@
     "healthy": 1,
     "fun": 2,
     "flags": [ "NUTRIENT_OVERRIDE" ],
-    "spoils_in": "4 days",
     "vitamins": [ [ "vitA", 17 ], [ "vitC", 32 ], [ "calcium", 2 ], [ "iron", 4 ], [ "vitB", 28 ] ]
   },
   {
