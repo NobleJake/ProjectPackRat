@@ -315,7 +315,7 @@
     "environmental_protection": 3,
     "coverage": 100,
     "material_thickness": 6,
-	"valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pockets" ],
+	"valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ],
     "encumbrance": 20,
     "flags": [
       "FANCY",

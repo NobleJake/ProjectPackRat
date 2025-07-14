@@ -21,7 +21,8 @@
           { "id": "overlay_wielded_rm88_battle_rifle", "fg": 13, "rotates": false },
           { "id": "overlay_wielded_laser_rifle", "fg": 14, "rotates": false },
           { "id": "kukri", "fg": 15, "rotates": false },
-          { "id": "overlay_wielded_kukri", "fg": 16, "rotates": false }
+          { "id": "overlay_wielded_kukri", "fg": 16, "rotates": false },
+          { "id": "overlay_wielded_rm20", "fg": 17, "rotates": false }
         ],
         "//": "range 1 to 8",
         "sprite_width": 32,
