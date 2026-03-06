@@ -161,10 +161,21 @@
     "coverage": 30,
     "rigid": false,
     "encumbrance": 3,
-    "max_encumbrance": 15,
+    "max_encumbrance": 12,
     "weight_capacity_modifier": 1.5,
     "warmth": 1,
     "material_thickness": 3,
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Stow gear",
+      "holster_msg": "You stow your %s",
+      "min_volume": "250ml",
+      "max_volume": "2500ml",
+      "multi": 2,
+      "draw_cost": 120,
+      "flags": [ "SHEATH_KNIFE", "SHEATH_SWORD", "SHEATH_AXE", "MAG_COMPACT", "MAG_BULKY", "MAG_BELT", "SPEEDLOADER", "BELT_CLIP" ],
+      "skills": [ "pistol", "smg", "shotgun", "rifle", "launcher" ]
+    },
     "flags": [ "BELTED" ]
   },
   {
@@ -226,6 +237,20 @@
     "material_thickness": 6,
 	"environmental_protection": 10,
     "flags": [ "ONLY_ONE", "WATER_FRIENDLY", "STURDY", "BELTED", "OVERSIZE" ]
+  },
+  {
+    "result": "sq_dimension_pack",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "electronics",
+    "difficulty": 8,
+    "skills_required": [ [ "mechanics", 3 ], [ "electronics", 3 ] ],
+    "time": "40 h",
+    "autolearn": true,
+    "using": [ [ "welding_standard", 6 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "ai_module_advanced", 1 ] ], [ [ "teleporter", 1 ] ], [ [ "nanomaterial", 20 ] ],[ [ "self_monitoring_module", 4 ] ],[ [ "portal", 1 ] ], [ [ "plut_cell", 25 ] ] ]
   },
   {
     "id": "sq_power_armor_dimension_pack",
