@@ -161,7 +161,7 @@
     "coverage": 30,
     "rigid": false,
     "encumbrance": 3,
-    "max_encumbrance": 10,
+    "max_encumbrance": 15,
     "weight_capacity_modifier": 1.5,
     "warmth": 1,
     "material_thickness": 3,
