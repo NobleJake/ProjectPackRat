@@ -136,7 +136,7 @@
 	],
     "revert_to_itype": "bot_sq_drone_pilot",
     "death_function": [ "BROKEN" ],
-    "flags": [ "SEES", "HEARS", "ELECTRONIC", "ELECTRIC", "COLDPROOF", "FIREPROOF", "NO_BREATHE", "GUILT", "PATH_AVOID_DANGER_2", "PET_HARNESSABLE", "CLIMBS", "CANPLAY", "HIT_AND_RUN" ]
+    "flags": [ "SEES", "HEARS", "ELECTRONIC", "ELECTRIC", "COLDPROOF", "FIREPROOF", "NO_BREATHE", "GUILT", "PATH_AVOID_DANGER_2", "PET_HARNESSABLE", "CLIMBS", "CANPLAY", "HIT_AND_RUN", "PRIORITIZE_TARGETS" ]
   },
   {
     "id": "bot_sq_drone_pilot",
@@ -252,7 +252,7 @@
 	],
     "revert_to_itype": "bot_sq_drone_power",
     "death_function": [ "BROKEN" ],
-    "flags": [ "SEES", "HEARS", "ELECTRONIC", "ELECTRIC", "COLDPROOF", "FIREPROOF", "NO_BREATHE", "GUILT", "PATH_AVOID_DANGER_2", "PET_HARNESSABLE", "CLIMBS", "CANPLAY" ]
+    "flags": [ "SEES", "HEARS", "ELECTRONIC", "ELECTRIC", "COLDPROOF", "FIREPROOF", "NO_BREATHE", "GUILT", "PATH_AVOID_DANGER_2", "PET_HARNESSABLE", "CLIMBS", "CANPLAY", "PRIORITIZE_TARGETS" ]
   },
   {
     "id": "bot_sq_drone_power",
