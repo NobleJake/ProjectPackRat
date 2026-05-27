@@ -45,7 +45,8 @@
       "monster_id": "mon_sq_drone_companion",
       "moves": 100,
 	  "is_pet": true
-    }
+    },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "type": "GENERIC",
@@ -157,7 +158,8 @@
       "monster_id": "mon_sq_drone_pilot",
       "moves": 100,
 	  "is_pet": true
-    }
+    },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "type": "GENERIC",
@@ -273,7 +275,8 @@
       "monster_id": "mon_sq_drone_power",
       "moves": 100,
 	  "is_pet": true
-    }
+    },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "type": "GENERIC",

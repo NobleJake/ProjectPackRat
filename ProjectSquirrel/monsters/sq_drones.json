@@ -133,7 +133,8 @@
       "monster_id": "mon_sq_gun_drone",
 	  "place_randomly": false,
 	  "is_pet": true
-    }
+    },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "type": "GENERIC",
@@ -247,7 +248,8 @@
       "monster_id": "mon_sq_gun_drone_2",
 	  "place_randomly": false,
 	  "is_pet": true
-    }
+    },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "type": "GENERIC",
@@ -360,7 +362,8 @@
       "monster_id": "mon_sq_emp_drone",
 	  "place_randomly": false,
 	  "is_pet": true
-    }
+    },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "type": "GENERIC",
