@@ -112,7 +112,7 @@
       }
     ],
     "death_function": [ "BROKEN" ],
-    "flags": [ "SEES", "HEARS", "ELECTRONIC", "ELECTRIC", "COLDPROOF", "NO_BREATHE", "FLIES", "PRIORITIZE_TARGETS", "HIT_AND_RUN", "HARDTOSHOOT", "PET_HARNESSABLE" ]
+    "flags": [ "SEES", "HEARS", "ELECTRONIC", "ELECTRIC", "COLDPROOF", "NO_BREATHE", "FLIES", "PRIORITIZE_TARGETS", "HIT_AND_RUN", "HARDTOSHOOT", "PET_HARNESSABLE", "CAN_BE_ORDERED" ]
   },
   {
     "id": "bot_sq_gun_drone",
@@ -227,7 +227,7 @@
     ],
     "death_drops": { "groups": [ [ "robots", 4 ], [ "manhack", 1 ] ] },
     "death_function": [ "BROKEN" ],
-    "flags": [ "SEES", "HEARS", "ELECTRONIC", "ELECTRIC", "COLDPROOF", "NO_BREATHE", "FLIES", "PRIORITIZE_TARGETS", "HIT_AND_RUN", "HARDTOSHOOT", "PET_HARNESSABLE" ]
+    "flags": [ "SEES", "HEARS", "ELECTRONIC", "ELECTRIC", "COLDPROOF", "NO_BREATHE", "FLIES", "PRIORITIZE_TARGETS", "HIT_AND_RUN", "HARDTOSHOOT", "PET_HARNESSABLE", "CAN_BE_ORDERED" ]
   },
   {
     "id": "bot_sq_gun_drone_2",
@@ -341,7 +341,7 @@
       }
     ],
     "death_function": [ "BROKEN" ],
-    "flags": [ "SEES", "HEARS", "ELECTRONIC", "ELECTRIC", "COLDPROOF", "NO_BREATHE", "LOUDMOVES", "FLIES", "PRIORITIZE_TARGETS", "PET_HARNESSABLE" ]
+    "flags": [ "SEES", "HEARS", "ELECTRONIC", "ELECTRIC", "COLDPROOF", "NO_BREATHE", "LOUDMOVES", "FLIES", "PRIORITIZE_TARGETS", "PET_HARNESSABLE", "CAN_BE_ORDERED" ]
   },
   {
     "id": "bot_sq_emp_drone",
