@@ -285,7 +285,7 @@
     "broken_color": "light_gray",
     "damage_modifier": 60,
     "durability": 120,
-    "size": 120,
+    "size": "120 L",
     "item": "sq_adv_workbench",
     "location": "center",
     "requirements": {
@@ -301,7 +301,7 @@
       { "item": "steel_chunk", "count": [ 4, 8 ] },
       { "item": "scrap", "count": [ 12, 24 ] }
     ],
-    "workbench": { "multiplier": 2.0, "mass": 500000, "volume": "50L" },
+    "workbench": { "multiplier": 2.0, "mass": "500000 g", "volume": "50L" },
     "damage_reduction": { "all": 29 }
   },
   {
@@ -316,7 +316,7 @@
     "color": "magenta",
     "broken_color": "magenta",
     "durability": 400,
-    "size": 40000,
+    "size": "40000 L",
     "cargo_weight_modifier": 0,
     "breaks_into": [  ],
     "requirements": {
@@ -497,7 +497,7 @@
     "damage_modifier": 80,
     "durability": 100,
     "epower": -70,
-    "size": 1200,
+    "size": "1200 L",
     "item": "sq_megafreezer",
     "location": "center",
     "requirements": {
