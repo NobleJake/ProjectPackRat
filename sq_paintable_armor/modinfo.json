@@ -1,0 +1,10 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "sq_paintable_armor",
+    "name": "sq_paintable_armor",
+    "description": "Use spray can or Prototype CMHP-9000 found in labs to paint your armor. Works only on rampart/corsair/pioneer. Armor is background layer, visor is foreground.",
+    "category": "content",
+    "dependencies": [ "bn", "Jake's_Squirrel_mod" ]
+  }
+]
