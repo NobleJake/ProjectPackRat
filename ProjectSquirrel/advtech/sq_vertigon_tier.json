@@ -2,6 +2,7 @@
   {
     "id": "sq_recipe_book_vertigon",
     "type": "BOOK",
+    "looks_like": "story_book",
     "name": { "str": "secret vertigon weapons engineering manual", "str_pl": "secret vertigon weapons engineering manuals" },
     "description": "This is a thick, bound volume with a red warning label on the cover that reads, “Unauthorized access strictly prohibited.” Inside, it is densely packed with assembly diagrams for cutting-edge specialized firearms that defy common sense, as well as manufacturing methods for their core components. With the right tools and materials, you could build this embodiment of dangerous technology yourself.",
     "weight": "1850 g",
