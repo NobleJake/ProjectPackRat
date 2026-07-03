@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2026-07-03 15:43+0900\n"
+"POT-Creation-Date: 2026-07-03 21:15+0900\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -203,15 +203,6 @@ msgid ""
 "attacks and teleportation sickness. It provides X-ray vision for "
 "exploration, allowing you to see through terrain. When used, it completely "
 "ignores the effects of temperature and allows for a wider range of vision."
-msgstr ""
-
-#: .\items\advtech\sq_advanced_armor.json
-msgid "Debug HVAC"
-msgstr ""
-
-#. ~ Description for {'str': 'Debug HVAC'}
-#: .\items\advtech\sq_advanced_armor.json
-msgid "Temperature and weather won't bug you."
 msgstr ""
 
 #: .\items\advtech\sq_advanced_armor.json
@@ -881,14 +872,22 @@ msgid_plural "plasma impact knifes"
 msgstr[0] ""
 msgstr[1] ""
 
+#: .\items\advtech\sq_advanced_armor_spells.json
+msgid "Frost Reflection"
+msgstr ""
+
+#. ~ Description for Frost Reflection
+#: .\items\advtech\sq_advanced_armor_spells.json
+msgid "Reflects frostbite onto the attacker."
+msgstr ""
+
 #: .\items\advtech\sq_frost_tier.json
-msgid "frozen core fragment"
-msgid_plural "frozen core fragments"
+msgid "frozen shard"
+msgid_plural "frozen shards"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for {'str': 'frozen core fragment', 'str_pl': 'frozen core
-#. fragments'}
+#. ~ Description for {'str': 'frozen shard', 'str_pl': 'frozen shards'}
 #: .\items\advtech\sq_frost_tier.json
 msgid ""
 "A jagged shard of unmelting ice pulsating with necrotic energy. It is "
@@ -939,7 +938,8 @@ msgid ""
 "Several frost-covered fragments meticulously taped together. The complete "
 "topographical data points to an isolated region of absolute zero. Activating"
 " the map will peel back the veil of reality, forcing a passage into the "
-"frozen abyss where the dragon waits."
+"frozen abyss where the dragon waits. If this map is destroyed, the pocket "
+"dimension connected to it will also collapses."
 msgstr ""
 
 #: .\items\advtech\sq_frost_tier.json
@@ -967,7 +967,8 @@ msgstr[1] ""
 msgid ""
 "The literal heart of the permafrost dragon, still pulsating with abyssal "
 "cold and raw, untamed power. Consuming its essence will infuse your body "
-"with the power of the winter sovereign."
+"with the power of the winter sovereign. If you dismantle it, you can obtain "
+"additional frozen shards and frozen cores."
 msgstr ""
 
 #. ~ Mutation class name
@@ -1339,6 +1340,19 @@ msgid ""
 msgstr ""
 
 #: .\items\advtech\sq_frost_tier.json
+msgid "frost bolt"
+msgid_plural "frost bolts"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'frost bolt', 'str_pl': 'frost bolts'}
+#: .\items\advtech\sq_frost_tier.json
+msgid ""
+"Bolt crafted by fusing a frozen core into its shaft. It freezes targets upon"
+" impact, delivering absolute zero temperature directly into their flesh."
+msgstr ""
+
+#: .\items\advtech\sq_frost_tier.json
 msgid "stabilized portal freezer"
 msgid_plural "stabilized portal freezers"
 msgstr[0] ""
@@ -1351,6 +1365,132 @@ msgid ""
 "world truth chills you to the bone. There are only two things that are truly"
 " bottomless: the freezing void of the universe, and a survivor's "
 "kleptomania."
+msgstr ""
+
+#: .\items\advtech\sq_frost_tier.json
+msgid "abyssal frost ring"
+msgid_plural "abyssal frost rings"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'abyssal frost ring'}
+#: .\items\advtech\sq_frost_tier.json
+msgid ""
+"A ring carved entirely from frozen fragments. It emits a faint mist and "
+"protects the wearer from the biting cold. (cold resistance +2)"
+msgstr ""
+
+#: .\items\advtech\sq_frost_tier.json
+msgid "abyssal frost tiara"
+msgid_plural "abyssal frost tiaras"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'abyssal frost tiara'}
+#: .\items\advtech\sq_frost_tier.json
+msgid ""
+"A delicate yet terrifying tiara woven from frozen fragments. It chills the "
+"brow but acts as a powerful ward against lethal frost. (cold resistance +5)"
+msgstr ""
+
+#: .\items\advtech\sq_frost_tier.json
+msgid "abyssal frost cufflinks"
+msgid_plural "abyssal frost cufflinks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'abyssal frost cufflinks'}
+#: .\items\advtech\sq_frost_tier.json
+msgid ""
+"Cufflinks made of sheer ice from the abyss. They radiate a protective chill "
+"over the wearer's arms. (cold resistance +3)"
+msgstr ""
+
+#: .\items\advtech\sq_frost_tier.json
+msgid "pair of abyssal frost earrings"
+msgid_plural "pairs of abyssal frost earrings"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'pair of abyssal frost earrings', 'str_pl':
+#. 'pairs of abyssal frost earrings'}
+#: .\items\advtech\sq_frost_tier.json
+msgid ""
+"Earrings crafted from frozen fragments. The cold they emit acts as a shield "
+"against the harsh winter. (cold resistance +2)"
+msgstr ""
+
+#: .\items\advtech\sq_frost_tier.json
+msgid "abyssal frost pendant necklace"
+msgid_plural "abyssal frost pendant necklaces"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'abyssal frost pendant necklace'}
+#: .\items\advtech\sq_frost_tier.json
+msgid ""
+"A necklace bearing frozen fragments. Resting close to the heart, it offers "
+"significant protection against extreme cold. (cold resistance +3)"
+msgstr ""
+
+#: .\items\advtech\sq_frost_tier.json
+msgid "glacial plate armor"
+msgid_plural "glacial plate armors"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'glacial plate armor'}
+#: .\items\advtech\sq_frost_tier.json
+msgid ""
+"A massive suit of heavy armor forged by pouring molten frost cores between "
+"steel plates. Unmelting frost clings to its surface. Worn by heretic knights"
+" who rejected the flame, it inflicts bone-chilling agony upon the wearer."
+msgstr ""
+
+#: .\items\advtech\sq_frost_tier.json
+msgid "mantle of the fading fire"
+msgid_plural "mantle of the fading fires"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'mantle of the fading fire'}
+#: .\items\advtech\sq_frost_tier.json
+msgid ""
+"Woven from the hides of beasts claimed by the abyssal cold and infused with "
+"ground frost core fragments. It scatters a faint blue blizzard even in "
+"pitch-black darkness. It reflects frostbite onto attackers but constantly "
+"saps your own body heat."
+msgstr ""
+
+#: .\items\advtech\sq_frost_tier.json
+msgid "rimebound hunter's garb"
+msgid_plural "rimebound hunter's garbs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': "rimebound hunter's garb"}
+#: .\items\advtech\sq_frost_tier.json
+msgid ""
+"Assassin's garb woven from the pelts of winter horrors and infused with the "
+"biting chill of a frozen core. The unmelting frost clinging to the fabric "
+"naturally distorts the wearer's silhouette, granting exceptional camouflage."
+" It allows you to blend seamlessly into both the frozen wastes and ruined "
+"cities as a silent predator."
+msgstr ""
+
+#: .\items\advtech\sq_frost_tier.json
+msgid "crown of the abyssal monarch"
+msgid_plural "crown of the abyssal monarchs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'crown of the abyssal monarch'}
+#: .\items\advtech\sq_frost_tier.json
+msgid ""
+"A grotesque helm with a complete frozen core embedded dead center. The "
+"moment it is worn, human fear and frailty freeze over, leaving only the cold"
+" logic of annihilation. However, it leaves the mind dangerously exposed to "
+"nether whispers."
 msgstr ""
 
 #: .\items\advtech\sq_hardlight_fusion_and_gunmods.json
@@ -1768,6 +1908,18 @@ msgstr ""
 
 #: .\items\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "high auto"
+msgstr ""
+
+#: .\items\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "sparks"
+msgstr ""
+
+#: .\items\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "electric crackle"
+msgstr ""
+
+#: .\items\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "electric cloud"
 msgstr ""
 
 #: .\items\advtech\sq_hardlight_fusion_and_gunmods.json
@@ -3553,6 +3705,120 @@ msgid ""
 msgstr ""
 
 #: .\items\item_common\sq_armor_override.json
+msgid "sheet"
+msgid_plural "sheets"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "blanket"
+msgid_plural "blankets"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "down-filled blanket"
+msgid_plural "down-filled blankets"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "fur blanket"
+msgid_plural "fur blankets"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "quilt"
+msgid_plural "quilts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "patchwork quilt"
+msgid_plural "patchwork quilts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "sleeping bag"
+msgid_plural "sleeping bags"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "American flag"
+msgid_plural "American flags"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "Jolly Roger"
+msgid_plural "Jolly Rogers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "Foodperson's cape"
+msgid_plural "Foodperson's capes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "cloak"
+msgid_plural "cloaks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "fur cloak"
+msgid_plural "fur cloaks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "leather cloak"
+msgid_plural "leather cloaks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "wool cloak"
+msgid_plural "wool cloaks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "Jedi cloak"
+msgid_plural "Jedi cloaks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "FB51 optical cloak"
+msgid_plural "FB51 optical cloaks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "FB51 optical cloak (on)"
+msgid_plural "FB51 optical cloaks (on)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "wool poncho"
+msgid_plural "wool ponchos"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "snuggie"
+msgid_plural "snuggies"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_common\sq_armor_override.json
 msgid "fur coat"
 msgid_plural "fur coats"
 msgstr[0] ""
@@ -3585,6 +3851,12 @@ msgstr[1] ""
 #: .\items\item_common\sq_armor_override.json
 msgid "winter coat"
 msgid_plural "winter coats"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "ski jacket"
+msgid_plural "ski jackets"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -3663,6 +3935,12 @@ msgstr[1] ""
 #: .\items\item_common\sq_armor_override.json
 msgid "light jacket"
 msgid_plural "light jackets"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "windbreaker"
+msgid_plural "windbreakers"
 msgstr[0] ""
 msgstr[1] ""
 

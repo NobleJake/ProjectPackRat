@@ -37,7 +37,7 @@
   {
     "type": "emit",
     "id": "emit_winter_waker_aura",
-    "field": "fd_cold_air3",
+    "field": "fd_cold_air4",
     "qty": 4000,
     "chance": 100
   },
@@ -76,8 +76,8 @@
     "flags": [ "RANDOM_DAMAGE" ],
     "effect": "line_attack",
     "damage_type": "cold",
-    "min_damage": 5,
-    "max_damage": 15,
+    "min_damage": 10,
+    "max_damage": 18,
     "min_range": 12,
     "max_range": 12,
     "sprite": "fd_blizzard",
@@ -186,7 +186,7 @@
     "dispersion": 15000,
     "sight_dispersion": 2000,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 3 ] ],
-    "ranged_damage": { "damage_type": "cold", "amount": 9, "armor_penetration": 5 }
+    "ranged_damage": { "damage_type": "cold", "amount": 13, "armor_penetration": 5 }
   },
   {
     "type": "SPELL",
@@ -200,8 +200,8 @@
     "flags": [ "RANDOM_DAMAGE" ],
     "affected_body_parts": [ "HEAD", "TORSO", "MOUTH", "EYES", "ARM_L", "ARM_R", "HAND_R", "HAND_L", "LEG_L", "FOOT_L", "FOOT_R" ],
     "damage_type": "cold",
-    "min_damage": 9,
-    "max_damage": 15,
+    "min_damage": 4,
+    "max_damage": 13,
     "min_range": 3,
     "max_range": 3,
     "min_aoe": 360,

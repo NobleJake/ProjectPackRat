@@ -182,5 +182,17 @@
     "fragment": { "impact": { "damage_type": "electric", "amount": 150, "armor_multiplier": 1 }, "range": 6 }
       },
     "flags": [ "UNBREAKABLE_MELEE", "TRADER_AVOID", "STAB", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION" ]
+  },
+  {
+    "id": "sq_frostbite_reflect_spell",
+    "type": "SPELL",
+    "name": "Frost Reflection",
+    "description": "Reflects frostbite onto the attacker.",
+    "valid_targets": [ "hostile" ],
+    "effect": "target_attack",
+    "damage_type": "cold",
+    "min_damage": 15,
+    "max_damage": 15,
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS" ]
   }
 ]

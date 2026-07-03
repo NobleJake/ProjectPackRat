@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2026-07-03 15:43+0900\n"
+"POT-Creation-Date: 2026-07-03 21:15+0900\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -232,15 +232,6 @@ msgstr ""
 "함한 모든 종류의 위험으로부터 몸을 지켜줍니다. 탐사를 위한 X-레이 시야를 제공"
 "하여 지형지물을 꿰뚫어 볼 수 있습니다. 사용하면 온도의 영향을 완전히 무시하"
 "고, 더욱 넓은 범위의 투시가 가능합니다."
-
-#: .\items\advtech\sq_advanced_armor.json
-msgid "Debug HVAC"
-msgstr ""
-
-#. ~ Description for {'str': 'Debug HVAC'}
-#: .\items\advtech\sq_advanced_armor.json
-msgid "Temperature and weather won't bug you."
-msgstr ""
 
 #: .\items\advtech\sq_advanced_armor.json
 msgid "Transmissive Scanner System"
@@ -927,13 +918,21 @@ msgid "plasma impact knife"
 msgid_plural "plasma impact knifes"
 msgstr[0] "플라즈마 충격 나이프"
 
-#: .\items\advtech\sq_frost_tier.json
-msgid "frozen core fragment"
-msgid_plural "frozen core fragments"
-msgstr[0] "얼어붙은 핵 파편"
+#: .\items\advtech\sq_advanced_armor_spells.json
+msgid "Frost Reflection"
+msgstr "서리 반사"
 
-#. ~ Description for {'str': 'frozen core fragment', 'str_pl': 'frozen core
-#. fragments'}
+#. ~ Description for Frost Reflection
+#: .\items\advtech\sq_advanced_armor_spells.json
+msgid "Reflects frostbite onto the attacker."
+msgstr "공격받으면 공격자에게 냉기 피해를 입힙니다."
+
+#: .\items\advtech\sq_frost_tier.json
+msgid "frozen shard"
+msgid_plural "frozen shards"
+msgstr[0] "얼어붙은 파편"
+
+#. ~ Description for {'str': 'frozen shard', 'str_pl': 'frozen shards'}
 #: .\items\advtech\sq_frost_tier.json
 msgid ""
 "A jagged shard of unmelting ice pulsating with necrotic energy. It is "
@@ -990,12 +989,13 @@ msgid ""
 "Several frost-covered fragments meticulously taped together. The complete "
 "topographical data points to an isolated region of absolute zero. Activating "
 "the map will peel back the veil of reality, forcing a passage into the "
-"frozen abyss where the dragon waits."
+"frozen abyss where the dragon waits. If this map is destroyed, the pocket "
+"dimension connected to it will also collapses."
 msgstr ""
 "서리로 뒤덮인 여러 지도 파편들이 정성스럽게 테이프로 붙여져 있습니다. 전체 지"
 "형 데이터는 절대 영도의 고립된 지역을 가리키고 있습니다. 지도를 활성화하면 현"
 "실의 베일이 걷히며, 용이 기다리고 있는 얼어붙은 심연으로의 통로가 강제로 열"
-"릴 것입니다."
+"릴 것입니다. 지도가 파괴되면 연결된 주머니 차원 또한 사라집니다."
 
 #: .\items\advtech\sq_frost_tier.json
 msgid "blood-stained surveyor's note"
@@ -1037,11 +1037,13 @@ msgstr[0] "얼어붙은 용의 심장"
 msgid ""
 "The literal heart of the permafrost dragon, still pulsating with abyssal "
 "cold and raw, untamed power. Consuming its essence will infuse your body "
-"with the power of the winter sovereign."
+"with the power of the winter sovereign. If you dismantle it, you can obtain "
+"additional frozen shards and frozen cores."
 msgstr ""
 "퍼마프로스트 드래곤의 심장 그 자체로, 여전히 심연의 추위와 거칠고 길들여지지 "
 "않은 힘이 펄떡이고 있습니다. 그 정수를 흡수하면 당신의 몸에 겨울의 군주의 힘"
-"이 스며들 것입니다."
+"이 스며들 것입니다. 분해하면 더 많은 얼어붙은 파편과 얼어붙은 핵을 얻을 수 있"
+"습니다."
 
 #. ~ Mutation class name
 #: .\items\advtech\sq_frost_tier.json
@@ -1455,6 +1457,20 @@ msgstr ""
 "며, 절대 영도의 온도를 표적의 살갗 깊숙이 전달합니다."
 
 #: .\items\advtech\sq_frost_tier.json
+msgid "frost bolt"
+msgid_plural "frost bolts"
+msgstr[0] "서리 볼트"
+
+#. ~ Description for {'str': 'frost bolt', 'str_pl': 'frost bolts'}
+#: .\items\advtech\sq_frost_tier.json
+msgid ""
+"Bolt crafted by fusing a frozen core into its shaft. It freezes targets upon "
+"impact, delivering absolute zero temperature directly into their flesh."
+msgstr ""
+"내부에 얼어붙은 심을 융합하여 제작된 볼트입니다. 명중 시 표적을 얼려버리며, "
+"절대 영도의 온도를 표적의 살갗 깊숙이 전달합니다."
+
+#: .\items\advtech\sq_frost_tier.json
 msgid "stabilized portal freezer"
 msgid_plural "stabilized portal freezers"
 msgstr[0] "안정된 포탈 냉동고"
@@ -1469,6 +1485,146 @@ msgstr ""
 "이 국소적인 차원 균열의 서리가 내린 입안을 들여다보면, 옛날부터 전해 내려오"
 "는 진실이 뼈 속까지 오싹하게 만듭니다. 진정으로 끝이 없는 것은 단 두 가지뿐이"
 "다. 우주의 얼어붙은 공허와, 생존자의 절도벽이다."
+
+#: .\items\advtech\sq_frost_tier.json
+msgid "abyssal frost ring"
+msgid_plural "abyssal frost rings"
+msgstr[0] "심연의 서리 반지"
+
+#. ~ Description for {'str': 'abyssal frost ring'}
+#: .\items\advtech\sq_frost_tier.json
+msgid ""
+"A ring carved entirely from frozen fragments. It emits a faint mist and "
+"protects the wearer from the biting cold. (cold resistance +2)"
+msgstr ""
+"얼어붙은 파편을 깎아 만든 반지입니다. 옅은 안개를 뿜어내며 뼈를 에이는 추위로"
+"부터 착용자를 보호합니다. (추위 저항 +2)"
+
+#: .\items\advtech\sq_frost_tier.json
+msgid "abyssal frost tiara"
+msgid_plural "abyssal frost tiaras"
+msgstr[0] "심연의 서리 티아라"
+
+#. ~ Description for {'str': 'abyssal frost tiara'}
+#: .\items\advtech\sq_frost_tier.json
+msgid ""
+"A delicate yet terrifying tiara woven from frozen fragments. It chills the "
+"brow but acts as a powerful ward against lethal frost. (cold resistance +5)"
+msgstr ""
+"얼어붙은 코어 파편을 엮어 만든 섬세하고도 끔찍한 티아라입니다. 이마를 차갑게 "
+"식히지만 치명적인 한기에 맞서는 강력한 보호막 역할을 합니다. (추위 저항 +5)"
+
+#: .\items\advtech\sq_frost_tier.json
+msgid "abyssal frost cufflinks"
+msgid_plural "abyssal frost cufflinks"
+msgstr[0] "심연의 서리 커프스링크"
+
+#. ~ Description for {'str_sp': 'abyssal frost cufflinks'}
+#: .\items\advtech\sq_frost_tier.json
+msgid ""
+"Cufflinks made of sheer ice from the abyss. They radiate a protective chill "
+"over the wearer's arms. (cold resistance +3)"
+msgstr ""
+"심연의 순수한 얼음으로 만들어진 커프스링크입니다. 착용자의 팔에 보호의 냉기"
+"를 발산합니다. (추위 저항 +3)"
+
+#: .\items\advtech\sq_frost_tier.json
+msgid "pair of abyssal frost earrings"
+msgid_plural "pairs of abyssal frost earrings"
+msgstr[0] "심연의 서리 귀걸이"
+
+#. ~ Description for {'str': 'pair of abyssal frost earrings', 'str_pl':
+#. 'pairs of abyssal frost earrings'}
+#: .\items\advtech\sq_frost_tier.json
+msgid ""
+"Earrings crafted from frozen fragments. The cold they emit acts as a shield "
+"against the harsh winter. (cold resistance +2)"
+msgstr ""
+"얼어붙은 파편으로 세공된 귀걸이입니다. 여기서 뿜어져 나오는 냉기가 가혹한 겨"
+"울에 맞서는 방패가 되어줍니다. (추위 저항 +2)"
+
+#: .\items\advtech\sq_frost_tier.json
+msgid "abyssal frost pendant necklace"
+msgid_plural "abyssal frost pendant necklaces"
+msgstr[0] "심연의 서리 펜던트 목걸이"
+
+#. ~ Description for {'str': 'abyssal frost pendant necklace'}
+#: .\items\advtech\sq_frost_tier.json
+msgid ""
+"A necklace bearing frozen fragments. Resting close to the heart, it offers "
+"significant protection against extreme cold. (cold resistance +3)"
+msgstr ""
+"얼어붙은 파편을 품은 목걸이입니다. 심장 가까이에 머물며 극심한 추위로부터 상"
+"당한 보호를 제공합니다. (추위 저항 +3)"
+
+#: .\items\advtech\sq_frost_tier.json
+msgid "glacial plate armor"
+msgid_plural "glacial plate armors"
+msgstr[0] "빙하의 판금 갑옷"
+
+#. ~ Description for {'str': 'glacial plate armor'}
+#: .\items\advtech\sq_frost_tier.json
+msgid ""
+"A massive suit of heavy armor forged by pouring molten frost cores between "
+"steel plates. Unmelting frost clings to its surface. Worn by heretic knights "
+"who rejected the flame, it inflicts bone-chilling agony upon the wearer."
+msgstr ""
+"강철 판금 사이에 녹아내린 서리 코어를 부어 벼려낸 거대한 중갑입니다. 표면에"
+"는 결코 녹지 않는 서리가 들러붙어 있습니다. 불꽃을 거부한 이단 기사들이 입었"
+"던 이 갑옷은, 착용자에게 뼛속까지 시린 고통을 안겨줍니다."
+
+#: .\items\advtech\sq_frost_tier.json
+msgid "mantle of the fading fire"
+msgid_plural "mantle of the fading fires"
+msgstr[0] "꺼져가는 불꽃의 망토"
+
+#. ~ Description for {'str': 'mantle of the fading fire'}
+#: .\items\advtech\sq_frost_tier.json
+msgid ""
+"Woven from the hides of beasts claimed by the abyssal cold and infused with "
+"ground frost core fragments. It scatters a faint blue blizzard even in pitch-"
+"black darkness. It reflects frostbite onto attackers but constantly saps "
+"your own body heat."
+msgstr ""
+"심연의 한기에 희생당한 야수들의 가죽을 엮고 빻아낸 서리 코어 파편을 스며들게 "
+"한 망토입니다. 칠흑 같은 어둠 속에서도 옅은 푸른빛의 눈보라를 흩뿌립니다. 공"
+"격자에게 동상을 반사하지만, 동시에 착용자 자신의 체온도 끊임없이 앗아갑니다."
+
+#: .\items\advtech\sq_frost_tier.json
+msgid "rimebound hunter's garb"
+msgid_plural "rimebound hunter's garbs"
+msgstr[0] "서리 맺힌 사냥꾼의 의복"
+
+#. ~ Description for {'str': "rimebound hunter's garb"}
+#: .\items\advtech\sq_frost_tier.json
+msgid ""
+"Assassin's garb woven from the pelts of winter horrors and infused with the "
+"biting chill of a frozen core. The unmelting frost clinging to the fabric "
+"naturally distorts the wearer's silhouette, granting exceptional camouflage. "
+"It allows you to blend seamlessly into both the frozen wastes and ruined "
+"cities as a silent predator."
+msgstr ""
+"겨울의 괴물들의 가죽을 엮고 얼어붙은 코어의 살을 에이는 한기를 불어넣은 암살"
+"자의 의복입니다. 천에 들러붙은 녹지 않는 서리가 자연스럽게 착용자의 실루엣을 "
+"왜곡시켜 탁월한 위장 효과를 부여합니다. 이 옷을 입으면 침묵하는 포식자가 되"
+"어 얼어붙은 황무지와 폐허가 된 도시 모두에 완벽하게 녹아들 수 있습니다."
+
+#: .\items\advtech\sq_frost_tier.json
+msgid "crown of the abyssal monarch"
+msgid_plural "crown of the abyssal monarchs"
+msgstr[0] "심연의 군주 왕관"
+
+#. ~ Description for {'str': 'crown of the abyssal monarch'}
+#: .\items\advtech\sq_frost_tier.json
+msgid ""
+"A grotesque helm with a complete frozen core embedded dead center. The "
+"moment it is worn, human fear and frailty freeze over, leaving only the cold "
+"logic of annihilation. However, it leaves the mind dangerously exposed to "
+"nether whispers."
+msgstr ""
+"정중앙에 완전한 서리 코어가 박혀 있는 기괴한 투구입니다. 착용하는 순간 인간적"
+"인 공포와 나약함은 얼어붙고, 오직 적을 섬멸하겠다는 차가운 논리만이 남게 됩니"
+"다. 하지만 동시에 지옥의 속삭임에 정신이 위험할 정도로 노출되게 됩니다."
 
 #: .\items\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "tesla cannon"
@@ -1936,6 +2092,18 @@ msgstr ""
 #: .\items\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "high auto"
 msgstr "고속 자동"
+
+#: .\items\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "sparks"
+msgstr ""
+
+#: .\items\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "electric crackle"
+msgstr ""
+
+#: .\items\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "electric cloud"
+msgstr ""
 
 #: .\items\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "hammer blow"
@@ -3899,6 +4067,104 @@ msgstr ""
 "를 떠나는 순간 단 한 번의 타격으로 어떤 장갑판이든 산산조각 냅니다."
 
 #: .\items\item_common\sq_armor_override.json
+msgid "sheet"
+msgid_plural "sheets"
+msgstr[0] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "blanket"
+msgid_plural "blankets"
+msgstr[0] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "down-filled blanket"
+msgid_plural "down-filled blankets"
+msgstr[0] ""
+
+#: .\items\item_common\sq_armor_override.json
+#, fuzzy
+#| msgid "frost blast"
+#| msgid_plural "frost blasts"
+msgid "fur blanket"
+msgid_plural "fur blankets"
+msgstr[0] "서리 폭풍"
+
+#: .\items\item_common\sq_armor_override.json
+msgid "quilt"
+msgid_plural "quilts"
+msgstr[0] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "patchwork quilt"
+msgid_plural "patchwork quilts"
+msgstr[0] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "sleeping bag"
+msgid_plural "sleeping bags"
+msgstr[0] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "American flag"
+msgid_plural "American flags"
+msgstr[0] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "Jolly Roger"
+msgid_plural "Jolly Rogers"
+msgstr[0] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "Foodperson's cape"
+msgid_plural "Foodperson's capes"
+msgstr[0] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "cloak"
+msgid_plural "cloaks"
+msgstr[0] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "fur cloak"
+msgid_plural "fur cloaks"
+msgstr[0] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "leather cloak"
+msgid_plural "leather cloaks"
+msgstr[0] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "wool cloak"
+msgid_plural "wool cloaks"
+msgstr[0] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "Jedi cloak"
+msgid_plural "Jedi cloaks"
+msgstr[0] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "FB51 optical cloak"
+msgid_plural "FB51 optical cloaks"
+msgstr[0] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "FB51 optical cloak (on)"
+msgid_plural "FB51 optical cloaks (on)"
+msgstr[0] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "wool poncho"
+msgid_plural "wool ponchos"
+msgstr[0] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "snuggie"
+msgid_plural "snuggies"
+msgstr[0] ""
+
+#: .\items\item_common\sq_armor_override.json
 msgid "fur coat"
 msgid_plural "fur coats"
 msgstr[0] ""
@@ -3926,6 +4192,11 @@ msgstr[0] ""
 #: .\items\item_common\sq_armor_override.json
 msgid "winter coat"
 msgid_plural "winter coats"
+msgstr[0] ""
+
+#: .\items\item_common\sq_armor_override.json
+msgid "ski jacket"
+msgid_plural "ski jackets"
 msgstr[0] ""
 
 #: .\items\item_common\sq_armor_override.json
@@ -3992,6 +4263,13 @@ msgstr[0] ""
 msgid "light jacket"
 msgid_plural "light jackets"
 msgstr[0] ""
+
+#: .\items\item_common\sq_armor_override.json
+#, fuzzy
+#| msgid "wall breaker"
+msgid "windbreaker"
+msgid_plural "windbreakers"
+msgstr[0] "벽 부수기"
 
 #: .\items\item_common\sq_armor_override.json
 msgid "peacoat"
@@ -14068,6 +14346,10 @@ msgstr ""
 #: .\mutations\mutation_category.json
 msgid "snake_coils"
 msgstr ""
+
+#~ msgid "frozen core fragment"
+#~ msgid_plural "frozen core fragments"
+#~ msgstr[0] "얼어붙은 핵 파편"
 
 #~ msgid "layered carbides"
 #~ msgid_plural "layered carbides"

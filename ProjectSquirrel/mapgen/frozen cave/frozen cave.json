@@ -413,7 +413,7 @@
       "furniture": { "W": "f_boulder_small" },
       "items": { "W": { "item": "swords_caliburn", "chance": 100 } },
       "place_loot": [
-        { "item": "sq_dragon_warning_note", "x": 12, "y": 5 }, { "item": "sq_frozen_core_fragments", "x": 12, "y": 5, "repeat": [ 1, 5 ] }, { "item": "bone_human", "x": 12, "y": 5, "repeat": [ 1, 5 ] }
+        { "item": "sq_dragon_warning_note", "x": 12, "y": 5 }, { "item": "sq_frozen_shards", "x": 12, "y": 5, "repeat": [ 1, 5 ] }, { "item": "bone_human", "x": 12, "y": 5, "repeat": [ 1, 5 ] }
       ],
       "monster": {
         "~": [
@@ -468,7 +468,7 @@
         "h": "f_chair"
       },
       "place_loot": [
-        { "item": "sq_dragon_warning_note", "x": 9, "y": 9 }, { "item": "sq_frozen_core_fragments", "x": 9, "y": 9, "repeat": [ 1, 5 ] }, { "item": "bone_human", "x": 9, "y": 9, "repeat": [ 1, 5 ] }
+        { "item": "sq_dragon_warning_note", "x": 9, "y": 9 }, { "item": "sq_frozen_shards", "x": 9, "y": 9, "repeat": [ 1, 5 ] }, { "item": "bone_human", "x": 9, "y": 9, "repeat": [ 1, 5 ] }
       ],
       "item": { "e": [ { "item": "candle", "chance": 25 }, { "item": "waterwaymap", "chance": 10 } ] },
       "items": {
@@ -527,7 +527,7 @@
       "terrain": { ".": "t_rock", ",": "t_rock_floor", ">": "t_slope_up", "<": "t_slope_down" },
       "furniture": {  },
       "place_loot": [
-        { "item": "sq_dragon_warning_note", "x": 13, "y": 4 }, { "item": "sq_frozen_core_fragments", "x": 13, "y": 4, "repeat": [ 1, 5 ] }, { "item": "bone_human", "x": 13, "y": 4, "repeat": [ 1, 5 ] }
+        { "item": "sq_dragon_warning_note", "x": 13, "y": 4 }, { "item": "sq_frozen_shards", "x": 13, "y": 4, "repeat": [ 1, 5 ] }, { "item": "bone_human", "x": 13, "y": 4, "repeat": [ 1, 5 ] }
       ],
       "items": { "~": [ { "item": "monparts", "chance": 2 }, { "item": "trash_forest", "chance": 2 } ] },
       "nested": {
@@ -573,7 +573,7 @@
       "terrain": { ".": "t_rock", ",": "t_rock_floor", "!": "t_rock_floor", ">": "t_slope_up", "<": "t_slope_down" },
       "furniture": { "C": "f_crate_c", "S": "f_utility_shelf", "G": [ "f_grave_stone_old", "f_grave_head", "f_grave_monument" ] },
       "place_loot": [
-        { "item": "sq_dragon_warning_note", "x": 13, "y": 8 }, { "item": "sq_frozen_core_fragments", "x": 13, "y": 8, "repeat": [ 1, 5 ] }, { "item": "bone_human", "x": 13, "y": 8, "repeat": [ 1, 5 ] }
+        { "item": "sq_dragon_warning_note", "x": 13, "y": 8 }, { "item": "sq_frozen_shards", "x": 13, "y": 8, "repeat": [ 1, 5 ] }, { "item": "bone_human", "x": 13, "y": 8, "repeat": [ 1, 5 ] }
       ],
       "item": {
         "!": { "item": "material_soil", "chance": 40, "amount": [ 5, 10 ] },

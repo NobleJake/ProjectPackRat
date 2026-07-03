@@ -3,90 +3,90 @@
     "type": "item_group",
     "id": "mon_zombie_frozen_death_drops",
     "subtype": "collection",
-    "entries": [ { "item": "sq_frozen_core_fragments", "count": [ 1, 1 ], "prob": 5 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 10 } ]
+    "entries": [ { "item": "sq_frozen_shards", "count": [ 1, 1 ], "prob": 10 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 10 } ]
   },
   {
     "type": "item_group",
     "id": "mon_zombie_frost_death_drops",
     "subtype": "collection",
-    "entries": [ { "item": "sq_frozen_core_fragments", "count": [ 1, 1 ], "prob": 10 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 20 } ]
+    "entries": [ { "item": "sq_frozen_shards", "count": [ 1, 1 ], "prob": 20 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 20 } ]
   },
   {
     "type": "item_group",
     "id": "mon_zombie_frost_brute_death_drops",
     "subtype": "collection",
-    "entries": [ { "item": "sq_frozen_core_fragments", "count": [ 1, 1 ], "prob": 25 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 50 } ]
+    "entries": [ { "item": "sq_frozen_shards", "count": [ 1, 1 ], "prob": 50 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 50 } ]
   },
   {
     "type": "item_group",
     "id": "mon_dog_frost_nipper_death_drops",
     "subtype": "collection",
-    "entries": [ { "item": "sq_frozen_core_fragments", "count": [ 1, 1 ], "prob": 10 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 20 } ]
+    "entries": [ { "item": "sq_frozen_shards", "count": [ 1, 1 ], "prob": 20 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 20 } ]
   },
   {
     "type": "item_group",
     "id": "mon_dog_frost_biter_death_drops",
     "subtype": "collection",
-    "entries": [ { "item": "sq_frozen_core_fragments", "count": [ 1, 1 ], "prob": 25 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 50 } ]
+    "entries": [ { "item": "sq_frozen_shards", "count": [ 1, 1 ], "prob": 50 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 50 } ]
   },
   {
     "type": "item_group",
     "id": "mon_frost_beast_death_drops",
     "subtype": "collection",
-    "entries": [ { "item": "sq_frozen_core_fragments", "count": [ 1, 2 ], "prob": 50 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 100 } ]
+    "entries": [ { "item": "sq_frozen_shards", "count": [ 1, 2 ], "prob": 100 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 100 } ]
   },
   {
     "type": "item_group",
     "id": "mon_frost_beast_clone_death_drops",
     "subtype": "collection",
-    "entries": [ { "item": "sq_frozen_core_fragments", "count": [ 1, 1 ], "prob": 0 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 0 } ]
+    "entries": [ { "item": "sq_frozen_shards", "count": [ 1, 1 ], "prob": 0 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 0 } ]
   },
   {
     "type": "item_group",
     "id": "mon_snowman_death_drops",
     "subtype": "collection",
-    "entries": [ { "item": "sq_frozen_core_fragments", "count": [ 1, 1 ], "prob": 10 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 20 } ]
+    "entries": [ { "item": "sq_frozen_shards", "count": [ 1, 1 ], "prob": 20 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 20 } ]
   },
   {
     "type": "item_group",
     "id": "mon_ice_golem_death_drops",
     "subtype": "collection",
-    "entries": [ { "item": "sq_frozen_core_fragments", "count": [ 1, 1 ], "prob": 25 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 50 } ]
+    "entries": [ { "item": "sq_frozen_shards", "count": [ 1, 1 ], "prob": 50 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 50 } ]
   },
   {
     "type": "item_group",
     "id": "mon_snowman_mr_stabby_death_drops",
     "subtype": "collection",
-    "entries": [ { "item": "sq_frozen_core_fragments", "count": [ 1, 1 ], "prob": 10 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 20 } ]
+    "entries": [ { "item": "sq_frozen_shards", "count": [ 1, 1 ], "prob": 20 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 20 } ]
   },
   {
     "type": "item_group",
     "id": "mon_snowman_gangster_death_drops",
     "subtype": "collection",
-    "entries": [ { "item": "sq_frozen_core_fragments", "count": [ 1, 1 ], "prob": 10 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 20 } ]
+    "entries": [ { "item": "sq_frozen_shards", "count": [ 1, 1 ], "prob": 20 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 20 } ]
   },
   {
     "type": "item_group",
     "id": "mon_winter_waker_death_drops",
     "subtype": "collection",
-    "entries": [ { "item": "sq_frozen_core_fragments", "count": [ 1, 2 ], "prob": 50 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 100 } ]
+    "entries": [ { "item": "sq_frozen_shards", "count": [ 1, 2 ], "prob": 100 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 100 } ]
   },
   {
     "type": "item_group",
     "id": "mon_ice_elemental_death_drops",
     "subtype": "collection",
-    "entries": [ { "item": "sq_frozen_core_fragments", "count": [ 1, 1 ], "prob": 25 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 50 } ]
+    "entries": [ { "item": "sq_frozen_shards", "count": [ 1, 1 ], "prob": 50 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 50 } ]
   },
   {
     "type": "item_group",
     "id": "mon_ice_demon_death_drops",
     "subtype": "collection",
-    "entries": [ { "item": "sq_frozen_core_fragments", "count": [ 1, 2 ], "prob": 50 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 100 } ]
+    "entries": [ { "item": "sq_frozen_shards", "count": [ 1, 2 ], "prob": 100 }, { "item": "sq_map_fragment_frozen", "count": [ 1, 1 ], "prob": 100 } ]
   },
   {
     "type": "item_group",
     "id": "mon_dragon_permafrost_death_drops",
     "subtype": "collection",
-    "entries": [ { "item": "sq_frozen_core", "count": [ 3, 3 ] }, { "item": "sq_frozen_heart" } ]
+    "entries": [ { "item": "sq_frozen_core", "count": [ 8, 12 ] }, { "item": "sq_frozen_heart" } ]
   }
 ]

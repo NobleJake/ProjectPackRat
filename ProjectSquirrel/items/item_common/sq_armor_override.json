@@ -1,9 +1,162 @@
 [
   {
+    "id": "sheet",
+    "type": "ARMOR",
+    "copy-from": "sheet",
+    "name": { "str": "sheet" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -1 } ] } ] },
+    "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
+  },
+  {
+    "id": "blanket",
+    "type": "ARMOR",
+    "copy-from": "blanket",
+    "name": { "str": "blanket" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -5 } ] } ] },
+    "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
+  },
+  {
+    "id": "down_blanket",
+    "type": "ARMOR",
+    "copy-from": "down_blanket",
+    "name": { "str": "down-filled blanket" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -7 } ] } ] },
+    "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
+  },
+  {
+    "id": "fur_blanket",
+    "type": "ARMOR",
+    "copy-from": "fur_blanket",
+    "name": { "str": "fur blanket" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -8 } ] } ] },
+    "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
+  },
+  {
+    "id": "afs_quilt",
+    "type": "ARMOR",
+    "copy-from": "afs_quilt",
+    "name": { "str": "quilt" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -10 } ] } ] },
+    "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
+  },
+  {
+    "id": "afs_quilt_patchwork",
+    "type": "ARMOR",
+    "copy-from": "afs_quilt_patchwork",
+    "name": { "str": "patchwork quilt" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -9 } ] } ] },
+    "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
+  },
+  {
+    "id": "sleeping_bag",
+    "type": "ARMOR",
+    "copy-from": "sleeping_bag",
+    "name": { "str": "sleeping bag" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -8 } ] } ] },
+    "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
+  },
+  {
+    "id": "american_flag",
+    "type": "ARMOR",
+    "copy-from": "american_flag",
+    "name": { "str": "American flag" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -2 } ] } ] },
+    "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
+  },
+  {
+    "id": "pirate_flag",
+    "type": "ARMOR",
+    "copy-from": "pirate_flag",
+    "name": { "str": "Jolly Roger" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -2 } ] } ] },
+    "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
+  },
+  {
+    "id": "cape_fp",
+    "type": "ARMOR",
+    "copy-from": "cape_fp",
+    "name": { "str": "Foodperson's cape" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -1 } ] } ] },
+    "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
+  },
+  {
+    "id": "cloak",
+    "type": "ARMOR",
+    "copy-from": "cloak",
+    "name": { "str": "cloak" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -3 } ] } ] },
+    "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
+  },
+  {
+    "id": "cloak_fur",
+    "type": "ARMOR",
+    "copy-from": "cloak_fur",
+    "name": { "str": "fur cloak" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -6 } ] } ] },
+    "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
+  },
+  {
+    "id": "cloak_leather",
+    "type": "ARMOR",
+    "copy-from": "cloak_leather",
+    "name": { "str": "leather cloak" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -4 } ] } ] },
+    "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
+  },
+  {
+    "id": "cloak_wool",
+    "type": "ARMOR",
+    "copy-from": "cloak_wool",
+    "name": { "str": "wool cloak" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -5 } ] } ] },
+    "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
+  },
+  {
+    "id": "jedi_cloak",
+    "type": "ARMOR",
+    "copy-from": "jedi_cloak",
+    "name": { "str": "Jedi cloak" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -5 } ] } ] },
+    "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
+  },
+  {
+    "id": "optical_cloak",
+    "type": "TOOL_ARMOR",
+    "copy-from": "optical_cloak",
+    "name": { "str": "FB51 optical cloak" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -1 } ] } ] },
+    "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
+  },
+  {
+    "id": "optical_cloak_on",
+    "type": "TOOL_ARMOR",
+    "copy-from": "optical_cloak_on",
+    "name": { "str": "FB51 optical cloak (on)", "str_pl": "FB51 optical cloaks (on)" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -1 } ] } ] },
+    "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
+  },
+  {
+    "id": "poncho",
+    "type": "ARMOR",
+    "copy-from": "poncho",
+    "name": { "str": "wool poncho" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -3 } ] } ] },
+    "valid_mods": [ "steel_padded", "hard_steel_padded", "alloy_padded" ]
+  },
+  {
+    "id": "snuggie",
+    "type": "ARMOR",
+    "copy-from": "snuggie",
+    "name": { "str": "snuggie" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -5 } ] } ] },
+    "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
+  },
+  {
     "id": "coat_fur",
     "type": "ARMOR",
     "copy-from": "coat_fur",
     "name": { "str": "fur coat" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -8 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -11,6 +164,7 @@
     "type": "ARMOR",
     "copy-from": "coat_faux_fur",
     "name": { "str": "faux fur coat" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -7 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -19,6 +173,7 @@
     "type": "ARMOR",
     "copy-from": "coat_fur_sf",
     "name": { "str": "sable coat" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -9 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -27,6 +182,7 @@
     "type": "ARMOR",
     "copy-from": "coat_lab",
     "name": { "str": "lab coat" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -2 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -34,6 +190,7 @@
     "type": "ARMOR",
     "copy-from": "coat_gut",
     "name": { "str": "gutskin parka" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -2 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -42,6 +199,16 @@
     "type": "ARMOR",
     "copy-from": "coat_winter",
     "name": { "str": "winter coat" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -8 } ] } ] },
+    "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
+  },
+  {
+    "id": "ski_jacket",
+    "repairs_like": "trenchcoat",
+    "type": "ARMOR",
+    "copy-from": "ski_jacket",
+    "name": { "str": "ski jacket" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -8 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -49,6 +216,7 @@
     "type": "ARMOR",
     "copy-from": "duster",
     "name": { "str": "duster" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -4 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -56,6 +224,7 @@
     "type": "ARMOR",
     "copy-from": "duster_fur",
     "name": { "str": "fur duster" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -5 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -64,6 +233,7 @@
     "copy-from": "duster_fur",
     "looks_like": "duster_fur",
     "name": { "str": "faux fur duster" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -4 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -71,6 +241,7 @@
     "type": "ARMOR",
     "copy-from": "duster_leather",
     "name": { "str": "leather duster" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -3 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -78,6 +249,7 @@
     "type": "ARMOR",
     "copy-from": "duster_survivor",
     "name": { "str": "survivor duster" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -5 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -85,6 +257,7 @@
     "type": "ARMOR",
     "copy-from": "greatcoat",
     "name": { "str": "greatcoat" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -5 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -93,6 +266,7 @@
     "type": "ARMOR",
     "copy-from": "jacket_army",
     "name": { "str_sp": "army jacket" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -2 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -101,6 +275,7 @@
     "type": "ARMOR",
     "copy-from": "jacket_chef",
     "name": { "str": "chef's jacket" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -3 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -109,6 +284,7 @@
     "type": "ARMOR",
     "copy-from": "jacket_flannel",
     "name": { "str": "flannel jacket" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -4 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -117,6 +293,7 @@
     "type": "ARMOR",
     "copy-from": "jacket_jean",
     "name": { "str": "jean jacket" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -3 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -124,6 +301,7 @@
     "type": "ARMOR",
     "copy-from": "jacket_leather",
     "name": { "str": "leather jacket" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -3 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -131,6 +309,7 @@
     "type": "ARMOR",
     "copy-from": "jacket_leather_red",
     "name": { "str": "red leather jacket" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -3 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -139,6 +318,16 @@
     "type": "ARMOR",
     "copy-from": "jacket_light",
     "name": { "str": "light jacket" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -2 } ] } ] },
+    "valid_mods": [ "lightened", "pocketed" ]
+  },
+  {
+    "id": "jacket_windbreaker",
+    "repairs_like": "trenchcoat",
+    "type": "ARMOR",
+    "copy-from": "jacket_windbreaker",
+    "name": { "str": "windbreaker" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -3 } ] } ] },
     "valid_mods": [ "lightened", "pocketed" ]
   },
   {
@@ -146,6 +335,7 @@
     "type": "ARMOR",
     "copy-from": "peacoat",
     "name": { "str": "peacoat" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -5 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -154,6 +344,7 @@
     "type": "ARMOR",
     "copy-from": "robe",
     "name": { "str": "robe" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -2 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -161,6 +352,7 @@
     "type": "ARMOR",
     "copy-from": "sleeveless_duster",
     "name": { "str": "sleeveless duster" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -2 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -168,6 +360,7 @@
     "type": "ARMOR",
     "copy-from": "sleeveless_duster_fur",
     "name": { "str": "sleeveless fur duster" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -5 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -175,6 +368,7 @@
     "type": "ARMOR",
     "copy-from": "sleeveless_duster_faux_fur",
     "name": { "str": "sleeveless faux fur duster" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -4 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -182,6 +376,7 @@
     "type": "ARMOR",
     "copy-from": "sleeveless_duster_leather",
     "name": { "str": "sleeveless leather duster" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -3 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -189,6 +384,7 @@
     "type": "ARMOR",
     "copy-from": "sleeveless_duster_survivor",
     "name": { "str": "sleeveless survivor duster" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -2 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -196,6 +392,7 @@
     "type": "ARMOR",
     "copy-from": "sleeveless_trenchcoat",
     "name": { "str": "sleeveless trenchcoat" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -2 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -203,6 +400,7 @@
     "type": "ARMOR",
     "copy-from": "sleeveless_trenchcoat_fur",
     "name": { "str": "sleeveless fur trenchcoat" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -5 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -210,6 +408,7 @@
     "type": "ARMOR",
     "copy-from": "sleeveless_trenchcoat_faux_fur",
     "name": { "str": "sleeveless faux fur trenchcoat" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -4 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -217,6 +416,7 @@
     "type": "ARMOR",
     "copy-from": "sleeveless_trenchcoat_leather",
     "name": { "str": "sleeveless leather trenchcoat" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -3 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -224,6 +424,7 @@
     "type": "ARMOR",
     "copy-from": "sleeveless_trenchcoat_survivor",
     "name": { "str": "sleeveless survivor trenchcoat" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -5 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -231,6 +432,7 @@
     "type": "ARMOR",
     "copy-from": "sleeveless_tunic",
     "name": { "str": "sleeveless tunic" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -1 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -238,6 +440,7 @@
     "type": "ARMOR",
     "copy-from": "trenchcoat",
     "name": { "str": "trenchcoat" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -2 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -245,6 +448,7 @@
     "type": "ARMOR",
     "copy-from": "trenchcoat_fur",
     "name": { "str": "fur trenchcoat" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -5 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -252,6 +456,7 @@
     "type": "ARMOR",
     "copy-from": "trenchcoat_faux_fur",
     "name": { "str": "faux fur trenchcoat" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -4 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -259,6 +464,7 @@
     "type": "ARMOR",
     "copy-from": "trenchcoat_leather",
     "name": { "str": "leather trenchcoat" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -3 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -266,6 +472,7 @@
     "type": "ARMOR",
     "copy-from": "trenchcoat_survivor",
     "name": { "str": "survivor trenchcoat" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -5 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -273,6 +480,7 @@
     "type": "ARMOR",
     "copy-from": "tunic",
     "name": { "str": "tunic" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -2 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -280,6 +488,7 @@
     "type": "ARMOR",
     "copy-from": "tunic_rag",
     "name": { "str": "rag tunic" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -2 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -288,6 +497,7 @@
     "type": "ARMOR",
     "copy-from": "tux",
     "name": { "str": "tuxedo" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -3 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -296,6 +506,7 @@
     "type": "ARMOR",
     "copy-from": "waistcoat",
     "name": { "str": "waistcoat" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -1 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -304,6 +515,7 @@
     "type": "ARMOR",
     "copy-from": "winter_jacket_army",
     "name": { "str": "army winter jacket" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -5 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -311,6 +523,7 @@
     "type": "ARMOR",
     "copy-from": "jacket_leather_mod",
     "name": { "str": "armored leather jacket" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -4 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -318,6 +531,7 @@
     "type": "ARMOR",
     "copy-from": "vest_leather_mod",
     "name": { "str": "armored leather vest" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -4 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -325,6 +539,7 @@
     "type": "ARMOR",
     "copy-from": "armor_nomad",
     "name": { "str": "nomad gear" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -3 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -332,6 +547,7 @@
     "type": "ARMOR",
     "copy-from": "armor_nomad_light",
     "name": { "str": "light nomad gear" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -2 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -340,6 +556,7 @@
     "type": "ARMOR",
     "copy-from": "armor_riot",
     "name": { "str": "riot armor" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -4 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -347,6 +564,7 @@
     "type": "ARMOR",
     "copy-from": "armor_scavenger",
     "name": { "str": "scavenger gear" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -4 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -355,6 +573,7 @@
     "type": "ARMOR",
     "copy-from": "beekeeping_suit",
     "name": { "str": "beekeeping suit" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -2 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -362,6 +581,7 @@
     "type": "ARMOR",
     "copy-from": "fsurvivor_suit",
     "name": { "str": "survivor firesuit" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -5 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -369,6 +589,7 @@
     "type": "ARMOR",
     "copy-from": "gambeson",
     "name": { "str": "gambeson" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -4 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -376,6 +597,7 @@
     "type": "ARMOR",
     "copy-from": "hsurvivor_suit",
     "name": { "str": "heavy survivor suit" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -6 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -383,6 +605,7 @@
     "type": "ARMOR",
     "copy-from": "lsurvivor_suit",
     "name": { "str": "light survivor suit" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -4 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -391,6 +614,7 @@
     "type": "ARMOR",
     "copy-from": "suit",
     "name": { "str": "suit" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -3 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -399,6 +623,7 @@
     "copy-from": "survivor_suit",
     "name": { "str": "survivor suit" },
     "material_thickness": 5,
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -5 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -407,6 +632,7 @@
     "type": "ARMOR",
     "copy-from": "swat_armor",
     "name": { "str": "SWAT armor" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -4 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -415,6 +641,7 @@
     "type": "ARMOR",
     "copy-from": "touring_suit",
     "name": { "str": "leather touring suit" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -4 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -422,6 +649,7 @@
     "type": "ARMOR",
     "copy-from": "wsurvivor_suit",
     "name": { "str": "winter survivor suit" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -12 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -429,6 +657,7 @@
     "type": "ARMOR",
     "copy-from": "anbc_suit",
     "name": { "str": "ANBC suit" },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -12 } ] } ] },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pocketed" ]
   },
   {
@@ -437,7 +666,10 @@
     "copy-from": "depowered_armor",
     "looks_like": "depowered_armor",
     "name": { "str": "salvaged power armor" },
-    "extend": { "flags": [ "OVERSIZE" ] }
+    "extend": {
+      "flags": [ "OVERSIZE" ],
+      "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -14 } ] } ] }
+    }
   },
   {
     "id": "depowered_helmet",
@@ -445,7 +677,10 @@
     "copy-from": "depowered_helmet",
     "looks_like": "depowered_helmet",
     "name": { "str": "salvaged power armor helmet" },
-    "extend": { "flags": [ "OVERSIZE" ] }
+    "extend": {
+      "flags": [ "OVERSIZE" ],
+      "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -14 } ] } ] }
+    }
   },
   {
     "id": "power_armor_basic",
@@ -453,7 +688,10 @@
     "copy-from": "power_armor_basic",
     "looks_like": "power_armor_basic",
     "name": { "str": "power armor", "str_pl": "suits of power armor" },
-    "extend": { "flags": [ "OVERSIZE" ] }
+    "extend": {
+      "flags": [ "OVERSIZE" ],
+      "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -16 } ] } ] }
+    }
   },
   {
     "id": "power_armor_basic_on",
@@ -461,7 +699,10 @@
     "copy-from": "power_armor_basic_on",
     "looks_like": "power_armor_basic",
     "name": { "str": "power armor (active)", "str_pl": "suits of power armor (active)" },
-    "extend": { "flags": [ "OVERSIZE", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
+    "extend": {
+      "flags": [ "OVERSIZE", "CLIMATE_CONTROL", "TRADER_AVOID" ],
+      "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -16 } ] } ] }
+    }
   },
   {
     "id": "power_armor_heavy",
@@ -469,7 +710,10 @@
     "copy-from": "power_armor_heavy",
     "looks_like": "power_armor_heavy",
     "name": { "str": "heavy power armor", "str_pl": "suits of heavy power armor" },
-    "extend": { "flags": [ "OVERSIZE" ] }
+    "extend": {
+      "flags": [ "OVERSIZE" ],
+      "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -20 } ] } ] }
+    }
   },
   {
     "id": "power_armor_heavy_on",
@@ -477,7 +721,10 @@
     "copy-from": "power_armor_heavy_on",
     "looks_like": "power_armor_heavy",
     "name": { "str": "heavy power armor (active)", "str_pl": "suits of heavy power armor (active)" },
-    "extend": { "flags": [ "OVERSIZE", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
+    "extend": {
+      "flags": [ "OVERSIZE", "CLIMATE_CONTROL", "TRADER_AVOID" ],
+      "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -20 } ] } ] }
+    }
   },
   {
     "id": "power_armor_light",
@@ -485,7 +732,10 @@
     "copy-from": "power_armor_light",
     "looks_like": "power_armor_light",
     "name": { "str": "light power armor", "str_pl": "suits of light power armor" },
-    "extend": { "flags": [ "OVERSIZE" ] }
+    "extend": {
+      "flags": [ "OVERSIZE" ],
+      "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -12 } ] } ] }
+    }
   },
   {
     "id": "power_armor_light_on",
@@ -493,7 +743,10 @@
     "copy-from": "power_armor_light_on",
     "looks_like": "power_armor_light",
     "name": { "str": "light power armor (active)", "str_pl": "suits of light power armor (active)" },
-    "extend": { "flags": [ "OVERSIZE", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
+    "extend": {
+      "flags": [ "OVERSIZE", "CLIMATE_CONTROL", "TRADER_AVOID" ],
+      "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -12 } ] } ] }
+    }
   },
   {
     "id": "power_armor_helmet_basic",
@@ -501,7 +754,10 @@
     "copy-from": "power_armor_helmet_basic",
     "looks_like": "power_armor_helmet_basic",
     "name": { "str": "power armor helmet" },
-    "extend": { "flags": [ "OVERSIZE" ] }
+    "extend": {
+      "flags": [ "OVERSIZE" ],
+      "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -16 } ] } ] }
+    }
   },
   {
     "id": "power_armor_helmet_basic_on",
@@ -509,7 +765,10 @@
     "copy-from": "power_armor_helmet_basic_on",
     "name": { "str": "power armor helmet (active)", "str_pl": "power armor helmets (active)" },
     "looks_like": "power_armor_helmet_basic",
-    "extend": { "flags": [ "OVERSIZE", "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
+    "extend": {
+      "flags": [ "OVERSIZE", "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "TRADER_AVOID" ],
+      "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -16 } ] } ] }
+    }
   },
   {
     "id": "power_armor_helmet_heavy",
@@ -517,7 +776,10 @@
     "copy-from": "power_armor_helmet_heavy",
     "looks_like": "power_armor_helmet_heavy",
     "name": { "str": "heavy power armor helmet" },
-    "extend": { "flags": [ "OVERSIZE" ] }
+    "extend": {
+      "flags": [ "OVERSIZE" ],
+      "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -20 } ] } ] }
+    }
   },
   {
     "id": "power_armor_helmet_heavy_on",
@@ -525,7 +787,10 @@
     "copy-from": "power_armor_helmet_heavy_on",
     "looks_like": "power_armor_helmet_heavy",
     "name": { "str": "heavy power armor helmet (active)", "str_pl": "heavy power armor helmets (active)" },
-    "extend": { "flags": [ "OVERSIZE", "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
+    "extend": {
+      "flags": [ "OVERSIZE", "WATCH", "THERMOMETER", "TRADER_AVOID" ],
+      "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -20 } ] } ] }
+    }
   },
   {
     "id": "power_armor_helmet_light",
@@ -533,7 +798,10 @@
     "copy-from": "power_armor_helmet_light",
     "looks_like": "power_armor_helmet_light",
     "name": { "str": "light power armor helmet" },
-    "extend": { "flags": [ "OVERSIZE" ] }
+    "extend": {
+      "flags": [ "OVERSIZE" ],
+      "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -12 } ] } ] }
+    }
   },
   {
     "id": "power_armor_helmet_light_on",
@@ -541,14 +809,20 @@
     "copy-from": "power_armor_helmet_light_on",
     "looks_like": "power_armor_helmet_light",
     "name": { "str": "light power armor helmet (active)", "str_pl": "light power armor helmets (active)" },
-    "extend": { "flags": [ "OVERSIZE", "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
+    "extend": {
+      "flags": [ "OVERSIZE", "WATCH", "THERMOMETER", "TRADER_AVOID" ],
+      "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -12 } ] } ] }
+    }
   },
   {
     "id": "rm13_armor",
     "type": "TOOL_ARMOR",
     "copy-from": "rm13_armor",
     "name": { "str": "RM13 combat armor" },
-    "extend": { "flags": [ "OVERSIZE" ] },
+    "extend": {
+      "flags": [ "OVERSIZE" ],
+      "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -12 } ] } ] }
+    },
     "material_thickness": 3
   },
   {
@@ -556,7 +830,10 @@
     "copy-from": "rm13_armor_on",
     "type": "TOOL_ARMOR",
     "name": { "str": "RM13 combat armor (on)", "str_pl": "RM13 combat armors (on)" },
-    "extend": { "flags": [ "OVERSIZE" ] },
+    "extend": {
+      "flags": [ "OVERSIZE" ],
+      "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -12 } ] } ] }
+    },
     "material_thickness": 5
   },
   {
@@ -564,14 +841,20 @@
     "copy-from": "phase_immersion_suit",
     "type": "TOOL_ARMOR",
     "name": { "str": "phase immersion suit" },
-    "extend": { "flags": [ "OVERSIZE" ] }
+    "extend": {
+      "flags": [ "OVERSIZE" ],
+      "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -20 } ] } ] }
+    }
   },
   {
     "id": "phase_immersion_suit_on",
     "copy-from": "phase_immersion_suit_on",
     "type": "TOOL_ARMOR",
     "name": { "str": "phase immersion suit (on)", "str_pl": "phase immersion suits (on)" },
-    "extend": { "flags": [ "OVERSIZE" ] }
+    "extend": {
+      "flags": [ "OVERSIZE" ],
+      "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -20 } ] } ] }
+    }
   },
   {
     "result": "armor_chitin",

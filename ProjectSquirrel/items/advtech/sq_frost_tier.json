@@ -1,9 +1,9 @@
 [
   {
-    "id": "sq_frozen_core_fragments",
+    "id": "sq_frozen_shards",
     "type": "GENERIC",
     "category": "spare_parts",
-    "name": { "str": "frozen core fragment", "str_pl": "frozen core fragments" },
+    "name": { "str": "frozen shard", "str_pl": "frozen shards" },
     "description": "A jagged shard of unmelting ice pulsating with necrotic energy. It is unsettlingly cold to the touch, whispering of the endless winter from whence it came. A crucial component for crafting gear that defies the warmth of life.",
     "looks_like": "glass_shard",
     "weight": "10 g",
@@ -28,20 +28,6 @@
     "color": "cyan"
   },
   {
-    "result": "sq_frozen_core",
-    "type": "recipe",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "fabrication",
-    "skills_required": [ [ "survival", 4 ] ],
-    "difficulty": 6,
-    "time": "40 m",
-    "autolearn": true,
-    "book_learn": [ [ "sq_recipe_book_frost_melee", 6 ] ],
-    "qualities": [ [ { "id": "CUT", "level": 1 } ] ],
-    "components": [ [ [ "sq_frozen_core_fragments", 20 ] ], [ [ "blood_tainted", 1 ] ] ]
-  },
-  {
     "id": "sq_map_fragment_frozen",
     "type": "GENERIC",
     "category": "spare_parts",
@@ -59,7 +45,7 @@
     "id": "sq_map_frozen_cave",
     "type": "TOOL",
     "name": { "str": "map to the frozen cave" },
-    "description": "Several frost-covered fragments meticulously taped together. The complete topographical data points to an isolated region of absolute zero. Activating the map will peel back the veil of reality, forcing a passage into the frozen abyss where the dragon waits.",
+    "description": "Several frost-covered fragments meticulously taped together. The complete topographical data points to an isolated region of absolute zero. Activating the map will peel back the veil of reality, forcing a passage into the frozen abyss where the dragon waits. If this map is destroyed, the pocket dimension connected to it will also collapses.",
     "looks_like": "trailmap",
     "weight": "20 g",
     "volume": "200 ml",
@@ -88,7 +74,7 @@
     "time": "15 m",
     "autolearn": true,
     "components": [
-      [ [ "sq_frozen_core_fragments", 10 ] ],
+      [ [ "sq_frozen_shards", 10 ] ],
       [ [ "sq_map_fragment_frozen", 10 ] ],
       [ [ "duct_tape", 5 ], [ "medical_tape", 10 ] ]
     ]
@@ -117,7 +103,7 @@
     "healthy": -10,
     "calories": 347,
     "quench": 20,
-    "description": "The literal heart of the permafrost dragon, still pulsating with abyssal cold and raw, untamed power. Consuming its essence will infuse your body with the power of the winter sovereign.",
+    "description": "The literal heart of the permafrost dragon, still pulsating with abyssal cold and raw, untamed power. Consuming its essence will infuse your body with the power of the winter sovereign. If you dismantle it, you can obtain additional frozen shards and frozen cores.",
     "price": "65 USD",
     "price_postapoc": "5 USD",
     "material": [ "flesh" ],
@@ -125,6 +111,14 @@
     "fun": -15,
     "use_action": { "type": "mutagen", "mutation_category": "FROST" },
     "vitamins": [ [ "meat_allergen", 1 ] ]
+  },
+  {
+    "result": "sq_frozen_heart",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "time": "30 s",
+    "components": [ [ [ "sq_frozen_core", 1 ] ], [ [ "sq_frozen_shards", 10 ] ] ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "type": "mutation_category",
@@ -259,7 +253,7 @@
         "damage": {
           "values": [
             { "damage_type": "bash", "amount": 6 },
-            { "damage_type": "stab", "amount": 40 },
+            { "damage_type": "stab", "amount": 30 },
             { "damage_type": "cold", "amount": 18 }
           ]
         }
@@ -458,7 +452,7 @@
       {
         "id": "SLASH",
         "to_hit": 1,
-        "damage": { "values": [ { "damage_type": "cut", "amount": 50 }, { "damage_type": "cold", "amount": 75 } ] }
+        "damage": { "values": [ { "damage_type": "cut", "amount": 55 }, { "damage_type": "cold", "amount": 75 } ] }
       }
     ],
     "extend": { "flags": [ "TRADER_AVOID", "COMBAT_NPC_ON", "NONCONDUCTIVE", "LIGHT_240" ] },
@@ -474,7 +468,7 @@
     "time": "45 m",
     "book_learn": [ [ "sq_recipe_book_frost_melee", 6 ] ],
     "using": [ [ "blacksmithing_standard", 4 ] ],
-    "components": [ [ [ "dagger_medieval", 1 ] ], [ [ "sq_frozen_core_fragments", 1 ] ] ]
+    "components": [ [ [ "dagger_medieval", 1 ] ], [ [ "sq_frozen_core", 1 ] ] ]
   },
   {
     "result": "sq_frost_sword",
@@ -541,7 +535,7 @@
       [ [ "soldering_iron", 50 ], [ "toolset", 50 ] ]
     ],
     "components": [
-      [ [ "knife_combat", 1 ] ],
+	  [ [ "sq_frozen_shards", 20 ] ],
       [ [ "sq_frozen_core", 1 ] ],
       [ [ "amplifier", 1 ] ],
       [ [ "power_supply", 1 ] ],
@@ -566,7 +560,7 @@
       [ [ "soldering_iron", 50 ], [ "toolset", 50 ] ]
     ],
     "components": [
-      [ [ "broadsword", 1 ] ],
+	  [ [ "sq_frozen_shards", 20 ] ],
       [ [ "sq_frozen_core", 1 ] ],
       [ [ "amplifier", 2 ] ],
       [ [ "power_supply", 2 ] ],
@@ -591,7 +585,7 @@
       [ [ "soldering_iron", 50 ], [ "toolset", 50 ] ]
     ],
     "components": [
-      [ [ "pike", 1 ] ],
+      [ [ "sq_frozen_shards", 20 ] ],
       [ [ "sq_frozen_core", 1 ] ],
       [ [ "amplifier", 2 ] ],
       [ [ "power_supply", 2 ] ],
@@ -616,7 +610,7 @@
       [ [ "soldering_iron", 50 ], [ "toolset", 50 ] ]
     ],
     "components": [
-      [ [ "zweihander", 1 ] ],
+      [ [ "sq_frozen_shards", 20 ] ],
       [ [ "sq_frozen_core", 1 ] ],
       [ [ "amplifier", 4 ] ],
       [ [ "power_supply", 4 ] ],
@@ -675,6 +669,16 @@
     "type": "AMMO",
     "name": { "str": "frost arrow", "str_pl": "frost arrows" },
     "description": "Arrow crafted by fusing a frozen core into its shaft. It freezes targets upon impact, delivering absolute zero temperature directly into their flesh.",
+    "color": "cyan",
+    "relative": { "damage": { "damage_type": "cold", "amount": 15, "armor_penetration": 20 } },
+    "extend": { "effects": [ "FROST_AMMO" ] }
+  },
+  {
+    "id": "sq_bolt_frost",
+    "copy-from": "bolt_steel",
+    "type": "AMMO",
+    "name": { "str": "frost bolt", "str_pl": "frost bolts" },
+    "description": "Bolt crafted by fusing a frozen core into its shaft. It freezes targets upon impact, delivering absolute zero temperature directly into their flesh.",
     "color": "cyan",
     "relative": { "damage": { "damage_type": "cold", "amount": 15, "armor_penetration": 20 } },
     "extend": { "effects": [ "FROST_AMMO" ] }
@@ -750,6 +754,20 @@
     "components": [ [ [ "sq_frozen_core", 1 ] ] ]
   },
   {
+    "result": "sq_bolt_frost",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_ARROWS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "electronics", 4 ], [ "archery", 4 ] ],
+    "time": "15 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "sq_recipe_book_cryo_tech", 5 ], [ "sq_recipe_book_frost_melee", 4 ] ],
+    "charges": 20,
+    "components": [ [ [ "sq_frozen_core", 1 ] ] ]
+  },
+  {
     "id": "sq_space_anomaly_freezer",
     "type": "GENERIC",
     "category": "veh_parts",
@@ -778,10 +796,256 @@
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
     "components": [
       [ [ "sq_megafreezer", 1 ] ],
+	  [ [ "sq_frozen_shards", 20 ] ],
       [ [ "sq_frozen_core", 3 ] ],
       [ [ "teleporter", 1 ] ],
       [ [ "portal", 1 ] ],
       [ [ "plut_cell", 5 ] ]
+    ]
+  },
+  {
+    "id": "sq_frost_ring",
+    "copy-from": "sapphire_platinum_ring",
+    "type": "ARMOR",
+    "name": { "str": "abyssal frost ring" },
+    "description": "A ring carved entirely from frozen fragments. It emits a faint mist and protects the wearer from the biting cold. (cold resistance +2)",
+    "color": "cyan",
+    "material": [ "powder" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -2 } ] } ] }
+  },
+  {
+    "id": "sq_frost_tiara",
+    "copy-from": "sapphire_platinum_tiara",
+    "type": "ARMOR",
+    "name": { "str": "abyssal frost tiara" },
+    "description": "A delicate yet terrifying tiara woven from frozen fragments. It chills the brow but acts as a powerful ward against lethal frost. (cold resistance +5)",
+    "color": "cyan",
+    "material": [ "powder" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -5 } ] } ] }
+  },
+  {
+    "id": "sq_frost_cufflinks",
+    "copy-from": "sapphire_platinum_cufflinks",
+    "type": "ARMOR",
+    "name": { "str_sp": "abyssal frost cufflinks" },
+    "description": "Cufflinks made of sheer ice from the abyss. They radiate a protective chill over the wearer's arms. (cold resistance +3)",
+    "color": "cyan",
+    "material": [ "powder" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -3 } ] } ] }
+  },
+  {
+    "id": "sq_frost_earring",
+    "copy-from": "sapphire_platinum_earring",
+    "type": "ARMOR",
+    "name": { "str": "pair of abyssal frost earrings", "str_pl": "pairs of abyssal frost earrings" },
+    "description": "Earrings crafted from frozen fragments. The cold they emit acts as a shield against the harsh winter. (cold resistance +2)",
+    "color": "cyan",
+    "material": [ "powder" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -2 } ] } ] }
+  },
+  {
+    "id": "sq_frost_pendant_necklace",
+    "copy-from": "sapphire_platinum_pendant_necklace",
+    "type": "ARMOR",
+    "name": { "str": "abyssal frost pendant necklace" },
+    "description": "A necklace bearing frozen fragments. Resting close to the heart, it offers significant protection against extreme cold. (cold resistance +3)",
+    "color": "cyan",
+    "material": [ "powder" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -3 } ] } ] }
+  },
+  {
+    "result": "sq_frost_ring",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_JEWELRY",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "components": [ [ [ "sq_frozen_shards", 6 ] ] ]
+  },
+  {
+    "result": "sq_frost_tiara",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_JEWELRY",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": "45 m",
+    "autolearn": true,
+    "components": [ [ [ "sq_frozen_shards", 15 ] ] ]
+  },
+  {
+    "result": "sq_frost_cufflinks",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_JEWELRY",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "20 m",
+    "autolearn": true,
+    "components": [ [ [ "sq_frozen_shards", 9 ] ] ]
+  },
+  {
+    "result": "sq_frost_earring",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_JEWELRY",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "20 m",
+    "autolearn": true,
+    "components": [ [ [ "sq_frozen_shards", 6 ] ] ]
+  },
+  {
+    "result": "sq_frost_pendant_necklace",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_JEWELRY",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "30 m",
+    "autolearn": true,
+    "components": [ [ [ "sq_frozen_shards", 9 ] ] ]
+  },
+  {
+    "id": "sq_glacial_plate_armor",
+    "copy-from": "armor_lightplate",
+    "type": "ARMOR",
+    "name": { "str": "glacial plate armor" },
+    "description": "A massive suit of heavy armor forged by pouring molten frost cores between steel plates. Unmelting frost clings to its surface. Worn by heretic knights who rejected the flame, it inflicts bone-chilling agony upon the wearer.",
+    "color": "light_cyan",
+    "warmth": 0,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_HEAT", "add": -30 },
+            { "value": "ARMOR_BASH", "add": -15 },
+            { "value": "ARMOR_CUT", "add": -15 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "result": "sq_glacial_plate_armor",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "time": "180 m",
+    "autolearn": true,
+    "using": [ [ "blacksmithing_standard", 15 ] ],
+    "components": [
+      [ [ "armor_lightplate", 1 ] ],
+      [ [ "sq_frozen_core", 2 ] ],
+      [ [ "sq_frozen_shards", 10 ] ]
+    ]
+  },
+  {
+    "id": "sq_fading_fire_mantle",
+    "copy-from": "cloak_fur",
+    "type": "ARMOR",
+    "name": { "str": "mantle of the fading fire" },
+    "description": "Woven from the hides of beasts claimed by the abyssal cold and infused with ground frost core fragments. It scatters a faint blue blizzard even in pitch-black darkness. It reflects frostbite onto attackers but constantly saps your own body heat.",
+    "color": "cyan",
+    "warmth": 0,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "hit_me_effect": [
+            {
+              "id": "sq_frostbite_reflect_spell",
+              "hit_self": false,
+              "once_in": 1,
+              "message": "The mantle unleashes a biting chill against your attacker!",
+              "npc_message": "<npcname>'s mantle scatters a freezing blizzard!"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "result": "sq_fading_fire_mantle",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 6,
+    "time": "120 m",
+    "autolearn": true,
+    "components": [
+      [ [ "cloak_fur", 1 ], [ "cloak_leather", 1 ] ],
+      [ [ "sq_frozen_shards", 15 ] ]
+    ]
+  },
+  {
+    "id": "sq_rimebound_hunter_garb",
+    "copy-from": "survivor_suit",
+	"looks_like": "wsurvivor_suit",
+    "type": "ARMOR",
+    "name": { "str": "rimebound hunter's garb" },
+    "description": "Assassin's garb woven from the pelts of winter horrors and infused with the biting chill of a frozen core. The unmelting frost clinging to the fabric naturally distorts the wearer's silhouette, granting exceptional camouflage. It allows you to blend seamlessly into both the frozen wastes and ruined cities as a silent predator.",
+    "color": "white",
+    "weight": "2500 g",
+    "encumbrance": 12,
+    "extend": { "flags": [ "URBAN_CAMO", "NATURE_CAMO", "WATERPROOF" ] }
+  },
+  {
+    "result": "sq_rimebound_hunter_garb",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 7,
+    "time": "150 m",
+    "autolearn": true,
+    "components": [
+      [ [ "survivor_suit", 1 ] ],
+	  [ [ "sq_frozen_shards", 20 ] ],
+      [ [ "sq_frozen_core", 1 ] ]
+    ]
+  },
+  {
+    "id": "sq_abyssal_monarch_crown",
+    "copy-from": "helmet_plate",
+    "type": "ARMOR",
+    "name": { "str": "crown of the abyssal monarch" },
+    "description": "A grotesque helm with a complete frozen core embedded dead center. The moment it is worn, human fear and frailty freeze over, leaving only the cold logic of annihilation. However, it leaves the mind dangerously exposed to nether whispers.",
+    "color": "cyan",
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "mutations": [ "NOPAIN", "PSYCHOPATH", "FLIMSY2" ],
+          "values": [
+            { "value": "INTELLIGENCE", "add": -2 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "result": "sq_abyssal_monarch_crown",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "60 m",
+    "autolearn": true,
+    "components": [
+      [ [ "helmet_plate", 1 ] ],
+	  [ [ "sq_frozen_shards", 20 ] ],
+      [ [ "sq_frozen_core", 1 ] ]
     ]
   }
 ]
