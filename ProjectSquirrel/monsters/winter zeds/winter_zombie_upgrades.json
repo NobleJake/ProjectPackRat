@@ -1,0 +1,83 @@
+[
+  {
+    "type": "monstergroup",
+    "name": "GROUP_WINTER_ZOMBIE_UPGRADE",
+    "default": "mon_zombie_frozen",
+    "//": "Winter upgrades",
+    "monsters": [
+      { "monster": "mon_zombie_frost", "freq": 125, "cost_multiplier": 0, "conditions": [ "WINTER" ] },
+      { "monster": "mon_zombie_frost_brute", "freq": 50, "cost_multiplier": 20, "conditions": [ "WINTER" ] },
+      { "monster": "mon_ice_golem", "freq": 20, "cost_multiplier": 50, "conditions": [ "WINTER" ] }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_WINTER_ZOMBIE_FULL_UPGRADE",
+    "default": "mon_zombie_frost",
+    "//": "Winter upgrades",
+    "monsters": [
+      { "monster": "mon_zombie_frost_brute", "freq": 50, "cost_multiplier": 10, "conditions": [ "WINTER" ] },
+      { "monster": "mon_ice_golem", "freq": 20, "cost_multiplier": 50, "conditions": [ "WINTER" ] }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_SNOWMAN_UPGRADE",
+    "default": "mon_snowman",
+    "//": "Masters pick from here when upgrading; no dogs, bionics, or profession-types",
+    "monsters": [
+      { "monster": "mon_snowman_mr_stabby", "freq": 100, "cost_multiplier": 0, "conditions": [ "WINTER" ] },
+      { "monster": "mon_snowman_gangster", "freq": 50, "cost_multiplier": 1, "conditions": [ "WINTER" ] }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_SNOWMAN_UPGRADE",
+    "default": "mon_snowman",
+    "//": "Masters pick from here when upgrading; no dogs, bionics, or profession-types",
+    "monsters": [
+      { "monster": "mon_snowman_mr_stabby", "freq": 100, "cost_multiplier": 1, "conditions": [ "WINTER" ] },
+      { "monster": "mon_snowman_gangster", "freq": 75, "cost_multiplier": 1, "conditions": [ "WINTER" ] }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_UPGRADE",
+    "default": "mon_zombie_tough",
+    "monsters": [
+      { "monster": "mon_zombie_frozen", "freq": 275, "cost_multiplier": 0, "conditions": [ "WINTER" ] },
+      { "monster": "mon_zombie_frost", "freq": 125, "cost_multiplier": 1, "conditions": [ "WINTER" ] }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ICE_ELEMENTAL_UPGRADE",
+    "default": "mon_ice_elemental",
+    "monsters": [
+	  { "monster": "mon_ice_elemental", "freq": 125, "cost_multiplier": 1, "conditions": [ "WINTER" ] },
+      { "monster": "mon_winter_waker", "freq": 25, "cost_multiplier": 10, "conditions": [ "WINTER" ] },
+      { "monster": "mon_ice_demon", "freq": 25, "cost_multiplier": 10, "conditions": [ "WINTER" ] }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_DOG_UPGRADE",
+    "default": "mon_zombie_dog",
+    "monsters": [
+      { "monster": "mon_dog_frost_nipper", "freq": 175, "cost_multiplier": 1, "conditions": [ "WINTER" ] },
+      { "monster": "mon_dog_frost_biter", "freq": 50, "cost_multiplier": 10, "conditions": [ "WINTER" ] }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_WINTER_ZOMBIE_DOG_UPGRADE",
+    "default": "mon_dog_frost_nipper",
+    "monsters": [ { "monster": "mon_dog_frost_biter", "freq": 100, "cost_multiplier": 1, "conditions": [ "WINTER" ] } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_WINTER_ZOMBIE_DOG_FULL_UPGRADE",
+    "default": "mon_dog_frost_biter",
+    "monsters": [ { "monster": "mon_frost_beast", "freq": 100, "cost_multiplier": 1, "conditions": [ "WINTER" ] } ]
+  }
+]

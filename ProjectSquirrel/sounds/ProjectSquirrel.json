@@ -2,7 +2,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun",
-        "volume" : "55 dB",
+        "volume" : 60,
         "variant" : "sq_powershot",
         "files" : [
             "guns/eweapons/heavy_rail_rifle_1.ogg",
@@ -13,7 +13,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun_distant",
-        "volume" : "35 dB",
+        "volume" : 40,
         "variant" : "sq_powershot",
         "files" : [
             "guns/eweapons/heavy_rail_rifle_1.ogg",
@@ -24,7 +24,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun",
-        "volume" : "55 dB",
+        "volume" : 60,
         "variant" : "sq_fusion_hammer",
         "files" : [
             "guns/flammable/flammable_1.ogg",
@@ -34,7 +34,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun_distant",
-        "volume" : "35 dB",
+        "volume" : 40,
         "variant" : "sq_fusion_hammer",
         "files" : [
             "guns/flammable/flammable_1.ogg",
@@ -44,7 +44,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun",
-        "volume" : "55 dB",
+        "volume" : 60,
         "variant" : "sq_walkergun",
         "files" : [
             "guns/223/223_1.ogg",
@@ -62,7 +62,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun_distant",
-        "volume" : "40 dB",
+        "volume" : 40,
         "variant" : "sq_walkergun",
         "files" : [
             "guns/223/223_1.ogg",
@@ -80,7 +80,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun",
-        "volume" : "55 dB",
+        "volume" : 60,
         "variant" : "sq_walkergun2",
         "files" : [
             "guns/40mm/40mm_1.ogg",
@@ -92,7 +92,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun_distant",
-        "volume" : "40 dB",
+        "volume" : 40,
         "variant" : "sq_walkergun2",
         "files" : [
             "guns/40mm/40mm_1.ogg",
@@ -104,7 +104,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun",
-        "volume" : "55 dB",
+        "volume" : 60,
         "variant" : "sq_walkergun3",
         "files" : [
             "guns/308/308_1.ogg",
@@ -122,7 +122,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun_distant",
-        "volume" : "40 dB",
+        "volume" : 40,
         "variant" : "sq_walkergun3",
         "files" : [
             "guns/308/308_1.ogg",
@@ -140,7 +140,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun",
-        "volume" : "55 dB",
+        "volume" : 60,
         "variant" : "sq_walkergun4",
         "files" : [
             "guns/50/50_1.ogg",
@@ -151,7 +151,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun_distant",
-        "volume" : "40 dB",
+        "volume" : 40,
         "variant" : "sq_walkergun4",
         "files" : [
             "guns/50/50_1.ogg",
@@ -162,7 +162,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun",
-        "volume" : "60 dB",
+        "volume" : 60,
         "variant" : "sq_walkergun5",
         "files" : [
             "guns/eweapons/gatling_mech_laser_1.ogg",
@@ -175,7 +175,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun_distant",
-        "volume" : "40 dB",
+        "volume" : 40,
         "variant" : "sq_walkergun5",
         "files" : [
             "guns/eweapons/gatling_mech_laser_1.ogg",
@@ -188,7 +188,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun",
-        "volume" : "55 dB",
+        "volume" : 60,
         "variant" : "sq_walkergun6",
         "files" : [
             "guns/50/50_1.ogg",
@@ -199,7 +199,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun_distant",
-        "volume" : "40 dB",
+        "volume" : 40,
         "variant" : "sq_walkergun6",
         "files" : [
             "guns/50/50_1.ogg",
@@ -210,7 +210,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun",
-        "volume" : "55 dB",
+        "volume" : 60,
         "variant" : "sq_walkergun7",
         "files" : [
             "guns/eweapons/ftk93.ogg"
@@ -219,7 +219,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun_distant",
-        "volume" : "40 dB",
+        "volume" : 40,
         "variant" : "sq_walkergun7",
         "files" : [
             "guns/eweapons/ftk93.ogg"
@@ -228,7 +228,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun",
-        "volume" : "65 dB",
+        "volume" : 60,
         "variant" : "sq_hardlight_pistol",
         "files" : [
             "guns/eweapons/v29_1.ogg",
@@ -239,7 +239,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun_distant",
-        "volume" : "35 dB",
+        "volume" : 40,
         "variant" : "sq_hardlight_pistol",
         "files" : [
             "guns/eweapons/v29_1.ogg",
@@ -250,7 +250,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun",
-        "volume" : "55 dB",
+        "volume" : 60,
         "variant" : "sq_hardlight_smg",
         "files" : [
             "guns/eweapons/plasma_gun.ogg",
@@ -260,7 +260,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun_distant",
-        "volume" : "50 dB",
+        "volume" : 40,
         "variant" : "sq_hardlight_smg",
         "files" : [
             "guns/eweapons/plasma_gun.ogg",
@@ -270,7 +270,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun",
-        "volume" : "65 dB",
+        "volume" : 60,
         "variant" : "sq_hardlight_shotgun",
         "files" : [
             "guns/eweapons/bio_laser_gun_1.ogg",
@@ -281,7 +281,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun_distant",
-        "volume" : "35 dB",
+        "volume" : 40,
         "variant" : "sq_hardlight_shotgun",
         "files" : [
             "guns/eweapons/bio_laser_gun_1.ogg",
@@ -292,7 +292,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun",
-        "volume" : "65 dB",
+        "volume" : 60,
         "variant" : "sq_hardlight_rifle",
         "files" : [
             "guns/eweapons/bio_laser_gun_1.ogg",
@@ -303,7 +303,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun_distant",
-        "volume" : "35 dB",
+        "volume" : 40,
         "variant" : "sq_hardlight_rifle",
         "files" : [
             "guns/eweapons/bio_laser_gun_1.ogg",
@@ -314,7 +314,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun",
-        "volume" : "55 dB",
+        "volume" : 60,
         "variant" : "sq_hardlight_sniper",
         "files" : [
             "guns/eweapons/gatling_mech_laser_1.ogg",
@@ -327,7 +327,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun_distant",
-        "volume" : "35 dB",
+        "volume" : 40,
         "variant" : "sq_hardlight_sniper",
         "files" : [
             "guns/eweapons/gatling_mech_laser_1.ogg",
@@ -340,7 +340,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun",
-        "volume" : "55 dB",
+        "volume" : 60,
         "variant" : "sq_fusion_pistol",
         "files" : [
             "guns/eweapons/bio_blaster_gun_1.ogg",
@@ -350,7 +350,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun_distant",
-        "volume" : "35 dB",
+        "volume" : 40,
         "variant" : "sq_fusion_pistol",
         "files" : [
             "guns/eweapons/bio_blaster_gun_1.ogg",
@@ -360,7 +360,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun",
-        "volume" : "55 dB",
+        "volume" : 60,
         "variant" : "sq_fusion_shotgun",
         "files" : [
             "guns/eweapons/ftk93.ogg"
@@ -369,7 +369,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun_distant",
-        "volume" : "35 dB",
+        "volume" : 40,
         "variant" : "sq_fusion_shotgun",
         "files" : [
             "guns/eweapons/ftk93.ogg"
@@ -378,7 +378,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun",
-        "volume" : "55 dB",
+        "volume" : 60,
         "variant" : "sq_fusion_rifle",
         "files" : [
             "guns/others/Rocket_1.ogg",
@@ -391,7 +391,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun_distant",
-        "volume" : "35 dB",
+        "volume" : 40,
         "variant" : "sq_fusion_rifle",
         "files" : [
             "guns/others/Rocket_1.ogg",
@@ -404,7 +404,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun",
-        "volume" : "55 dB",
+        "volume" : 60,
         "variant" : "sq_fusion_sniper",
         "files" : [
             "guns/others/120mm_1.ogg",
@@ -416,7 +416,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun_distant",
-        "volume" : "35 dB",
+        "volume" : 40,
         "variant" : "sq_fusion_sniper",
         "files" : [
             "guns/others/120mm_1.ogg",
@@ -428,7 +428,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun",
-        "volume" : "55 dB",
+        "volume" : 60,
         "variant" : "sq_fusion_hmg",
         "files" : [
             "guns/others/Rocket_1.ogg",
@@ -441,7 +441,7 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun_distant",
-        "volume" : "35 dB",
+        "volume" : 40,
         "variant" : "sq_fusion_hmg",
         "files" : [
             "guns/others/Rocket_1.ogg",
@@ -449,6 +449,26 @@
             "guns/others/Rocket_3.ogg",
             "guns/others/Rocket_4.ogg",
             "guns/others/Rocket_5.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 60,
+        "variant" : "monster_frostfire_fake",
+        "files" : [
+            "guns/flammable/flammable_1.ogg",
+            "guns/flammable/flammable_2.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 40,
+        "variant" : "monster_frostfire_fake",
+        "files" : [
+            "guns/flammable/flammable_1.ogg",
+            "guns/flammable/flammable_2.ogg"
         ]
     }
 ]

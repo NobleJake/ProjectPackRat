@@ -1,0 +1,42 @@
+[
+  {
+    "type": "overmap_terrain",
+    "id": "frozen_cave",
+    "name": "frozen cave",
+    "sym": "C",
+    "color": "i_cyan",
+    "see_cost": 2,
+    "flags": [ "NO_ROTATE", "SOURCE_SAFETY" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "frozen_cave_underground",
+    "name": "frozen cave",
+    "sym": "C",
+    "color": "cyan",
+    "see_cost": 2,
+    "flags": [ "NO_ROTATE", "SOURCE_SAFETY" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "frozen_cave_dragon",
+    "name": "frozen dragon's nest",
+    "sym": "C",
+    "color": "white",
+    "see_cost": 2,
+    "flags": [ "KNOWN_DOWN", "NO_ROTATE", "SOURCE_SAFETY" ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Frozen Cave",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "frozen_cave" },
+      { "point": [ 0, 0, -1 ], "overmap": "frozen_cave_underground" },
+      { "point": [ 0, 0, -2 ], "overmap": "frozen_cave_dragon" }
+    ],
+    "locations": [ "forest" ],
+    "city_distance": [ 4, -1 ],
+    "occurrences": [ 10, 100 ],
+    "flags": [ "WILDERNESS", "UNIQUE" ]
+  }
+]

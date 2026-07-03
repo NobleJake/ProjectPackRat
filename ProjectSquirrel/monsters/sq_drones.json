@@ -337,7 +337,7 @@
         "no_crits": true,
         "targeting_cost": 100,
         "targeting_sound": "\"E-cannon charging...\"",
-        "targeting_volume": 50
+        "targeting_volume": "50 dB"
       }
     ],
     "death_function": [ "BROKEN" ],

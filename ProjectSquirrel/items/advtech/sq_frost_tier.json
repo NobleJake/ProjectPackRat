@@ -1,0 +1,787 @@
+[
+  {
+    "id": "sq_frozen_core_fragments",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "frozen core fragment", "str_pl": "frozen core fragments" },
+    "description": "A jagged shard of unmelting ice pulsating with necrotic energy. It is unsettlingly cold to the touch, whispering of the endless winter from whence it came. A crucial component for crafting gear that defies the warmth of life.",
+    "looks_like": "glass_shard",
+    "weight": "10 g",
+    "volume": "5 ml",
+    "price_postapoc": "1 USD",
+    "material": [ "powder" ],
+    "symbol": ",",
+    "color": "cyan"
+  },
+  {
+    "id": "sq_frozen_core",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "frozen core", "str_pl": "frozen cores" },
+    "description": "A crystalline heart torn from the chest of an apex winter aberration. It contains the raw, concentrated essence of the abyssal cold. Holding it feels like clutching a piece of the fading world's inevitable end.",
+    "looks_like": "sapphire",
+    "weight": "100 g",
+    "volume": "50 ml",
+    "price_postapoc": "20 USD",
+    "material": [ "powder" ],
+    "symbol": "*",
+    "color": "cyan"
+  },
+  {
+    "result": "sq_frozen_core",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "survival", 4 ] ],
+    "difficulty": 6,
+    "time": "40 m",
+    "autolearn": true,
+    "book_learn": [ [ "sq_recipe_book_frost_melee", 6 ] ],
+    "qualities": [ [ { "id": "CUT", "level": 1 } ] ],
+    "components": [ [ [ "sq_frozen_core_fragments", 20 ] ], [ [ "blood_tainted", 1 ] ] ]
+  },
+  {
+    "id": "sq_map_fragment_frozen",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "frost-covered map fragment", "str_pl": "frost-covered map fragments" },
+    "description": "A torn, severely frostbitten piece of paper recovered from the corpse of a frozen undead. The ink is smeared, but it clearly details topographical coordinates. You will need a few more of these to figure out exactly where they lead.",
+    "looks_like": "paper",
+    "weight": "2 g",
+    "volume": "5 ml",
+    "price_postapoc": "0 USD",
+    "material": [ "paper" ],
+    "symbol": "`",
+    "color": "light_cyan"
+  },
+  {
+    "id": "sq_map_frozen_cave",
+    "type": "TOOL",
+    "name": { "str": "map to the frozen cave" },
+    "description": "Several frost-covered fragments meticulously taped together. The complete topographical data points to an isolated region of absolute zero. Activating the map will peel back the veil of reality, forcing a passage into the frozen abyss where the dragon waits.",
+    "looks_like": "trailmap",
+    "weight": "20 g",
+    "volume": "200 ml",
+    "price_postapoc": "0 USD",
+    "material": [ "paper" ],
+    "symbol": ";",
+    "color": "cyan",
+    "stackable": false,
+    "use_action": [
+      {
+        "type": "pocket_dimension",
+        "pocket_name": "Frozen Cave",
+        "entry_mapgen": "Frozen Cave",
+        "need_charges": 0,
+        "persistent": false
+      }
+    ]
+  },
+  {
+    "result": "sq_map_frozen_cave",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "survival",
+    "difficulty": 3,
+    "time": "15 m",
+    "autolearn": true,
+    "components": [
+      [ [ "sq_frozen_core_fragments", 10 ] ],
+      [ [ "sq_map_fragment_frozen", 10 ] ],
+      [ [ "duct_tape", 5 ], [ "medical_tape", 10 ] ]
+    ]
+  },
+  {
+    "id": "sq_dragon_warning_note",
+    "type": "GENERIC",
+    "category": "books",
+	"looks_like": "survnote",
+    "name": { "str": "blood-stained surveyor's note" },
+    "description": "A hastily scribbled note found on a frozen corpse. It reads:\n\n'Turn back. The undead dragon slumbers at the abyss of this frozen hell. The narrow, pitch-black cavern makes long-range combat impossible. If you try to keep your distance, its frostfire breath will obliterate you. Do NOT hug the walls—the breath shatters against the rock, and the ice shrapnel will tear you to shreds. If you step too close, its blizzard will freeze you solid. Your only hope? Wait for the brief lull after it unleashes its cold, pack the thickest thermal armor you can find, and smash its skull in melee. Do not cower. Hesitation means death.'",
+    "weight": "5 g",
+    "volume": "10 ml",
+    "symbol": "?",
+    "color": "white"
+  },
+  {
+    "type": "COMESTIBLE",
+    "comestible_type": "FOOD",
+    "category": "other",
+    "id": "sq_frozen_heart",
+    "name": "frozen dragon heart",
+    "weight": "4535 g",
+    "color": "i_light_cyan",
+    "symbol": "%",
+    "healthy": -10,
+    "calories": 347,
+    "quench": 20,
+    "description": "The literal heart of the permafrost dragon, still pulsating with abyssal cold and raw, untamed power. Consuming its essence will infuse your body with the power of the winter sovereign.",
+    "price": "65 USD",
+    "price_postapoc": "5 USD",
+    "material": [ "flesh" ],
+    "volume": "1 L",
+    "fun": -15,
+    "use_action": { "type": "mutagen", "mutation_category": "FROST" },
+    "vitamins": [ [ "meat_allergen", 1 ] ]
+  },
+  {
+    "type": "mutation_category",
+    "id": "FROST",
+    "name": "FROST",
+    "threshold_mut": "",
+    "mutagen_message": "",
+    "iv_message": ""
+  },
+  {
+    "type": "mutation",
+    "id": "FROZEN_HEART",
+    "name": { "str": "Frozen Heart" },
+    "points": 2,
+    "description": "The abyssal cold of the dragon's heart has frozen your own. Stripped of all distracting emotions, guilt, and hesitation, your mind is now a realm of absolute clarity. Free from the weaknesses of a normal human, you can focus entirely on unlocking your raw, untapped potential, elevating all of your physical and mental attributes.",
+    "starting_trait": false,
+    "social_modifiers": { "intimidate": 5 },
+    "cancels": [ "KILLER", "PACIFIST" ],
+    "flags": [ "PSYCHOPATH", "CANNIBAL" ],
+    "category": [ "FROST" ],
+    "passive_mods": { "str_mod": 1, "dex_mod": 1, "int_mod": 1, "per_mod": 1 }
+  },
+  {
+    "id": "sq_recipe_book_frost_melee",
+    "type": "BOOK",
+    "name": { "str": "journal of the winter blacksmith" },
+    "description": "A weathered journal bound in an unknown, freezing leather. It details the obsessive research of a blacksmith who discovered how to bind 'frozen core' into steel without the metal shattering. It contains esoteric methods to perfectly fuse the absolute zero energy of a frozen core into conventional cold weapons, granting them an unmelting, lethal edge.",
+    "weight": "450 g",
+    "volume": "500 ml",
+    "price_postapoc": "15 USD",
+    "bashing": 2,
+    "material": [ "paper", "leather" ],
+    "symbol": "?",
+    "color": "cyan",
+    "skill": "fabrication",
+    "required_level": 6,
+    "max_level": 8,
+    "intelligence": 10,
+    "time": "30 m",
+    "fun": -1
+  },
+  {
+    "id": "sq_recipe_book_cryo_tech",
+    "type": "BOOK",
+    "name": { "str": "synthesis notes: cryo-light weaponry" },
+    "description": "A personalized binder containing a brilliant synthesis of Mizuno's hardlight theories and the winter blacksmith's cryogenic metallurgy. It outlines the ultimate blueprints for channeling a complete frozen core into localized force fields, giving birth to devastating high-tech cryo weapons.",
+    "weight": "200 g",
+    "volume": "250 ml",
+    "price_postapoc": "20 USD",
+    "bashing": 1,
+    "material": [ "paper", "plastic" ],
+    "symbol": "?",
+    "color": "light_blue",
+    "skill": "electronics",
+    "required_level": 8,
+    "max_level": 10,
+    "intelligence": 12,
+    "time": "45 m",
+    "fun": -2
+  },
+  {
+    "result": "sq_recipe_book_cryo_tech",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "electronics",
+    "difficulty": 8,
+    "skills_required": [ [ "fabrication", 6 ], [ "computer", 4 ] ],
+    "time": "120 m",
+    "autolearn": true,
+    "tools": [
+      [ [ "sq_recipe_lab_hardlight", -1 ] ],
+      [ [ "sq_recipe_book_frost_melee", -1 ] ],
+      [ [ "pen", -1 ], [ "permanent_marker", -1 ], [ "survival_marker", -1 ] ]
+    ],
+    "components": [ [ [ "paper", 50 ] ], [ [ "file", 1 ] ] ]
+  },
+  {
+    "id": "sq_frost_dagger",
+    "copy-from": "dagger_medieval",
+    "type": "GENERIC",
+    "name": { "str": "permafrost dagger" },
+    "description": "A lethal dagger forged by embedding a frozen core fragment into the steel. Its blade constantly emits a chilling mist, freezing the blood of its victims before they even realize they've been cut.",
+    "color": "cyan",
+    "attacks": [
+      {
+        "id": "THRUST",
+        "to_hit": 1,
+        "damage": {
+          "values": [
+            { "damage_type": "bash", "amount": 2 },
+            { "damage_type": "stab", "amount": 18 },
+            { "damage_type": "cold", "amount": 12 }
+          ]
+        }
+      }
+    ],
+    "extend": { "flags": [ "NONCONDUCTIVE" ] }
+  },
+  {
+    "id": "sq_frost_sword",
+    "copy-from": "arming_sword",
+    "type": "GENERIC",
+    "name": { "str": "permafrost sword" },
+    "description": "A medieval-style arming sword infused with a frozen core fragment. The blade is unnaturally cold and never dulls, leaving a trail of frost with every swing.",
+    "color": "cyan",
+    "attacks": [
+      {
+        "id": "SLASH",
+        "to_hit": 1,
+        "damage": {
+          "values": [
+            { "damage_type": "bash", "amount": 14 },
+            { "damage_type": "cut", "amount": 31 },
+            { "damage_type": "cold", "amount": 15 }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "sq_frost_spear",
+    "copy-from": "spear_steel",
+    "type": "GENERIC",
+    "name": { "str": "permafrost spear" },
+    "description": "A stout polearm tipped with a spearhead carved from a frozen core fragment. It pierces armor with ease, instantly flash-freezing the internal organs of its target.",
+    "color": "cyan",
+    "attacks": [
+      {
+        "id": "THRUST",
+        "to_hit": 1,
+        "damage": {
+          "values": [
+            { "damage_type": "bash", "amount": 6 },
+            { "damage_type": "stab", "amount": 40 },
+            { "damage_type": "cold", "amount": 18 }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "sq_frost_axe",
+    "copy-from": "battleaxe",
+    "type": "GENERIC",
+    "name": { "str": "permafrost battle axe" },
+    "description": "A massive battle axe with a heavy head forged from steel and a frozen core fragment. It shatters bones and freezes the marrow in a single, devastating sweep.",
+    "color": "cyan",
+    "attacks": [
+      {
+        "id": "SLASH",
+        "to_hit": 1,
+        "damage": {
+          "values": [
+            { "damage_type": "bash", "amount": 22 },
+            { "damage_type": "cut", "amount": 40 },
+            { "damage_type": "cold", "amount": 20 }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "sq_frost_greatsword",
+    "copy-from": "zweihander",
+    "type": "GENERIC",
+    "name": { "str": "permafrost greatsword" },
+    "description": "An enormous two-handed sword infused with the raw power of a frozen core. To wield it is to swing a glacier; it leaves nothing but shattered, frozen corpses in its wake.",
+    "color": "cyan",
+    "attacks": [
+      {
+        "id": "SLASH",
+        "to_hit": 2,
+        "damage": {
+          "values": [
+            { "damage_type": "bash", "amount": 18 },
+            { "damage_type": "cut", "amount": 39 },
+            { "damage_type": "cold", "amount": 25 }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "sq_cryo_dagger_off",
+    "copy-from": "knife_combat",
+    "type": "TOOL",
+    "name": { "str": "cryo-blade dagger (off)", "str_pl": "cryo-blade daggers (off)" },
+    "description": "A high-tech hilt housing a frozen core as its power source. When activated, it projects a condensed blade of absolute zero energy. It is currently off.",
+    "color": "dark_gray",
+    "ammo": "battery",
+    "use_action": {
+      "type": "transform",
+      "msg": "You activate the dagger. A terrifyingly cold energy blade hums to life.",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The battery is dead.",
+      "target": "sq_cryo_dagger_on"
+    },
+    "magazines": [ [ "battery", [ "light_battery_cell", "light_plus_battery_cell", "light_atomic_battery_cell" ] ] ],
+    "magazine_well": "250 ml"
+  },
+  {
+    "id": "sq_cryo_dagger_on",
+    "copy-from": "sq_cryo_dagger_off",
+    "type": "TOOL",
+    "name": { "str": "cryo-blade dagger (on)", "str_pl": "cryo-blade daggers (on)" },
+    "description": "A high-tech hilt projecting a condensed blade of absolute zero energy. The air around it crackles with frost. It is currently on.",
+    "color": "light_cyan",
+    "revert_to": "sq_cryo_dagger_off",
+    "revert_msg": "The cryo-blade dissipates as the power runs dry.",
+    "use_action": { "type": "transform", "msg": "You deactivate the cryo-blade.", "target": "sq_cryo_dagger_off" },
+    "attacks": [
+      {
+        "id": "THRUST",
+        "to_hit": 2,
+        "damage": { "values": [ { "damage_type": "stab", "amount": 20 }, { "damage_type": "cold", "amount": 25 } ] }
+      }
+    ],
+    "extend": { "flags": [ "TRADER_AVOID", "COMBAT_NPC_ON", "NONCONDUCTIVE" ] },
+    "power_draw": 50000
+  },
+  {
+    "id": "sq_cryo_sword_off",
+    "copy-from": "broadsword",
+    "type": "TOOL",
+    "name": { "str": "cryo-edge sword (off)", "str_pl": "cryo-edge swords (off)" },
+    "description": "A sophisticated sword hilt powered by a frozen core. It is designed to emit a searingly cold energy blade capable of slicing through molecular bonds. It is currently off.",
+    "color": "dark_gray",
+    "ammo": "battery",
+    "use_action": {
+      "type": "transform",
+      "msg": "The cryo-edge ignites with a blinding cyan flash, dropping the room's temperature.",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The battery is dead.",
+      "target": "sq_cryo_sword_on"
+    },
+    "magazines": [ [ "battery", [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell" ] ] ],
+    "magazine_well": "500 ml"
+  },
+  {
+    "id": "sq_cryo_sword_on",
+    "copy-from": "sq_cryo_sword_off",
+    "type": "TOOL",
+    "name": { "str": "cryo-edge sword (on)", "str_pl": "cryo-edge swords (on)" },
+    "description": "A sophisticated sword hilt projecting a searingly cold energy blade. It leaves a trail of falling snow with every movement. It is currently on.",
+    "color": "cyan",
+    "revert_to": "sq_cryo_sword_off",
+    "revert_msg": "The cryo-edge flickers and dies out.",
+    "use_action": { "type": "transform", "msg": "You shut down the cryo-edge.", "target": "sq_cryo_sword_off" },
+    "attacks": [
+      {
+        "id": "SLASH",
+        "to_hit": 3,
+        "damage": { "values": [ { "damage_type": "cut", "amount": 25 }, { "damage_type": "cold", "amount": 40 } ] }
+      }
+    ],
+    "extend": { "flags": [ "TRADER_AVOID", "COMBAT_NPC_ON", "NONCONDUCTIVE" ] },
+    "power_draw": 150000
+  },
+  {
+    "id": "sq_cryo_spear_off",
+    "copy-from": "pike",
+    "type": "TOOL",
+    "name": { "str": "cryo-lance (off)", "str_pl": "cryo-lances (off)" },
+    "description": "A reinforced polearm chassis wired to a frozen core. It is capable of projecting a massive, freezing lance of energy. It is currently off.",
+    "color": "dark_gray",
+    "ammo": "battery",
+    "use_action": {
+      "type": "transform",
+      "msg": "The cryo-lance extends with a harsh crackle of freezing air.",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The battery is dead.",
+      "target": "sq_cryo_spear_on"
+    },
+    "magazines": [ [ "battery", [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell" ] ] ],
+    "magazine_well": "500 ml"
+  },
+  {
+    "id": "sq_cryo_spear_on",
+    "copy-from": "sq_cryo_spear_off",
+    "type": "TOOL",
+    "name": { "str": "cryo-lance (on)", "str_pl": "cryo-lances (on)" },
+    "description": "A reinforced polearm chassis projecting a massive, freezing lance of absolute zero energy. The very air around the tip condenses into ice. It is currently on.",
+    "color": "cyan",
+    "revert_to": "sq_cryo_spear_off",
+    "revert_msg": "The cryo-lance collapses as power fails.",
+    "use_action": { "type": "transform", "msg": "You deactivate the cryo-lance.", "target": "sq_cryo_spear_off" },
+    "attacks": [
+      {
+        "id": "IMPALE",
+        "to_hit": 2,
+        "damage": { "values": [ { "damage_type": "stab", "amount": 30 }, { "damage_type": "cold", "amount": 50 } ] }
+      }
+    ],
+    "extend": { "flags": [ "TRADER_AVOID", "COMBAT_NPC_ON", "NONCONDUCTIVE" ] },
+    "power_draw": 200000
+  },
+  {
+    "id": "sq_cryo_greatsword_off",
+    "copy-from": "zweihander",
+    "type": "TOOL",
+    "name": { "str": "avalanche greatsword (off)", "str_pl": "avalanche greatswords (off)" },
+    "description": "An oversized, highly advanced hilt built around a complete frozen core. When powered, it generates an impossibly large blade of destructive cryogenic energy. It is currently off.",
+    "color": "dark_gray",
+    "ammo": "battery",
+    "use_action": {
+      "type": "transform",
+      "msg": "With a thunderous roar, the avalanche greatsword forms a massive pillar of freezing energy!",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The battery is dead.",
+      "target": "sq_cryo_greatsword_on"
+    },
+    "magazines": [ [ "battery", [ "heavy_battery_cell", "heavy_plus_battery_cell", "heavy_atomic_battery_cell" ] ] ],
+    "magazine_well": "1000 ml"
+  },
+  {
+    "id": "sq_cryo_greatsword_on",
+    "copy-from": "sq_cryo_greatsword_off",
+    "type": "TOOL",
+    "name": { "str": "avalanche greatsword (on)", "str_pl": "avalanche greatswords (on)" },
+    "description": "An impossibly large blade of destructive cryogenic energy protrudes from the hilt. It illuminates the area with a terrifying, ghostly blue light. It is currently on.",
+    "color": "light_blue",
+    "revert_to": "sq_cryo_greatsword_off",
+    "revert_msg": "The avalanche greatsword shatters into nothingness as power runs out.",
+    "use_action": { "type": "transform", "msg": "You power down the avalanche greatsword.", "target": "sq_cryo_greatsword_off" },
+    "attacks": [
+      {
+        "id": "SLASH",
+        "to_hit": 1,
+        "damage": { "values": [ { "damage_type": "cut", "amount": 50 }, { "damage_type": "cold", "amount": 75 } ] }
+      }
+    ],
+    "extend": { "flags": [ "TRADER_AVOID", "COMBAT_NPC_ON", "NONCONDUCTIVE", "LIGHT_240" ] },
+    "power_draw": 300000
+  },
+  {
+    "result": "sq_frost_dagger",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_KNIVES",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": "45 m",
+    "book_learn": [ [ "sq_recipe_book_frost_melee", 6 ] ],
+    "using": [ [ "blacksmithing_standard", 4 ] ],
+    "components": [ [ [ "dagger_medieval", 1 ] ], [ [ "sq_frozen_core_fragments", 1 ] ] ]
+  },
+  {
+    "result": "sq_frost_sword",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_SWORDS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "90 m",
+    "book_learn": [ [ "sq_recipe_book_frost_melee", 7 ] ],
+    "using": [ [ "blacksmithing_standard", 8 ] ],
+    "components": [ [ [ "arming_sword", 1 ] ], [ [ "sq_frozen_core", 1 ] ] ]
+  },
+  {
+    "result": "sq_frost_spear",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_SPEARS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "90 m",
+    "book_learn": [ [ "sq_recipe_book_frost_melee", 7 ] ],
+    "using": [ [ "blacksmithing_standard", 8 ] ],
+    "components": [ [ [ "spear_steel", 1 ] ], [ [ "sq_frozen_core", 1 ] ] ]
+  },
+  {
+    "result": "sq_frost_axe",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_AXES",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "120 m",
+    "book_learn": [ [ "sq_recipe_book_frost_melee", 7 ] ],
+    "using": [ [ "blacksmithing_standard", 12 ] ],
+    "components": [ [ [ "battleaxe", 1 ] ], [ [ "sq_frozen_core", 1 ] ] ]
+  },
+  {
+    "result": "sq_frost_greatsword",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_SWORDS",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "180 m",
+    "book_learn": [ [ "sq_recipe_book_frost_melee", 8 ] ],
+    "using": [ [ "blacksmithing_standard", 20 ] ],
+    "components": [ [ [ "zweihander", 1 ] ], [ [ "sq_frozen_core", 1 ] ] ]
+  },
+  {
+    "result": "sq_cryo_dagger_off",
+    "type": "recipe",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Melee Weapons",
+    "skill_used": "electronics",
+    "difficulty": 9,
+    "time": "180 m",
+    "book_learn": [ [ "sq_recipe_book_cryo_tech", 8 ] ],
+    "using": [ [ "soldering_standard", 5 ], [ "welding_standard", 5 ] ],
+    "tools": [
+      [ [ "sq_atomic_forge", -1 ] ],
+      [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ],
+      [ [ "welder", 200 ], [ "oxy_torch", 40 ], [ "welder_crude", 300 ], [ "toolset", 300 ] ],
+      [ [ "soldering_iron", 50 ], [ "toolset", 50 ] ]
+    ],
+    "components": [
+      [ [ "knife_combat", 1 ] ],
+      [ [ "sq_frozen_core", 1 ] ],
+      [ [ "amplifier", 1 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "nanomaterial", 20 ] ],
+      [ [ "alloy_sheet", 1 ] ]
+    ]
+  },
+  {
+    "result": "sq_cryo_sword_off",
+    "type": "recipe",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Melee Weapons",
+    "skill_used": "electronics",
+    "difficulty": 9,
+    "time": "240 m",
+    "book_learn": [ [ "sq_recipe_book_cryo_tech", 9 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "welding_standard", 10 ] ],
+    "tools": [
+      [ [ "sq_atomic_forge", -1 ] ],
+      [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ],
+      [ [ "welder", 200 ], [ "oxy_torch", 40 ], [ "welder_crude", 300 ], [ "toolset", 300 ] ],
+      [ [ "soldering_iron", 50 ], [ "toolset", 50 ] ]
+    ],
+    "components": [
+      [ [ "broadsword", 1 ] ],
+      [ [ "sq_frozen_core", 1 ] ],
+      [ [ "amplifier", 2 ] ],
+      [ [ "power_supply", 2 ] ],
+      [ [ "nanomaterial", 40 ] ],
+      [ [ "alloy_sheet", 3 ] ]
+    ]
+  },
+  {
+    "result": "sq_cryo_spear_off",
+    "type": "recipe",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Melee Weapons",
+    "skill_used": "electronics",
+    "difficulty": 9,
+    "time": "240 m",
+    "book_learn": [ [ "sq_recipe_book_cryo_tech", 9 ] ],
+    "using": [ [ "soldering_standard", 10 ], [ "welding_standard", 10 ] ],
+    "tools": [
+      [ [ "sq_atomic_forge", -1 ] ],
+      [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ],
+      [ [ "welder", 200 ], [ "oxy_torch", 40 ], [ "welder_crude", 300 ], [ "toolset", 300 ] ],
+      [ [ "soldering_iron", 50 ], [ "toolset", 50 ] ]
+    ],
+    "components": [
+      [ [ "pike", 1 ] ],
+      [ [ "sq_frozen_core", 1 ] ],
+      [ [ "amplifier", 2 ] ],
+      [ [ "power_supply", 2 ] ],
+      [ [ "nanomaterial", 40 ] ],
+      [ [ "alloy_sheet", 3 ] ]
+    ]
+  },
+  {
+    "result": "sq_cryo_greatsword_off",
+    "type": "recipe",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Melee Weapons",
+    "skill_used": "electronics",
+    "difficulty": 10,
+    "time": "300 m",
+    "book_learn": [ [ "sq_recipe_book_cryo_tech", 10 ] ],
+    "using": [ [ "soldering_standard", 20 ], [ "welding_standard", 20 ] ],
+    "tools": [
+      [ [ "sq_atomic_forge", -1 ] ],
+      [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ],
+      [ [ "welder", 200 ], [ "oxy_torch", 40 ], [ "welder_crude", 300 ], [ "toolset", 300 ] ],
+      [ [ "soldering_iron", 50 ], [ "toolset", 50 ] ]
+    ],
+    "components": [
+      [ [ "zweihander", 1 ] ],
+      [ [ "sq_frozen_core", 1 ] ],
+      [ [ "amplifier", 4 ] ],
+      [ [ "power_supply", 4 ] ],
+      [ [ "nanomaterial", 80 ] ],
+      [ [ "alloy_sheet", 6 ] ]
+    ]
+  },
+  {
+    "id": "FROST_AMMO",
+    "type": "ammo_effect",
+    "trail": { "field_type": "fd_blizzard", "intensity_min": 1, "intensity_max": 1 }
+  },
+  {
+    "id": "sq_9mm_frost",
+    "copy-from": "9mmP2",
+    "type": "AMMO",
+    "name": { "str": "9x19mm FCP" },
+    "description": "A 9x19mm round tipped with a frozen core fragment. Upon firing, it trails a chilling mist and injects absolute zero temperatures directly into the target.",
+    "color": "cyan",
+    "relative": { "damage": { "damage_type": "cold", "amount": 12 } },
+    "extend": { "effects": [ "NEVER_MISFIRES", "FROST_AMMO" ] }
+  },
+  {
+    "id": "sq_556_frost",
+    "copy-from": "223",
+    "type": "AMMO",
+    "name": { "str": "5.56x45mm FCP" },
+    "description": "A 5.56x45mm round tipped with a frozen core fragment. It shatters armor through rapid thermal contraction and freezes internal organs instantly.",
+    "color": "cyan",
+    "relative": { "damage": { "damage_type": "cold", "amount": 18 } },
+    "extend": { "effects": [ "NEVER_MISFIRES", "FROST_AMMO" ] }
+  },
+  {
+    "id": "sq_762_51_frost",
+    "copy-from": "308",
+    "type": "AMMO",
+    "name": { "str": "7.62x51mm FCP" },
+    "description": "A high-caliber 7.62x51mm round embedded with a frozen core fragment. The impact alone can flash-freeze a limb, trailing a deadly blizzard in its wake.",
+    "color": "cyan",
+    "relative": { "damage": { "damage_type": "cold", "amount": 25 } },
+    "extend": { "effects": [ "NEVER_MISFIRES", "FROST_AMMO" ] }
+  },
+  {
+    "id": "sq_50bmg_frost",
+    "copy-from": "50bmg",
+    "type": "AMMO",
+    "name": { "str": ".50 BMG FCP" },
+    "description": "An anti-material .50 BMG round housing a significant chunk of a frozen core. It doesn't just pierce engine blocks; it reduces them to brittle, frozen shards that shatter into dust.",
+    "color": "cyan",
+    "relative": { "damage": { "damage_type": "cold", "amount": 40 } },
+    "extend": { "effects": [ "NEVER_MISFIRES", "FROST_AMMO" ] }
+  },
+  {
+    "id": "sq_arrow_frost",
+    "copy-from": "arrow_metal",
+    "type": "AMMO",
+    "name": { "str": "frost arrow", "str_pl": "frost arrows" },
+    "description": "Arrow crafted by fusing a frozen core into its shaft. It freezes targets upon impact, delivering absolute zero temperature directly into their flesh.",
+    "color": "cyan",
+    "relative": { "damage": { "damage_type": "cold", "amount": 15, "armor_penetration": 20 } },
+    "extend": { "effects": [ "FROST_AMMO" ] }
+  },
+  {
+    "result": "sq_9mm_frost",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_PISTOL",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "skills_required": [ [ "electronics", 5 ], [ "gun", 4 ] ],
+    "time": "10 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "sq_recipe_book_cryo_tech", 6 ] ],
+    "charges": 50,
+    "components": [ [ [ "9mmP2", 50 ] ], [ [ "sq_frozen_core", 1 ] ] ]
+  },
+  {
+    "result": "sq_556_frost",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "skills_required": [ [ "electronics", 5 ], [ "gun", 4 ] ],
+    "time": "12 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "sq_recipe_book_cryo_tech", 7 ] ],
+    "charges": 40,
+    "components": [ [ [ "223", 40 ] ], [ [ "sq_frozen_core", 1 ] ] ]
+  },
+  {
+    "result": "sq_762_51_frost",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "skills_required": [ [ "electronics", 6 ], [ "gun", 5 ] ],
+    "time": "15 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "sq_recipe_book_cryo_tech", 7 ] ],
+    "charges": 30,
+    "components": [ [ [ "308", 30 ] ], [ [ "sq_frozen_core", 1 ] ] ]
+  },
+  {
+    "result": "sq_50bmg_frost",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "skills_required": [ [ "electronics", 6 ], [ "gun", 5 ] ],
+    "time": "20 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "sq_recipe_book_cryo_tech", 8 ] ],
+    "charges": 20,
+    "components": [ [ [ "50bmg", 20 ] ], [ [ "sq_frozen_core", 1 ] ] ]
+  },
+  {
+    "result": "sq_arrow_frost",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_ARROWS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "electronics", 4 ], [ "archery", 4 ] ],
+    "time": "15 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "sq_recipe_book_cryo_tech", 5 ], [ "sq_recipe_book_frost_melee", 4 ] ],
+    "charges": 20,
+    "components": [ [ [ "sq_frozen_core", 1 ] ] ]
+  },
+  {
+    "id": "sq_space_anomaly_freezer",
+    "type": "GENERIC",
+    "category": "veh_parts",
+    "name": { "str": "stabilized portal freezer" },
+    "description": "Peering into the frostbitten maw of this localized dimensional tear, an old-world truth chills you to the bone. There are only two things that are truly bottomless: the freezing void of the universe, and a survivor's kleptomania.",
+    "weight": "140 kg",
+    "volume": "999 L",
+    "price": "15 kUSD",
+    "to_hit": -4,
+    "bashing": 2,
+    "material": [ "steel", "plastic" ],
+    "symbol": "]",
+    "color": "light_blue"
+  },
+  {
+    "result": "sq_space_anomaly_freezer",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "electronics",
+    "difficulty": 8,
+    "skills_required": [ [ "mechanics", 3 ], [ "electronics", 3 ] ],
+    "time": "40 h",
+    "book_learn": [ [ "sq_recipe_book_cryo_tech", 8 ] ],
+    "using": [ [ "welding_standard", 6 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [
+      [ [ "sq_megafreezer", 1 ] ],
+      [ [ "sq_frozen_core", 3 ] ],
+      [ [ "teleporter", 1 ] ],
+      [ [ "portal", 1 ] ],
+      [ [ "plut_cell", 5 ] ]
+    ]
+  }
+]

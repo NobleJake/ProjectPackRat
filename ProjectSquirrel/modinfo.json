@@ -2,9 +2,9 @@
   {
     "type": "MOD_INFO",
     "id": "Jake's_Squirrel_mod",
-    "name": "<color_yellow>Project: Pack Rat</color>",
+    "name": "<color_yellow>Project: Packrat</color>",
     "authors": [ "NakedJake" ],
-	"version": "1.1.1",
+	"version": "1.1.2",
     "description": "Endgame high-tech mod. More information is available in README.md.",
     "category": "content",
     "dependencies": [ "bn" ]

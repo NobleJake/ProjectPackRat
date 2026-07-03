@@ -1,0 +1,92 @@
+[
+  {
+    "id": "mon_zombie_frozen",
+    "copy-from": "mon_zombie_frozen",
+    "type": "MONSTER",
+    "death_drops": "mon_zombie_frozen_death_drops"
+  },
+  {
+    "id": "mon_zombie_frost",
+    "copy-from": "mon_zombie_frost",
+    "type": "MONSTER",
+    "death_drops": "mon_zombie_frost_death_drops"
+  },
+  {
+    "id": "mon_zombie_frost_brute",
+    "copy-from": "mon_zombie_frost_brute",
+    "type": "MONSTER",
+    "death_drops": "mon_zombie_frost_brute_death_drops"
+  },
+  {
+    "id": "mon_dog_frost_nipper",
+    "copy-from": "mon_dog_frost_nipper",
+    "type": "MONSTER",
+    "death_drops": "mon_dog_frost_nipper_death_drops"
+  },
+  {
+    "id": "mon_dog_frost_biter",
+    "copy-from": "mon_dog_frost_biter",
+    "type": "MONSTER",
+    "death_drops": "mon_dog_frost_biter_death_drops"
+  },
+  {
+    "id": "mon_frost_beast",
+    "copy-from": "mon_frost_beast",
+    "type": "MONSTER",
+    "death_drops": "mon_frost_beast_death_drops"
+  },
+  {
+    "id": "mon_frost_beast_clone",
+    "copy-from": "mon_frost_beast_clone",
+    "type": "MONSTER",
+    "death_drops": "mon_frost_beast_clone_death_drops"
+  },
+  {
+    "id": "mon_snowman",
+    "copy-from": "mon_snowman",
+    "type": "MONSTER",
+    "death_drops": "mon_snowman_death_drops"
+  },
+  {
+    "id": "mon_ice_golem",
+    "copy-from": "mon_ice_golem",
+    "type": "MONSTER",
+    "death_drops": "mon_ice_golem_death_drops"
+  },
+  {
+    "id": "mon_snowman_mr_stabby",
+    "copy-from": "mon_snowman_mr_stabby",
+    "type": "MONSTER",
+    "death_drops": "mon_snowman_mr_stabby_death_drops"
+  },
+  {
+    "id": "mon_snowman_gangster",
+    "copy-from": "mon_snowman_gangster",
+    "type": "MONSTER",
+    "death_drops": "mon_snowman_gangster_death_drops"
+  },
+  {
+    "id": "mon_winter_waker",
+    "copy-from": "mon_winter_waker",
+    "type": "MONSTER",
+    "death_drops": "mon_winter_waker_death_drops"
+  },
+  {
+    "id": "mon_ice_elemental",
+    "copy-from": "mon_ice_elemental",
+    "type": "MONSTER",
+    "death_drops": "mon_ice_elemental_death_drops"
+  },
+  {
+    "id": "mon_ice_demon",
+    "copy-from": "mon_ice_demon",
+    "type": "MONSTER",
+    "death_drops": "mon_ice_demon_death_drops"
+  },
+  {
+    "id": "mon_dragon_permafrost",
+    "copy-from": "mon_dragon_permafrost",
+    "type": "MONSTER",
+    "death_drops": "mon_dragon_permafrost_death_drops"
+  }
+]

@@ -9,9 +9,10 @@
 		  { "id": "sq_binary_sword", "fg": 0, "rotates": false },
           { "id": "overlay_wielded_sq_binary_sword", "fg": 1, "rotates": false },
           { "id": "overlay_wielded_sq_hardlight_glaive_off", "fg": 2, "rotates": false },
-          { "id": "overlay_wielded_sq_hardlight_glaive_on", "fg": 3, "rotates": false }
+          { "id": "overlay_wielded_sq_hardlight_glaive_on", "fg": 3, "rotates": false },
+		  { "id": "overlay_wielded_sq_cryo_spear_off", "fg": 4, "rotates": false },
+          { "id": "overlay_wielded_sq_cryo_spear_on", "fg": 5, "rotates": false }
         ],
-        "//": "range 18113 to 18672",
         "sprite_width": 64,
         "sprite_height": 80,
         "sprite_offset_x": -16,
