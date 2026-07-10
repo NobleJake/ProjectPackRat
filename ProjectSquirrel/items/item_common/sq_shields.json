@@ -32,7 +32,7 @@
     "price": "1350 cent",
     "price_postapoc": "320 cent",
     "to_hit": -1,
-	"cutting": 3,
+    "cutting": 3,
     "bashing": 10,
     "material": [ "steel" ],
     "symbol": "[",
@@ -65,7 +65,7 @@
     "environmental_protection": 3,
     "material_thickness": 6,
     "techniques": [ "WBLOCK_2" ],
-    "flags": [ "OVERSIZE", "OUTER", "RESTRICT_HANDS", "BLOCK_WHILE_WORN" ]
+    "flags": [ "OVERSIZE", "BELTED", "RESTRICT_HANDS", "BLOCK_WHILE_WORN" ]
   },
   {
     "id": "sq_shield_riot",
@@ -171,8 +171,8 @@
     "material_thickness": 8,
     "use_action": { "type": "transform", "msg": "The tactical shield is pulled to a defensive posture!", "target": "sq_swat_shield_act" },
     "relic_data": {
-          "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "sq_stun_immune", "intensity": 1 } ]
-    } ] }
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "sq_stun_immune", "intensity": 1 } ] } ]
+    }
   },
   {
     "type": "ARMOR",
@@ -196,8 +196,8 @@
     "material_thickness": 8,
     "use_action": { "type": "transform", "msg": "The tactical shield is lowered.", "target": "sq_swat_shield" },
     "relic_data": {
-          "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "sq_stun_immune", "intensity": 1 } ]
-	} ] }
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "sq_stun_immune", "intensity": 1 } ] } ]
+    }
   },
   {
     "type": "ARMOR",
@@ -253,7 +253,7 @@
     "skill_used": "fabrication",
     "difficulty": 1,
     "time": 10000,
-	"reversible": true,
+    "reversible": true,
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 1 } ],
     "components": [ [ [ "nail", 6 ] ], [ [ "2x4", 4 ] ] ]
@@ -266,10 +266,10 @@
     "skill_used": "fabrication",
     "difficulty": 3,
     "time": 25000,
-	"reversible": true,
+    "reversible": true,
     "autolearn": true,
     "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "HAMMER", "level": 2 } ],
-    "components": [ [ [ "sheet_metal", 1 ] ], [ ["sheet_metal_small", 2 ] ], [ [ "scrap", 8 ] ], [ [ "pipe", 1 ] ] ]
+    "components": [ [ [ "sheet_metal", 1 ] ], [ [ "sheet_metal_small", 2 ] ], [ [ "scrap", 8 ] ], [ [ "pipe", 1 ] ] ]
   },
   {
     "result": "sq_shield_riot_small",
@@ -279,7 +279,7 @@
     "skill_used": "fabrication",
     "difficulty": 5,
     "time": 120000,
-	"reversible": true,
+    "reversible": true,
     "autolearn": false,
     "book_learn": [ [ "manual_fabrication", 4 ], [ "textbook_fabrication", 4 ] ],
     "qualities": [ { "id": "WRENCH", "level": 2 } ],
@@ -294,7 +294,7 @@
     "skill_used": "fabrication",
     "difficulty": 5,
     "time": 120000,
-	"reversible": true,
+    "reversible": true,
     "autolearn": false,
     "book_learn": [ [ "manual_fabrication", 4 ], [ "textbook_fabrication", 4 ] ],
     "qualities": [ { "id": "WRENCH", "level": 2 } ],
@@ -309,12 +309,12 @@
     "skill_used": "fabrication",
     "difficulty": 7,
     "time": "340 m",
-	"reversible": false,
-	"autolearn": false,
+    "reversible": false,
+    "autolearn": false,
     "book_learn": [ [ "recipe_melee", 5 ], [ "textbook_mechanics", 8 ] ],
     "using": [ [ "welding_standard", 21 ], [ "blacksmithing_advanced", 7 ] ],
     "qualities": [ { "id": "GRIND", "level": 2 } ],
-	"components": [ [ [ "hard_plate", 1 ] ], [ [ "ceramic_armor", 6 ] ], [ [ "kevlar_plate", 24 ] ] ]
+    "components": [ [ [ "hard_plate", 1 ] ], [ [ "ceramic_armor", 6 ] ], [ [ "kevlar_plate", 24 ] ] ]
   },
   {
     "result": "sq_swat_shield",
@@ -325,12 +325,12 @@
     "skills_required": [ [ "mechanics", 5 ] ],
     "difficulty": 9,
     "time": "340 m",
-	"reversible": false,
-	"autolearn": false,
+    "reversible": false,
+    "autolearn": false,
     "book_learn": [ [ "recipe_melee", 7 ], [ "atomic_survival", 7 ] ],
     "using": [ [ "welding_standard", 21 ], [ "blacksmithing_advanced", 7 ] ],
     "qualities": [ { "id": "GRIND", "level": 2 } ],
-	"components": [ [ [ "hard_plate", 1 ] ], [ [ "ceramic_armor", 16 ] ], [ [ "foldframe", 2 ] ] ]
+    "components": [ [ [ "hard_plate", 1 ] ], [ [ "ceramic_armor", 16 ] ], [ [ "foldframe", 2 ] ] ]
   },
   {
     "result": "sq_swat_shield_1",
@@ -341,11 +341,11 @@
     "skills_required": [ [ "mechanics", 5 ] ],
     "difficulty": 8,
     "time": "340 m",
-	"reversible": false,
-	"autolearn": false,
+    "reversible": false,
+    "autolearn": false,
     "book_learn": [ [ "recipe_melee", 5 ], [ "textbook_mechanics", 8 ] ],
     "using": [ [ "welding_standard", 21 ], [ "blacksmithing_advanced", 7 ] ],
     "qualities": [ { "id": "GRIND", "level": 2 } ],
-	"components": [ [ [ "hard_plate", 1 ] ], [ [ "ceramic_armor", 8 ] ], [ [ "foldframe", 2 ] ] ]
+    "components": [ [ [ "hard_plate", 1 ] ], [ [ "ceramic_armor", 8 ] ], [ [ "foldframe", 2 ] ] ]
   }
 ]

@@ -20,7 +20,7 @@
     "relative": { "speed": -35, "armor_bash": 12, "armor_cut": 18, "armor_bullet": 18 },
     "armor_fire": 0,
     "delete": { "flags": [ "WARM" ] },
-    "attack_effs": [ { "id": "cold", "duration": 60, "chance": 100 }, { "id": "frostbite", "duration": 15, "chance": 50 } ],
+    "attack_effs": [ { "id": "sq_zed_cold", "duration": 60, "chance": 100 }, { "id": "sq_zed_frostbite", "duration": 15, "chance": 50 } ],
     "upgrades": { "half_life": 14, "into_group": "GROUP_WINTER_ZOMBIE_UPGRADE" }
   },
   {
@@ -34,7 +34,7 @@
     "armor_fire": 0,
     "extend": { "special_attacks": [ [ "SMASH", 30 ] ] },
     "delete": { "flags": [ "WARM" ] },
-    "attack_effs": [ { "id": "cold", "duration": 120, "chance": 100 }, { "id": "frostbite", "duration": 30, "chance": 100 } ],
+    "attack_effs": [ { "id": "sq_zed_cold", "duration": 120, "chance": 100 }, { "id": "sq_zed_frostbite", "duration": 30, "chance": 100 } ],
     "upgrades": { "half_life": 14, "into_group": "GROUP_WINTER_ZOMBIE_FULL_UPGRADE" }
   },
   {
@@ -47,7 +47,7 @@
     "relative": { "speed": -15, "armor_bash": 4, "armor_cut": 6 },
     "armor_fire": 0,
     "delete": { "flags": [ "WARM" ] },
-    "attack_effs": [ { "id": "cold", "duration": 60, "chance": 100 }, { "id": "frostbite", "duration": 15, "chance": 30 } ],
+    "attack_effs": [ { "id": "sq_zed_cold", "duration": 60, "chance": 100 }, { "id": "sq_zed_frostbite", "duration": 15, "chance": 30 } ],
     "upgrades": { "half_life": 14, "into_group": "GROUP_WINTER_ZOMBIE_DOG_UPGRADE" }
   },
   {
@@ -65,7 +65,7 @@
     "melee_cut": 8,
     "melee_damage": [ { "damage_type": "cold", "amount": 6 } ],
     "delete": { "flags": [ "WARM" ] },
-    "attack_effs": [ { "id": "cold", "duration": 100, "chance": 100 }, { "id": "frostbite", "duration": 45, "chance": 75 } ],
+    "attack_effs": [ { "id": "sq_zed_cold", "duration": 100, "chance": 100 }, { "id": "sq_zed_frostbite", "duration": 45, "chance": 75 } ],
     "upgrades": { "half_life": 14, "into_group": "GROUP_WINTER_ZOMBIE_FULL_UPGRADE" }
   },
   {
@@ -108,7 +108,7 @@
     ],
     "path_settings": { "max_dist": 10 },
     "death_function": [ "MELT" ],
-    "attack_effs": [ { "id": "cold", "duration": 80, "chance": 100 }, { "id": "frostbite", "duration": 20, "chance": 50 } ],
+    "attack_effs": [ { "id": "sq_zed_cold", "duration": 80, "chance": 100 }, { "id": "sq_zed_frostbite", "duration": 20, "chance": 50 } ],
     "flags": [ "SEES", "SMELLS", "GOODHEARING", "PRIORITIZE_TARGETS", "KEENNOSE", "BASHES", "NO_BREATHE" ]
   },
   {
@@ -144,7 +144,7 @@
     "path_settings": { "max_dist": 10 },
     "death_function": [ "MELT" ],
     "special_attacks": [ [ "DISAPPEAR", 50 ] ],
-    "attack_effs": [ { "id": "cold", "duration": 80, "chance": 100 }, { "id": "frostbite", "duration": 20, "chance": 50 } ],
+    "attack_effs": [ { "id": "sq_zed_cold", "duration": 80, "chance": 100 }, { "id": "sq_zed_frostbite", "duration": 20, "chance": 50 } ],
     "flags": [ "SEES", "SMELLS", "GOODHEARING", "PRIORITIZE_TARGETS", "KEENNOSE", "BASHES", "NO_BREATHE" ]
   },
   {
@@ -172,7 +172,7 @@
     "armor_bullet": 0,
     "armor_fire": 0,
     "death_function": [ "MELT" ],
-    "attack_effs": [ { "id": "cold", "duration": 40, "chance": 100 }, { "id": "frostbite", "duration": 10, "chance": 25 } ],
+    "attack_effs": [ { "id": "sq_zed_cold", "duration": 40, "chance": 100 }, { "id": "sq_zed_frostbite", "duration": 10, "chance": 25 } ],
     "flags": [ "SEES", "HEARS", "POISON", "NO_BREATHE", "COLDPROOF" ],
     "upgrades": { "half_life": 8, "into_group": "GROUP_SNOWMAN_UPGRADE" }
   },
@@ -279,7 +279,7 @@
         "no_ammo_sound": ""
       }
     ],
-    "attack_effs": [ { "id": "cold", "duration": 60, "chance": 100 }, { "id": "frostbite", "duration": 15, "chance": 50 } ],
+    "attack_effs": [ { "id": "sq_zed_cold", "duration": 60, "chance": 100 }, { "id": "sq_zed_frostbite", "duration": 15, "chance": 50 } ],
     "death_function": [ "MELT" ],
     "flags": [ "SEES", "HEARS", "FLIES", "NO_BREATHE", "COLDPROOF" ],
     "upgrades": { "half_life": 14, "into_group": "GROUP_ICE_ELEMENTAL_UPGRADE" }
@@ -319,7 +319,7 @@
       }
     ],
     "delete": { "flags": [ "FLIES" ] },
-    "attack_effs": [ { "id": "cold", "duration": 120, "chance": 100 }, { "id": "frostbite", "duration": 40, "chance": 100 } ]
+    "attack_effs": [ { "id": "sq_zed_cold", "duration": 120, "chance": 100 }, { "id": "sq_zed_frostbite", "duration": 40, "chance": 100 } ]
   },
   {
     "id": "mon_winter_waker",
@@ -341,7 +341,7 @@
       }
     ],
     "delete": { "flags": [ "FLIES" ] },
-    "attack_effs": [ { "id": "cold", "duration": 120, "chance": 100 }, { "id": "frostbite", "duration": 40, "chance": 100 } ]
+    "attack_effs": [ { "id": "sq_zed_cold", "duration": 120, "chance": 100 }, { "id": "sq_zed_frostbite", "duration": 40, "chance": 100 } ]
   },
   {
     "id": "mon_dragon_permafrost",
@@ -430,6 +430,6 @@
       "CANT_CLONE",
       "COLDPROOF"
     ],
-    "attack_effs": [ { "id": "cold", "duration": 300, "chance": 100 }, { "id": "frostbite", "duration": 100, "chance": 100 } ]
+    "attack_effs": [ { "id": "sq_zed_cold", "duration": 300, "chance": 100 }, { "id": "sq_zed_frostbite", "duration": 100, "chance": 100 } ]
   }
 ]

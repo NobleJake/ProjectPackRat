@@ -73,17 +73,13 @@
     "difficulty": 3,
     "time": "15 m",
     "autolearn": true,
-    "components": [
-      [ [ "sq_frozen_shards", 10 ] ],
-      [ [ "sq_map_fragment_frozen", 10 ] ],
-      [ [ "duct_tape", 5 ], [ "medical_tape", 10 ] ]
-    ]
+    "components": [ [ [ "sq_frozen_shards", 10 ] ], [ [ "sq_map_fragment_frozen", 10 ] ], [ [ "duct_tape", 5 ], [ "medical_tape", 10 ] ] ]
   },
   {
     "id": "sq_dragon_warning_note",
     "type": "GENERIC",
     "category": "books",
-	"looks_like": "survnote",
+    "looks_like": "survnote",
     "name": { "str": "blood-stained surveyor's note" },
     "description": "A hastily scribbled note found on a frozen corpse. It reads:\n\n'Turn back. The undead dragon slumbers at the abyss of this frozen hell. The narrow, pitch-black cavern makes long-range combat impossible. If you try to keep your distance, its frostfire breath will obliterate you. Do NOT hug the walls—the breath shatters against the rock, and the ice shrapnel will tear you to shreds. If you step too close, its blizzard will freeze you solid. Your only hope? Wait for the brief lull after it unleashes its cold, pack the thickest thermal armor you can find, and smash its skull in melee. Do not cower. Hesitation means death.'",
     "weight": "5 g",
@@ -147,7 +143,7 @@
     "name": { "str": "journal of the winter blacksmith" },
     "description": "A weathered journal bound in an unknown, freezing leather. It details the obsessive research of a blacksmith who discovered how to bind 'frozen core' into steel without the metal shattering. It contains esoteric methods to perfectly fuse the absolute zero energy of a frozen core into conventional cold weapons, granting them an unmelting, lethal edge.",
     "looks_like": "recipe_caseless",
-	"weight": "450 g",
+    "weight": "450 g",
     "volume": "500 ml",
     "price_postapoc": "15 USD",
     "bashing": 2,
@@ -167,7 +163,7 @@
     "name": { "str": "synthesis notes: cryo-light weaponry" },
     "description": "A personalized binder containing a brilliant synthesis of Mizuno's hardlight theories and the winter blacksmith's cryogenic metallurgy. It outlines the ultimate blueprints for channeling a complete frozen core into localized force fields, giving birth to devastating high-tech cryo weapons.",
     "looks_like": "recipe_caseless",
-	"weight": "200 g",
+    "weight": "200 g",
     "volume": "250 ml",
     "price_postapoc": "20 USD",
     "bashing": 1,
@@ -189,8 +185,9 @@
     "skill_used": "electronics",
     "difficulty": 8,
     "skills_required": [ [ "fabrication", 6 ], [ "computer", 4 ] ],
+    "book_learn": [ [ "sq_recipe_book_frost_melee", 7 ] ],
     "time": "120 m",
-    "autolearn": true,
+    "autolearn": false,
     "tools": [
       [ [ "sq_recipe_lab_hardlight", -1 ] ],
       [ [ "sq_recipe_book_frost_melee", -1 ] ],
@@ -537,7 +534,7 @@
       [ [ "soldering_iron", 50 ], [ "toolset", 50 ] ]
     ],
     "components": [
-	  [ [ "sq_frozen_shards", 20 ] ],
+      [ [ "sq_frozen_shards", 20 ] ],
       [ [ "sq_frozen_core", 1 ] ],
       [ [ "amplifier", 1 ] ],
       [ [ "power_supply", 1 ] ],
@@ -562,7 +559,7 @@
       [ [ "soldering_iron", 50 ], [ "toolset", 50 ] ]
     ],
     "components": [
-	  [ [ "sq_frozen_shards", 20 ] ],
+      [ [ "sq_frozen_shards", 20 ] ],
       [ [ "sq_frozen_core", 1 ] ],
       [ [ "amplifier", 2 ] ],
       [ [ "power_supply", 2 ] ],
@@ -798,7 +795,7 @@
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
     "components": [
       [ [ "sq_megafreezer", 1 ] ],
-	  [ [ "sq_frozen_shards", 20 ] ],
+      [ [ "sq_frozen_shards", 20 ] ],
       [ [ "sq_frozen_core", 3 ] ],
       [ [ "teleporter", 1 ] ],
       [ [ "portal", 1 ] ],
@@ -911,6 +908,17 @@
     "components": [ [ [ "sq_frozen_shards", 9 ] ] ]
   },
   {
+    "type": "mutation",
+    "id": "SQ_ABYSSAL_CHILL",
+    "name": "Abyssal Chill",
+    "points": 0,
+    "bodytemp_modifiers": [ -6500, -2000 ],
+    "description": "The unmelting frost from your abyssal gear seeps into your very flesh, acting as a relentless heat sink. It constantly saps your body heat, leaving you unnaturally cold.",
+    "starting_trait": false,
+    "valid": false,
+    "purifiable": false
+  },
+  {
     "id": "sq_glacial_plate_armor",
     "copy-from": "armor_lightplate",
     "type": "ARMOR",
@@ -923,10 +931,10 @@
         {
           "has": "WORN",
           "condition": "ALWAYS",
+          "mutations": [ "SQ_ABYSSAL_CHILL" ],
           "values": [
             { "value": "ARMOR_HEAT", "add": -30 },
-            { "value": "ARMOR_BASH", "add": -15 },
-            { "value": "ARMOR_CUT", "add": -15 }
+            { "value": "ARMOR_COLD", "add": -8 }
           ]
         }
       ]
@@ -939,18 +947,16 @@
     "subcategory": "CSC_ARMOR_SUIT",
     "skill_used": "fabrication",
     "difficulty": 8,
+    "book_learn": [ [ "sq_recipe_book_frost_melee", 7 ] ],
     "time": "180 m",
-    "autolearn": true,
+    "autolearn": false,
     "using": [ [ "blacksmithing_standard", 15 ] ],
-    "components": [
-      [ [ "armor_lightplate", 1 ] ],
-      [ [ "sq_frozen_core", 2 ] ],
-      [ [ "sq_frozen_shards", 10 ] ]
-    ]
+    "components": [ [ [ "armor_lightplate", 1 ] ], [ [ "sq_frozen_core", 2 ] ], [ [ "sq_frozen_shards", 10 ] ] ]
   },
   {
     "id": "sq_fading_fire_mantle",
     "copy-from": "cloak_fur",
+	"looks_like": "optical_cloak",
     "type": "ARMOR",
     "name": { "str": "mantle of the fading fire" },
     "description": "Woven from the hides of beasts claimed by the abyssal cold and infused with ground frost core fragments. It scatters a faint blue blizzard even in pitch-black darkness. It reflects frostbite onto attackers but constantly saps your own body heat.",
@@ -961,6 +967,8 @@
         {
           "has": "WORN",
           "condition": "ALWAYS",
+          "mutations": [ "SQ_ABYSSAL_CHILL" ],
+          "values": [ { "value": "ARMOR_COLD", "add": -5 } ],
           "hit_me_effect": [
             {
               "id": "sq_frostbite_reflect_spell",
@@ -981,23 +989,31 @@
     "subcategory": "CSC_ARMOR_SUIT",
     "skill_used": "tailor",
     "difficulty": 6,
+    "book_learn": [ [ "sq_recipe_book_frost_melee", 7 ] ],
     "time": "120 m",
-    "autolearn": true,
-    "components": [
-      [ [ "cloak_fur", 1 ], [ "cloak_leather", 1 ] ],
-      [ [ "sq_frozen_shards", 15 ] ]
-    ]
+    "autolearn": false,
+    "components": [ [ [ "cloak_fur", 1 ], [ "cloak_leather", 1 ] ], [ [ "sq_frozen_shards", 15 ] ], [ [ "sq_frozen_core", 1 ] ] ]
   },
   {
     "id": "sq_rimebound_hunter_garb",
     "copy-from": "survivor_suit",
-	"looks_like": "wsurvivor_suit",
+    "looks_like": "wsurvivor_suit",
     "type": "ARMOR",
     "name": { "str": "rimebound hunter's garb" },
     "description": "Assassin's garb woven from the pelts of winter horrors and infused with the biting chill of a frozen core. The unmelting frost clinging to the fabric naturally distorts the wearer's silhouette, granting exceptional camouflage. It allows you to blend seamlessly into both the frozen wastes and ruined cities as a silent predator.",
     "color": "white",
     "weight": "2500 g",
     "encumbrance": 12,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "mutations": [ "SQ_ABYSSAL_CHILL" ],
+          "values": [ { "value": "ARMOR_COLD", "add": -5 } ]
+        }
+      ]
+    },
     "extend": { "flags": [ "URBAN_CAMO", "NATURE_CAMO", "WATERPROOF" ] }
   },
   {
@@ -1007,13 +1023,10 @@
     "subcategory": "CSC_ARMOR_SUIT",
     "skill_used": "tailor",
     "difficulty": 7,
+    "book_learn": [ [ "sq_recipe_book_frost_melee", 7 ] ],
     "time": "150 m",
-    "autolearn": true,
-    "components": [
-      [ [ "survivor_suit", 1 ] ],
-	  [ [ "sq_frozen_shards", 20 ] ],
-      [ [ "sq_frozen_core", 1 ] ]
-    ]
+    "autolearn": false,
+    "components": [ [ [ "survivor_suit", 1 ] ], [ [ "sq_frozen_shards", 20 ] ], [ [ "sq_frozen_core", 1 ] ] ]
   },
   {
     "id": "sq_abyssal_monarch_crown",
@@ -1027,10 +1040,8 @@
         {
           "has": "WORN",
           "condition": "ALWAYS",
-          "mutations": [ "NOPAIN", "PSYCHOPATH", "FLIMSY2" ],
-          "values": [
-            { "value": "INTELLIGENCE", "add": -2 }
-          ]
+          "mutations": [ "NOPAIN", "PSYCHOPATH", "FLIMSY2", "SQ_ABYSSAL_CHILL" ],
+          "values": [ { "value": "INTELLIGENCE", "add": -2 }, { "value": "ARMOR_COLD", "add": -5 } ]
         }
       ]
     }
@@ -1042,12 +1053,9 @@
     "subcategory": "CSC_ARMOR_HEAD",
     "skill_used": "fabrication",
     "difficulty": 7,
+    "book_learn": [ [ "sq_recipe_book_frost_melee", 7 ] ],
     "time": "60 m",
-    "autolearn": true,
-    "components": [
-      [ [ "helmet_plate", 1 ] ],
-	  [ [ "sq_frozen_shards", 20 ] ],
-      [ [ "sq_frozen_core", 1 ] ]
-    ]
+    "autolearn": false,
+    "components": [ [ [ "helmet_plate", 1 ] ], [ [ "sq_frozen_shards", 20 ] ], [ [ "sq_frozen_core", 1 ] ] ]
   }
 ]

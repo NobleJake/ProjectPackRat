@@ -147,7 +147,6 @@
     "autolearn": true,
     "using": [ [ "welding_standard", 20 ] ],
     "qualities": [
-      { "id": "GLARE", "level": 2 },
       { "id": "HAMMER", "level": 2 },
       { "id": "SAW_M", "level": 2 },
       { "id": "SCREW", "level": 1 },

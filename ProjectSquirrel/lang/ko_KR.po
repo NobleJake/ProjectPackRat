@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2026-07-03 21:15+0900\n"
+"POT-Creation-Date: 2026-07-10 12:58+0900\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1556,6 +1556,21 @@ msgid ""
 msgstr ""
 "얼어붙은 파편을 품은 목걸이입니다. 심장 가까이에 머물며 극심한 추위로부터 상"
 "당한 보호를 제공합니다. (추위 저항 +3)"
+
+#: .\items\advtech\sq_frost_tier.json
+msgid "Abyssal Chill"
+msgstr "심연의 한기"
+
+#. ~ Description for Abyssal Chill
+#: .\items\advtech\sq_frost_tier.json
+msgid ""
+"The unmelting frost from your abyssal gear seeps into your very flesh, "
+"acting as a relentless heat sink. It constantly saps your body heat, leaving "
+"you unnaturally cold."
+msgstr ""
+"심연의 장비에서 뿜어져 나오는 절대 녹지 않는 서리가 살갗에 스며들어, 자비 없"
+"는 방열판 역할을 합니다. 끊임없이 체온을 갉아먹어, 당신을 기괴할 정도의 냉기 "
+"속에 내버려 둡니다."
 
 #: .\items\advtech\sq_frost_tier.json
 msgid "glacial plate armor"
@@ -3746,13 +3761,21 @@ msgid_plural "mega freezers"
 msgstr[0] "메가 냉동고"
 
 #. ~ Description for {'str': 'mega freezer', 'str_pl': 'mega freezers'}
-#. ~ Description for {'str': 'mega freezer'}
 #: .\items\advtech\sq_vehicle_part.json
 msgid ""
 "A large version of the 1000 litre capacity freezer designed as a mobile "
 "solution for freezing food. It provides insulation from external elements."
 msgstr ""
-"식품을 냉동 보관할 수 있는 이동식 솔루션으로 설계된 대형 버전의 1000L의 대용"
+"식품을 냉동 보관할 수 있는 이동식 솔루션으로 설계된 대형 버전의 600L의 대용"
+"량 냉동고입니다. 외부 요소로부터 단열 기능을 제공합니다."
+
+#. ~ Description for {'str': 'mega freezer'}
+#: .\items\advtech\sq_vehicle_part.json
+msgid ""
+"A large version of the 600 litre capacity freezer designed as a mobile "
+"solution for freezing food. It provides insulation from external elements."
+msgstr ""
+"식품을 냉동 보관할 수 있는 이동식 솔루션으로 설계된 대형 버전의 600L의 대용"
 "량 냉동고입니다. 외부 요소로부터 단열 기능을 제공합니다."
 
 #: .\items\advtech\sq_vehicle_part.json
@@ -7252,7 +7275,7 @@ msgstr[0] "비활성화된 메크: 익스플로러 (독립 모드)"
 #: .\monsters\sq_mechs.json
 msgid "broken mech: explorer (ride mode)"
 msgid_plural "broken mech: explorer (ride mode)s"
-msgstr[0] "파괴된 메크: 익스플로러 (탑승 모드)s"
+msgstr[0] "파괴된 메크: 익스플로러 (탑승 모드)"
 
 #. ~ Description for {'str': 'broken mech: explorer (ride mode)'}
 #. ~ Description for {'str': 'broken mech: explorer (standalone mode)'}
@@ -7971,6 +7994,68 @@ msgstr ""
 #: .\monsters\winter zeds\sq_zed-winter.json
 msgid "The permafrost dragon exhales a devastating cone of absolute zero!"
 msgstr "퍼마프로스트 드래곤이 절대 영도의 파괴적인 숨결을 내뿜습니다!"
+
+#: .\monsters\winter zeds\sq_zed-winter_effects.json
+msgid "Chilly"
+msgstr ""
+
+#. ~ Description of effect 'Chilly'.
+#: .\monsters\winter zeds\sq_zed-winter_effects.json
+#, c-format
+msgid "Your %s is exposed to the cold."
+msgstr ""
+
+#.
+#. ~ Speed name of effect(s) 'Chilly, Cold, Freezing'.
+#: .\monsters\winter zeds\sq_zed-winter_effects.json
+msgid "Cold"
+msgstr ""
+
+#. ~ Description of effect 'Cold'.
+#: .\monsters\winter zeds\sq_zed-winter_effects.json
+#, c-format
+msgid "Your %s is very exposed to the cold."
+msgstr ""
+
+#: .\monsters\winter zeds\sq_zed-winter_effects.json
+#, fuzzy
+#| msgid "freezing fog"
+msgid "Freezing"
+msgstr "얼어붙는 안개"
+
+#. ~ Description of effect 'Freezing'.
+#: .\monsters\winter zeds\sq_zed-winter_effects.json
+#, c-format
+msgid "Your %s is dangerously cold!"
+msgstr ""
+
+#: .\monsters\winter zeds\sq_zed-winter_effects.json
+#, fuzzy
+#| msgid "frost nipper"
+#| msgid_plural "frost nippers"
+msgid "Frostnip"
+msgstr "프로스트 니퍼"
+
+#. ~ Description of effect 'Frostnip'.
+#: .\monsters\winter zeds\sq_zed-winter_effects.json
+#, c-format
+msgid "Your %s is frostnipped and has gone numb."
+msgstr ""
+
+#.
+#. ~ Speed name of effect(s) 'Frostnip, Frostbite'.
+#: .\monsters\winter zeds\sq_zed-winter_effects.json
+#, fuzzy
+#| msgid "frost biter"
+#| msgid_plural "frost biters"
+msgid "Frostbite"
+msgstr "프로스트 바이터"
+
+#. ~ Description of effect 'Frostbite'.
+#: .\monsters\winter zeds\sq_zed-winter_effects.json
+#, c-format
+msgid "Your %s is frostbitten!  Its tissues are frozen from the cold!"
+msgstr ""
 
 #: .\mutations\item.json
 msgid "Fleet-footed serum"

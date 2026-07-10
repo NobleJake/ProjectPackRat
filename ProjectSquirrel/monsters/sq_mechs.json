@@ -132,9 +132,10 @@
         "targeting_cost": 150
       }
     ],
+	"regenerates": 1,
     "mech_battery": "storage_battery",
     "mech_weapon": "sq_walkergun5",
-    "revert_to_itype": "broken_sq_mech_balance",
+    "revert_to_itype": "bot_sq_mech_balance",
     "death_function": [ "BROKEN" ],
     "death_drops": { "groups": [ [ "robots", 20 ] ] },
     "flags": [
@@ -202,6 +203,7 @@
         "targeting_cost": 150
       }
     ],
+	"regenerates": 1,
     "revert_to_itype": "bot_sq_mech_balance_2",
     "death_function": [ "BROKEN" ],
     "death_drops": { "groups": [ [ "robots", 20 ] ] },
@@ -393,6 +395,7 @@
         "targeting_cost": 150
       }
     ],
+	"regenerates": 1,
     "mech_battery": "storage_battery",
     "mech_weapon": "sq_walkergun6",
     "revert_to_itype": "bot_sq_mech_heavy",
@@ -463,6 +466,7 @@
         "targeting_cost": 150
       }
     ],
+	"regenerates": 1,
     "revert_to_itype": "bot_sq_mech_heavy_2",
     "death_function": [ "BROKEN" ],
     "death_drops": { "groups": [ [ "robots", 20 ] ] },
@@ -655,9 +659,10 @@
         "targeting_cost": 150
       }
     ],
+	"regenerates": 2,
     "mech_battery": "storage_battery",
     "mech_weapon": "sq_walkergun7",
-    "revert_to_itype": "broken_sq_mech_light",
+    "revert_to_itype": "bot_sq_mech_light",
     "death_function": [ "BROKEN" ],
     "death_drops": { "groups": [ [ "robots", 20 ] ] },
     "flags": [
@@ -730,6 +735,7 @@
         "targeting_cost": 150
       }
     ],
+	"regenerates": 2,
     "revert_to_itype": "bot_sq_mech_light_2",
     "death_function": [ "BROKEN" ],
     "death_drops": { "groups": [ [ "robots", 20 ] ] },

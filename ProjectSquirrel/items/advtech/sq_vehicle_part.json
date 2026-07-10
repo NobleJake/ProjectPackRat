@@ -19,7 +19,7 @@
     "flags": [ "BALLOON", "SHOCK_IMMUNE" ],
     "damage_reduction": { "bash": 10 }
   },
-   {
+  {
     "id": "sq_multiballoon_external",
     "copy-from": "sq_multiballoon",
     "type": "vehicle_part",
@@ -58,11 +58,7 @@
     "time": "2 h",
     "autolearn": true,
     "using": [ [ "welding_standard", 10 ], [ "adhesive", 5 ] ],
-    "components": [
-      [ [ "graphene", 10 ] ],
-      [ [ "c_hydrogen_gas", 100 ], [ "airship_balloon_item", 2 ] ],
-      [ [ "alloy_sheet", 8 ] ]
-    ]
+    "components": [ [ [ "graphene", 10 ] ], [ [ "c_hydrogen_gas", 100 ], [ "airship_balloon_item", 2 ] ], [ [ "alloy_sheet", 8 ] ] ]
   },
   {
     "id": "sq_antigrav_hover",
@@ -70,7 +66,7 @@
     "type": "vehicle_part",
     "name": "anti-gravity hover systems",
     "item": "sq_antigrav_hover",
-	"location": "under",
+    "location": "under",
     "symbol": "O",
     "broken_symbol": "x",
     "color": "magenta",
@@ -80,15 +76,15 @@
       "removal": { "skills": [ [ "mechanics", 8 ] ], "time": "60 m", "using": [ [ "vehicle_weld_removal", 10 ] ] },
       "repair": { "skills": [ [ "mechanics", 9 ] ], "time": "60 m", "using": [ [ "welding_standard", 20 ] ] }
     },
-	"height": 600,
+    "height": 600,
     "durability": 450,
     "epower": -1500,
-	"wheel_type": "off-road",
+    "wheel_type": "off-road",
     "contact_area": 20,
     "description": "This is a multipurpose anti-gravity thruster that replaces the wheels. It glides effortlessly over swamps and ruins, defying the friction of the earth. Countless corporate test pilots have been crushed against concrete walls after losing control of this merciless hunk of metal.",
     "damage_modifier": 50,
     "breaks_into": [ { "item": "scrap", "count": [ 15, 30 ] }, { "item": "steel_chunk", "count": [ 8, 16 ] } ],
-	"flags": [ "BALLOON", "WHEEL", "FLOATS", "ROTOR", "STABLE", "SELF_JACK", "VARIABLE_SIZE", "TRACKED", "ENABLED_DRAINS_EPOWER" ],
+    "flags": [ "BALLOON", "WHEEL", "FLOATS", "ROTOR", "STABLE", "SELF_JACK", "VARIABLE_SIZE", "TRACKED", "ENABLED_DRAINS_EPOWER" ],
     "damage_reduction": { "all": 40 }
   },
   {
@@ -127,7 +123,7 @@
       [ [ "portal", 2 ] ],
       [ [ "e_scrap", 10 ] ],
       [ [ "sq_fusion_core", 1 ] ],
-	  [ [ "frame", 2 ] ],
+      [ [ "frame", 2 ] ],
       [ [ "alloy_sheet", 8 ] ]
     ]
   },
@@ -151,7 +147,7 @@
     "flags": [ "BALLOON", "SHOCK_IMMUNE" ],
     "damage_reduction": { "bash": 10 }
   },
-   {
+  {
     "id": "sq_antigrav_module_external",
     "copy-from": "sq_antigrav_module",
     "type": "vehicle_part",
@@ -200,7 +196,7 @@
       [ [ "portal", 2 ] ],
       [ [ "e_scrap", 10 ] ],
       [ [ "sq_fusion_core", 1 ] ],
-	  [ [ "frame", 1 ] ],
+      [ [ "frame", 1 ] ],
       [ [ "alloy_sheet", 8 ] ]
     ]
   },
@@ -213,7 +209,7 @@
     "name": "anti-gravity thruster",
     "description": "This is an inhumane propulsion system that generates immense acceleration by channeling vertigon’s unstable repulsive field backward. The moment the ignition switch is pressed, a murderous gravitational acceleration—seemingly strong enough to shatter the backrest—threatens the pilot’s spine. However, corporate accountants simply record the rupture of a pilot’s internal organs as “acceptable operational losses” if this brute-force thrust can break through enemy defenses.",
     "item": "sq_antigrav_thruster",
-	"propeller_diameter": 20,
+    "propeller_diameter": 20,
     "requirements": {
       "install": { "skills": [ [ "mechanics", 8 ] ], "time": "60 m", "using": [ [ "welding_standard", 20 ] ] },
       "removal": { "skills": [ [ "mechanics", 8 ] ], "time": "60 m", "using": [ [ "vehicle_weld_removal", 10 ] ] },
@@ -225,7 +221,7 @@
     "flags": [ "PROPELLER", "PROTUSION", "SHOCK_RESISTANT" ],
     "damage_reduction": { "bash": 10 }
   },
-   {
+  {
     "id": "sq_antigrav_thruster_external",
     "copy-from": "sq_antigrav_thruster",
     "type": "vehicle_part",
@@ -412,8 +408,20 @@
       "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
     },
-    "flags": [ "CARGO", "OBSTACLE", "HOTPLATE", "FAUCET", "WATER_PURIFIER", "COVERED", "CRAFTER" ],
-    "integrated_tools": [ "chemistry_set", "electrolysis_kit", "pot", "pan", "hotplate", "dehydrator", "vac_sealer", "food_processor", "press" ],
+    "flags": [ "CARGO", "OBSTACLE", "HOTPLATE", "FAUCET", "WATER_PURIFIER", "COVERED", "CRAFTER", "CONVERTER" ],
+    "integrated_tools": [
+      "chemistry_set",
+      "electrolysis_kit",
+      "pot",
+      "pan",
+      "hotplate",
+      "dehydrator",
+      "vac_sealer",
+      "food_processor",
+      "press",
+      "water_purifier"
+    ],
+    "converter": { "input": "water", "input_step": 8, "output": "water_clean", "output_step": 8, "max_steps": 6, "charge_cost": 1 },
     "breaks_into": [
       { "item": "steel_lump", "count": [ 9, 18 ] },
       { "item": "steel_chunk", "count": [ 9, 18 ] },
@@ -482,13 +490,23 @@
       { "id": "SCREW", "level": 1 },
       { "id": "WRENCH", "level": 1 }
     ],
-    "components": [ [ [ "minifreezer", 3 ] ], [ [ "cargo_rack", 1 ] ], [ [ "plut_cell", 3 ] ] ]
+	"components": [
+      [ [ "sheet_metal", 20 ] ],
+	  [ [ "alloy_sheet", 8 ] ],
+	  [ [ "cargo_rack", 1 ] ],
+      [ [ "condensor_coil", 3 ] ],
+      [ [ "evaporator_coil", 3 ] ],
+      [ [ "thermostat", 3 ] ],
+      [ [ "motor_tiny", 3 ] ],
+      [ [ "refrigerant_tank", 3 ] ],
+      [ [ "plastic_chunk", 20 ] ]
+    ]
   },
   {
     "type": "vehicle_part",
     "id": "sq_megafreezer",
     "name": { "str": "mega freezer" },
-    "description": "A large version of the 1000 litre capacity freezer designed as a mobile solution for freezing food. It provides insulation from external elements.",
+    "description": "A large version of the 600 litre capacity freezer designed as a mobile solution for freezing food. It provides insulation from external elements.",
     "symbol": "=",
     "color": "light_blue",
     "broken_symbol": "#",
@@ -497,7 +515,7 @@
     "damage_modifier": 80,
     "durability": 100,
     "epower": -120,
-    "size": "1000 L",
+    "size": "600 L",
     "item": "sq_megafreezer",
     "location": "center",
     "requirements": {

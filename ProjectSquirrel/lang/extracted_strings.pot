@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2026-07-03 21:15+0900\n"
+"POT-Creation-Date: 2026-07-10 12:58+0900\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1431,6 +1431,18 @@ msgstr[1] ""
 msgid ""
 "A necklace bearing frozen fragments. Resting close to the heart, it offers "
 "significant protection against extreme cold. (cold resistance +3)"
+msgstr ""
+
+#: .\items\advtech\sq_frost_tier.json
+msgid "Abyssal Chill"
+msgstr ""
+
+#. ~ Description for Abyssal Chill
+#: .\items\advtech\sq_frost_tier.json
+msgid ""
+"The unmelting frost from your abyssal gear seeps into your very flesh, "
+"acting as a relentless heat sink. It constantly saps your body heat, leaving"
+" you unnaturally cold."
 msgstr ""
 
 #: .\items\advtech\sq_frost_tier.json
@@ -3416,10 +3428,16 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description for {'str': 'mega freezer', 'str_pl': 'mega freezers'}
-#. ~ Description for {'str': 'mega freezer'}
 #: .\items\advtech\sq_vehicle_part.json
 msgid ""
 "A large version of the 1000 litre capacity freezer designed as a mobile "
+"solution for freezing food. It provides insulation from external elements."
+msgstr ""
+
+#. ~ Description for {'str': 'mega freezer'}
+#: .\items\advtech\sq_vehicle_part.json
+msgid ""
+"A large version of the 600 litre capacity freezer designed as a mobile "
 "solution for freezing food. It provides insulation from external elements."
 msgstr ""
 
@@ -7504,6 +7522,60 @@ msgstr ""
 
 #: .\monsters\winter zeds\sq_zed-winter.json
 msgid "The permafrost dragon exhales a devastating cone of absolute zero!"
+msgstr ""
+
+#: .\monsters\winter zeds\sq_zed-winter_effects.json
+msgid "Chilly"
+msgstr ""
+
+#. ~ Description of effect 'Chilly'.
+#: .\monsters\winter zeds\sq_zed-winter_effects.json
+#, c-format
+msgid "Your %s is exposed to the cold."
+msgstr ""
+
+#. 
+#. ~ Speed name of effect(s) 'Chilly, Cold, Freezing'.
+#: .\monsters\winter zeds\sq_zed-winter_effects.json
+msgid "Cold"
+msgstr ""
+
+#. ~ Description of effect 'Cold'.
+#: .\monsters\winter zeds\sq_zed-winter_effects.json
+#, c-format
+msgid "Your %s is very exposed to the cold."
+msgstr ""
+
+#: .\monsters\winter zeds\sq_zed-winter_effects.json
+msgid "Freezing"
+msgstr ""
+
+#. ~ Description of effect 'Freezing'.
+#: .\monsters\winter zeds\sq_zed-winter_effects.json
+#, c-format
+msgid "Your %s is dangerously cold!"
+msgstr ""
+
+#: .\monsters\winter zeds\sq_zed-winter_effects.json
+msgid "Frostnip"
+msgstr ""
+
+#. ~ Description of effect 'Frostnip'.
+#: .\monsters\winter zeds\sq_zed-winter_effects.json
+#, c-format
+msgid "Your %s is frostnipped and has gone numb."
+msgstr ""
+
+#. 
+#. ~ Speed name of effect(s) 'Frostnip, Frostbite'.
+#: .\monsters\winter zeds\sq_zed-winter_effects.json
+msgid "Frostbite"
+msgstr ""
+
+#. ~ Description of effect 'Frostbite'.
+#: .\monsters\winter zeds\sq_zed-winter_effects.json
+#, c-format
+msgid "Your %s is frostbitten!  Its tissues are frozen from the cold!"
 msgstr ""
 
 #: .\mutations\item.json

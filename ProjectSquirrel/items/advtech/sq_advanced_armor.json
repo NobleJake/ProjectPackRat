@@ -47,7 +47,7 @@
             { "value": "DEXTERITY", "add": 1 },
             { "value": "INTELLIGENCE", "add": 1 },
             { "value": "PERCEPTION", "add": 1 },
-			{ "value": "ARMOR_COLD", "add": -8 }
+            { "value": "ARMOR_COLD", "add": -8 }
           ]
         }
       ]
@@ -180,7 +180,7 @@
           "values": [
             { "value": "STRENGTH", "add": 2 },
             { "value": "ATTACK_COST", "add": -30 },
-			{ "value": "ARMOR_COLD", "add": -8 },
+            { "value": "ARMOR_COLD", "add": -8 },
             { "value": "CLIMATE_CONTROL", "add": 750 },
             { "value": "BLISTER_COUNT", "add": -10 }
           ]
@@ -321,7 +321,7 @@
           "mutations": [ "SQ_CIRCULATORY_SYSTEM_MANAGER" ],
           "values": [
             { "value": "STRENGTH", "add": 4 },
-			{ "value": "ARMOR_COLD", "add": -12 },
+            { "value": "ARMOR_COLD", "add": -12 },
             { "value": "CLIMATE_CONTROL", "add": 1250 },
             { "value": "BLISTER_COUNT", "add": -20 }
           ]
@@ -397,7 +397,7 @@
           "values": [
             { "value": "INTELLIGENCE", "multiply": 0.5 },
             { "value": "PERCEPTION", "add": 4 },
-			{ "value": "ARMOR_COLD", "add": -25 },
+            { "value": "ARMOR_COLD", "add": -25 },
             { "value": "CLIMATE_CONTROL", "add": 1250 },
             { "value": "BLISTER_COUNT", "add": -20 }
           ]
@@ -471,8 +471,8 @@
           "values": [
             { "value": "INTELLIGENCE", "add": 4 },
             { "value": "PERCEPTION", "add": 8 },
-			{ "value": "ARMOR_COLD", "add": -25 },
-            { "value": "CLIMATE_CONTROL", "add": 4000 },
+            { "value": "ARMOR_COLD", "add": -25 },
+            { "value": "CLIMATE_CONTROL", "add": 100000 },
             { "value": "BLISTER_COUNT", "add": -40 }
           ]
         }
@@ -574,7 +574,7 @@
             { "value": "DEXTERITY", "add": 4 },
             { "value": "PERCEPTION", "add": 4 },
             { "value": "BONUS_DODGE", "add": 2 },
-			{ "value": "ARMOR_COLD", "add": -12 },
+            { "value": "ARMOR_COLD", "add": -12 },
             { "value": "CLIMATE_CONTROL", "add": 1250 },
             { "value": "BLISTER_COUNT", "add": -20 }
           ]
@@ -634,15 +634,7 @@
       "need_charges": 1,
       "need_charges_msg": "Warning: Operating on minimal power.  Protection compromised."
     },
-    "relic_data": {
-      "passive_effects": [
-        {
-          "has": "WORN",
-          "condition": "ALWAYS",
-          "values": [ { "value": "ARMOR_COLD", "add": -8 } ]
-        }
-      ]
-    },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -8 } ] } ] },
     "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "warmth": 10,
     "environmental_protection": 15,
@@ -678,7 +670,11 @@
         {
           "has": "WORN",
           "condition": "ALWAYS",
-          "values": [ { "value": "ARMOR_COLD", "add": -8 }, { "value": "CLIMATE_CONTROL", "add": 750 }, { "value": "BLISTER_COUNT", "add": -10 } ]
+          "values": [
+            { "value": "ARMOR_COLD", "add": -8 },
+            { "value": "CLIMATE_CONTROL", "add": 750 },
+            { "value": "BLISTER_COUNT", "add": -10 }
+          ]
         }
       ]
     },
@@ -788,7 +784,7 @@
             { "value": "STRENGTH", "multiply": 0.3 },
             { "value": "DEXTERITY", "multiply": 0.3 },
             { "value": "PERCEPTION", "multiply": 1 },
-			{ "value": "ARMOR_COLD", "add": -12 },
+            { "value": "ARMOR_COLD", "add": -12 },
             { "value": "CLIMATE_CONTROL", "add": 1250 },
             { "value": "BLISTER_COUNT", "add": -20 }
           ]
@@ -885,7 +881,7 @@
           "has": "WORN",
           "condition": "ALWAYS",
           "mutations": [ "SQ_ASSASSIN" ],
-          "values": [ { "value": "STRENGTH", "multiply": 0.2 },{ "value": "ARMOR_COLD", "add": -12 } ]
+          "values": [ { "value": "STRENGTH", "multiply": 0.2 }, { "value": "ARMOR_COLD", "add": -12 } ]
         }
       ]
     },
@@ -941,7 +937,7 @@
           "mutations": [ "SQ_ASSASSIN" ],
           "values": [
             { "value": "STRENGTH", "multiply": 0.2 },
-			{ "value": "ARMOR_COLD", "add": -12 },
+            { "value": "ARMOR_COLD", "add": -12 },
             { "value": "CLIMATE_CONTROL", "add": 1250 },
             { "value": "BLISTER_COUNT", "add": -20 }
           ]

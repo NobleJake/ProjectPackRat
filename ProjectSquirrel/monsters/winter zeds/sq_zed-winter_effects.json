@@ -1,0 +1,37 @@
+[
+  {
+    "type": "effect_type",
+    "id": "sq_zed_cold",
+    "name": [ "Chilly", "Cold", "Freezing" ],
+    "desc": [ "Your %s is exposed to the cold.", "Your %s is very exposed to the cold.", "Your %s is dangerously cold!" ],
+    "speed_name": "Cold",
+    "max_intensity": 3,
+    "permanent": false,
+    "part_descs": true,
+    "base_mods": { "speed_mod": [ -2 ] },
+    "scaling_mods": {
+      "speed_mod": [ -4 ],
+      "int_mod": [ -0.5 ],
+      "dex_mod": [ -0.5 ],
+      "hurt_min": [ 1 ],
+      "hurt_chance": [ 100 ],
+      "pkill_tick": [ 60 ],
+      "pkill_min": [ 1 ],
+      "pkill_max_val": [ 30 ],
+      "stamina_chance": [ 2 ],
+      "stamina_min": [ -2 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "sq_zed_frostbite",
+    "name": [ "Frostnip", "Frostbite" ],
+    "desc": [ "Your %s is frostnipped and has gone numb.", "Your %s is frostbitten!  Its tissues are frozen from the cold!" ],
+    "part_descs": true,
+    "speed_name": "Frostbite",
+    "dur_add_perc": 0,
+    "max_intensity": 2,
+    "permanent": false,
+    "scaling_mods": { "speed_mod": [ -3 ] }
+  }
+]
