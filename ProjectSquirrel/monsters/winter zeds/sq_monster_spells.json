@@ -11,12 +11,19 @@
         "transparent": false,
         "translucency": 0,
         "effects": [
-          {
-            "effect_id": "frostbite",
+		  {
+            "effect_id": "sq_zed_cold",
             "body_part": "torso",
             "intensity": 1,
-            "min_duration": "5 seconds",
-            "max_duration": "5 seconds"
+            "min_duration": "10 seconds",
+            "max_duration": "10 seconds"
+          },
+          {
+            "effect_id": "sq_zed_frostbite",
+            "body_part": "torso",
+            "intensity": 1,
+            "min_duration": "10 seconds",
+            "max_duration": "10 seconds"
           }
         ]
       }
