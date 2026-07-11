@@ -23,7 +23,8 @@
           { "id": "kukri", "fg": 15, "rotates": false },
           { "id": "overlay_wielded_kukri", "fg": 16, "rotates": false },
           { "id": "overlay_wielded_rm20", "fg": 17, "rotates": false },
-          { "id": "overlay_wielded_rm103a_pistol", "fg": 18, "rotates": false }
+          { "id": "overlay_wielded_rm103a_pistol", "fg": 18, "rotates": false },
+		  { "id": "overlay_wielded_m14ebr", "fg": 19, "rotates": false }
         ],
         "//": "range 1 to 8",
         "sprite_width": 32,
