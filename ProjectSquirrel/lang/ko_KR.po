@@ -11919,7 +11919,7 @@ msgstr ""
 #: .\mutations\item.json
 msgid "Alpha intelligence serum"
 msgid_plural "Alpha intelligence serums"
-msgstr[0] "최고의 지각력 혈청"
+msgstr[0] "최고의 지능 혈청"
 
 #. ~ Description for Alpha intelligence serum
 #: .\mutations\item.json
