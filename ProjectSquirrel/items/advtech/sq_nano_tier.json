@@ -191,8 +191,7 @@
     "name": { "str": "advanced UPS", "str_pl": "advanced UPS's" },
     "coverage": 5,
     "encumbrance": 1,
-    "covers": [ "leg_either" ],
-    "flags": [ "WAIST", "FRAGILE", "OVERSIZE", "IS_UPS" ]
+    "covers": [ "leg_either" ]
   },
   {
     "type": "recipe",
