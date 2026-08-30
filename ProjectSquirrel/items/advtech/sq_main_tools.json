@@ -419,7 +419,24 @@
     "required_str": 1,
     "flags": [ "PLACE_ITEM", "TRANSPARENT", "PERMEABLE", "EASY_DECONSTRUCT" ],
     "deployed_item": "sq_cvdmachine",
-    "examine_action": "cvdmachine",
+    "examine_action": "enchanter",
+    "enchanter_info": [
+      {
+        "id": "CVD_DIAMOND",
+        "name": "Diamond Coating",
+        "enchant": "ENCH_CVD_MACHINE",
+        "time_to_enchant": "3 minutes",
+        "volume_per_time": "250 ml",
+        "volume_time_effect": true,
+        "using": "cvd_diamond",
+        "volume_per_batch": "250 ml",
+        "volume_batch_effect": true,
+        "count_var": "DIAMONDIZE",
+        "max_count": 1,
+        "applied_flag": "DIAMOND",
+        "can_use_on": "cvd_machine"
+      }
+    ],
     "bash": {
       "str_min": 1,
       "str_max": 2,
