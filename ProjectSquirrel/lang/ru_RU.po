@@ -264,7 +264,7 @@ msgstr "Сборочные схемы, технические характери
 
 #: .\items\advtech\sq_advanced_armor.json
 msgid "Integrated Combat System"
-msgstr "Встроенная система боевой поддержки"
+msgstr "Комплекс боевой поддержки"
 
 #. ~ Description for {'str': 'Integrated Combat System'}
 #: .\items\advtech\sq_advanced_armor.json
@@ -950,11 +950,11 @@ msgstr "Само сердце дракона вечной мерзлоты, вс
 #. ~ Mutation class name
 #: .\items\advtech\sq_frost_tier.json
 msgid "FROST"
-msgstr "ХОЛОД"
+msgstr "Холод"
 
 #: .\items\advtech\sq_frost_tier.json
 msgid "Frozen Heart"
-msgstr "Замороженное сердце"
+msgstr "Ледяное сердце"
 
 #. ~ Description for {'str': 'Frozen Heart'}
 #: .\items\advtech\sq_frost_tier.json
@@ -1048,9 +1048,9 @@ msgstr "Огромный двуручный меч, вобравший в себ
 #: .\items\advtech\sq_frost_tier.json
 msgid "cryo-blade dagger (off)"
 msgid_plural "cryo-blade daggers (off)"
-msgstr[0] "криокинжал"
-msgstr[1] "криокинжала"
-msgstr[2] "криокинжалов"
+msgstr[0] "криокинжал (выкл.)"
+msgstr[1] "криокинжала (выкл.)"
+msgstr[2] "криокинжалов (выкл.)"
 
 #. ~ Use action msg for {'str': 'cryo-blade dagger (off)', 'str_pl': 'cryo-
 #. blade daggers (off)'}.
@@ -1098,9 +1098,9 @@ msgstr "Высокотехнологичная рукоять, создающа�
 #: .\items\advtech\sq_frost_tier.json
 msgid "cryo-edge sword (off)"
 msgid_plural "cryo-edge swords (off)"
-msgstr[0] "криомеч"
-msgstr[1] "криомеча"
-msgstr[2] "криомечей"
+msgstr[0] "криомеч (выкл.)"
+msgstr[1] "криомеча (выкл.)"
+msgstr[2] "криомечей (выкл.)"
 
 #. ~ Use action msg for {'str': 'cryo-edge sword (off)', 'str_pl': 'cryo-edge
 #. swords (off)'}.
@@ -1136,9 +1136,9 @@ msgstr "Высокотехнологичная рукоять меча, созд
 #: .\items\advtech\sq_frost_tier.json
 msgid "cryo-lance (off)"
 msgid_plural "cryo-lances (off)"
-msgstr[0] "криокопье"
-msgstr[1] "криокопья"
-msgstr[2] "криокопий"
+msgstr[0] "криокопье (выкл.)"
+msgstr[1] "криокопья (выкл.)"
+msgstr[2] "криокопий (выкл.)"
 
 #. ~ Use action msg for {'str': 'cryo-lance (off)', 'str_pl': 'cryo-lances
 #. (off)'}.
@@ -1173,9 +1173,9 @@ msgstr "Усиленная основа древкового оружия, со�
 #: .\items\advtech\sq_frost_tier.json
 msgid "avalanche greatsword (off)"
 msgid_plural "avalanche greatswords (off)"
-msgstr[0] "двуручный меч лавины"
-msgstr[1] "двуручных меча лавины"
-msgstr[2] "двуручных мечей лавины"
+msgstr[0] "двуручный меч лавины (выкл.)"
+msgstr[1] "двуручных меча лавины (выкл.)"
+msgstr[2] "двуручных мечей лавины (выкл.)"
 
 #. ~ Use action msg for {'str': 'avalanche greatsword (off)', 'str_pl':
 #. 'avalanche greatswords (off)'}.
@@ -1639,9 +1639,9 @@ msgstr "Изящный длинный лук из суперсплава без 
 #: .\items\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "hardlight glaive (off)"
 msgid_plural "hardlight glaive (off)s"
-msgstr[0] "фотонная глефа"
-msgstr[1] "фотонные глефы"
-msgstr[2] "фотонных глеф"
+msgstr[0] "фотонная глефа (выкл.)"
+msgstr[1] "фотонные глефы (выкл.)"
+msgstr[2] "фотонных глеф (выкл.)"
 
 #. ~ Use action menu_text for {'str': 'hardlight glaive (off)'}.
 #. ~ Use action menu_text for {'str': 'experimental hardlight blade (off)'}.
@@ -1918,7 +1918,7 @@ msgstr "Значительно снижает шум и дульную вспы�
 #. ~ Mutation class name
 #: .\items\advtech\sq_hardlight_fusion_and_gunmods.json .\mutations\mutation_category.json
 msgid "muzzle"
-msgstr "дуло"
+msgstr "muzzle"
 
 #: .\items\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "suppressor MK II"
@@ -2598,7 +2598,7 @@ msgstr "Усиленные бронепластины из слоистого к
 
 #: .\items\advtech\sq_nano_generic_comp.json
 msgid "Vertigon Attention"
-msgstr "Вертигон привлекает внимание"
+msgstr "Потустороннее внимание"
 
 #. ~ Description for {'str': 'Vertigon Attention'}
 #: .\items\advtech\sq_nano_generic_comp.json
@@ -2693,9 +2693,9 @@ msgstr "Топливные ячейки на основе урана-235 и др
 #| msgid_plural "monomolecular wires"
 msgid "monomolecular fiber"
 msgid_plural "monomolecular fibers"
-msgstr[0] "мономолекулярная проволока"
-msgstr[1] "мономолекулярные проволоки"
-msgstr[2] "мономолекулярных проволок"
+msgstr[0] "мономолекулярное волокно"
+msgstr[1] "мономолекулярных волокна"
+msgstr[2] "мономолекулярных волокон"
 
 #. ~ Description for {'str': 'monomolecular fiber', 'str_pl': 'monomolecular
 #. fibers'}
@@ -2930,9 +2930,9 @@ msgstr "Металлический клинок, который под дейс�
 #: .\items\advtech\sq_nano_tier.json
 msgid "experimental hardlight blade (off)"
 msgid_plural "experimental hardlight blade (off)s"
-msgstr[0] "экспериментальный фотонный клинок"
-msgstr[1] "экспериментальных фотонных клинка"
-msgstr[2] "экспериментальных фотонных клинков"
+msgstr[0] "экспериментальный фотонный клинок (выкл.)"
+msgstr[1] "экспериментальных фотонных клинка (выкл.)"
+msgstr[2] "экспериментальных фотонных клинков (выкл.)"
 
 #. ~ Use action msg for {'str': 'experimental hardlight blade (off)'}.
 #: .\items\advtech\sq_nano_tier.json
@@ -4054,9 +4054,9 @@ msgstr "Рама для переноски грузов, которую наде
 #: .\items\item_common\sq_cargo_frame.json
 msgid "crude pack frame"
 msgid_plural "crude pack frames"
-msgstr[0] "примитивная грузовая рама"
-msgstr[1] "примитивные грузовые рамы"
-msgstr[2] "примитивных грузовых рам"
+msgstr[0] "кустарная грузовая рама"
+msgstr[1] "кустарные грузовые рамы"
+msgstr[2] "кустарных грузовых рам"
 
 #. ~ Description for {'str': 'crude pack frame'}
 #: .\items\item_common\sq_cargo_frame.json
@@ -4066,9 +4066,9 @@ msgstr "Простая рама для переноски грузов, сдел
 #: .\items\item_common\sq_cargo_frame.json
 msgid "pipe A-frame pack"
 msgid_plural "pipe A-frame packs"
-msgstr[0] "грузовая рама из труб"
-msgstr[1] "грузовые рамы из труб"
-msgstr[2] "грузовых рам из труб"
+msgstr[0] "трубчатая грузовая рама"
+msgstr[1] "трубчатые грузовые рамы"
+msgstr[2] "трубчатых грузовых рам"
 
 #. ~ Description for {'str': 'pipe A-frame pack'}
 #: .\items\item_common\sq_cargo_frame.json
@@ -4090,9 +4090,9 @@ msgstr "Большая стальная рама для переноски гр�
 #: .\items\item_common\sq_cargo_frame.json
 msgid "frame pack"
 msgid_plural "frame packs"
-msgstr[0] "грузовая рама"
-msgstr[1] "грузовые рамы"
-msgstr[2] "грузовых рам"
+msgstr[0] "каркасный рюкзак"
+msgstr[1] "каркасные рюкзаки"
+msgstr[2] "каркасных рюкзаков"
 
 #. ~ Use action holster_msg for {'str': 'frame pack'}.
 #: .\items\item_common\sq_cargo_frame.json
@@ -4112,9 +4112,9 @@ msgstr "Гибрид большого армейского рюкзака, ка�
 #: .\items\item_common\sq_cargo_frame.json
 msgid "rat-pack"
 msgid_plural "rat-packs"
-msgstr[0] "«Барахольник»"
-msgstr[1] "«Барахольника»"
-msgstr[2] "«Барахольников»"
+msgstr[0] "рюкзак барахольщика"
+msgstr[1] "рюкзака барахольщика"
+msgstr[2] "рюкзаков барахольщика"
 
 #. ~ Use action holster_msg for {'str': 'rat-pack'}.
 #: .\items\item_common\sq_cargo_frame.json
@@ -4207,9 +4207,9 @@ msgstr "Всепогодный армейский боевой экзоскел�
 #: .\items\item_common\sq_cargo_frame.json
 msgid "sprinter exoskeleton"
 msgid_plural "sprinter exoskeletons"
-msgstr[0] "экзоскелет «Спринтер»"
-msgstr[1] "экзоскелета «Спринтер»"
-msgstr[2] "экзоскелетов «Спринтер»"
+msgstr[0] "спринтерский экзоскелет"
+msgstr[1] "спринтерских экзоскелета"
+msgstr[2] "спринтерских экзоскелетов"
 
 #. ~ Use action need_charges_msg for {'str': 'sprinter exoskeleton'}.
 #. ~ Use action need_charges_msg for {'str': 'industrial exoskeleton'}.
@@ -4227,9 +4227,9 @@ msgstr "Лёгкий усиленный экзоскелет, рассчитан
 #| msgid_plural "sprinter skeleton (on)s"
 msgid "sprinter skeleton (on)"
 msgid_plural "sprinter skeletons (on)"
-msgstr[0] "экзоскелет «Спринтер» (вкл.)"
-msgstr[1] "экзоскелета «Спринтер» (вкл.)"
-msgstr[2] "экзоскелетов «Спринтер» (вкл.)"
+msgstr[0] "спринтерский экзоскелет (вкл.)"
+msgstr[1] "спринтерских экзоскелета (вкл.)"
+msgstr[2] "спринтерских экзоскелетов (вкл.)"
 
 #. ~ Description for {'str': 'sprinter skeleton (on)', 'str_pl': 'sprinter
 #. skeletons (on)'}
@@ -6080,7 +6080,7 @@ msgstr "Вы выключаете наплечный фонарь."
 
 #: .\items\item_common\sq_suit.json
 msgid "Well Distributed Gear"
-msgstr "Равномерное распределение снаряжения"
+msgstr "Разгрузка снаряжения"
 
 #. ~ Description for {'str': 'Well Distributed Gear'}
 #: .\items\item_common\sq_suit.json
@@ -7867,9 +7867,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Spider threshold serum"
 msgid_plural "Spider threshold serums"
-msgstr[0] "сыворотка перерождения паукообразного"
-msgstr[1] "сыворотки перерождения паукообразного"
-msgstr[2] "сывороток перерождения паукообразного"
+msgstr[0] "сыворотка перерождения паука"
+msgstr[1] "сыворотки перерождения паука"
+msgstr[2] "сывороток перерождения паука"
 
 #. ~ Description for Spider threshold serum
 #: .\mutations\item.json
@@ -7963,9 +7963,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Cattle threshold serum"
 msgid_plural "Cattle threshold serums"
-msgstr[0] "сыворотка перерождения быка"
-msgstr[1] "сыворотки перерождения быка"
-msgstr[2] "сывороток перерождения быка"
+msgstr[0] "сыворотка перерождения скота"
+msgstr[1] "сыворотки перерождения скота"
+msgstr[2] "сывороток перерождения скота"
 
 #. ~ Description for Cattle threshold serum
 #: .\mutations\item.json
@@ -8023,9 +8023,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Alpha threshold serum"
 msgid_plural "Alpha threshold serums"
-msgstr[0] "сыворотка перерождения альфа"
-msgstr[1] "сыворотки перерождения альфа"
-msgstr[2] "сывороток перерождения альфа"
+msgstr[0] "сыворотка перерождения альфы"
+msgstr[1] "сыворотки перерождения альфы"
+msgstr[2] "сывороток перерождения альфы"
 
 #. ~ Description for Alpha threshold serum
 #: .\mutations\item.json
@@ -8119,9 +8119,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Hearing enhancement serum"
 msgid_plural "Hearing enhancement serums"
-msgstr[0] "сыворотка улучшенного слуха"
-msgstr[1] "сыворотки улучшенного слуха"
-msgstr[2] "сывороток улучшенного слуха"
+msgstr[0] "сыворотка хорошего слуха"
+msgstr[1] "сыворотки хорошего слуха"
+msgstr[2] "сывороток хорошего слуха"
 
 #. ~ Description for Hearing enhancement serum
 #: .\mutations\item.json
@@ -8131,9 +8131,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Elven hearing serum"
 msgid_plural "Elven hearing serums"
-msgstr[0] "сыворотка эльфийского слуха"
-msgstr[1] "сыворотки эльфийского слуха"
-msgstr[2] "сывороток эльфийского слуха"
+msgstr[0] "сыворотка слуха феи"
+msgstr[1] "сыворотки слуха феи"
+msgstr[2] "сывороток слуха феи"
 
 #. ~ Description for Elven hearing serum
 #: .\mutations\item.json
@@ -8167,9 +8167,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Quickening serum"
 msgid_plural "Quickening serums"
-msgstr[0] "сыворотка ускорения"
-msgstr[1] "сыворотки ускорения"
-msgstr[2] "сывороток ускорения"
+msgstr[0] "сыворотка скорости"
+msgstr[1] "сыворотки скорости"
+msgstr[2] "сывороток скорости"
 
 #. ~ Description for Quickening serum
 #: .\mutations\item.json
@@ -8215,9 +8215,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Practised sleeper serum"
 msgid_plural "Practised sleeper serums"
-msgstr[0] "сыворотка привычки спать"
-msgstr[1] "сыворотки привычки спать"
-msgstr[2] "сывороток привычки спать"
+msgstr[0] "сыворотка безмятежного засыпания"
+msgstr[1] "сыворотки безмятежного засыпания"
+msgstr[2] "сывороток безмятежного засыпания"
 
 #. ~ Description for Practised sleeper serum
 #. ~ Description for Toxic skin serum
@@ -8252,9 +8252,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Poison resistance serum"
 msgid_plural "Poison resistance serums"
-msgstr[0] "сыворотка устойчивости к ядам"
-msgstr[1] "сыворотки устойчивости к ядам"
-msgstr[2] "сывороток устойчивости к ядам"
+msgstr[0] "сыворотка стойкости к ядам"
+msgstr[1] "сыворотки стойкости к ядам"
+msgstr[2] "сывороток стойкости к ядам"
 
 #. ~ Description for Poison resistance serum
 #: .\mutations\item.json
@@ -8408,9 +8408,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Addiction resistance serum"
 msgid_plural "Addiction resistance serums"
-msgstr[0] "сыворотка силы воли"
-msgstr[1] "сыворотки силы воли"
-msgstr[2] "сывороток силы воли"
+msgstr[0] "сыворотка стойкости к зависимости"
+msgstr[1] "сыворотки стойкости к зависимости"
+msgstr[2] "сывороток стойкости к зависимости"
 
 #. ~ Description for Addiction resistance serum
 #: .\mutations\item.json
@@ -8492,9 +8492,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Self awareness serum"
 msgid_plural "Self awareness serums"
-msgstr[0] "сыворотка самоосознания"
-msgstr[1] "сыворотки самоосознания"
-msgstr[2] "сывороток самоосознания"
+msgstr[0] "сыворотка самоконтроля"
+msgstr[1] "сыворотки самоконтроля"
+msgstr[2] "сывороток самоконтроля"
 
 #. ~ Description for Self awareness serum
 #: .\mutations\item.json
@@ -8516,9 +8516,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Lighter steps serum"
 msgid_plural "Lighter steps serums"
-msgstr[0] "сыворотка лёгкой поступи"
-msgstr[1] "сыворотки лёгкой поступи"
-msgstr[2] "сывороток лёгкой поступи"
+msgstr[0] "сыворотка лёгкой походки"
+msgstr[1] "сыворотки лёгкой походки"
+msgstr[2] "сывороток лёгкой походки"
 
 #. ~ Description for Lighter steps serum
 #: .\mutations\item.json
@@ -8540,9 +8540,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Scout serum"
 msgid_plural "Scout serums"
-msgstr[0] "сыворотка зоркости следопыта"
-msgstr[1] "сыворотки зоркости следопыта"
-msgstr[2] "сывороток зоркости следопыта"
+msgstr[0] "сыворотка разведчика"
+msgstr[1] "сыворотки разведчика"
+msgstr[2] "сывороток разведчика"
 
 #. ~ Description for Scout serum
 #: .\mutations\item.json
@@ -8648,9 +8648,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "High nightvision serum"
 msgid_plural "High nightvision serums"
-msgstr[0] "сыворотка усиленного ночного зрения"
-msgstr[1] "сыворотки усиленного ночного зрения"
-msgstr[2] "сывороток усиленного ночного зрения"
+msgstr[0] "сыворотка улучшенного ночного зрения"
+msgstr[1] "сыворотки улучшенного ночного зрения"
+msgstr[2] "сывороток улучшенного ночного зрения"
 
 #. ~ Description for High nightvision serum
 #: .\mutations\item.json
@@ -8684,9 +8684,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Fey eyes serum"
 msgid_plural "Fey eyes serums"
-msgstr[0] "сыворотка глаз фей"
-msgstr[1] "сыворотки глаз фей"
-msgstr[2] "сывороток глаз фей"
+msgstr[0] "сыворотка глаз феи"
+msgstr[1] "сыворотки глаз феи"
+msgstr[2] "сывороток глаз феи"
 
 #. ~ Description for Fey eyes serum
 #: .\mutations\item.json
@@ -8732,9 +8732,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Lizard eyes serum"
 msgid_plural "Lizard eyes serums"
-msgstr[0] "сыворотка глаз ящерицы"
-msgstr[1] "сыворотки глаз ящерицы"
-msgstr[2] "сывороток глаз ящерицы"
+msgstr[0] "сыворотка глаз рептилии"
+msgstr[1] "сыворотки глаз рептилии"
+msgstr[2] "сывороток глаз рептилии"
 
 #. ~ Description for Lizard eyes serum
 #: .\mutations\item.json
@@ -8744,9 +8744,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Lizard infrared serum"
 msgid_plural "Lizard infrared serums"
-msgstr[0] "сыворотка инфракрасного зрения ящерицы"
-msgstr[1] "сыворотки инфракрасного зрения ящерицы"
-msgstr[2] "сывороток инфракрасного зрения ящерицы"
+msgstr[0] "сыворотка зрения рептилии"
+msgstr[1] "сыворотки зрения рептилии"
+msgstr[2] "сывороток зрения рептилии"
 
 #. ~ Description for Lizard infrared serum
 #: .\mutations\item.json
@@ -8756,9 +8756,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Very fast healer serum"
 msgid_plural "Very fast healer serums"
-msgstr[0] "сыворотка ускоренно заживающих ран"
-msgstr[1] "сыворотки ускоренно заживающих ран"
-msgstr[2] "сывороток ускоренно заживающих ран"
+msgstr[0] "сыворотка ускоренного заживления"
+msgstr[1] "сыворотки ускоренного заживления"
+msgstr[2] "сывороток ускоренного заживления"
 
 #. ~ Description for Very fast healer serum
 #: .\mutations\item.json
@@ -8792,9 +8792,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Very little sleep serum"
 msgid_plural "Very little sleep serums"
-msgstr[0] "сыворотка очень недолгого сна"
-msgstr[1] "сыворотки очень недолгого сна"
-msgstr[2] "сывороток очень недолгого сна"
+msgstr[0] "сыворотка очень короткого сна"
+msgstr[1] "сыворотки очень короткого сна"
+msgstr[2] "сывороток очень короткого сна"
 
 #. ~ Description for Very little sleep serum
 #: .\mutations\item.json
@@ -8840,9 +8840,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Nictitating membrane serum"
 msgid_plural "Nictitating membrane serums"
-msgstr[0] "сыворотка мигательной мембраны"
-msgstr[1] "сыворотки мигательной мембраны"
-msgstr[2] "сывороток мигательной мембраны"
+msgstr[0] "сыворотка мигательной перепонки"
+msgstr[1] "сыворотки мигательной перепонки"
+msgstr[2] "сывороток мигательной перепонки"
 
 #. ~ Description for Nictitating membrane serum
 #: .\mutations\item.json
@@ -8936,9 +8936,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Down serum"
 msgid_plural "Down serums"
-msgstr[0] "сыворотка подпуши"
-msgstr[1] "сыворотки подпуши"
-msgstr[2] "сывороток подпуши"
+msgstr[0] "сыворотка пуха"
+msgstr[1] "сыворотки пуха"
+msgstr[2] "сывороток пуха"
 
 #. ~ Description for Down serum
 #: .\mutations\item.json
@@ -8948,9 +8948,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Lightly furred serum"
 msgid_plural "Lightly furred serums"
-msgstr[0] "сыворотка небольшого пушка"
-msgstr[1] "сыворотки небольшого пушка"
-msgstr[2] "сывороток небольшого пушка"
+msgstr[0] "сыворотка лёгкого меха"
+msgstr[1] "сыворотки лёгкого меха"
+msgstr[2] "сывороток лёгкого меха"
 
 #. ~ Description for Lightly furred serum
 #: .\mutations\item.json
@@ -8960,9 +8960,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Furry serum"
 msgid_plural "Furry serums"
-msgstr[0] "сыворотка пушистости"
-msgstr[1] "сыворотки пушистости"
-msgstr[2] "сывороток пушистости"
+msgstr[0] "сыворотка густого меха"
+msgstr[1] "сыворотки густого меха"
+msgstr[2] "сывороток густого меха"
 
 #. ~ Description for Furry serum
 #: .\mutations\item.json
@@ -8984,9 +8984,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Gray fur serum"
 msgid_plural "Gray fur serums"
-msgstr[0] "сыворотка серого меха"
-msgstr[1] "сыворотки серого меха"
-msgstr[2] "сывороток серого меха"
+msgstr[0] "сыворотка серой шерсти"
+msgstr[1] "сыворотки серой шерсти"
+msgstr[2] "сывороток серой шерсти"
 
 #. ~ Description for Gray fur serum
 #: .\mutations\item.json
@@ -9044,9 +9044,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Chitin serum"
 msgid_plural "Chitin serums"
-msgstr[0] "сыворотка хитина"
-msgstr[1] "сыворотки хитина"
-msgstr[2] "сывороток хитина"
+msgstr[0] "сыворотка хитиновой кожи"
+msgstr[1] "сыворотки хитиновой кожи"
+msgstr[2] "сывороток хитиновой кожи"
 
 #. ~ Description for Chitin serum
 #: .\mutations\item.json
@@ -9092,9 +9092,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Furred chitin serum"
 msgid_plural "Furred chitin serums"
-msgstr[0] "сыворотка покрытого мехом хитина"
-msgstr[1] "сыворотки покрытого мехом хитина"
-msgstr[2] "сывороток покрытого мехом хитина"
+msgstr[0] "сыворотка пушистого хитина"
+msgstr[1] "сыворотки пушистого хитина"
+msgstr[2] "сывороток пушистого хитина"
 
 #. ~ Description for Furred chitin serum
 #: .\mutations\item.json
@@ -9104,9 +9104,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Furred plate serum"
 msgid_plural "Furred plate serums"
-msgstr[0] "сыворотка покрытой мехом брони"
-msgstr[1] "сыворотки покрытой мехом брони"
-msgstr[2] "сывороток покрытой мехом брони"
+msgstr[0] "сыворотка пушистой брони"
+msgstr[1] "сыворотки пушистой брони"
+msgstr[2] "сывороток пушистой брони"
 
 #. ~ Description for Furred plate serum
 #: .\mutations\item.json
@@ -9116,9 +9116,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Urticating hairs serum"
 msgid_plural "Urticating hairs serums"
-msgstr[0] "сыворотка стрекательных волосков"
-msgstr[1] "сыворотки стрекательных волосков"
-msgstr[2] "сывороток стрекательных волосков"
+msgstr[0] "сыворотка стрекательных волос"
+msgstr[1] "сыворотки стрекательных волос"
+msgstr[2] "сывороток стрекательных волос"
 
 #. ~ Description for Urticating hairs serum
 #: .\mutations\item.json
@@ -9152,9 +9152,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Assault barbs serum"
 msgid_plural "Assault barbs serums"
-msgstr[0] "сыворотка штурмовых колючек"
-msgstr[1] "сыворотки штурмовых колючек"
-msgstr[2] "сывороток штурмовых колючек"
+msgstr[0] "сыворотка метательных игл"
+msgstr[1] "сыворотки метательных игл"
+msgstr[2] "сывороток метательных игл"
 
 #. ~ Description for Assault barbs serum
 #: .\mutations\item.json
@@ -9188,9 +9188,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Thorns serum"
 msgid_plural "Thorns serums"
-msgstr[0] "сыворотка шипов"
-msgstr[1] "сыворотки шипов"
-msgstr[2] "сывороток шипов"
+msgstr[0] "сыворотка колючек"
+msgstr[1] "сыворотки колючек"
+msgstr[2] "сывороток колючек"
 
 #. ~ Description for Thorns serum
 #: .\mutations\item.json
@@ -9584,9 +9584,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Troglobitic tunnel pain resistance serum"
 msgid_plural "Troglobitic tunnel pain resistance serums"
-msgstr[0] "сыворотка троглобитской устойчивости к боли"
-msgstr[1] "сыворотк троглобитской устойчивости к боли"
-msgstr[2] "сывороток троглобитской устойчивости к боли"
+msgstr[0] "сыворотка подземной стойкости"
+msgstr[1] "сыворотки подземной стойкости"
+msgstr[2] "сывороток подземной стойкости"
 
 #. ~ Description for Troglobitic tunnel pain resistance serum
 #: .\mutations\item.json
@@ -9596,9 +9596,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Troglobitic stockiness serum"
 msgid_plural "Troglobitic stockiness serums"
-msgstr[0] "сыворотка троглобитской коренастости"
-msgstr[1] "сыворотки троглобитской коренастости"
-msgstr[2] "сывороток троглобитской коренастости"
+msgstr[0] "сыворотка подземного телосложения"
+msgstr[1] "сыворотки подземного телосложения"
+msgstr[2] "сывороток подземного телосложения"
 
 #. ~ Description for Troglobitic stockiness serum
 #: .\mutations\item.json
@@ -9668,9 +9668,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Intestinal fortitude serum"
 msgid_plural "Intestinal fortitude serums"
-msgstr[0] "сыворотка крепкого кишечника"
-msgstr[1] "сыворотки крепкого кишечника"
-msgstr[2] "сывороток крепкого кишечника"
+msgstr[0] "сыворотка стойкого кишечника"
+msgstr[1] "сыворотки стойкого кишечника"
+msgstr[2] "сывороток стойкого кишечника"
 
 #. ~ Description for Intestinal fortitude serum
 #: .\mutations\item.json
@@ -9848,9 +9848,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Rat tail serum"
 msgid_plural "Rat tail serums"
-msgstr[0] "сыворотка крысиного хвоста"
-msgstr[1] "сыворотки крысиного хвоста"
-msgstr[2] "сывороток крысиного хвоста"
+msgstr[0] "сыворотка хвоста грызуна"
+msgstr[1] "сыворотки хвоста грызуна"
+msgstr[2] "сывороток хвоста грызуна"
 
 #. ~ Description for Rat tail serum
 #: .\mutations\item.json
@@ -9872,9 +9872,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Raptor tail serum"
 msgid_plural "Raptor tail serums"
-msgstr[0] "сыворотка хвоста раптора"
-msgstr[1] "сыворотки хвоста раптора"
-msgstr[2] "сывороток хвоста раптора"
+msgstr[0] "сыворотка хвоста ящерицы"
+msgstr[1] "сыворотки хвоста ящерицы"
+msgstr[2] "сывороток хвоста ящерицы"
 
 #. ~ Description for Raptor tail serum
 #: .\mutations\item.json
@@ -9932,9 +9932,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Resilience serum"
 msgid_plural "Resilience serums"
-msgstr[0] "сыворотка жизнестойкости"
-msgstr[1] "сыворотки жизнестойкости"
-msgstr[2] "сывороток жизнестойкости"
+msgstr[0] "сыворотка устойчивости"
+msgstr[1] "сыворотки устойчивости"
+msgstr[2] "сывороток устойчивости"
 
 #. ~ Description for Resilience serum
 #: .\mutations\item.json
@@ -10184,9 +10184,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Rope webs serum"
 msgid_plural "Rope webs serums"
-msgstr[0] "сыворотка верёвок из паутины"
-msgstr[1] "сыворотки верёвок из паутины"
-msgstr[2] "сывороток верёвок из паутины"
+msgstr[0] "сыворотка прочных паутинных нитей"
+msgstr[1] "сыворотки прочных паутинных нитей"
+msgstr[2] "сывороток прочных паутинных нитей"
 
 #. ~ Description for Rope webs serum
 #: .\mutations\item.json
@@ -10244,9 +10244,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Enlargening serum"
 msgid_plural "Enlargening serums"
-msgstr[0] "сыворотка увеличения"
-msgstr[1] "сыворотки увеличения"
-msgstr[2] "сывороток увеличения"
+msgstr[0] "сыворотка крупного тела"
+msgstr[1] "сыворотки крупного тела"
+msgstr[2] "сывороток крупного тела"
 
 #. ~ Description for Enlargening serum
 #: .\mutations\item.json
@@ -10256,9 +10256,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Enhugement serum"
 msgid_plural "Enhugement serums"
-msgstr[0] "сыворотка гигантизации"
-msgstr[1] "сыворотки гигантизации"
-msgstr[2] "сывороток гигантизации"
+msgstr[0] "сыворотка огромного тела"
+msgstr[1] "сыворотки огромного тела"
+msgstr[2] "сывороток огромного тела"
 
 #. ~ Description for Enhugement serum
 #: .\mutations\item.json
@@ -10268,9 +10268,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Extremely strong serum"
 msgid_plural "Extremely strong serums"
-msgstr[0] "сыворотка невероятной силы"
-msgstr[1] "сыворотки невероятной силы"
-msgstr[2] "сывороток невероятной силы"
+msgstr[0] "сыворотка огромной силы"
+msgstr[1] "сыворотки огромной силы"
+msgstr[2] "сывороток огромной силы"
 
 #. ~ Description for Extremely strong serum
 #: .\mutations\item.json
@@ -10280,9 +10280,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Insanely strong serum"
 msgid_plural "Insanely strong serums"
-msgstr[0] "сыворотка безумной силы"
-msgstr[1] "сыворотки безумной силы"
-msgstr[2] "сывороток безумной силы"
+msgstr[0] "сыворотка невероятной силы"
+msgstr[1] "сыворотки невероятной силы"
+msgstr[2] "сывороток невероятной силы"
 
 #. ~ Description for Insanely strong serum
 #: .\mutations\item.json
@@ -10292,9 +10292,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Alpha strength serum"
 msgid_plural "Alpha strength serums"
-msgstr[0] "сыворотка силы альфы"
-msgstr[1] "сыворотки силы альфы"
-msgstr[2] "сывороток силы альфы"
+msgstr[0] "сыворотка абсолютной силы"
+msgstr[1] "сыворотки абсолютной силы"
+msgstr[2] "сывороток абсолютной силы"
 
 #. ~ Description for Alpha strength serum
 #: .\mutations\item.json
@@ -10304,9 +10304,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Extremely dextrous serum"
 msgid_plural "Extremely dextrous serums"
-msgstr[0] "сыворотка невероятной ловкости"
-msgstr[1] "сыворотки невероятной ловкости"
-msgstr[2] "сывороток невероятной ловкости"
+msgstr[0] "сыворотка исключительной ловкости"
+msgstr[1] "сыворотки исключительной ловкости"
+msgstr[2] "сывороток исключительной ловкости"
 
 #. ~ Description for Extremely dextrous serum
 #: .\mutations\item.json
@@ -10316,9 +10316,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Insanely dextrous serum"
 msgid_plural "Insanely dextrous serums"
-msgstr[0] "сыворотка безумной ловкости"
-msgstr[1] "сыворотки безумной ловкости"
-msgstr[2] "сывороток безумной ловкости"
+msgstr[0] "сыворотка предельной ловкости"
+msgstr[1] "сыворотки предельной ловкости"
+msgstr[2] "сывороток предельной ловкости"
 
 #. ~ Description for Insanely dextrous serum
 #: .\mutations\item.json
@@ -10328,9 +10328,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Alpha dexterity serum"
 msgid_plural "Alpha dexterity serums"
-msgstr[0] "сыворотка ловкости альфы"
-msgstr[1] "сыворотки ловкости альфы"
-msgstr[2] "сывороток ловкости альфы"
+msgstr[0] "сыворотка совершенной ловкости"
+msgstr[1] "сыворотки совершенной ловкости"
+msgstr[2] "сывороток совершенной ловкости"
 
 #. ~ Description for Alpha dexterity serum
 #: .\mutations\item.json
@@ -10340,9 +10340,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Extremely intelligent serum"
 msgid_plural "Extremely intelligent serums"
-msgstr[0] "сыворотка невероятного интеллекта"
-msgstr[1] "сыворотки невероятного интеллекта"
-msgstr[2] "сывороток невероятного интеллекта"
+msgstr[0] "сыворотка выдающегося интеллекта"
+msgstr[1] "сыворотки выдающегося интеллекта"
+msgstr[2] "сывороток выдающегося интеллекта"
 
 #. ~ Description for Extremely intelligent serum
 #: .\mutations\item.json
@@ -10352,9 +10352,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Insanely intelligent serum"
 msgid_plural "Insanely intelligent serums"
-msgstr[0] "сыворотка безумного интеллекта"
-msgstr[1] "сыворотки безумного интеллекта"
-msgstr[2] "сывороток безумного интеллекта"
+msgstr[0] "сыворотка исключительного интеллекта"
+msgstr[1] "сыворотки исключительного интеллекта"
+msgstr[2] "сывороток исключительного интеллекта"
 
 #. ~ Description for Insanely intelligent serum
 #: .\mutations\item.json
@@ -10364,9 +10364,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Alpha intelligence serum"
 msgid_plural "Alpha intelligence serums"
-msgstr[0] "сыворотка интеллекта альфы"
-msgstr[1] "сыворотки интеллекта альфы"
-msgstr[2] "сывороток интеллекта альфы"
+msgstr[0] "сыворотка сверхразума"
+msgstr[1] "сыворотки сверхразума"
+msgstr[2] "сывороток сверхразума"
 
 #. ~ Description for Alpha intelligence serum
 #: .\mutations\item.json
@@ -10376,9 +10376,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Extremely perceptive serum"
 msgid_plural "Extremely perceptive serums"
-msgstr[0] "сыворотка невероятной наблюдательности"
-msgstr[1] "сыворотки невероятной наблюдательности"
-msgstr[2] "сывороток невероятной наблюдательности"
+msgstr[0] "сыворотка исключительных чувств"
+msgstr[1] "сыворотки исключительных чувств"
+msgstr[2] "сывороток исключительных чувств"
 
 #. ~ Description for Extremely perceptive serum
 #: .\mutations\item.json
@@ -10388,9 +10388,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Insanely perceptive serum"
 msgid_plural "Insanely perceptive serums"
-msgstr[0] "сыворотка безумной наблюдательности"
-msgstr[1] "сыворотки безумной наблюдательности"
-msgstr[2] "сывороток безумной наблюдательности"
+msgstr[0] "сыворотка предельно острых чувств"
+msgstr[1] "сыворотки предельно острых чувств"
+msgstr[2] "сывороток предельно острых чувств"
 
 #. ~ Description for Insanely perceptive serum
 #: .\mutations\item.json
@@ -10405,9 +10405,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Distributed neurology serum"
 msgid_plural "Distributed neurology serums"
-msgstr[0] "сыворотка распределённой нервной системы"
-msgstr[1] "сыворотки распределённой нервной системы"
-msgstr[2] "сывороток распределённой нервной системы"
+msgstr[0] "сыворотка распределённого разума"
+msgstr[1] "сыворотки распределённого разума"
+msgstr[2] "сывороток распределённого разума"
 
 #. ~ Description for Distributed neurology serum
 #: .\mutations\item.json
@@ -10429,9 +10429,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Tiny serum"
 msgid_plural "Tiny serums"
-msgstr[0] "сыворотка миниатюрности"
-msgstr[1] "сыворотки миниатюрности"
-msgstr[2] "сывороток миниатюрности"
+msgstr[0] "сыворотка крайне маленького тела"
+msgstr[1] "сыворотки крайне маленького тела"
+msgstr[2] "сывороток крайне маленького тела"
 
 #. ~ Description for Tiny serum
 #: .\mutations\item.json
@@ -10441,9 +10441,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Unassuming serum"
 msgid_plural "Unassuming serums"
-msgstr[0] "сыворотка неприметности"
-msgstr[1] "сыворотки неприметности"
-msgstr[2] "сывороток неприметности"
+msgstr[0] "сыворотка малого роста"
+msgstr[1] "сыворотки малого роста"
+msgstr[2] "сывороток малого роста"
 
 #. ~ Description for Unassuming serum
 #: .\mutations\item.json
@@ -10513,9 +10513,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Pale serum"
 msgid_plural "Pale serums"
-msgstr[0] "сыворотка бледности"
-msgstr[1] "сыворотки бледности"
-msgstr[2] "сывороток бледности"
+msgstr[0] "сыворотка бледной кожи"
+msgstr[1] "сыворотки бледной кожи"
+msgstr[2] "сывороток бледной кожи"
 
 #. ~ Description for Pale serum
 #: .\mutations\item.json
@@ -10549,9 +10549,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Deluxe beautification serum"
 msgid_plural "Deluxe beautification serums"
-msgstr[0] "сыворотка совершенной красоты"
-msgstr[1] "сыворотки совершенной красоты"
-msgstr[2] "сывороток совершенной красоты"
+msgstr[0] "сыворотка сияющей красоты"
+msgstr[1] "сыворотки сияющей красоты"
+msgstr[2] "сывороток сияющей красоты"
 
 #. ~ Description for Deluxe beautification serum
 #: .\mutations\item.json
@@ -10561,9 +10561,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Glorification serum"
 msgid_plural "Glorification serums"
-msgstr[0] "сыворотка величия"
-msgstr[1] "сыворотки величия"
-msgstr[2] "сывороток величия"
+msgstr[0] "сыворотка неотразимости"
+msgstr[1] "сыворотки неотразимости"
+msgstr[2] "сывороток неотразимости"
 
 #. ~ Description for Glorification serum
 #: .\mutations\item.json
@@ -10621,9 +10621,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Rodent muzzle serum"
 msgid_plural "Rodent muzzle serums"
-msgstr[0] "сыворотка крысиной морды"
-msgstr[1] "сыворотки крысиной морды"
-msgstr[2] "сывороток крысиной морды"
+msgstr[0] "сыворотка морды грызуна"
+msgstr[1] "сыворотки морды грызуна"
+msgstr[2] "сывороток морды грызуна"
 
 #. ~ Description for Rodent muzzle serum
 #: .\mutations\item.json
@@ -10669,9 +10669,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Vomitous serum"
 msgid_plural "Vomitous serums"
-msgstr[0] "сыворотка рвоты"
-msgstr[1] "сыворотки рвоты"
-msgstr[2] "сывороток рвоты"
+msgstr[0] "сыворотка рвотных позывов"
+msgstr[1] "сыворотки рвотных позывов"
+msgstr[2] "сывороток рвотных позывов"
 
 #. ~ Description for Vomitous serum
 #: .\mutations\item.json
@@ -10681,9 +10681,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Persistence hunter serum"
 msgid_plural "Persistence hunter serums"
-msgstr[0] "сыворотка неутомимого охотника"
-msgstr[1] "сыворотки неутомимого охотника"
-msgstr[2] "сывороток неутомимого охотника"
+msgstr[0] "сыворотка настойчивого охотника"
+msgstr[1] "сыворотки настойчивого охотника"
+msgstr[2] "сывороток настойчивого охотника"
 
 #. ~ Description for Persistence hunter serum
 #: .\mutations\item.json
@@ -10693,9 +10693,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Extreme persistence hunter serum"
 msgid_plural "Extreme persistence hunter serums"
-msgstr[0] "сыворотка крайней неутомимости"
-msgstr[1] "сыворотки крайней неутомимости"
-msgstr[2] "сывороток крайней неутомимости"
+msgstr[0] "сыворотка неустанной охоты"
+msgstr[1] "сыворотки неустанной охоты"
+msgstr[2] "сывороток неустанной охоты"
 
 #. ~ Description for Extreme persistence hunter serum
 #: .\mutations\item.json
@@ -10741,9 +10741,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Extreme metabolism serum"
 msgid_plural "Extreme metabolism serums"
-msgstr[0] "сыворотка экстремального метаболизма"
-msgstr[1] "сыворотки экстремального метаболизма"
-msgstr[2] "сывороток экстремального метаболизма"
+msgstr[0] "сыворотка невероятного метаболизма"
+msgstr[1] "сыворотки невероятного метаболизма"
+msgstr[2] "сывороток невероятного метаболизма"
 
 #. ~ Description for Extreme metabolism serum
 #: .\mutations\item.json
@@ -10753,9 +10753,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Metabolic rehydration serum"
 msgid_plural "Metabolic rehydration serums"
-msgstr[0] "сыворотка метаболической регидратации"
-msgstr[1] "сыворотки метаболической регидратации"
-msgstr[2] "сывороток метаболической регидратации"
+msgstr[0] "сыворотка метаболической гидрации"
+msgstr[1] "сыворотки метаболической гидрации"
+msgstr[2] "сывороток метаболической гидрации"
 
 #. ~ Description for Metabolic rehydration serum
 #: .\mutations\item.json
@@ -10873,9 +10873,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Viscous serum"
 msgid_plural "Viscous serums"
-msgstr[0] "сыворотка липкости"
-msgstr[1] "сыворотки липкости"
-msgstr[2] "сывороток липкости"
+msgstr[0] "сыворотка вязкости"
+msgstr[1] "сыворотки вязкости"
+msgstr[2] "сывороток вязкости"
 
 #. ~ Description for Viscous serum
 #: .\mutations\item.json
@@ -11029,9 +11029,9 @@ msgstr "Специальная мутагенная сыворотка, пред
 #: .\mutations\item.json
 msgid "Ectothermic serum"
 msgid_plural "Ectothermic serums"
-msgstr[0] "сыворотка эктотермичности"
-msgstr[1] "сыворотки эктотермичности"
-msgstr[2] "сывороток эктотермичности"
+msgstr[0] "сыворотка эктотермии"
+msgstr[1] "сыворотки эктотермии"
+msgstr[2] "сывороток эктотермии"
 
 #. ~ Description for Ectothermic serum
 #: .\mutations\item.json
@@ -11089,9 +11089,9 @@ msgstr "Специальная мутагенная сыворотка, пред
 #: .\mutations\item.json
 msgid "Insect arms serum"
 msgid_plural "Insect arms serums"
-msgstr[0] "сыворотка рук насекомого"
-msgstr[1] "сыворотки рук насекомого"
-msgstr[2] "сывороток рук насекомого"
+msgstr[0] "сыворотка рук насекомых"
+msgstr[1] "сыворотки рук насекомых"
+msgstr[2] "сывороток рук насекомых"
 
 #. ~ Description for Insect arms serum
 #: .\mutations\item.json
@@ -11209,9 +11209,9 @@ msgstr "Специальная мутагенная сыворотка, пред
 #: .\mutations\item.json
 msgid "Amphibious serum"
 msgid_plural "Amphibious serums"
-msgstr[0] "сыворотка амфибии"
-msgstr[1] "сыворотки амфибии"
-msgstr[2] "сывороток амфибии"
+msgstr[0] "сыворотка земноводности"
+msgstr[1] "сыворотки земноводности"
+msgstr[2] "сывороток земноводности"
 
 #. ~ Description for Amphibious serum
 #: .\mutations\item.json
@@ -11233,9 +11233,9 @@ msgstr "Специальная мутагенная сыворотка, пред
 #: .\mutations\item.json
 msgid "Aqueous repose serum"
 msgid_plural "Aqueous repose serums"
-msgstr[0] "сыворотка студня"
-msgstr[1] "сыворотки студня"
-msgstr[2] "сывороток студня"
+msgstr[0] "сыворотка водного покоя"
+msgstr[1] "сыворотки водного покоя"
+msgstr[2] "сывороток водного покоя"
 
 #. ~ Description for Aqueous repose serum
 #: .\mutations\item.json
@@ -12442,7 +12442,7 @@ msgstr "ch_hair"
 #. ~ Mutation class name
 #: .\mutations\mutation_category.json
 msgid "spines"
-msgstr "шипы"
+msgstr "spines"
 
 #. ~ Mutation class name
 #: .\mutations\mutation_category.json
@@ -12452,7 +12452,7 @@ msgstr "длинные иглы"
 #. ~ Mutation class name
 #: .\mutations\mutation_category.json
 msgid "barbs"
-msgstr "метательные иглы"
+msgstr "barbs"
 
 #. ~ Mutation class name
 #: .\mutations\mutation_category.json
@@ -12502,7 +12502,7 @@ msgstr "бутоны"
 #. ~ Mutation class name
 #: .\mutations\mutation_category.json
 msgid "nails"
-msgstr "ногти"
+msgstr "nails"
 
 #. ~ Mutation class name
 #: .\mutations\mutation_category.json
