@@ -5793,9 +5793,9 @@ msgstr "Круглый прозрачный пластиковый щит в ф�
 #: .\items\item_common\sq_shields.json
 msgid "riot shield"
 msgid_plural "riot shields"
-msgstr[0] "щит для подавления беспорядков"
-msgstr[1] "щита для подавления беспорядков"
-msgstr[2] "щитов для подавления беспорядков"
+msgstr[0] "строевой полицейский щит"
+msgstr[1] "строевых полицейских щита"
+msgstr[2] "строевых полицейских щитов"
 
 #. ~ Use action msg for riot shield.
 #: .\items\item_common\sq_shields.json
@@ -8131,9 +8131,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Elven hearing serum"
 msgid_plural "Elven hearing serums"
-msgstr[0] "сыворотка слуха феи"
-msgstr[1] "сыворотки слуха феи"
-msgstr[2] "сывороток слуха феи"
+msgstr[0] "сыворотка слуха фейри"
+msgstr[1] "сыворотки слуха фейри"
+msgstr[2] "сывороток слуха фейри"
 
 #. ~ Description for Elven hearing serum
 #: .\mutations\item.json
@@ -8684,9 +8684,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Fey eyes serum"
 msgid_plural "Fey eyes serums"
-msgstr[0] "сыворотка глаз феи"
-msgstr[1] "сыворотки глаз феи"
-msgstr[2] "сывороток глаз феи"
+msgstr[0] "сыворотка глаз фейри"
+msgstr[1] "сыворотки глаз фейри"
+msgstr[2] "сывороток глаз фейри"
 
 #. ~ Description for Fey eyes serum
 #: .\mutations\item.json
@@ -9968,9 +9968,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Pain recovery serum"
 msgid_plural "Pain recovery serums"
-msgstr[0] "сыворотка погашения боли"
-msgstr[1] "сыворотки погашения боли"
-msgstr[2] "сывороток погашения боли"
+msgstr[0] "сыворотка ослабления боли"
+msgstr[1] "сыворотки ослабления боли"
+msgstr[2] "сывороток ослабления боли"
 
 #. ~ Description for Pain recovery serum
 #: .\mutations\item.json
@@ -10441,9 +10441,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Unassuming serum"
 msgid_plural "Unassuming serums"
-msgstr[0] "сыворотка малого роста"
-msgstr[1] "сыворотки малого роста"
-msgstr[2] "сывороток малого роста"
+msgstr[0] "сыворотка маленького тела"
+msgstr[1] "сыворотки маленького тела"
+msgstr[2] "сывороток маленького тела"
 
 #. ~ Description for Unassuming serum
 #: .\mutations\item.json
@@ -10753,9 +10753,9 @@ msgstr "Особая мутагенная сыворотка, вызывающа
 #: .\mutations\item.json
 msgid "Metabolic rehydration serum"
 msgid_plural "Metabolic rehydration serums"
-msgstr[0] "сыворотка метаболической гидрации"
-msgstr[1] "сыворотки метаболической гидрации"
-msgstr[2] "сывороток метаболической гидрации"
+msgstr[0] "сыворотка метаболической гидратации"
+msgstr[1] "сыворотки метаболической гидратации"
+msgstr[2] "сывороток метаболической гидратации"
 
 #. ~ Description for Metabolic rehydration serum
 #: .\mutations\item.json
@@ -13438,27 +13438,3 @@ msgstr "tail_snake_ok"
 #: .\mutations\mutation_category.json
 msgid "snake_coils"
 msgstr "snake_coils"
-
-#~ msgid "frozen core fragment"
-#~ msgid_plural "frozen core fragments"
-#~ msgstr[0] "фрагмент ледяного ядра"
-#~ msgstr[1] "фрагмента ледяного ядра"
-#~ msgstr[2] "фрагментов ледяного ядра"
-
-#~ msgid "hazardous waste drum"
-#~ msgid_plural "hazardous waste drums"
-#~ msgstr[0] "бочка с опасными отходами"
-#~ msgstr[1] "бочек с опасными отходами"
-#~ msgstr[2] ""
-
-#~ msgid "A yellow drum meant for the storage of hazardous substances."
-#~ msgstr "Бочка желтого цвета, предназначенная для хранения опасных веществ."
-
-#~ msgid "nuclear waste"
-#~ msgid_plural "nuclear waste"
-#~ msgstr[0] "ядерные отходы"
-#~ msgstr[1] "ядерных отходов"
-#~ msgstr[2] ""
-
-#~ msgid "A small pellet of silvery metal, still warm to the touch."
-#~ msgstr "Небольшая крупинка серебристого металла, еще теплого на ощупь."
