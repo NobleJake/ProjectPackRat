@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "sq_i_noencum_backpacks",
+    "name": "Project Packrat: No encumbrance backpacks",
+    "authors": [ "NakedJake" ],
+    "description": "Submod for Project: Packrat. If you don't want to bother backpacks every fight because it's annoying, this is the mod for you.",
+    "category": "rebalance",
+    "version": "0.0.0-alpha",
+    "dependencies": [ "bn", "Jake's_Squirrel_mod" ]
+  }
+]
