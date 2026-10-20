@@ -957,7 +957,7 @@
     "difficulty": 7,
     "time": "120 m",
 	"qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
-    "components": [ [ [ "carbide", 16 ] ], [ [ "steel_lump", 16 ] ], [ [ "kevlar_plate", 16 ] ] ]
+    "components": [ [ [ "carbide_plate", 16 ] ], [ [ "steel_lump", 16 ] ], [ [ "kevlar_plate", 16 ] ] ]
   },
   {
     "result": "power_armor_plating_1",
@@ -966,7 +966,7 @@
     "difficulty": 7,
     "time": "120 m",
 	"qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
-    "components": [ [ [ "carbide", 56 ] ], [ [ "steel_lump", 56 ] ], [ [ "kevlar_plate", 56 ] ] ]
+    "components": [ [ [ "carbide_plate", 56 ] ], [ [ "steel_lump", 56 ] ], [ [ "kevlar_plate", 56 ] ] ]
   },
   {
     "result": "power_armor_plating_2",
@@ -975,7 +975,7 @@
     "difficulty": 7,
     "time": "120 m",
 	"qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
-    "components": [ [ [ "carbide", 36 ] ], [ [ "steel_lump", 36 ] ], [ [ "kevlar_plate", 36 ] ] ]
+    "components": [ [ [ "carbide_plate", 36 ] ], [ [ "steel_lump", 36 ] ], [ [ "kevlar_plate", 36 ] ] ]
   },
   {
     "result": "power_armor_plating_3",
@@ -984,6 +984,6 @@
     "difficulty": 7,
     "time": "120 m",
 	"qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
-    "components": [ [ [ "carbide", 20 ] ], [ [ "steel_lump", 20 ] ], [ [ "kevlar_plate", 20 ] ] ]
+    "components": [ [ [ "carbide_plate", 20 ] ], [ [ "steel_lump", 20 ] ], [ [ "kevlar_plate", 20 ] ] ]
   }
 ]

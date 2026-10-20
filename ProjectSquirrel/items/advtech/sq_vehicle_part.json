@@ -463,7 +463,7 @@
     "type": "GENERIC",
     "id": "sq_megafreezer",
     "name": { "str": "mega freezer", "str_pl": "mega freezers" },
-    "description": "A large version of the 1000 litre capacity freezer designed as a mobile solution for freezing food. It provides insulation from external elements.",
+    "description": "A large version of the 600 litre capacity freezer designed as a mobile solution for freezing food. It provides insulation from external elements.",
     "volume": "999 L",
     "weight": "130 kg",
     "price": "2450 USD",
