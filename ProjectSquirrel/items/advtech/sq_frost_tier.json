@@ -815,7 +815,7 @@
     "name": { "str": "stabilized portal freezer" },
     "description": "Peering into the frostbitten maw of this localized dimensional tear, an old-world truth chills you to the bone. There are only two things that are truly bottomless: the freezing void of the universe, and a survivor's kleptomania.",
     "weight": "140 kg",
-    "volume": "999 L",
+    "volume": "700 L",
     "price": "15 kUSD",
     "to_hit": -4,
     "bashing": 2,
