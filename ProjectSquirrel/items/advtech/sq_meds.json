@@ -728,7 +728,7 @@
     "id": "sq_nanomite_acid",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
-    "name": { "str": "nanomite capsules: acid protection", "str_pl": "nanomite capsules: acid protection" },
+    "name": {"str": "nanomite capsule: acid protection", "str_pl": "nanomite capsules: acid protection"},
     "description": "A capsule containing a colony of nanomachines. When applied to the body, the colonies align themselves in the skin layer, providing corrosion and acid protection for 30 minutes.",
 	"looks_like": "5x50_hull",
     "weight": "10 g",
