@@ -76,7 +76,7 @@ msgid ""
 "All systems operational."
 msgstr ""
 "Инициализация\n"
-"Проводим диагностику целостности костюма…\n"
+"Проверка целостности костюма…\n"
 "Все системы работают."
 
 #. ~ Use action transform.need_charges_msg for {'str': "'Warden' heavy combat
@@ -91,7 +91,7 @@ msgstr ""
 #. assassination infiltration suit"}.
 #: ./items/advtech/sq_advanced_armor.json
 msgid "Warning: Operating on minimal power.  Protection compromised."
-msgstr "Предупреждение: работа на минимальной мощности. Защита понижена."
+msgstr "Предупреждение: работа на минимальной мощности. Защита ослаблена."
 
 #. ~ Description for {'str': "'Warden' heavy combat armor"}
 #: ./items/advtech/sq_advanced_armor.json
@@ -360,12 +360,12 @@ msgid ""
 "still protects you from the elements as well as from harm. It is turned on, "
 "and continually draining power.  Use it to turn it on."
 msgstr ""
-"Модифицированный самодельный бронекостюм на основе бронежилета и комбинезона"
-" со встроенной электроникой, работающей от УБП. За основу взята конструкция "
-"боевого бронекостюма Rivtech RM13. Часть функций пришлось убрать из-за "
-"сложности воспроизведения исходных технологий и трудоёмкости изготовления, "
-"но костюм по-прежнему хорошо защищает как от непогоды, так и от повреждений."
-" Сейчас он выключен. Активируйте, чтобы включить."
+"Самодельный бронекостюм на основе бронежилета и комбинезона со встроенной "
+"электроникой, работающей от УБП. За основу взята конструкция боевого "
+"бронекостюма Rivtech RM13. Часть функций пришлось убрать из-за сложности "
+"воспроизведения исходных технологий и трудоёмкости изготовления, но костюм "
+"по-прежнему хорошо защищает как от непогоды, так и от повреждений. Сейчас он"
+" выключен. Активируйте, чтобы включить."
 
 #: ./items/advtech/sq_advanced_armor.json
 msgid "survivor combat armor (on)"
@@ -385,13 +385,12 @@ msgid ""
 "still protects you from the elements as well as from harm. It is turned on, "
 "and continually draining power.  Use it to turn it off."
 msgstr ""
-"Модифицированный самодельный бронекостюм на основе бронежилета и комбинезона"
-" со встроенной электроникой, работающей от УБП. За основу взята конструкция "
-"боевого бронекостюма Rivtech RM13. Часть функций пришлось убрать из-за "
-"сложности воспроизведения исходных технологий и трудоёмкости изготовления, "
-"но костюм по-прежнему хорошо защищает как от непогоды, так и от повреждений."
-" Сейчас он включён и постоянно расходует энергию. Активируйте, чтобы "
-"выключить."
+"Самодельный бронекостюм на основе бронежилета и комбинезона со встроенной "
+"электроникой, работающей от УБП. За основу взята конструкция боевого "
+"бронекостюма Rivtech RM13. Часть функций пришлось убрать из-за сложности "
+"воспроизведения исходных технологий и трудоёмкости изготовления, но костюм "
+"по-прежнему хорошо защищает как от непогоды, так и от повреждений. Сейчас он"
+" включён и постоянно расходует энергию. Активируйте, чтобы выключить."
 
 #: ./items/advtech/sq_advanced_armor.json
 msgid "powered suit schematics"
@@ -407,9 +406,9 @@ msgid ""
 "Most of this is useless to you, but you could use the assembly plans to re-"
 "assemble the suit from salvaged parts."
 msgstr ""
-"Сборочные схемы, технические характеристики и чертежи силового костюма. "
-"Большая часть этих материалов вам ни к чему, но по сборочным схемам можно "
-"заново собрать костюм из уцелевших деталей."
+"Сборочные схемы, технические спецификации и чертежи силового костюма. "
+"Большая часть этой документации для вас бесполезна, но по сборочным схемам "
+"можно заново собрать костюм из уцелевших деталей."
 
 #: ./items/advtech/sq_advanced_armor.json
 msgid "Integrated Combat System"
@@ -474,9 +473,9 @@ msgid ""
 "  Most of this is useless to you, but you could use the assembly plans to "
 "re-assemble the suit from salvaged parts."
 msgstr ""
-"Сборочные схемы, технические характеристики и чертежи костюма ассасина. "
-"Большая часть этих материалов вам ни к чему, но по сборочным схемам можно "
-"заново собрать костюм из уцелевших деталей."
+"Сборочные схемы, технические спецификации и чертежи костюма ассасина. "
+"Большая часть этой документации для вас бесполезна, но по сборочным схемам "
+"можно заново собрать костюм из уцелевших деталей."
 
 #: ./items/advtech/sq_advanced_armor.json
 msgid "Active Camouflage System"
@@ -1329,9 +1328,9 @@ msgid ""
 " is unnaturally cold and never dulls, leaving a trail of frost with every "
 "swing."
 msgstr ""
-"Средневековый боевой меч, в клинок которого вплавлен осколок ледяного ядра. "
-"Лезвие источает сверхъестественный холод и никогда не тупится, а каждый "
-"взмах оставляет за собой морозный след."
+"Средневековый одноручный меч, в клинок которого вплавлен осколок ледяного "
+"ядра. Лезвие источает сверхъестественный холод и никогда не тупится, а "
+"каждый взмах оставляет за собой морозный след."
 
 #: ./items/advtech/sq_frost_tier.json
 msgid "permafrost spear"
@@ -1959,7 +1958,7 @@ msgstr "аксессуары"
 #. ~ GUN 'sq_fusion_hmg': valid_mod_locations
 #: ./items/advtech/sq_hardlight_fusion_and_gunmods.json
 msgid "emitter"
-msgstr "эмиттер"
+msgstr "излучатель"
 
 #. ~ GUN 'sq_tesla_cannon': valid_mod_locations
 #. ~ GUN 'sq_fusion_pistol': valid_mod_locations
@@ -2062,9 +2061,9 @@ msgstr "дробовик"
 #: ./items/advtech/sq_hardlight_fusion_and_gunmods.json
 msgid "effective emitter"
 msgid_plural "effective emitters"
-msgstr[0] "эффективный эмиттер"
-msgstr[1] "эффективных эмиттера"
-msgstr[2] "эффективных эмиттеров"
+msgstr[0] "эффективный излучатель"
+msgstr[1] "эффективных излучателя"
+msgstr[2] "эффективных излучателей"
 
 #: ./items/advtech/sq_hardlight_fusion_and_gunmods.json
 msgid "high density capacitor"
@@ -2826,9 +2825,9 @@ msgid ""
 "sound of gunfire and improves shooting accuracy."
 msgstr ""
 "Глушитель снижает уровень шума и уменьшает дульную вспышку при выстреле. "
-"Стрельба без защиты может повредить слух; этот усовершенствованный армейский"
-" глушитель значительно приглушает звук выстрела и повышает точность "
-"стрельбы."
+"Выстрелы из огнестрельного оружия чрезвычайно громкие и без защиты могут "
+"повредить слух; этот усовершенствованный армейский глушитель значительно "
+"приглушает звук выстрела и повышает точность стрельбы."
 
 #: ./items/advtech/sq_hardlight_fusion_and_gunmods.json
 msgid "rifling barrel"
@@ -3440,8 +3439,8 @@ msgstr ""
 msgid "royal jelly"
 msgid_plural "royal jellies"
 msgstr[0] "маточное молочко пчёл"
-msgstr[1] "маточного молочка пчёл"
-msgstr[2] "маточного молочка пчёл"
+msgstr[1] "маточное молочко пчёл"
+msgstr[2] "маточное молочко пчёл"
 
 #. ~ Use action consume_drug.activation_message for {'str': 'royal jelly',
 #. 'str_pl': 'royal jellies'}.
@@ -3456,10 +3455,10 @@ msgid ""
 "It's filled with some of the most beneficial substances a hive can produce "
 "since the apocalypse, treating many conditions and acting as an antidote."
 msgstr ""
-"Полупрозрачный шестиугольный кусочек воска, заполненный густым молочно-белым"
-" желе. В нём сосредоточены едва ли не самые полезные вещества, которые "
-"способен вырабатывать улей после Катаклизма: они помогают при множестве "
-"недугов и действуют как противоядие."
+"Полупрозрачный шестиугольный кусок воска, наполненный густым молочно-белым "
+"желе. Оно содержит одни из самых полезных веществ, какие только может "
+"производить улей после Катаклизма, и способно лечить многие недуги и "
+"действовать как противоядие."
 
 #: ./items/advtech/sq_meds.json
 msgid "royal jelly mixture"
@@ -3511,9 +3510,10 @@ msgid ""
 "are effective against many known poisons, but may not be effective against "
 "stronger poisons.  Treat and prevent biological poisons."
 msgstr ""
-"По сути, это кустарное противоядие, нейтрализующее действие вредных веществ."
-" Эффективно против многих известных ядов, хотя с особенно сильными может не "
-"справиться. Лечит отравления биологическими ядами и защищает от них."
+"По сути, это самодельное противоядие, нейтрализующее действие вредных "
+"веществ. Эффективно против многих известных ядов, хотя с особенно сильными "
+"может не справиться. Лечит отравления биологическими ядами и защищает от "
+"них."
 
 #: ./items/advtech/sq_meds.json
 msgid "You feel an itch."
@@ -4385,7 +4385,8 @@ msgid ""
 msgstr ""
 "Сварочная и металлообрабатывающая станция с питанием от аккумулятора "
 "транспорта. Осмотрите её клавишей «e», чтобы воспользоваться сварочным "
-"аппаратом или паяльником. Защита для глаз всё ещё необходима."
+"аппаратом или паяльником. Защита глаз от яркого света по-прежнему "
+"необходима."
 
 #: ./items/advtech/sq_vehicle_part.json
 msgid "cooking rig"
@@ -4400,8 +4401,8 @@ msgid ""
 "An all-in-one kitchen unit and chemistry lab.  'e'xamine it to use its "
 "hotplate to heat up food or drinks."
 msgstr ""
-"Универсальный кухонный блок и химическая лаборатория в одном устройстве. "
-"Осмотрите его клавишей «e», чтобы подогреть еду или напитки на плитке."
+"Универсальная кухонная станция с химической лабораторией. Осмотрите её "
+"клавишей «e», чтобы подогреть еду или напитки на плитке."
 
 #: ./items/advtech/sq_vehicle_part.json
 msgid "KitchenMaster cooking buddy"
@@ -4416,8 +4417,8 @@ msgid ""
 "An all-in-one kitchen unit, chemistry lab, and food preparation area.  "
 "'e'xamine it to use its hotplate to heat up food or drinks."
 msgstr ""
-"Универсальный кухонный блок, химическая лаборатория и зона подготовки пищи. "
-"Осмотрите его клавишей «e», чтобы подогреть еду или напитки на плитке."
+"Универсальная кухонная станция с химической лабораторией и зоной подготовки "
+"пищи. Осмотрите её клавишей «e», чтобы подогреть еду или напитки на плитке."
 
 #. ~ Description for {'str': 'MetalMaster forge buddy', 'str_pl': 'MetalMaster
 #. forge buddies'}
@@ -4429,10 +4430,9 @@ msgid ""
 "still requires a vehicle battery to function."
 msgstr ""
 "Кузнечный помощник «МеталМастер» от создателей популярного* кухонного "
-"помощника «ФудКо» — для всех слесарных, кузнечных и сварочных работ! Он "
-"такой же громоздкий и неудобный, как устройство, на основе которого создан, "
-"и для работы по-прежнему требует питания от аккумулятора транспортного "
-"средства."
+"помощника «ФудКо» — для всех работ по металлу, обжига и сварки! Он такой же "
+"громоздкий и неудобный, как устройство, на основе которого создан, и для "
+"работы по-прежнему требует питания от аккумулятора транспорта."
 
 #. ~ Description for {'str': 'KitchenMaster cooking buddy', 'str_pl':
 #. 'KitchenMaster cooking buddies'}
@@ -4836,9 +4836,9 @@ msgstr ""
 #: ./items/item_common/sq_armor_override.json
 msgid "sheet"
 msgid_plural "sheets"
-msgstr[0] "штора"
-msgstr[1] "шторы"
-msgstr[2] "штор"
+msgstr[0] "полотнище"
+msgstr[1] "полотнища"
+msgstr[2] "полотнищ"
 
 #: ./items/item_common/sq_armor_override.json
 msgid "blanket"
@@ -5411,43 +5411,43 @@ msgstr[2] "трофейных шлемов силовой брони"
 msgid "power armor"
 msgid_plural "suits of power armor"
 msgstr[0] "силовая броня"
-msgstr[1] "силовые брони"
-msgstr[2] "силовых броней"
+msgstr[1] "комплекта силовой брони"
+msgstr[2] "комплектов силовой брони"
 
 #: ./items/item_common/sq_armor_override.json
 msgid "power armor (active)"
 msgid_plural "suits of power armor (active)"
 msgstr[0] "силовая броня (вкл.)"
-msgstr[1] "силовые брони (вкл.)"
-msgstr[2] "силовых броней (вкл.)"
+msgstr[1] "комплекта силовой брони (вкл.)"
+msgstr[2] "комплектов силовой брони (вкл.)"
 
 #: ./items/item_common/sq_armor_override.json
 msgid "heavy power armor"
 msgid_plural "suits of heavy power armor"
 msgstr[0] "тяжёлая силовая броня"
-msgstr[1] "тяжёлые силовые брони"
-msgstr[2] "тяжёлых силовых броней"
+msgstr[1] "комплекта тяжёлой силовой брони"
+msgstr[2] "комплектов тяжёлой силовой брони"
 
 #: ./items/item_common/sq_armor_override.json
 msgid "heavy power armor (active)"
 msgid_plural "suits of heavy power armor (active)"
 msgstr[0] "тяжёлая силовая броня (вкл.)"
-msgstr[1] "тяжёлые силовые брони (вкл.)"
-msgstr[2] "тяжёлых силовых броней (вкл.)"
+msgstr[1] "комплекта тяжёлой силовой брони (вкл.)"
+msgstr[2] "комплектов тяжёлой силовой брони (вкл.)"
 
 #: ./items/item_common/sq_armor_override.json
 msgid "light power armor"
 msgid_plural "suits of light power armor"
 msgstr[0] "лёгкая силовая броня"
-msgstr[1] "лёгкие силовые брони"
-msgstr[2] "лёгких силовых броней"
+msgstr[1] "комплекта лёгкой силовой брони"
+msgstr[2] "комплектов лёгкой силовой брони"
 
 #: ./items/item_common/sq_armor_override.json
 msgid "light power armor (active)"
 msgid_plural "suits of light power armor (active)"
 msgstr[0] "лёгкая силовая броня (вкл.)"
-msgstr[1] "лёгкие силовые брони (вкл.)"
-msgstr[2] "лёгких силовых броней (вкл.)"
+msgstr[1] "комплекта лёгкой силовой брони (вкл.)"
+msgstr[2] "комплектов лёгкой силовой брони (вкл.)"
 
 #: ./items/item_common/sq_armor_override.json
 msgid "power armor helmet"
@@ -7205,11 +7205,10 @@ msgid ""
 "sling for a small rifle or other such weapon.  Durable and carefully crafted"
 " to be comfortable to wear.  Activate to holster/draw your weapon."
 msgstr ""
-"Специально спроектированная лёгкая разгрузка из огнестойкого номекса, "
-"усиленная кевларом и снабжённая множеством карманов и подсумков, а также "
-"встроенным тактическим ремнём для небольшой винтовки или другого подобного "
-"оружия. Прочная, добротно сделанная и удобная в носке. Активируйте, чтобы "
-"убрать оружие или достать его."
+"Доработанная лёгкая разгрузочная система из огнестойкого номекса, усиленного"
+" кевларом, с подсумками и встроенным тактическим ремнём для небольшой "
+"винтовки или другого подобного оружия. Прочная, добротно сделанная и удобная"
+" в носке. Активируйте, чтобы убрать оружие или достать его."
 
 #: ./items/item_common/sq_nomex_survivor.json
 msgid "survivor fireproof belt"
@@ -7226,10 +7225,10 @@ msgid ""
 "hand tools and a sheath to carry a smaller blade.  Durable and carefully "
 "crafted to be comfortable to wear.  Activate to sheathe/draw a weapon."
 msgstr ""
-"Модифицированный самодельный пояс для снаряжения из огнестойкого номекса, "
-"усиленного кевларом. Покрыт ремешками и подсумками с множеством полезных "
-"ручных инструментов, а также снабжён ножнами для небольшого клинка. Прочный,"
-" добротно сделанный и удобный в носке. Активируйте, чтобы убрать оружие или "
+"Доработанный пояс для снаряжения из огнестойкого номекса, усиленного "
+"кевларом. Покрыт ремешками и подсумками с множеством полезных ручных "
+"инструментов, а также снабжён ножнами для небольшого клинка. Прочный, "
+"добротно сделанный и удобный в носке. Активируйте, чтобы убрать оружие или "
 "достать его."
 
 #: ./items/item_common/sq_nomex_survivor.json
@@ -7321,10 +7320,10 @@ msgid ""
 "the light."
 msgstr ""
 "Этот налобный фонарик особой конструкции изготовлен из огнестойкого номекса "
-"и усилен кевларом. Питается волшебной силой ядерного распада, а благодаря "
-"фокусировке луча светит ярче. Регулируемый ремешок позволяет удобно носить "
-"его на голове или крепить к шлему. Активируйте, чтобы закрыть крышку и "
-"скрыть свет."
+"и усилен кевларом. Работает благодаря магии ядерного распада. "
+"Сфокусированный луч даёт больше полезного света. Регулируемый ремешок "
+"позволяет удобно носить его на голове или крепить к шлему. Активируйте, "
+"чтобы закрыть крышку и скрыть свет."
 
 #: ./items/item_common/sq_nomex_survivor.json
 msgid "survivor atomic fireproof headlamp (covered)"
@@ -7357,10 +7356,10 @@ msgid ""
 "the light."
 msgstr ""
 "Этот налобный фонарик особой конструкции изготовлен из огнестойкого номекса "
-"и усилен кевларом. Питается волшебной силой ядерного распада, а благодаря "
-"фокусировке луча светит ярче. Регулируемый ремешок позволяет удобно носить "
-"его на голове или крепить к шлему. Активируйте, чтобы открыть крышку и "
-"выпустить свет."
+"и усилен кевларом. Работает благодаря магии ядерного распада. "
+"Сфокусированный луч даёт больше полезного света. Регулируемый ремешок "
+"позволяет удобно носить его на голове или крепить к шлему. Активируйте, "
+"чтобы открыть крышку и выпустить свет."
 
 #: ./items/item_common/sq_nomex_survivor.json
 msgid "survivor fireproof scabbard"
@@ -7401,9 +7400,9 @@ msgstr ""
 #: ./items/item_common/sq_nomex_survivor.json
 msgid "survivor fireproof ankle sheath"
 msgid_plural "survivor fireproof ankle sheaths"
-msgstr[0] "огнеупорные ножны выживальщика на голень"
-msgstr[1] "огнеупорных ножен выживальщика на голень"
-msgstr[2] "огнеупорных ножен выживальщика на голень"
+msgstr[0] "огнеупорные ножны выживальщика на лодыжку"
+msgstr[1] "огнеупорных ножен выживальщика на лодыжку"
+msgstr[2] "огнеупорных ножен выживальщика на лодыжку"
 
 #. ~ Description for {'str': 'survivor fireproof ankle sheath'}
 #: ./items/item_common/sq_nomex_survivor.json
@@ -7412,9 +7411,9 @@ msgid ""
 "fireproof fabric worn on the ankle.  It is awkward to use without practice."
 "  Activate to sheathe/draw a weapon."
 msgstr ""
-"Небольшие скрытые ножны из огнестойкого номекса, усиленного кевларом, "
-"которые крепятся на голени. Без привычки пользоваться неудобно. Активируйте,"
-" чтобы убрать оружие или достать его."
+"Маленькие потайные ножны для ножа, изготовленные из огнестойкого номекса, "
+"усиленного кевларом. Крепятся на лодыжке. Без привычки пользоваться "
+"неудобно. Активируйте, чтобы убрать оружие или достать его."
 
 #: ./items/item_common/sq_nomex_survivor.json
 msgid "survivor fireproof baldric"
@@ -7432,8 +7431,8 @@ msgid ""
 "sheath/draw a sword."
 msgstr ""
 "Ножны из огнестойкого номекса, усиленного кевларом, достаточно большие для "
-"длинного меча и даже более крупного клинка. Носятся на поясе, крепятся "
-"плечевым ремнём. Активируйте, чтобы убрать или достать меч."
+"оружия размером до длинного меча или даже немного больше. Носятся на поясе, "
+"крепятся плечевым ремнём. Активируйте, чтобы убрать или достать меч."
 
 #: ./items/item_common/sq_nomex_survivor.json
 msgid "survivor fireproof holster"
@@ -7448,9 +7447,9 @@ msgid ""
 "A strap reinforced with Kevlar and made of Nomex fireproof fabric worn on "
 "the hip for holding pistol sized guns.  Activate to holster/draw a gun."
 msgstr ""
-"Перевязь на тело из огнестойкого номекса, усиленного кевларом, которая "
-"крепится на бедре и предназначена для пистолетов и другого оружия схожих "
-"размеров. Активируйте, чтобы убрать оружие или достать его."
+"Кобура из огнестойкого номекса, усиленного кевларом. Крепится на бедре и "
+"предназначена для пистолетов и другого оружия схожих размеров. Активируйте, "
+"чтобы убрать оружие или достать его."
 
 #: ./items/item_common/sq_nomex_survivor.json
 msgid "survivor fireproof bow sling"
@@ -7467,8 +7466,8 @@ msgid ""
 "out of harms way.  Activate to holster/draw your bow."
 msgstr ""
 "Довольно сложная конструкция из ремней и огнестойкого номекса, усиленного "
-"кевларом. Позволяет держать лук под рукой и подальше от всяких проблем. "
-"Активируйте, чтобы закрепить лук или снять его."
+"кевларом. Позволяет держать лук под рукой и по большей части уберегать его "
+"от повреждений. Активируйте, чтобы закрепить лук или снять его."
 
 #: ./items/item_common/sq_nomex_survivor.json
 msgid "survivor fireproof axe ring holster"
@@ -7501,10 +7500,10 @@ msgid ""
 "to duck to get through doors while one's in it, though.  Activate to "
 "holster/draw a weapon."
 msgstr ""
-"Перевязь на тело из огнестойкого номекса, усиленного кевларом для удержания "
-"копий, двуручных топоров, или похожего оружия, позволяет держать руки "
-"свободными. Правда, с закреплённым копьём приходится пригибаться, проходя "
-"через двери. Активируйте, чтобы закрепить оружие или снять его."
+"Перевязь из огнестойкого номекса, усиленного кевларом, для ношения копий. "
+"Надевается на туловище и оставляет руки свободными. Правда, с закреплённым "
+"копьём приходится пригибаться, проходя через двери. Активируйте, чтобы "
+"закрепить оружие или снять его."
 
 #: ./items/item_common/sq_nomex_survivor.json
 #: ./mod_interactions/i_noencum_backpacks/override.json
@@ -7520,9 +7519,9 @@ msgid ""
 "A custom-built backpack, reinforced with Kevlar and made of Nomex fireproof "
 "fabric.  Durable and carefully crafted to hold as much stuff as possible."
 msgstr ""
-"Модифицированный самодельный рюкзак из огнестойкого номекса, усиленного "
-"кевларом. Прочный и тщательно продуманный, чтобы вмещать как можно больше "
-"вещей."
+"Доработанный рюкзак из огнестойкого номекса, усиленного кевларом. "
+"Долговечный, добротно изготовленный и рассчитанный на максимальную "
+"вместимость."
 
 #: ./items/item_common/sq_nomex_survivor.json
 #: ./mod_interactions/i_noencum_backpacks/override.json
@@ -7539,17 +7538,17 @@ msgid ""
 "fireproof fabric.  Durable and carefully crafted to hold as much stuff as "
 "possible."
 msgstr ""
-"Модифицированный самодельный тяжёлый рюкзак из огнестойкого номекса, "
-"усиленного кевларом. Прочный и тщательно продуманный, чтобы вмещать как "
-"можно больше вещей."
+"Доработанный тяжёлый рюкзак из огнестойкого номекса, усиленного кевларом. "
+"Долговечный, добротно изготовленный и рассчитанный на максимальную "
+"вместимость."
 
 #: ./items/item_common/sq_nomex_survivor.json
 #: ./mod_interactions/i_noencum_backpacks/override.json
 msgid "survivor fireproof duffel bag"
 msgid_plural "survivor fireproof duffel bags"
-msgstr[0] "огнеупорная дорожная сумка выживальщика"
-msgstr[1] "огнеупорные дорожные сумки выживальщика"
-msgstr[2] "огнеупорных дорожных сумок выживальщика"
+msgstr[0] "огнеупорный вещмешок выживальщика"
+msgstr[1] "огнеупорных вещмешка выживальщика"
+msgstr[2] "огнеупорных вещмешков выживальщика"
 
 #. ~ Description for {'str': 'survivor fireproof duffel bag'}
 #: ./items/item_common/sq_nomex_survivor.json
@@ -7558,9 +7557,9 @@ msgid ""
 "fireproof fabric.  Durable and carefully crafted to hold as much stuff as "
 "possible."
 msgstr ""
-"Модифицированная самодельная тяжёлая дорожная сумка из огнестойкого номекса,"
-" усиленного кевларом. Прочная и тщательно продуманная, чтобы вмещать как "
-"можно больше вещей."
+"Доработанный тяжёлый вещмешок из огнестойкого номекса, усиленного кевларом. "
+"Долговечный, добротно изготовленный и рассчитанный на максимальную "
+"вместимость."
 
 #: ./items/item_common/sq_nomex_survivor.json
 #: ./mod_interactions/i_noencum_backpacks/override.json
@@ -7577,9 +7576,9 @@ msgid ""
 "Nomex fireproof fabric.  Durable and carefully crafted to hold as much stuff"
 " as possible."
 msgstr ""
-"Модифицированный самодельный лёгкий рюкзак для бега, изготовленный из "
-"огнестойкого номекса, усиленного кевларом. Прочный и тщательно продуманный, "
-"чтобы вмещать как можно больше вещей."
+"Доработанный лёгкий рюкзак для бега из огнестойкого номекса, усиленного "
+"кевларом. Долговечный, добротно изготовленный и рассчитанный на максимальную"
+" вместимость."
 
 #: ./items/item_common/sq_nomex_survivor.json
 #: ./mod_interactions/i_noencum_backpacks/override.json
@@ -7596,9 +7595,9 @@ msgid ""
 "fireproof fabric.  Durable and carefully crafted to hold as much stuff as "
 "possible."
 msgstr ""
-"Модифицированный самодельный рюкзак из огнестойкого номекса, усиленного "
-"кевларом. Прочный и тщательно продуманный, чтобы вмещать как можно больше "
-"вещей."
+"Доработанный походный рюкзак из огнестойкого номекса, усиленного кевларом. "
+"Долговечный, добротно изготовленный и рассчитанный на максимальную "
+"вместимость."
 
 #: ./items/item_common/sq_nomex_survivor.json
 msgid "pair of survivor fireproof knee pads"
@@ -7661,8 +7660,8 @@ msgid ""
 "secure each piece and connect it as part of a set."
 msgstr ""
 "Полный комплект защиты ног из огнестойкого номекса, усиленного кевларом. "
-"Включает набедренники, наколенники и поножи с кевларовыми ремнями, которые "
-"удерживают детали на месте и соединяют их в единый комплект."
+"Включает набедренники, наколенники и наголенники с кевларовыми ремнями, "
+"которые удерживают детали на месте и соединяют их в единый комплект."
 
 #: ./items/item_common/sq_nomex_survivor.json
 msgid "survivor fireproof cuirass"
@@ -7709,8 +7708,8 @@ msgid ""
 " can be strapped to your chest which is capable of holding a single magazine"
 " or speedloader close at hand."
 msgstr ""
-"Подсумок из огнестойкого номекса, усиленного кевларом, крепящийся на груди, "
-"в котором можно хранить один магазин или скорозарядник."
+"Подсумок из огнестойкого номекса, усиленного кевларом, который крепится на "
+"груди и позволяет держать под рукой один магазин или скорозарядник."
 
 #: ./items/item_common/sq_nomex_survivor.json
 msgid "survivor fireproof leg ammo pouch"
@@ -7727,15 +7726,15 @@ msgid ""
 " can be strapped to your leg and capable of holding two magazine close at "
 "hand."
 msgstr ""
-"Подсумок из огнестойкого номекса, усиленного кевларом, крепящийся на бедро, "
-"в котором можно хранить два магазина."
+"Подсумок из огнестойкого номекса, усиленного кевларом, который крепится на "
+"бедре и позволяет держать под рукой два магазина."
 
 #: ./items/item_common/sq_nomex_survivor.json
 msgid "survivor fireproof ankle ammo pouch"
 msgid_plural "survivor fireproof ankle ammo pouches"
-msgstr[0] "огнеупорный подсумок выживальщика на голень"
-msgstr[1] "огнеупорных подсумка выживальщика на голень"
-msgstr[2] "огнеупорных подсумков выживальщика на голень"
+msgstr[0] "огнеупорный подсумок выживальщика на лодыжку"
+msgstr[1] "огнеупорных подсумка выживальщика на лодыжку"
+msgstr[2] "огнеупорных подсумков выживальщика на лодыжку"
 
 #. ~ Description for {'str': 'survivor fireproof ankle ammo pouch', 'str_pl':
 #. 'survivor fireproof ankle ammo pouches'}
@@ -7746,8 +7745,8 @@ msgid ""
 "small magazine or speedloader close at hand."
 msgstr ""
 "Небольшой подсумок из огнестойкого номекса, усиленного кевларом, который "
-"крепится на голени и позволяет держать под рукой один небольшой магазин или "
-"скорозарядник."
+"крепится на лодыжке и позволяет держать под рукой один небольшой магазин или"
+" скорозарядник."
 
 #: ./items/item_common/sq_nomex_survivor.json
 msgid "survivor fireproof ammo pouch"
@@ -7841,8 +7840,8 @@ msgid ""
 "Activate to holster/draw a gun."
 msgstr ""
 "Кобура из огнестойкого номекса, усиленного кевларом, достаточно большая для "
-"винтовки или другого крупного огнестрельного оружия. Крепится на спине. "
-"Поначалу пользоваться ею неудобно, но с практикой становится проще. "
+"винтовки или другого крупного огнестрельного оружия. Крепится ремнями за "
+"спиной. Поначалу пользоваться ею неудобно, но с практикой становится проще. "
 "Активируйте, чтобы убрать оружие или достать его."
 
 #: ./items/item_common/sq_nomex_survivor.json
@@ -7859,9 +7858,8 @@ msgid ""
 "covered with pouches and pockets.  Comfortable, durable, and great for "
 "storage."
 msgstr ""
-"Подогнанный под себя длинный плащ-пыльник из огнестойкого номекса, усиленный"
-" кевларом и снабжённый множеством карманов и подсумков. Удобный, прочный, "
-"вместительный."
+"Доработанный длинный плащ-пыльник из огнестойкого номекса с кевларовой "
+"защитой, подсумками и карманами. Удобный, прочный и вместительный."
 
 #: ./items/item_common/sq_nomex_survivor.json
 msgid "survivor fireproof trenchcoat"
@@ -7876,8 +7874,8 @@ msgid ""
 "A Kevlar armored custom trenchcoat made of Nomex fireproof fabric, covered "
 "with pouches and pockets.  Comfortable, durable, and great for storage."
 msgstr ""
-"Бронированный тренчкот из огнестойкого номекса, усиленный кевларом и "
-"снабжённый множеством карманов и подсумков. Удобный, прочный, вместительный."
+"Доработанный тренчкот из огнестойкого номекса с кевларовой защитой, "
+"подсумками и карманами. Удобный, прочный и вместительный."
 
 #: ./items/item_common/sq_shields.json
 msgid "plank shield"
@@ -8547,9 +8545,10 @@ msgid ""
 "Apostate's Sword, and many other names, but one thing is certain: the hilt "
 "glows blue."
 msgstr ""
-"Легендарный меч, передаваемый из поколения в поколение. Его называли Высшим "
-"мечом, Мечом изгнания зла, Богохульством, Мечом отступника и множеством "
-"других имён, но одно известно наверняка: его рукоять светится синим."
+"Легендарный палаш, передаваемый из поколения в поколение. Его называли "
+"Высшим мечом, Мечом изгнания зла, Богохульством, Мечом отступника и "
+"множеством других имён, но одно известно наверняка: его рукоять светится "
+"синим."
 
 #: ./items/item_common/sq_unrand.json
 msgid "zero sabers"
@@ -8719,23 +8718,23 @@ msgstr[2] "револьверов RM99"
 #: ./items/item_common/sq_weapon_override.json
 msgid "zweihaender"
 msgid_plural "zweihaenders"
-msgstr[0] "цвайхандер"
-msgstr[1] "цвайхандера"
-msgstr[2] "цвайхандеров"
+msgstr[0] "цвайхендер"
+msgstr[1] "цвайхендера"
+msgstr[2] "цвайхендеров"
 
 #: ./items/item_common/sq_weapon_override.json
 msgid "zweihaender fake"
 msgid_plural "zweihaender fakes"
-msgstr[0] "поддельный цвайхандер"
-msgstr[1] "поддельных цвайхандера"
-msgstr[2] "поддельных цвайхандеров"
+msgstr[0] "поддельный цвайхендер"
+msgstr[1] "поддельных цвайхендера"
+msgstr[2] "поддельных цвайхендеров"
 
 #: ./items/item_common/sq_weapon_override.json
 msgid "zweihaender replica"
 msgid_plural "zweihaender replicas"
-msgstr[0] "реплика цвайхандера"
-msgstr[1] "реплики цвайхандера"
-msgstr[2] "реплик цвайхандера"
+msgstr[0] "реплика цвайхендера"
+msgstr[1] "реплики цвайхендера"
+msgstr[2] "реплик цвайхендера"
 
 #: ./items/item_common/sq_weapon_override.json
 msgid "nodachi"
@@ -9009,7 +9008,7 @@ msgstr "Казнь"
 
 #: ./miscs/sq_unrand_techniques.json
 msgid "150% movement cost, 200% damage to stunned targets"
-msgstr "150% стоимости хода, 200% урона по оглушённым целям"
+msgstr "+50% очков действия на атаку; +100% к урону по оглушённым целям"
 
 #: ./miscs/sq_unrand_techniques.json
 #, c-format
@@ -9027,7 +9026,7 @@ msgstr "Удар текущей воды"
 
 #: ./miscs/sq_unrand_techniques.json
 msgid "175% movement cost, 200% damage"
-msgstr "175% стоимости хода, 200% урона"
+msgstr "+75% очков действия на атаку; +100% к урону"
 
 #: ./miscs/sq_unrand_techniques.json
 #, c-format
@@ -9085,7 +9084,7 @@ msgstr "Рассчитанный удар"
 
 #: ./miscs/sq_unrand_techniques.json
 msgid "50% movement cost, stun for 1 turn, 150% damage"
-msgstr "50% стоимости хода, оглушение на 1 ход, 150% урона"
+msgstr "−50% очков действия на атаку; оглушает цель на 1 ход; +50% к урону"
 
 #: ./miscs/sq_unrand_techniques.json
 #, c-format
@@ -9103,17 +9102,17 @@ msgstr "Финт"
 
 #: ./miscs/sq_unrand_techniques.json
 msgid "80% movement cost on miss"
-msgstr "80% стоимости хода при промахе"
+msgstr "При промахе затраты очков действия на атаку уменьшаются вдвое"
 
 #: ./miscs/sq_unrand_techniques.json
 #, c-format
 msgid "You feint at %s"
-msgstr "Вы проводите ложную атаку против цели (%s)"
+msgstr "Вы делаете обманное движение в сторону цели (%s)"
 
 #: ./miscs/sq_unrand_techniques.json
 #, c-format
 msgid "<npcname> feints at %s"
-msgstr "<npcname> проводит ложную атаку против цели (%s)"
+msgstr "<npcname> делает обманное движение в сторону цели (%s)"
 
 #: ./monsters/sq_drones.json
 msgid "drone: striker"
@@ -9681,8 +9680,8 @@ msgstr ""
 "экзоскелета. Оснащён системой автономного управления. Основу его вооружения "
 "составляют огнестрельные системы: возможности в ближнем бою у него средние, "
 "зато огневая мощь весьма высока. По сути, это ходячий танк. МЭК способен "
-"действовать автономно или под управлением пилота в режиме езды, что повышает"
-" его боевые возможности."
+"действовать автономно или с пилотом на борту, что повышает его боевые "
+"возможности."
 
 #: ./monsters/sq_mechs.json
 msgid "inactive mech: stronghold (ride mode)"
@@ -10533,7 +10532,7 @@ msgstr "Обморожение"
 #: ./monsters/winter zeds/sq_zed-winter_effects.json
 #, c-format
 msgid "Your %s is frostnipped and has gone numb."
-msgstr "Часть тела (%s) слегка обморожена и онемела."
+msgstr "%s немеет от лёгкого обморожения."
 
 #. ~ desc of effect 'sq_zed_frostbite'
 #: ./monsters/winter zeds/sq_zed-winter_effects.json
@@ -11252,9 +11251,8 @@ msgid ""
 "A special mutagenic serum designed to give you a single mutation. Basically "
 "super soldier body durability."
 msgstr ""
-"Особая мутагенная сыворотка, вызывающая одну определённую мутацию. Эта "
-"сделает ваше тело практически несокрушимым — на уровне настоящего "
-"суперсолдата."
+"Особая мутагенная сыворотка, вызывающая одну определённую мутацию. Наделяет "
+"ваше тело живучестью суперсолдата."
 
 #: ./mutations/item.json
 msgid "Thick skin serum"
@@ -12297,8 +12295,8 @@ msgid ""
 "A special mutagenic serum designed to give you a single mutation. Covers "
 "your epidermis in a flexible thin layer of chitin."
 msgstr ""
-"Особая мутагенная сыворотка, вызывающая одну определённую мутацию. Эта "
-"покроет эпидермис тонким гибким слоем хитина."
+"Особая мутагенная сыворотка, вызывающая одну определённую мутацию. Покрывает"
+" вашу кожу тонким гибким слоем хитина."
 
 #: ./mutations/item.json
 msgid "Chitin armour serum"
@@ -12313,8 +12311,8 @@ msgid ""
 "A special mutagenic serum designed to give you a single mutation. Covers "
 "your epidermis in a hard layer of chitinous armour."
 msgstr ""
-"Особая мутагенная сыворотка, вызывающая одну определённую мутацию. Эта "
-"покроет ваш эпидермис твёрдым слоем хитиновой брони."
+"Особая мутагенная сыворотка, вызывающая одну определённую мутацию. Покрывает"
+" вашу кожу твёрдым слоем хитиновой брони."
 
 #: ./mutations/item.json
 msgid "Chitin plate serum"
@@ -12345,8 +12343,8 @@ msgid ""
 "A special mutagenic serum designed to give you a single mutation. Covers "
 "your epidermis in a slightly hairy chitin."
 msgstr ""
-"Особая мутагенная сыворотка, вызывающая одну определённую мутацию. Эта "
-"покроет ваш эпидермис хитином с редкими волосками."
+"Особая мутагенная сыворотка, вызывающая одну определённую мутацию. Покрывает"
+" вашу кожу хитином с редкими волосками."
 
 #: ./mutations/item.json
 msgid "Furred chitin serum"
@@ -12361,9 +12359,8 @@ msgid ""
 "A special mutagenic serum designed to give you a single mutation. Covers "
 "your epidermis in a very hairy layer of chitin."
 msgstr ""
-"Особая мутагенная сыворотка, вызывающая одну определённую мутацию. Под её "
-"действием на вашем эпидермисе появится слой хитина с густым волосяным "
-"покровом."
+"Особая мутагенная сыворотка, вызывающая одну определённую мутацию. Покрывает"
+" вашу кожу слоем хитина с густым волосяным покровом."
 
 #: ./mutations/item.json
 msgid "Furred plate serum"
@@ -13005,7 +13002,7 @@ msgid ""
 "talons on your toes like those of raptors."
 msgstr ""
 "Особая мутагенная сыворотка, вызывающая одну определённую мутацию. Под её "
-"действием на пальцах ваших ног вырастут когти, подобные когтям хищных птиц."
+"действием на пальцах ваших ног вырастут когти, подобные когтям рапторов."
 
 #: ./mutations/item.json
 msgid "Hooves serum"
@@ -14448,8 +14445,8 @@ msgid ""
 "A special mutagenic serum designed to give you a single mutation. Become the"
 " source of cowlicks."
 msgstr ""
-"Особая мутагенная сыворотка, вызывающая одну определённую мутацию. Станьте "
-"источником вечных вихров на волосах."
+"Особая мутагенная сыворотка, вызывающая одну определённую мутацию. Теперь и "
+"вы сможете зализать кому-нибудь чёлку — как корова."
 
 #: ./mutations/item.json
 msgid "Lupine muzzle serum"
@@ -14902,8 +14899,8 @@ msgid ""
 "A special mutagenic serum designed to give you a single mutation. Become a "
 "herbivore."
 msgstr ""
-"Особая мутагенная сыворотка, вызывающая одну определённую мутацию. После неё"
-" вам придётся питаться преимущественно растительной пищей."
+"Особая мутагенная сыворотка, вызывающая одну определённую мутацию. Переводит"
+" организм на растительную пищу."
 
 #: ./mutations/item.json
 msgid "Carnivore serum"
@@ -14918,8 +14915,8 @@ msgid ""
 "A special mutagenic serum designed to give you a single mutation. Become a "
 "carnivore."
 msgstr ""
-"Особая мутагенная сыворотка, вызывающая одну определённую мутацию. После неё"
-" ваш организм сможет питаться только мясом."
+"Особая мутагенная сыворотка, вызывающая одну определённую мутацию. Переводит"
+" организм на животную пищу."
 
 #: ./mutations/item.json
 msgid "Vine limbs serum"
@@ -15293,7 +15290,8 @@ msgid ""
 "flesh immune to acid if your body supports it."
 msgstr ""
 "Особая мутагенная сыворотка, вызывающая одну определённую мутацию. Если ваш "
-"организм это позволяет, ваша плоть становится невосприимчивой к кислоте."
+"организм способен принять такое изменение, она сделает вашу плоть "
+"невосприимчивой к кислоте."
 
 #: ./mutations/item.json
 msgid "Acid blood serum"

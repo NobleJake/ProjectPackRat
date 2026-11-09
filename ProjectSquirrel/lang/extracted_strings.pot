@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2026-11-02 00:48+0300\n"
+"POT-Creation-Date: 2026-11-09 09:12+0300\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -78,11 +78,11 @@ msgstr ""
 #. ~ Description for {'str': "'Warden' heavy combat armor"}
 #: ./items/advtech/sq_advanced_armor.json
 msgid ""
-"A customized powered heavy combat suit. It's design was inspired by adapting"
-" and scaling down version of DoubleTech's Power Armor in a survivor's style."
-" While it has limited protection compared to real power armor, this rugged, "
-"clunky look ensures that the armor will work. When used, it activates the "
-"arm's powerful motor."
+"A customized powered heavy combat suit. Its design was inspired by adapting "
+"and scaling down a version of DoubleTech's Power Armor in a survivor's "
+"style. While it has limited protection compared to real power armor, this "
+"rugged, clunky look ensures that the armor will work. When used, it "
+"activates the arm's powerful motor."
 msgstr ""
 
 #: ./items/advtech/sq_advanced_armor.json
@@ -142,10 +142,10 @@ msgstr ""
 #. "'Warden' heavy combat armors (on)"}
 #: ./items/advtech/sq_advanced_armor.json
 msgid ""
-"A customized powered heavy combat suit. It's design was inspired by adapting"
-" and scaling down version of DoubleTech's Power Armor in a survivor's style."
-" While it has limited protection compared to real power armor, this rugged, "
-"clunky look ensures that the armor will work. Use to stop it from "
+"A customized powered heavy combat suit. Its design was inspired by adapting "
+"and scaling down a version of DoubleTech's Power Armor in a survivor's "
+"style. While it has limited protection compared to real power armor, this "
+"rugged, clunky look ensures that the armor will work. Use to stop it from "
 "functioning."
 msgstr ""
 
@@ -265,7 +265,7 @@ msgid ""
 "Customized non-rigid power armor that is internally powered by UPS. Built "
 "for rapid infiltration and exfiltration, it is equipped with aiming aids and"
 " synaptic accelerators to drastically improve the wearer's perception and "
-"reaction speed.When used, it grants the wearer an extremely high speed of "
+"reaction speed. When used, it grants the wearer an extremely high speed of "
 "action for 10 turns, as if time had stopped."
 msgstr ""
 
@@ -279,11 +279,11 @@ msgstr[1] ""
 #: ./items/advtech/sq_advanced_armor.json
 msgid ""
 "A custom-built armor made from a bulletproof vest and a jumpsuit with "
-"circuitry inserted into it, designed to internally powered by UPS. Based on "
-"the design of the Rivtech RM13 Combat Armor. Some features have been omitted"
-" due to difficulty of interpreting technology and for productivity, but it "
-"still protects you from the elements as well as from harm. It is turned on, "
-"and continually draining power.  Use it to turn it on."
+"circuitry inserted into it, designed to be internally powered by UPS. Based "
+"on the design of the Rivtech RM13 Combat Armor. Some features have been "
+"omitted due to difficulty of interpreting technology and for productivity, "
+"but it still protects you from the elements as well as from harm. It is "
+"turned on, and continually draining power.  Use it to turn it on."
 msgstr ""
 
 #: ./items/advtech/sq_advanced_armor.json
@@ -297,11 +297,11 @@ msgstr[1] ""
 #: ./items/advtech/sq_advanced_armor.json
 msgid ""
 "A custom-built armor made from a bulletproof vest and a jumpsuit with "
-"circuitry inserted into it, designed to internally powered by UPS. Based on "
-"the design of the Rivtech RM13 Combat Armor. Some features have been omitted"
-" due to difficulty of interpreting technology and for productivity, but it "
-"still protects you from the elements as well as from harm. It is turned on, "
-"and continually draining power.  Use it to turn it off."
+"circuitry inserted into it, designed to be internally powered by UPS. Based "
+"on the design of the Rivtech RM13 Combat Armor. Some features have been "
+"omitted due to difficulty of interpreting technology and for productivity, "
+"but it still protects you from the elements as well as from harm. It is "
+"turned on, and continually draining power.  Use it to turn it off."
 msgstr ""
 
 #: ./items/advtech/sq_advanced_armor.json
@@ -862,19 +862,21 @@ msgid "Plasma Impact Grenade"
 msgstr ""
 
 #. ~ Description for Plasma Impact Grenade
-#. ~ Description for {'str': 'plasma impact knife'}
+#. ~ Description for {'str': 'plasma impact knife', 'str_pl': 'plasma impact
+#. knives'}
 #: ./items/advtech/sq_advanced_armor_spells.json
 msgid ""
 "The unstable plasma material is wrapped in a hardlight sheath, shaped into a"
 " throwable knife. Due to the nature of hardlights, they do not retain their "
 "shape for long without a constant power supply, but the knife tip is still "
-"razor sharp. If it receives a strong impact, such as being thrown and hit "
-"the ground, it will explode in a powerful blast with a pillar of flame."
+"razor sharp. If it receives a strong impact, such as being thrown and "
+"hitting the ground, it will explode in a powerful blast with a pillar of "
+"flame."
 msgstr ""
 
 #: ./items/advtech/sq_advanced_armor_spells.json
 msgid "plasma impact knife"
-msgid_plural "plasma impact knifes"
+msgid_plural "plasma impact knives"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -934,24 +936,25 @@ msgstr ""
 
 #: ./items/advtech/sq_frost_tier.json
 msgid "map to the frozen cave"
-msgid_plural "map to the frozen caves"
+msgid_plural "maps to the frozen cave"
 msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Use action pocket_dimension.pocket_name for {'str': 'map to the frozen
-#. cave'}.
+#. cave', 'str_pl': 'maps to the frozen cave'}.
 #: ./items/advtech/sq_frost_tier.json
 msgid "Frozen Cave"
 msgstr ""
 
-#. ~ Description for {'str': 'map to the frozen cave'}
+#. ~ Description for {'str': 'map to the frozen cave', 'str_pl': 'maps to the
+#. frozen cave'}
 #: ./items/advtech/sq_frost_tier.json
 msgid ""
 "Several frost-covered fragments meticulously taped together. The complete "
 "topographical data points to an isolated region of absolute zero. Activating"
 " the map will peel back the veil of reality, forcing a passage into the "
 "frozen abyss where the dragon waits. If this map is destroyed, the pocket "
-"dimension connected to it will also collapses. (DO NOT SAVE while inside a "
+"dimension connected to it will also collapse. (DO NOT SAVE while inside a "
 "pocket dimension. Otherwise, you'll be trapped inside forever. Please turn "
 "off the auto-save.)"
 msgstr ""
@@ -1034,11 +1037,12 @@ msgstr ""
 
 #: ./items/advtech/sq_frost_tier.json
 msgid "journal of the winter blacksmith"
-msgid_plural "journal of the winter blacksmiths"
+msgid_plural "journals of the winter blacksmith"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for {'str': 'journal of the winter blacksmith'}
+#. ~ Description for {'str': 'journal of the winter blacksmith', 'str_pl':
+#. 'journals of the winter blacksmith'}
 #: ./items/advtech/sq_frost_tier.json
 msgid ""
 "A weathered journal bound in an unknown, freezing leather. It details the "
@@ -1050,11 +1054,11 @@ msgstr ""
 
 #: ./items/advtech/sq_frost_tier.json
 msgid "synthesis notes: cryo-light weaponry"
-msgid_plural "synthesis notes: cryo-light weaponrys"
+msgid_plural "synthesis notes: cryo-light weaponry"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for {'str': 'synthesis notes: cryo-light weaponry'}
+#. ~ Description for {'str_sp': 'synthesis notes: cryo-light weaponry'}
 #: ./items/advtech/sq_frost_tier.json
 msgid ""
 "A personalized binder containing a brilliant synthesis of Mizuno's hardlight"
@@ -1535,11 +1539,12 @@ msgstr ""
 
 #: ./items/advtech/sq_frost_tier.json
 msgid "mantle of the fading fire"
-msgid_plural "mantle of the fading fires"
+msgid_plural "mantles of the fading fire"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for {'str': 'mantle of the fading fire'}
+#. ~ Description for {'str': 'mantle of the fading fire', 'str_pl': 'mantles
+#. of the fading fire'}
 #: ./items/advtech/sq_frost_tier.json
 msgid ""
 "Woven from the hides of beasts claimed by the abyssal cold and infused with "
@@ -1566,11 +1571,12 @@ msgstr ""
 
 #: ./items/advtech/sq_frost_tier.json
 msgid "crown of the abyssal monarch"
-msgid_plural "crown of the abyssal monarchs"
+msgid_plural "crowns of the abyssal monarch"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for {'str': 'crown of the abyssal monarch'}
+#. ~ Description for {'str': 'crown of the abyssal monarch', 'str_pl': 'crowns
+#. of the abyssal monarch'}
 #: ./items/advtech/sq_frost_tier.json
 msgid ""
 "A grotesque helm with a complete frozen core embedded dead center. The "
@@ -1710,11 +1716,12 @@ msgstr[1] ""
 
 #: ./items/advtech/sq_hardlight_fusion_and_gunmods.json
 msgid "photon solidification matrix"
-msgid_plural "photon solidification matrixs"
+msgid_plural "photon solidification matrices"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for photon solidification matrix
+#. ~ Description for {'str': 'photon solidification matrix', 'str_pl': 'photon
+#. solidification matrices'}
 #: ./items/advtech/sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "Photonic solid-state technology, which captures and stores photons, has a "
@@ -1821,12 +1828,12 @@ msgid ""
 msgstr ""
 
 #: ./items/advtech/sq_hardlight_fusion_and_gunmods.json
-msgid "delpleted uranium rail"
-msgid_plural "delpleted uranium rails"
+msgid "depleted uranium rail"
+msgid_plural "depleted uranium rails"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for {'str': 'delpleted uranium rail'}
+#. ~ Description for {'str': 'depleted uranium rail'}
 #: ./items/advtech/sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "A piece of steel cast with a depleted uranium core. Can be used as a "
@@ -1947,11 +1954,12 @@ msgstr ""
 
 #: ./items/advtech/sq_hardlight_fusion_and_gunmods.json
 msgid "hardlight glaive (off)"
-msgid_plural "hardlight glaive (off)s"
+msgid_plural "hardlight glaives (off)"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Use action transform.menu_text for {'str': 'hardlight glaive (off)'}.
+#. ~ Use action transform.menu_text for {'str': 'hardlight glaive (off)',
+#. 'str_pl': 'hardlight glaives (off)'}.
 #. ~ Use action transform.menu_text for {'str': 'experimental hardlight blade
 #. (off)'}.
 #. ~ Use action transform.menu_text for {'str': 'zero sabers', 'str_pl': 'zero
@@ -1961,12 +1969,14 @@ msgstr[1] ""
 msgid "Expand"
 msgstr ""
 
-#. ~ Use action transform.msg for {'str': 'hardlight glaive (off)'}.
+#. ~ Use action transform.msg for {'str': 'hardlight glaive (off)', 'str_pl':
+#. 'hardlight glaives (off)'}.
 #: ./items/advtech/sq_hardlight_fusion_and_gunmods.json
 msgid "You turn on hardlight glaive."
 msgstr ""
 
-#. ~ Description for {'str': 'hardlight glaive (off)'}
+#. ~ Description for {'str': 'hardlight glaive (off)', 'str_pl': 'hardlight
+#. glaives (off)'}
 #: ./items/advtech/sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "This weapon is a chimera of Eastern and Western culture, a sci-fi recreation"
@@ -2279,7 +2289,7 @@ msgstr ""
 
 #: ./items/advtech/sq_hardlight_fusion_and_gunmods.json
 msgid "suppressor MK II"
-msgid_plural "suppressor MK IIs"
+msgid_plural "suppressors MK II"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -2571,8 +2581,8 @@ msgstr[1] ""
 #: ./items/advtech/sq_main_tools.json
 msgid ""
 "As you gaze into the seemingly infinite depths of this portable hole in "
-"reality, a phrase from a time forever gone echoes in your mind.  \\\"There "
-"are two things that are infinite: the universe and human kleptomania.\\\""
+"reality, a phrase from a time forever gone echoes in your mind.  \"There are"
+" two things that are infinite: the universe and human kleptomania.\""
 msgstr ""
 
 #: ./items/advtech/sq_meds.json
@@ -2871,9 +2881,8 @@ msgstr[1] ""
 
 #. ~ Use action consume_drug.activation_message for {'str': 'nanomite capsule:
 #. flame protection', 'str_pl': 'nanomite capsules: flame protection'}.
-#. ~ Use action consume_drug.activation_message for {'str': 'nanomite
-#. capsules: acid protection', 'str_pl': 'nanomite capsules: acid
-#. protection'}.
+#. ~ Use action consume_drug.activation_message for {'str': 'nanomite capsule:
+#. acid protection', 'str_pl': 'nanomite capsules: acid protection'}.
 #. ~ Use action consume_drug.activation_message for {'str': 'nanomite capsule:
 #. electrical protection', 'str_pl': 'nanomite capsules: electrical
 #. protection'}.
@@ -2893,12 +2902,12 @@ msgid ""
 msgstr ""
 
 #: ./items/advtech/sq_meds.json
-msgid "nanomite capsules: acid protection"
+msgid "nanomite capsule: acid protection"
 msgid_plural "nanomite capsules: acid protection"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for {'str': 'nanomite capsules: acid protection', 'str_pl':
+#. ~ Description for {'str': 'nanomite capsule: acid protection', 'str_pl':
 #. 'nanomite capsules: acid protection'}
 #: ./items/advtech/sq_meds.json
 msgid ""
@@ -3184,7 +3193,7 @@ msgid ""
 "features and information, including maps and location tracking, a bionic "
 "scanner, and a radiation biomonitor. These little computerized devices help "
 "survivors perform a variety of tasks and manage information efficiently. You"
-" can check it out by using."
+" can check it out by using it."
 msgstr ""
 
 #. ~ TOOL_ARMOR 'sq_typeboy_on': revert_msg
@@ -3422,7 +3431,7 @@ msgid ""
 "The Rivtech RMX-01 Experimental Hardlight Blade is a powerful weapon "
 "utilizing laser technology, an eternal symbol of Jedi warriors, a fiery "
 "testament to Newton, and the pinnacle of otaku science.  You can turn it on "
-"using."
+"by using it."
 msgstr ""
 
 #: ./items/advtech/sq_nano_tier.json
@@ -3444,7 +3453,7 @@ msgid ""
 "The Rivtech RMX-01 Experimental Hardlight Blade is a powerful weapon "
 "utilizing laser technology, an eternal symbol of Jedi warriors, a fiery "
 "testament to Newton, and the pinnacle of otaku science.  It can be turned "
-"off by using."
+"off by using it."
 msgstr ""
 
 #: ./items/advtech/sq_vehicle_part.json
@@ -4752,7 +4761,7 @@ msgid ""
 "A type of armor developed for civilian use, it is a robotic system that "
 "mechanically adds strength to the wearer, powered by hydraulics, motors, "
 "pistons, etc. It is currently operating, and is constantly consuming power. "
-"to stop working."
+"Use it to stop it."
 msgstr ""
 
 #: ./items/item_common/sq_generic.json
@@ -4968,16 +4977,16 @@ msgid ""
 msgstr ""
 
 #: ./items/item_common/sq_generic.json
-msgid "bundle of scrap coppers"
-msgid_plural "bundles of scrap coppers"
+msgid "bundle of scrap copper"
+msgid_plural "bundles of scrap copper"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for {'str': 'bundle of scrap coppers', 'str_pl': 'bundles of
-#. scrap coppers'}
+#. ~ Description for {'str': 'bundle of scrap copper', 'str_pl': 'bundles of
+#. scrap copper'}
 #: ./items/item_common/sq_generic.json
 msgid ""
-"scrap coppers, bundled tightly together for storage.  Disassemble to unpack."
+"Scrap copper, bundled tightly together for storage.  Disassemble to unpack."
 msgstr ""
 
 #: ./items/item_common/sq_generic.json
@@ -6063,7 +6072,7 @@ msgstr[1] ""
 msgid ""
 "A somewhat complicated set of straps and fabric, reinforced with Kevlar and "
 "made of Nomex fireproof fabric to keep your bow close to hand and (mostly) "
-"out of harms way.  Activate to holster/draw your bow."
+"out of harm's way.  Activate to holster/draw your bow."
 msgstr ""
 
 #: ./items/item_common/sq_nomex_survivor.json
@@ -6163,7 +6172,7 @@ msgstr[1] ""
 #. ~ Description for {'str': 'survivor fireproof hiking backpack'}
 #: ./items/item_common/sq_nomex_survivor.json
 msgid ""
-"A custom-built backpack hiking, reinforced with Kevlar and made of Nomex "
+"A custom-built hiking backpack, reinforced with Kevlar and made of Nomex "
 "fireproof fabric.  Durable and carefully crafted to hold as much stuff as "
 "possible."
 msgstr ""
@@ -6274,7 +6283,7 @@ msgstr[1] ""
 #: ./items/item_common/sq_nomex_survivor.json
 msgid ""
 "An ammo pouch reinforced with Kevlar and made of Nomex fireproof fabric that"
-" can be strapped to your leg and capable of holding two magazine close at "
+" can be strapped to your leg and capable of holding two magazines close at "
 "hand."
 msgstr ""
 
@@ -6492,7 +6501,7 @@ msgstr ""
 #. shields: commando'}
 #: ./items/item_common/sq_shields.json
 msgid ""
-"This shield offer high performance protection and magazine storage. If you "
+"This shield offers high performance protection and magazine storage. If you "
 "don't know what to choose, the tactical shield: commando is the best choice."
 " It's quite heavy but effective."
 msgstr ""
@@ -6973,7 +6982,7 @@ msgstr ""
 #. ~ Description for {'str': 'zero sabers', 'str_pl': 'zero sabers'}
 #: ./items/item_common/sq_unrand.json
 msgid ""
-"A particle sword with a triangular hilt. Features an wide attack and a "
+"A particle sword with a triangular hilt. Features a wide attack and a "
 "spinning slash."
 msgstr ""
 
@@ -6986,7 +6995,7 @@ msgstr ""
 #. ~ Description for {'str': 'zero sabers', 'str_pl': 'zero sabers'}
 #: ./items/item_common/sq_unrand.json
 msgid ""
-"A particle sword with a triangular hilt. Features an wide attack and a "
+"A particle sword with a triangular hilt. Features a wide attack and a "
 "spinning slash. Use to turn off."
 msgstr ""
 
@@ -7831,12 +7840,12 @@ msgstr[1] ""
 #. ~ Description for {'str': 'inactive mech: explorer (ride mode)'}
 #: ./monsters/sq_mechs.json
 msgid ""
-"An standardized multi-role mech drone with a modified military "
-"reconnaissance exoskeleton system and a drone authorized for autonomous "
-"behavior. A loadout centered around optical weapons, it features average "
-"melee capabilities and strong energy projection. You may be able to hack it "
-"to accept you as its pilot.  Like all mech-suits it can act as a UPS from "
-"its large battery."
+"A standardized multi-role mech drone with a modified military reconnaissance"
+" exoskeleton system and a drone authorized for autonomous behavior. A "
+"loadout centered around optical weapons, it features average melee "
+"capabilities and strong energy projection. You may be able to hack it to "
+"accept you as its pilot.  Like all mech-suits it can act as a UPS from its "
+"large battery."
 msgstr ""
 
 #: ./monsters/sq_mechs.json
@@ -7849,7 +7858,7 @@ msgstr[1] ""
 #. ~ Description for {'str': 'inactive mech: explorer (standalone mode)'}
 #: ./monsters/sq_mechs.json
 msgid ""
-"An standardized multi-role mech drone with a modified reconnaissance "
+"A standardized multi-role mech drone with a modified reconnaissance "
 "exoskeleton system and a drone authorized for autonomous behavior. The "
 "loadout is centered around optical weapons, with average melee capabilities "
 "and strong energy projection. It is capable of operating unattended, but can"
@@ -8100,8 +8109,8 @@ msgstr[1] ""
 #. ~ Description for {'str': 'inactive walker: bombardier'}
 #: ./monsters/sq_walkers.json
 msgid ""
-"An automated drone for anti-personal use. A medium-sized bipedal robot with "
-"a small grenade launcher."
+"An automated drone for anti-personnel use. A medium-sized bipedal robot with"
+" a small grenade launcher."
 msgstr ""
 
 #: ./monsters/sq_walkers.json
@@ -9027,7 +9036,7 @@ msgstr[1] ""
 #: ./mutations/item.json
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. This one "
-"will make faster in general."
+"will make you faster in general."
 msgstr ""
 
 #: ./mutations/item.json
@@ -9281,7 +9290,7 @@ msgstr[1] ""
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. Increases "
 "dopamine production in response to ingesting good-tasting foods and expands "
-"digestive system to accomodate more volume."
+"digestive system to accommodate more volume."
 msgstr ""
 
 #: ./mutations/item.json
@@ -9623,12 +9632,12 @@ msgid ""
 msgstr ""
 
 #: ./mutations/item.json
-msgid "Bird eyes serums"
-msgid_plural "Bird eyes serumss"
+msgid "Bird eyes serum"
+msgid_plural "Bird eyes serums"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for Bird eyes serums
+#. ~ Description for Bird eyes serum
 #: ./mutations/item.json
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. "
@@ -10112,8 +10121,8 @@ msgstr[1] ""
 #. ~ Description for Quills serum
 #: ./mutations/item.json
 msgid ""
-"A special mutagenic serum designed to give you a single mutation. Covers "
-"your large sharp quills for defense."
+"A special mutagenic serum designed to give you a single mutation. Covers you"
+" in large sharp quills for defense."
 msgstr ""
 
 #: ./mutations/item.json
@@ -10219,8 +10228,8 @@ msgstr[1] ""
 #: ./mutations/item.json
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. Changes "
-"your to use the evaporation of water as a way to move nutrients, if your "
-"body supports it."
+"your body to use the evaporation of water as a way to move nutrients, if "
+"your body supports it."
 msgstr ""
 
 #: ./mutations/item.json
@@ -10350,7 +10359,7 @@ msgstr[1] ""
 #: ./mutations/item.json
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. This one "
-"makes you develop a reservoir of fluids that buldges out of your abdomen "
+"makes you develop a reservoir of fluids that bulges out of your abdomen "
 "allowing you to adapt to containing extra liquids."
 msgstr ""
 
@@ -10364,7 +10373,7 @@ msgstr[1] ""
 #: ./mutations/item.json
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. Grows your"
-" index fingers into hude talons."
+" index fingers into huge talons."
 msgstr ""
 
 #: ./mutations/item.json
@@ -10404,7 +10413,7 @@ msgstr[1] ""
 #: ./mutations/item.json
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. Makes your"
-" body produce mammal pheromones that calms most mammals and makes them more "
+" body produce mammal pheromones that calm most mammals and make them more "
 "friendly."
 msgstr ""
 
@@ -10510,7 +10519,7 @@ msgstr[1] ""
 #: ./mutations/item.json
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. "
-"Signifigantly flexifies your limbs, if your body supports it."
+"Significantly flexifies your limbs, if your body supports it."
 msgstr ""
 
 #: ./mutations/item.json
@@ -11078,7 +11087,7 @@ msgstr[1] ""
 #: ./mutations/item.json
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. Grows "
-"feathery wings that won't fly but will stop falls form hurting."
+"feathery wings that won't fly but will stop falls from hurting."
 msgstr ""
 
 #: ./mutations/item.json
@@ -11116,7 +11125,7 @@ msgstr[1] ""
 #. ~ Description for Mandibles serum
 #: ./mutations/item.json
 msgid ""
-"A special mutagenic serum designed to give you a single mutation. TUrns your"
+"A special mutagenic serum designed to give you a single mutation. Turns your"
 " mouth into a system that uses insectoid mandibles."
 msgstr ""
 
@@ -11247,7 +11256,7 @@ msgstr[1] ""
 #: ./mutations/item.json
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. Allows you"
-" to use your webs as a way to scale shear drops, if your body supports it."
+" to use your webs as a way to scale sheer drops, if your body supports it."
 msgstr ""
 
 #: ./mutations/item.json
@@ -11328,7 +11337,7 @@ msgid ""
 "A special mutagenic serum designed to give you a single mutation, if your "
 "body supports it. Try this enlargement serum and get bigger, today! Large "
 "Inc. is not responsible for any lack of growth due to unsupported "
-"infratructure."
+"infrastructure."
 msgstr ""
 
 #: ./mutations/item.json
@@ -11943,7 +11952,7 @@ msgstr[1] ""
 #: ./mutations/item.json
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. Turn your "
-"hands into large paws that're better at swimming but manula dexteriry and "
+"hands into large paws that're better at swimming but manual dexterity and "
 "manipulation is going to be a problem."
 msgstr ""
 
@@ -12037,8 +12046,8 @@ msgstr[1] ""
 #. ~ Description for Amorphous body serum
 #: ./mutations/item.json
 msgid ""
-"A special mutagenic serum designed to give you a single mutation. Make your "
-"flesh and pleasing gel-like consistency, if your body supports it."
+"A special mutagenic serum designed to give you a single mutation. Give your "
+"flesh a pleasing gel-like consistency, if your body supports it."
 msgstr ""
 
 #: ./mutations/item.json
@@ -12396,7 +12405,7 @@ msgstr[1] ""
 #: ./mutations/item.json
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. Become "
-"amphibiousm comfortable both on land and in water if your body supports it."
+"amphibious, comfortable both on land and in water if your body supports it."
 msgstr ""
 
 #: ./mutations/item.json
@@ -12605,8 +12614,8 @@ msgstr[1] ""
 #: ./mutations/item.json
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. With the "
-"lower body of a giant snake, you can glide effortlessly over any terrain., "
-"if your body supports it."
+"lower body of a giant snake, you can glide effortlessly over any terrain, if"
+" your body supports it."
 msgstr ""
 
 #: ./mutations/item.json
