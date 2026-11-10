@@ -27,7 +27,7 @@
 	"copy-from": "survivor_belt_notools",
     "type": "TOOL_ARMOR",
     "name": { "str": "survivor fireproof belt" },
-    "description": "A custom-built utility belt, reinforced with Kevlar and made of Nomex fireproof fabric, covered with straps and pouches containing many useful hand tools and a sheath to carry a smaller blade.  Durable and carefully crafted to be comfortable to wear.  Activate to sheathe/draw a weapon.",
+    "description": "A custom-built utility belt, reinforced with Kevlar and made of Nomex fireproof fabric, covered with straps and pouches for storing hand tools and a sheath to carry a smaller blade.  Durable and carefully crafted to be comfortable to wear.  Activate to sheathe/draw a weapon.",
     "material": [ "kevlar", "nomex" ],
     "looks_like": "survivor_belt",
     "material_thickness": 6,

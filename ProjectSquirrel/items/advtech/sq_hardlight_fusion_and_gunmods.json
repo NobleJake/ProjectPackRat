@@ -857,7 +857,7 @@
     "type": "GUN",
     "weapon_category": [ "REVOLVERS", "MAGNETIC" ],
     "name": { "str": "Gauss revolver" },
-    "description": "The deserted cities of the apocalypse are dangerous, so take this revolver with you. Firing a superheated metal rail, your trusty five-shot atomic Gauss revolver will put holes in the heads of heavily armed bandits like no other, faster than anyone else.",
+    "description": "The deserted cities of the apocalypse are dangerous, so take this revolver with you. Firing a superheated metal rail, your trusty eight-shot atomic Gauss revolver will put holes in the heads of heavily armed bandits like no other, faster than anyone else.",
     "weight": "1660 g",
     "volume": "1200 ml",
     "price": "9 kUSD",
