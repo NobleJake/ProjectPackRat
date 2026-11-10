@@ -1564,8 +1564,8 @@
   },
   {
     "type": "mutation",
-    "id": "RADIOACTIVE",
-    "copy-from": "RADIOACTIVE",
+    "id": "RADIOACTIVE1",
+    "copy-from": "RADIOACTIVE1",
     "extend": { "category": [ "RADIOACTIVE" ] }
   },
   {
@@ -1880,5 +1880,15 @@
     "id": "SNAKE_COILS",
     "copy-from": "SNAKE_COILS",
     "extend": { "category": [ "SNAKE_COILS" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "TOXICFLESH",
+    "copy-from": "TOXICFLESH",
+    "extend": {
+      "category": [
+        "TOXICFLESH"
+      ]
+    }
   }
 ]
