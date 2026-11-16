@@ -2273,7 +2273,7 @@
     "name": "Radioactivity serum",
     "description": "A special mutagenic serum designed to give you a single mutation. Become slightly radioactive for whatever reason.",
     "color": "light_gray",
-    "use_action": { "type": "mutagen_iv", "mutation_category": "RADIOACTIVE1" }
+    "use_action": { "type": "mutagen_iv", "mutation_category": "RADIOACTIVE" }
   },
   {
     "id": "target_iv_mutagen_slimy",
