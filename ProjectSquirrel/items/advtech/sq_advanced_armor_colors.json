@@ -146,7 +146,7 @@
     "id": "sq_advanced_fsurvivor_suit_visor_cyan",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "Pioneer visor: cyan", "str_pl": "Pioneer visors: red" },
+    "name": { "str": "Pioneer visor: cyan", "str_pl": "Pioneer visors: cyan" },
     "description": "Pioneer environmental carapace's cyan visor."
   },
   {

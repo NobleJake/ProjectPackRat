@@ -228,7 +228,7 @@
     "id": "target_iv_mutagen_feyhearing",
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
-    "name": "Elven hearing serum",
+    "name": "Fey hearing serum",
     "description": "A special mutagenic serum designed to give you a single mutation. This one will make you hear as good as elves of fantasy settings, if your body supports it.",
     "color": "light_gray",
     "use_action": { "type": "mutagen_iv", "mutation_category": "FEYHEARING" }
@@ -1371,7 +1371,7 @@
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
     "name": "Grazer serum",
-    "description": "A special mutagenic serum designed to give you a single mutation. This one will make you capable of falling asleep just about anywhere, if your body supports it, if your body supports it.",
+    "description": "A special mutagenic serum designed to give you a single mutation. This one will allow you to get nutrition from grass, underbrush and shrubs, if your body supports it.",
     "color": "light_gray",
     "use_action": { "type": "mutagen_iv", "mutation_category": "GRAZER" }
   },
@@ -1928,7 +1928,7 @@
     "id": "target_iv_mutagen_peralpha",
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
-    "name": "Alpha intelligence serum",
+    "name": "Alpha perception serum",
     "description": "A special mutagenic serum designed to give you a single mutation. Alphas are able to perceive the smallest of details, of course, if your body supports it.",
     "color": "light_gray",
     "use_action": { "type": "mutagen_iv", "mutation_category": "PER_ALPHA" }
@@ -2586,7 +2586,7 @@
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
     "name": "Toxic skin serum",
-    "description": "A special mutagenic serum designed to give you a single mutation. This one will make you capable of falling asleep just about anywhere, if your body supports it.",
+    "description": "A special mutagenic serum designed to give you a single mutation. This one is intended to make your flesh poisonous to creatures that bite you, if your body supports it.",
     "color": "light_gray",
     "use_action": { "type": "mutagen_iv", "mutation_category": "TOXICFLESH" }
   },
