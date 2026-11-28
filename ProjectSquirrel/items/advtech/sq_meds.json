@@ -478,7 +478,7 @@
     "category": "food",
     "comestible_type": "FOOD",
     "healthy": 1,
-    "description": "It's a translucent, hexagonal lump of wax filled with a thick milky jelly. It's filled with some of the most beneficial substances a hive can produce since the apocalypse, treating many conditions and acting as an antidote.",
+    "description": "A translucent hexagonal chunk of wax, filled with dense, milky jelly.  Rich with the most beneficial substances post-cataclysm hives can produce, it can cure various afflictions and serve as an antitoxin.  However, it's also rich in mutagenic toxins of its own, given the creatures producing it.",
     "price": "200 USD",
     "price_postapoc": "40 USD",
     "use_action": {
