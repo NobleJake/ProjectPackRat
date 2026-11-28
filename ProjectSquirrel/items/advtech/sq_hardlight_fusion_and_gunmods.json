@@ -1234,7 +1234,7 @@
     "stun_dur": 3,
     "knockback_dist": 1,
     "weighting": -1,
-    "messages": [ "<npcname> strike %s down for the finishing blow.", "<npcname> strike %s down for the finishing blow." ],
+    "messages": [ "You strike %s down for the finishing blow.", "<npcname> strikes %s down for the finishing blow." ],
     "mult_bonuses": [
       { "stat": "movecost", "scale": 1.5 },
       { "stat": "damage", "type": "bash", "scale": 1.66 },
