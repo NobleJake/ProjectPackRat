@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2026-11-13 19:23+0300\n"
+"POT-Creation-Date: 2026-11-28 13:59+0300\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -115,7 +115,7 @@ msgstr[1] ""
 #. (on)', 'str_pl': 'survivor fireproof headlamps (on)'}.
 #. ~ Use action transform.menu_text for {'str': 'advanced nomad suit (on)',
 #. 'str_pl': 'advanced nomad suits (on)'}.
-#. ~ Use action transform.menu_text for {'str_sp': 'Ryu Ichimonji'}.
+#. ~ Use action transform.menu_text for {'str_sp': 'Ryu Ichimonji (on)'}.
 #: ./items/advtech/sq_advanced_armor.json ./items/advtech/sq_nano_tier.json
 #: ./items/item_common/sq_cargo_frame.json
 #: ./items/item_common/sq_nomex_survivor.json ./items/item_common/sq_suit.json
@@ -653,12 +653,12 @@ msgstr ""
 
 #: ./items/advtech/sq_advanced_armor_colors.json
 msgid "Pioneer visor: cyan"
-msgid_plural "Pioneer visors: red"
+msgid_plural "Pioneer visors: cyan"
 msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description for {'str': 'Pioneer visor: cyan', 'str_pl': 'Pioneer visors:
-#. red'}
+#. cyan'}
 #: ./items/advtech/sq_advanced_armor_colors.json
 msgid "Pioneer environmental carapace's cyan visor."
 msgstr ""
@@ -1962,8 +1962,7 @@ msgstr[1] ""
 #. 'str_pl': 'hardlight glaives (off)'}.
 #. ~ Use action transform.menu_text for {'str': 'experimental hardlight blade
 #. (off)'}.
-#. ~ Use action transform.menu_text for {'str': 'zero sabers', 'str_pl': 'zero
-#. sabers'}.
+#. ~ Use action transform.menu_text for {'str_sp': 'zero sabers (off)'}.
 #: ./items/advtech/sq_hardlight_fusion_and_gunmods.json
 #: ./items/advtech/sq_nano_tier.json ./items/item_common/sq_unrand.json
 msgid "Expand"
@@ -1995,8 +1994,7 @@ msgstr[1] ""
 #. 'str_pl': 'hardlight glaives (on)'}.
 #. ~ Use action transform.menu_text for {'str': 'experimental hardlight blades
 #. (on)', 'str_pl': 'experimental hardlight blades (on)'}.
-#. ~ Use action transform.menu_text for {'str': 'zero sabers', 'str_pl': 'zero
-#. sabers'}.
+#. ~ Use action transform.menu_text for {'str_sp': 'zero sabers (on)'}.
 #: ./items/advtech/sq_hardlight_fusion_and_gunmods.json
 #: ./items/advtech/sq_nano_tier.json ./items/item_common/sq_unrand.json
 msgid "Collapse"
@@ -3110,22 +3108,32 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: ./items/advtech/sq_nano_generic_comp.json ./miscs/sq_requirements.json
+msgctxt "material damage verb"
 msgid "dented"
 msgstr ""
 
 #: ./items/advtech/sq_nano_generic_comp.json ./miscs/sq_requirements.json
+msgctxt "material damage verb"
 msgid "scratched"
 msgstr ""
 
 #: ./items/advtech/sq_nano_generic_comp.json ./miscs/sq_requirements.json
+msgctxt "material damage adjective"
 msgid "marked"
 msgstr ""
 
 #: ./items/advtech/sq_nano_generic_comp.json ./miscs/sq_requirements.json
+msgctxt "material damage adjective"
+msgid "dented"
+msgstr ""
+
+#: ./items/advtech/sq_nano_generic_comp.json ./miscs/sq_requirements.json
+msgctxt "material damage adjective"
 msgid "smashed"
 msgstr ""
 
 #: ./items/advtech/sq_nano_generic_comp.json ./miscs/sq_requirements.json
+msgctxt "material damage adjective"
 msgid "shattered"
 msgstr ""
 
@@ -6836,23 +6844,24 @@ msgid ""
 msgstr ""
 
 #: ./items/item_common/sq_unrand.json
-msgid "Hi no Arashi"
-msgid_plural "Hi no Arashi"
+msgid "Hi no Arashi (off)"
+msgid_plural "Hi no Arashi (off)"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Use action fireweapon_off.success_message for {'str_sp': 'Hi no Arashi'}.
+#. ~ Use action fireweapon_off.success_message for {'str_sp': 'Hi no Arashi
+#. (off)'}.
 #: ./items/item_common/sq_unrand.json
 msgid "The Sun rises."
 msgstr ""
 
-#. ~ Use action fireweapon_off.lacks_fuel_message for {'str_sp': 'Hi no
-#. Arashi'}.
+#. ~ Use action fireweapon_off.lacks_fuel_message for {'str_sp': 'Hi no Arashi
+#. (off)'}.
 #: ./items/item_common/sq_unrand.json
 msgid "Time stands still."
 msgstr ""
 
-#. ~ Description for {'str_sp': 'Hi no Arashi'}
+#. ~ Description for {'str_sp': 'Hi no Arashi (off)'}
 #: ./items/item_common/sq_unrand.json
 msgid ""
 "Fire and Sword\n"
@@ -6860,30 +6869,37 @@ msgid ""
 "to burn the enemy"
 msgstr ""
 
-#. ~ Use action fireweapon_on.noise_message for {'str_sp': 'Hi no Arashi'}.
+#: ./items/item_common/sq_unrand.json
+msgid "Hi no Arashi (on)"
+msgid_plural "Hi no Arashi (on)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action fireweapon_on.noise_message for {'str_sp': 'Hi no Arashi
+#. (on)'}.
 #: ./items/item_common/sq_unrand.json
 msgid "The Sun shines brightly."
 msgstr ""
 
 #. ~ Use action fireweapon_on.voluntary_extinguish_message for {'str_sp': 'Hi
-#. no Arashi'}.
+#. no Arashi (on)'}.
 #: ./items/item_common/sq_unrand.json
 msgid "The Sun sets."
 msgstr ""
 
 #. ~ Use action fireweapon_on.charges_extinguish_message for {'str_sp': 'Hi no
-#. Arashi'}.
+#. Arashi (on)'}.
 #: ./items/item_common/sq_unrand.json
 msgid "The Light Fades."
 msgstr ""
 
 #. ~ Use action fireweapon_on.water_extinguish_message for {'str_sp': 'Hi no
-#. Arashi'}.
+#. Arashi (on)'}.
 #: ./items/item_common/sq_unrand.json
 msgid "Your sword hisses in the water and goes out."
 msgstr ""
 
-#. ~ Description for {'str_sp': 'Hi no Arashi'}
+#. ~ Description for {'str_sp': 'Hi no Arashi (on)'}
 #: ./items/item_common/sq_unrand.json
 msgid ""
 "Wrath of the Sun\n"
@@ -6892,22 +6908,24 @@ msgid ""
 msgstr ""
 
 #: ./items/item_common/sq_unrand.json
-msgid "Ryu Ichimonji"
-msgid_plural "Ryu Ichimonji"
+msgid "Ryu Ichimonji (off)"
+msgid_plural "Ryu Ichimonji (off)"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Use action transform.msg for {'str_sp': 'Ryu Ichimonji'}.
+#. ~ Use action transform.msg for {'str_sp': 'Ryu Ichimonji (off)'}.
 #: ./items/item_common/sq_unrand.json
 msgid "The dragon becomes me!"
 msgstr ""
 
-#. ~ Use action transform.need_charges_msg for {'str_sp': 'Ryu Ichimonji'}.
+#. ~ Use action transform.need_charges_msg for {'str_sp': 'Ryu Ichimonji
+#. (off)'}.
 #: ./items/item_common/sq_unrand.json
 msgid "You hear the voice of the sword. \"I'm charging the ultimate.\""
 msgstr ""
 
-#. ~ Description for {'str_sp': 'Ryu Ichimonji'}
+#. ~ Description for {'str_sp': 'Ryu Ichimonji (off)'}
+#. ~ Description for {'str_sp': 'Ryu Ichimonji (on)'}
 #: ./items/item_common/sq_unrand.json
 msgid ""
 "A massive curved two-handed sword from Japan. The green dragon of the north "
@@ -6915,7 +6933,13 @@ msgid ""
 "against your enemies at any moment."
 msgstr ""
 
-#. ~ Use action transform.msg for {'str_sp': 'Ryu Ichimonji'}.
+#: ./items/item_common/sq_unrand.json
+msgid "Ryu Ichimonji (on)"
+msgid_plural "Ryu Ichimonji (on)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action transform.msg for {'str_sp': 'Ryu Ichimonji (on)'}.
 #: ./items/item_common/sq_unrand.json
 msgid "The dragon needs recharging."
 msgstr ""
@@ -6968,31 +6992,35 @@ msgid ""
 msgstr ""
 
 #: ./items/item_common/sq_unrand.json
-msgid "zero sabers"
-msgid_plural "zero sabers"
+msgid "zero sabers (off)"
+msgid_plural "zero sabers (off)"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Use action transform.msg for {'str': 'zero sabers', 'str_pl': 'zero
-#. sabers'}.
+#. ~ Use action transform.msg for {'str_sp': 'zero sabers (off)'}.
 #: ./items/item_common/sq_unrand.json
 msgid "You turn on zero saber."
 msgstr ""
 
-#. ~ Description for {'str': 'zero sabers', 'str_pl': 'zero sabers'}
+#. ~ Description for {'str_sp': 'zero sabers (off)'}
 #: ./items/item_common/sq_unrand.json
 msgid ""
 "A particle sword with a triangular hilt. Features a wide attack and a "
 "spinning slash."
 msgstr ""
 
-#. ~ Use action transform.msg for {'str': 'zero sabers', 'str_pl': 'zero
-#. sabers'}.
+#: ./items/item_common/sq_unrand.json
+msgid "zero sabers (on)"
+msgid_plural "zero sabers (on)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action transform.msg for {'str_sp': 'zero sabers (on)'}.
 #: ./items/item_common/sq_unrand.json
 msgid "You turned off the zero saber."
 msgstr ""
 
-#. ~ Description for {'str': 'zero sabers', 'str_pl': 'zero sabers'}
+#. ~ Description for {'str_sp': 'zero sabers (on)'}
 #: ./items/item_common/sq_unrand.json
 msgid ""
 "A particle sword with a triangular hilt. Features a wide attack and a "
@@ -7305,22 +7333,32 @@ msgid "graphene"
 msgstr ""
 
 #: ./miscs/sq_requirements.json
+msgctxt "material damage verb"
 msgid "ripped"
 msgstr ""
 
 #: ./miscs/sq_requirements.json
+msgctxt "material damage verb"
 msgid "cut"
 msgstr ""
 
 #: ./miscs/sq_requirements.json
+msgctxt "material damage adjective"
+msgid "ripped"
+msgstr ""
+
+#: ./miscs/sq_requirements.json
+msgctxt "material damage adjective"
 msgid "torn"
 msgstr ""
 
 #: ./miscs/sq_requirements.json
+msgctxt "material damage adjective"
 msgid "shredded"
 msgstr ""
 
 #: ./miscs/sq_requirements.json
+msgctxt "material damage adjective"
 msgid "tattered"
 msgstr ""
 
@@ -8986,12 +9024,12 @@ msgid ""
 msgstr ""
 
 #: ./mutations/item.json
-msgid "Elven hearing serum"
-msgid_plural "Elven hearing serums"
+msgid "Fey hearing serum"
+msgid_plural "Fey hearing serums"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for Elven hearing serum
+#. ~ Description for Fey hearing serum
 #: ./mutations/item.json
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. This one "
@@ -9085,7 +9123,6 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description for Practised sleeper serum
-#. ~ Description for Toxic skin serum
 #: ./mutations/item.json
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. This one "
@@ -10693,8 +10730,8 @@ msgstr[1] ""
 #: ./mutations/item.json
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. This one "
-"will make you capable of falling asleep just about anywhere, if your body "
-"supports it, if your body supports it."
+"will allow you to get nutrition from grass, underbrush and shrubs, if your "
+"body supports it."
 msgstr ""
 
 #: ./mutations/item.json
@@ -11497,7 +11534,13 @@ msgid ""
 "all there is around you, if your body supports it."
 msgstr ""
 
-#. ~ Description for Alpha intelligence serum
+#: ./mutations/item.json
+msgid "Alpha perception serum"
+msgid_plural "Alpha perception serums"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for Alpha perception serum
 #: ./mutations/item.json
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. Alphas are"
@@ -12467,6 +12510,14 @@ msgid "Toxic skin serum"
 msgid_plural "Toxic skin serums"
 msgstr[0] ""
 msgstr[1] ""
+
+#. ~ Description for Toxic skin serum
+#: ./mutations/item.json
+msgid ""
+"A special mutagenic serum designed to give you a single mutation. This one "
+"is intended to make your flesh poisonous to creatures that bite you, if your"
+" body supports it."
+msgstr ""
 
 #: ./mutations/item.json
 msgid "Shark teeth serum"
