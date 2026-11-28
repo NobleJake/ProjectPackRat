@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2026-11-13 19:23+0300\n"
+"POT-Creation-Date: 2026-11-28 13:59+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: midgardormr <midgardormr@gmail.com>\n"
 "Language-Team: \n"
@@ -95,12 +95,6 @@ msgstr "Предупреждение: работа на минимальной �
 
 #. ~ Description for {'str': "'Warden' heavy combat armor"}
 #: items/advtech/sq_advanced_armor.json
-#| msgid ""
-#| "A customized powered heavy combat suit. It's design was inspired by adapting"
-#| " and scaling down version of DoubleTech's Power Armor in a survivor's style."
-#| " While it has limited protection compared to real power armor, this rugged, "
-#| "clunky look ensures that the armor will work. When used, it activates the "
-#| "arm's powerful motor."
 msgid ""
 "A customized powered heavy combat suit. Its design was inspired by adapting "
 "and scaling down a version of DoubleTech's Power Armor in a survivor's "
@@ -145,7 +139,7 @@ msgstr[2] "тяжёлых боевых бронекостюмов «Хранит
 #. (on)', 'str_pl': 'survivor fireproof headlamps (on)'}.
 #. ~ Use action transform.menu_text for {'str': 'advanced nomad suit (on)',
 #. 'str_pl': 'advanced nomad suits (on)'}.
-#. ~ Use action transform.menu_text for {'str_sp': 'Ryu Ichimonji'}.
+#. ~ Use action transform.menu_text for {'str_sp': 'Ryu Ichimonji (on)'}.
 #: items/advtech/sq_advanced_armor.json items/advtech/sq_nano_tier.json
 #: items/item_common/sq_cargo_frame.json
 #: items/item_common/sq_nomex_survivor.json items/item_common/sq_suit.json
@@ -171,12 +165,6 @@ msgstr "Костюм выключается."
 #. ~ Description for {'str': "'Warden' heavy combat armor (on)", 'str_pl':
 #. "'Warden' heavy combat armors (on)"}
 #: items/advtech/sq_advanced_armor.json
-#| msgid ""
-#| "A customized powered heavy combat suit. It's design was inspired by adapting"
-#| " and scaling down version of DoubleTech's Power Armor in a survivor's style."
-#| " While it has limited protection compared to real power armor, this rugged, "
-#| "clunky look ensures that the armor will work. Use to stop it from "
-#| "functioning."
 msgid ""
 "A customized powered heavy combat suit. Its design was inspired by adapting "
 "and scaling down a version of DoubleTech's Power Armor in a survivor's "
@@ -342,12 +330,6 @@ msgstr[2] "рейдовых силовых бронекостюмов «Корс
 
 #. ~ Description for {'str': "'Corsair' blitz strike suit"}
 #: items/advtech/sq_advanced_armor.json
-#| msgid ""
-#| "Customized non-rigid power armor that is internally powered by UPS. Built "
-#| "for rapid infiltration and exfiltration, it is equipped with aiming aids and"
-#| " synaptic accelerators to drastically improve the wearer's perception and "
-#| "reaction speed.When used, it grants the wearer an extremely high speed of "
-#| "action for 10 turns, as if time had stopped."
 msgid ""
 "Customized non-rigid power armor that is internally powered by UPS. Built "
 "for rapid infiltration and exfiltration, it is equipped with aiming aids and"
@@ -370,13 +352,6 @@ msgstr[2] "боевых бронекостюмов выживальщика"
 
 #. ~ Description for {'str': 'survivor combat armor'}
 #: items/advtech/sq_advanced_armor.json
-#| msgid ""
-#| "A custom-built armor made from a bulletproof vest and a jumpsuit with "
-#| "circuitry inserted into it, designed to internally powered by UPS. Based on "
-#| "the design of the Rivtech RM13 Combat Armor. Some features have been omitted"
-#| " due to difficulty of interpreting technology and for productivity, but it "
-#| "still protects you from the elements as well as from harm. It is turned on, "
-#| "and continually draining power.  Use it to turn it on."
 msgid ""
 "A custom-built armor made from a bulletproof vest and a jumpsuit with "
 "circuitry inserted into it, designed to be internally powered by UPS. Based "
@@ -402,13 +377,6 @@ msgstr[2] "боевых бронекостюмов выживальщика (в�
 #. ~ Description for {'str': 'survivor combat armor (on)', 'str_pl': 'survivor
 #. combat armors (on)'}
 #: items/advtech/sq_advanced_armor.json
-#| msgid ""
-#| "A custom-built armor made from a bulletproof vest and a jumpsuit with "
-#| "circuitry inserted into it, designed to internally powered by UPS. Based on "
-#| "the design of the Rivtech RM13 Combat Armor. Some features have been omitted"
-#| " due to difficulty of interpreting technology and for productivity, but it "
-#| "still protects you from the elements as well as from harm. It is turned on, "
-#| "and continually draining power.  Use it to turn it off."
 msgid ""
 "A custom-built armor made from a bulletproof vest and a jumpsuit with "
 "circuitry inserted into it, designed to be internally powered by UPS. Based "
@@ -832,14 +800,16 @@ msgid "Corsair blitz strike suit's cyan visor."
 msgstr "Голубой визор для рейдового силового бронекостюма «Корсар»."
 
 #: items/advtech/sq_advanced_armor_colors.json
+#| msgid "Pioneer visor: cyan"
+#| msgid_plural "Pioneer visors: red"
 msgid "Pioneer visor: cyan"
-msgid_plural "Pioneer visors: red"
+msgid_plural "Pioneer visors: cyan"
 msgstr[0] "визор «Пионера»: голубой"
 msgstr[1] "визора «Пионера»: голубой"
 msgstr[2] "визоров «Пионера»: голубой"
 
 #. ~ Description for {'str': 'Pioneer visor: cyan', 'str_pl': 'Pioneer visors:
-#. red'}
+#. cyan'}
 #: items/advtech/sq_advanced_armor_colors.json
 msgid "Pioneer environmental carapace's cyan visor."
 msgstr "Голубой визор для защитного силового экзокостюма «Пионер»."
@@ -1062,12 +1032,6 @@ msgstr "Плазменная ударная граната"
 #. ~ Description for {'str': 'plasma impact knife', 'str_pl': 'plasma impact
 #. knives'}
 #: items/advtech/sq_advanced_armor_spells.json
-#| msgid ""
-#| "The unstable plasma material is wrapped in a hardlight sheath, shaped into a"
-#| " throwable knife. Due to the nature of hardlights, they do not retain their "
-#| "shape for long without a constant power supply, but the knife tip is still "
-#| "razor sharp. If it receives a strong impact, such as being thrown and hit "
-#| "the ground, it will explode in a powerful blast with a pillar of flame."
 msgid ""
 "The unstable plasma material is wrapped in a hardlight sheath, shaped into a"
 " throwable knife. Due to the nature of hardlights, they do not retain their "
@@ -1084,8 +1048,6 @@ msgstr ""
 "мощную вспышку и взметнувшийся столб пламени."
 
 #: items/advtech/sq_advanced_armor_spells.json
-#| msgid "plasma impact knife"
-#| msgid_plural "plasma impact knifes"
 msgid "plasma impact knife"
 msgid_plural "plasma impact knives"
 msgstr[0] "плазменный ударный нож"
@@ -1161,8 +1123,6 @@ msgstr ""
 " несколько таких обрывков."
 
 #: items/advtech/sq_frost_tier.json
-#| msgid "map to the frozen cave"
-#| msgid_plural "map to the frozen caves"
 msgid "map to the frozen cave"
 msgid_plural "maps to the frozen cave"
 msgstr[0] "карта мёрзлой пещеры"
@@ -1178,14 +1138,6 @@ msgstr "Мёрзлая пещера"
 #. ~ Description for {'str': 'map to the frozen cave', 'str_pl': 'maps to the
 #. frozen cave'}
 #: items/advtech/sq_frost_tier.json
-#| msgid ""
-#| "Several frost-covered fragments meticulously taped together. The complete "
-#| "topographical data points to an isolated region of absolute zero. Activating"
-#| " the map will peel back the veil of reality, forcing a passage into the "
-#| "frozen abyss where the dragon waits. If this map is destroyed, the pocket "
-#| "dimension connected to it will also collapses. (DO NOT SAVE while inside a "
-#| "pocket dimension. Otherwise, you'll be trapped inside forever. Please turn "
-#| "off the auto-save.)"
 msgid ""
 "Several frost-covered fragments meticulously taped together. The complete "
 "topographical data points to an isolated region of absolute zero. Activating"
@@ -1307,8 +1259,6 @@ msgstr ""
 "характеристик."
 
 #: items/advtech/sq_frost_tier.json
-#| msgid "journal of the winter blacksmith"
-#| msgid_plural "journal of the winter blacksmiths"
 msgid "journal of the winter blacksmith"
 msgid_plural "journals of the winter blacksmith"
 msgstr[0] "дневник зимнего кузнеца"
@@ -1333,8 +1283,6 @@ msgstr ""
 "оружием, наделяя его никогда не тающим смертоносным лезвием."
 
 #: items/advtech/sq_frost_tier.json
-#| msgid "synthesis notes: cryo-light weaponry"
-#| msgid_plural "synthesis notes: cryo-light weaponrys"
 msgid "synthesis notes: cryo-light weaponry"
 msgid_plural "synthesis notes: cryo-light weaponry"
 msgstr[0] "заметки по синтезу: криосветовое оружие"
@@ -1936,8 +1884,6 @@ msgid "<npcname>'s mantle scatters a freezing blizzard!"
 msgstr "Мантия персонажа <npcname> обрушивает вокруг леденящую метель!"
 
 #: items/advtech/sq_frost_tier.json
-#| msgid "mantle of the fading fire"
-#| msgid_plural "mantle of the fading fires"
 msgid "mantle of the fading fire"
 msgid_plural "mantles of the fading fire"
 msgstr[0] "мантия угасающего огня"
@@ -1981,8 +1927,6 @@ msgstr ""
 " ни в руинах городов."
 
 #: items/advtech/sq_frost_tier.json
-#| msgid "crown of the abyssal monarch"
-#| msgid_plural "crown of the abyssal monarchs"
 msgid "crown of the abyssal monarch"
 msgid_plural "crowns of the abyssal monarch"
 msgstr[0] "корона повелителя бездны"
@@ -2137,8 +2081,6 @@ msgstr[1] "конденсатора высокой ёмкости"
 msgstr[2] "конденсаторов высокой ёмкости"
 
 #: items/advtech/sq_hardlight_fusion_and_gunmods.json
-#| msgid "photon solidification matrix"
-#| msgid_plural "photon solidification matrixs"
 msgid "photon solidification matrix"
 msgid_plural "photon solidification matrices"
 msgstr[0] "матрица отверждения фотонов"
@@ -2298,8 +2240,6 @@ msgstr ""
 " бронепробиваемостью."
 
 #: items/advtech/sq_hardlight_fusion_and_gunmods.json
-#| msgid "delpleted uranium rail"
-#| msgid_plural "delpleted uranium rails"
 msgid "depleted uranium rail"
 msgid_plural "depleted uranium rails"
 msgstr[0] "рельсовый снаряд из обеднённого урана"
@@ -2461,8 +2401,6 @@ msgstr ""
 "способность."
 
 #: items/advtech/sq_hardlight_fusion_and_gunmods.json
-#| msgid "hardlight glaive (off)"
-#| msgid_plural "hardlight glaive (off)s"
 msgid "hardlight glaive (off)"
 msgid_plural "hardlight glaives (off)"
 msgstr[0] "фотонная глефа (выкл.)"
@@ -2473,8 +2411,7 @@ msgstr[2] "фотонных глеф (выкл.)"
 #. 'str_pl': 'hardlight glaives (off)'}.
 #. ~ Use action transform.menu_text for {'str': 'experimental hardlight blade
 #. (off)'}.
-#. ~ Use action transform.menu_text for {'str': 'zero sabers', 'str_pl': 'zero
-#. sabers'}.
+#. ~ Use action transform.menu_text for {'str_sp': 'zero sabers (off)'}.
 #: items/advtech/sq_hardlight_fusion_and_gunmods.json
 #: items/advtech/sq_nano_tier.json items/item_common/sq_unrand.json
 msgid "Expand"
@@ -2512,8 +2449,7 @@ msgstr[2] "фотонных глеф (вкл.)"
 #. 'str_pl': 'hardlight glaives (on)'}.
 #. ~ Use action transform.menu_text for {'str': 'experimental hardlight blades
 #. (on)', 'str_pl': 'experimental hardlight blades (on)'}.
-#. ~ Use action transform.menu_text for {'str': 'zero sabers', 'str_pl': 'zero
-#. sabers'}.
+#. ~ Use action transform.menu_text for {'str_sp': 'zero sabers (on)'}.
 #: items/advtech/sq_hardlight_fusion_and_gunmods.json
 #: items/advtech/sq_nano_tier.json items/item_common/sq_unrand.json
 msgid "Collapse"
@@ -2557,11 +2493,6 @@ msgstr[1] "гаусс-револьвера"
 msgstr[2] "гаусс-револьверов"
 
 #: items/advtech/sq_hardlight_fusion_and_gunmods.json
-#| msgid ""
-#| "The deserted cities of the apocalypse are dangerous, so take this revolver "
-#| "with you. Firing a superheated metal rail, your trusty five-shot atomic "
-#| "Gauss revolver will put holes in the heads of heavily armed bandits like no "
-#| "other, faster than anyone else."
 msgid ""
 "The deserted cities of the apocalypse are dangerous, so take this revolver "
 "with you. Firing a superheated metal rail, your trusty eight-shot atomic "
@@ -2890,8 +2821,6 @@ msgid "muzzle"
 msgstr "дуло"
 
 #: items/advtech/sq_hardlight_fusion_and_gunmods.json
-#| msgid "suppressor MK II"
-#| msgid_plural "suppressor MK IIs"
 msgid "suppressor MK II"
 msgid_plural "suppressors MK II"
 msgstr[0] "глушитель Mk.II"
@@ -3279,10 +3208,6 @@ msgstr[2] "стабилизированных порталов"
 
 #. ~ Description for {'str': 'stabilized portal'}
 #: items/advtech/sq_main_tools.json
-#| msgid ""
-#| "As you gaze into the seemingly infinite depths of this portable hole in "
-#| "reality, a phrase from a time forever gone echoes in your mind.  \\\"There "
-#| "are two things that are infinite: the universe and human kleptomania.\\\""
 msgid ""
 "As you gaze into the seemingly infinite depths of this portable hole in "
 "reality, a phrase from a time forever gone echoes in your mind.  \"There are"
@@ -3659,10 +3584,6 @@ msgstr ""
 #. ~ Description for {'str': 'nanomite capsule: flame protection', 'str_pl':
 #. 'nanomite capsules: flame protection'}
 #: items/advtech/sq_meds.json
-#| msgid ""
-#| "A capsule containing a colony of nanomachines. When applied to the body, the"
-#| " colonies align themselves in the skin layer, providing insulation and flame"
-#| " protection for 30 minutes."
 msgid ""
 "A capsule containing a colony of nanomachines. When applied to the body, the"
 " colonies align themselves in the skin layer, providing insulation and flame"
@@ -3673,8 +3594,6 @@ msgstr ""
 "течение 60 минут."
 
 #: items/advtech/sq_meds.json
-#| msgid "nanomite capsules: acid protection"
-#| msgid_plural "nanomite capsules: acid protection"
 msgid "nanomite capsule: acid protection"
 msgid_plural "nanomite capsules: acid protection"
 msgstr[0] "капсула наномитов: защита от кислотного урона"
@@ -3684,10 +3603,6 @@ msgstr[2] "капсул наномитов: защита от кислотног
 #. ~ Description for {'str': 'nanomite capsule: acid protection', 'str_pl':
 #. 'nanomite capsules: acid protection'}
 #: items/advtech/sq_meds.json
-#| msgid ""
-#| "A capsule containing a colony of nanomachines. When applied to the body, the"
-#| " colonies align themselves in the skin layer, providing corrosion and acid "
-#| "protection for 30 minutes."
 msgid ""
 "A capsule containing a colony of nanomachines. When applied to the body, the"
 " colonies align themselves in the skin layer, providing corrosion and acid "
@@ -3707,10 +3622,6 @@ msgstr[2] "капсул наномитов: защита от электриче
 #. ~ Description for {'str': 'nanomite capsule: electrical protection',
 #. 'str_pl': 'nanomite capsules: electrical protection'}
 #: items/advtech/sq_meds.json
-#| msgid ""
-#| "A capsule containing a colony of nanomachines. When applied to the body, the"
-#| " colonies align themselves in the skin layer, providing electrical "
-#| "protection for 30 minutes."
 msgid ""
 "A capsule containing a colony of nanomachines. When applied to the body, the"
 " colonies align themselves in the skin layer, providing electrical "
@@ -3730,10 +3641,6 @@ msgstr[2] "капсул наномитов: защита от холода"
 #. ~ Description for {'str': 'nanomite capsule: cold protection', 'str_pl':
 #. 'nanomite capsules: cold protection'}
 #: items/advtech/sq_meds.json
-#| msgid ""
-#| "A capsule containing a colony of nanomachines. When applied to the body, the"
-#| " colonies align themselves in the skin layer, providing freezing and cold "
-#| "protection for 30 minutes."
 msgid ""
 "A capsule containing a colony of nanomachines. When applied to the body, the"
 " colonies align themselves in the skin layer, providing freezing and cold "
@@ -3938,22 +3845,44 @@ msgstr[1] "обеднённого урана"
 msgstr[2] "обеднённого урана"
 
 #: items/advtech/sq_nano_generic_comp.json miscs/sq_requirements.json
+#, fuzzy
+#| msgid "dented"
+msgctxt "material damage verb"
 msgid "dented"
 msgstr "помято"
 
 #: items/advtech/sq_nano_generic_comp.json miscs/sq_requirements.json
+#, fuzzy
+#| msgid "scratched"
+msgctxt "material damage verb"
 msgid "scratched"
 msgstr "поцарапано"
 
 #: items/advtech/sq_nano_generic_comp.json miscs/sq_requirements.json
+#, fuzzy
+#| msgid "marked"
+msgctxt "material damage adjective"
 msgid "marked"
 msgstr "побито"
 
 #: items/advtech/sq_nano_generic_comp.json miscs/sq_requirements.json
+#, fuzzy
+#| msgid "dented"
+msgctxt "material damage adjective"
+msgid "dented"
+msgstr "помято"
+
+#: items/advtech/sq_nano_generic_comp.json miscs/sq_requirements.json
+#, fuzzy
+#| msgid "smashed"
+msgctxt "material damage adjective"
 msgid "smashed"
 msgstr "разбито"
 
 #: items/advtech/sq_nano_generic_comp.json miscs/sq_requirements.json
+#, fuzzy
+#| msgid "shattered"
+msgctxt "material damage adjective"
 msgid "shattered"
 msgstr "раздроблено"
 
@@ -4030,13 +3959,6 @@ msgstr "Вы включаете режим планшета на своём «Т
 
 #. ~ Description for {'str': 'Type-Boy', 'str_pl': 'Type-Boys'}
 #: items/advtech/sq_nano_tier.json
-#| msgid ""
-#| "It's a smart device that runs on UPS. A Type-Boy model from Fujin's "
-#| "industry, it has the functionality of a smartwatch, plus a host of other "
-#| "features and information, including maps and location tracking, a bionic "
-#| "scanner, and a radiation biomonitor. These little computerized devices help "
-#| "survivors perform a variety of tasks and manage information efficiently. You"
-#| " can check it out by using."
 msgid ""
 "It's a smart device that runs on UPS. A Type-Boy model from Fujin's "
 "industry, it has the functionality of a smartwatch, plus a host of other "
@@ -4323,11 +4245,6 @@ msgstr "Вы включаете экспериментальный фотонн�
 
 #. ~ Description for {'str': 'experimental hardlight blade (off)'}
 #: items/advtech/sq_nano_tier.json
-#| msgid ""
-#| "The Rivtech RMX-01 Experimental Hardlight Blade is a powerful weapon "
-#| "utilizing laser technology, an eternal symbol of Jedi warriors, a fiery "
-#| "testament to Newton, and the pinnacle of otaku science.  You can turn it on "
-#| "using."
 msgid ""
 "The Rivtech RMX-01 Experimental Hardlight Blade is a powerful weapon "
 "utilizing laser technology, an eternal symbol of Jedi warriors, a fiery "
@@ -4354,11 +4271,6 @@ msgstr "Вы отключаете экспериментальный фотон�
 #. ~ Description for {'str': 'experimental hardlight blades (on)', 'str_pl':
 #. 'experimental hardlight blades (on)'}
 #: items/advtech/sq_nano_tier.json
-#| msgid ""
-#| "The Rivtech RMX-01 Experimental Hardlight Blade is a powerful weapon "
-#| "utilizing laser technology, an eternal symbol of Jedi warriors, a fiery "
-#| "testament to Newton, and the pinnacle of otaku science.  It can be turned "
-#| "off by using."
 msgid ""
 "The Rivtech RMX-01 Experimental Hardlight Blade is a powerful weapon "
 "utilizing laser technology, an eternal symbol of Jedi warriors, a fiery "
@@ -5945,11 +5857,6 @@ msgstr[2] "промышленных экзоскелетов (вкл.)"
 #. ~ Description for {'str': 'industrial exoskeleton (on)', 'str_pl':
 #. 'industrial exoskeletons (on)'}
 #: items/item_common/sq_cargo_frame.json
-#| msgid ""
-#| "A type of armor developed for civilian use, it is a robotic system that "
-#| "mechanically adds strength to the wearer, powered by hydraulics, motors, "
-#| "pistons, etc. It is currently operating, and is constantly consuming power. "
-#| "to stop working."
 msgid ""
 "A type of armor developed for civilian use, it is a robotic system that "
 "mechanically adds strength to the wearer, powered by hydraulics, motors, "
@@ -6221,8 +6128,6 @@ msgstr ""
 "для распаковки."
 
 #: items/item_common/sq_generic.json
-#| msgid "bundle of scrap coppers"
-#| msgid_plural "bundles of scrap coppers"
 msgid "bundle of scrap copper"
 msgid_plural "bundles of scrap copper"
 msgstr[0] "связка обрезков меди"
@@ -6232,8 +6137,6 @@ msgstr[2] "связок обрезков меди"
 #. ~ Description for {'str': 'bundle of scrap copper', 'str_pl': 'bundles of
 #. scrap copper'}
 #: items/item_common/sq_generic.json
-#| msgid ""
-#| "scrap coppers, bundled tightly together for storage.  Disassemble to unpack."
 msgid ""
 "Scrap copper, bundled tightly together for storage.  Disassemble to unpack."
 msgstr ""
@@ -7347,11 +7250,6 @@ msgstr[2] "огнеупорных поясов выживальщика"
 
 #. ~ Description for {'str': 'survivor fireproof belt'}
 #: items/item_common/sq_nomex_survivor.json
-#| msgid ""
-#| "A custom-built utility belt, reinforced with Kevlar and made of Nomex "
-#| "fireproof fabric, covered with straps and pouches containing many useful "
-#| "hand tools and a sheath to carry a smaller blade.  Durable and carefully "
-#| "crafted to be comfortable to wear.  Activate to sheathe/draw a weapon."
 msgid ""
 "A custom-built utility belt, reinforced with Kevlar and made of Nomex "
 "fireproof fabric, covered with straps and pouches for storing hand tools and"
@@ -7592,10 +7490,6 @@ msgstr[2] "огнеупорных перевязей выживальщика д
 
 #. ~ Description for {'str': 'survivor fireproof bow sling'}
 #: items/item_common/sq_nomex_survivor.json
-#| msgid ""
-#| "A somewhat complicated set of straps and fabric, reinforced with Kevlar and "
-#| "made of Nomex fireproof fabric to keep your bow close to hand and (mostly) "
-#| "out of harms way.  Activate to holster/draw your bow."
 msgid ""
 "A somewhat complicated set of straps and fabric, reinforced with Kevlar and "
 "made of Nomex fireproof fabric to keep your bow close to hand and (mostly) "
@@ -7726,9 +7620,6 @@ msgstr[2] "огнеупорных туристических рюкзаков в
 
 #. ~ Description for {'str': 'survivor fireproof hiking backpack'}
 #: items/item_common/sq_nomex_survivor.json
-#| msgid ""
-#| "A custom-built backpack, reinforced with Kevlar and made of Nomex fireproof "
-#| "fabric.  Durable and carefully crafted to hold as much stuff as possible."
 msgid ""
 "A custom-built hiking backpack, reinforced with Kevlar and made of Nomex "
 "fireproof fabric.  Durable and carefully crafted to hold as much stuff as "
@@ -7860,10 +7751,6 @@ msgstr[2] "огнеупорных набедренных подсумков вы
 #. ~ Description for {'str': 'survivor fireproof leg ammo pouch', 'str_pl':
 #. 'survivor fireproof leg ammo pouches'}
 #: items/item_common/sq_nomex_survivor.json
-#| msgid ""
-#| "An ammo pouch reinforced with Kevlar and made of Nomex fireproof fabric that"
-#| " can be strapped to your leg and capable of holding two magazine close at "
-#| "hand."
 msgid ""
 "An ammo pouch reinforced with Kevlar and made of Nomex fireproof fabric that"
 " can be strapped to your leg and capable of holding two magazines close at "
@@ -8138,10 +8025,6 @@ msgstr "Убрать боеприпасы"
 #. ~ Description for {'str': 'tactical shield: commando', 'str_pl': 'tactical
 #. shields: commando'}
 #: items/item_common/sq_shields.json
-#| msgid ""
-#| "This shield offer high performance protection and magazine storage. If you "
-#| "don't know what to choose, the tactical shield: commando is the best choice."
-#| " It's quite heavy but effective."
 msgid ""
 "This shield offers high performance protection and magazine storage. If you "
 "don't know what to choose, the tactical shield: commando is the best choice."
@@ -8545,24 +8428,28 @@ msgstr ""
 "и всё вокруг забрызгано кровью."
 
 #: items/item_common/sq_unrand.json
-msgid "Hi no Arashi"
-msgid_plural "Hi no Arashi"
+#, fuzzy
+#| msgid "Hi no Arashi"
+#| msgid_plural "Hi no Arashi"
+msgid "Hi no Arashi (off)"
+msgid_plural "Hi no Arashi (off)"
 msgstr[0] "катана «Огненная буря»"
 msgstr[1] "катаны «Огненная буря»"
 msgstr[2] "катан «Огненная буря»"
 
-#. ~ Use action fireweapon_off.success_message for {'str_sp': 'Hi no Arashi'}.
+#. ~ Use action fireweapon_off.success_message for {'str_sp': 'Hi no Arashi
+#. (off)'}.
 #: items/item_common/sq_unrand.json
 msgid "The Sun rises."
 msgstr "Солнце встаёт."
 
-#. ~ Use action fireweapon_off.lacks_fuel_message for {'str_sp': 'Hi no
-#. Arashi'}.
+#. ~ Use action fireweapon_off.lacks_fuel_message for {'str_sp': 'Hi no Arashi
+#. (off)'}.
 #: items/item_common/sq_unrand.json
 msgid "Time stands still."
 msgstr "Время замерло."
 
-#. ~ Description for {'str_sp': 'Hi no Arashi'}
+#. ~ Description for {'str_sp': 'Hi no Arashi (off)'}
 #: items/item_common/sq_unrand.json
 msgid ""
 "Fire and Sword\n"
@@ -8573,30 +8460,41 @@ msgstr ""
 "газовое пламя рвётся вперёд,\n"
 "чтобы испепелить врага"
 
-#. ~ Use action fireweapon_on.noise_message for {'str_sp': 'Hi no Arashi'}.
+#: items/item_common/sq_unrand.json
+#, fuzzy
+#| msgid "Hi no Arashi"
+#| msgid_plural "Hi no Arashi"
+msgid "Hi no Arashi (on)"
+msgid_plural "Hi no Arashi (on)"
+msgstr[0] "катана «Огненная буря»"
+msgstr[1] "катаны «Огненная буря»"
+msgstr[2] "катан «Огненная буря»"
+
+#. ~ Use action fireweapon_on.noise_message for {'str_sp': 'Hi no Arashi
+#. (on)'}.
 #: items/item_common/sq_unrand.json
 msgid "The Sun shines brightly."
 msgstr "Солнце ярко сияет."
 
 #. ~ Use action fireweapon_on.voluntary_extinguish_message for {'str_sp': 'Hi
-#. no Arashi'}.
+#. no Arashi (on)'}.
 #: items/item_common/sq_unrand.json
 msgid "The Sun sets."
 msgstr "Солнце заходит."
 
 #. ~ Use action fireweapon_on.charges_extinguish_message for {'str_sp': 'Hi no
-#. Arashi'}.
+#. Arashi (on)'}.
 #: items/item_common/sq_unrand.json
 msgid "The Light Fades."
 msgstr "Свет слабеет."
 
 #. ~ Use action fireweapon_on.water_extinguish_message for {'str_sp': 'Hi no
-#. Arashi'}.
+#. Arashi (on)'}.
 #: items/item_common/sq_unrand.json
 msgid "Your sword hisses in the water and goes out."
 msgstr "Ваш меч шипит в воде и гаснет."
 
-#. ~ Description for {'str_sp': 'Hi no Arashi'}
+#. ~ Description for {'str_sp': 'Hi no Arashi (on)'}
 #: items/item_common/sq_unrand.json
 msgid ""
 "Wrath of the Sun\n"
@@ -8608,23 +8506,28 @@ msgstr ""
 "чтобы перекрыть газ."
 
 #: items/item_common/sq_unrand.json
-msgid "Ryu Ichimonji"
-msgid_plural "Ryu Ichimonji"
+#, fuzzy
+#| msgid "Ryu Ichimonji"
+#| msgid_plural "Ryu Ichimonji"
+msgid "Ryu Ichimonji (off)"
+msgid_plural "Ryu Ichimonji (off)"
 msgstr[0] "меч «Рю-итимондзи»"
 msgstr[1] "меча «Рю-итимондзи»"
 msgstr[2] "мечей «Рю-итимондзи»"
 
-#. ~ Use action transform.msg for {'str_sp': 'Ryu Ichimonji'}.
+#. ~ Use action transform.msg for {'str_sp': 'Ryu Ichimonji (off)'}.
 #: items/item_common/sq_unrand.json
 msgid "The dragon becomes me!"
 msgstr "Я — воплощение дракона!"
 
-#. ~ Use action transform.need_charges_msg for {'str_sp': 'Ryu Ichimonji'}.
+#. ~ Use action transform.need_charges_msg for {'str_sp': 'Ryu Ichimonji
+#. (off)'}.
 #: items/item_common/sq_unrand.json
 msgid "You hear the voice of the sword. \"I'm charging the ultimate.\""
 msgstr "Вы слышите голос меча: «Ульта заряжается»."
 
-#. ~ Description for {'str_sp': 'Ryu Ichimonji'}
+#. ~ Description for {'str_sp': 'Ryu Ichimonji (off)'}
+#. ~ Description for {'str_sp': 'Ryu Ichimonji (on)'}
 #: items/item_common/sq_unrand.json
 msgid ""
 "A massive curved two-handed sword from Japan. The green dragon of the north "
@@ -8635,7 +8538,17 @@ msgstr ""
 "дракон северного ветра. Это оружие в любой момент готово обрушить на врага "
 "смертельный удар."
 
-#. ~ Use action transform.msg for {'str_sp': 'Ryu Ichimonji'}.
+#: items/item_common/sq_unrand.json
+#, fuzzy
+#| msgid "Ryu Ichimonji"
+#| msgid_plural "Ryu Ichimonji"
+msgid "Ryu Ichimonji (on)"
+msgid_plural "Ryu Ichimonji (on)"
+msgstr[0] "меч «Рю-итимондзи»"
+msgstr[1] "меча «Рю-итимондзи»"
+msgstr[2] "мечей «Рю-итимондзи»"
+
+#. ~ Use action transform.msg for {'str_sp': 'Ryu Ichimonji (on)'}.
 #: items/item_common/sq_unrand.json
 msgid "The dragon needs recharging."
 msgstr "Дракону необходима подзарядка."
@@ -8698,23 +8611,22 @@ msgstr ""
 "синим."
 
 #: items/item_common/sq_unrand.json
-msgid "zero sabers"
-msgid_plural "zero sabers"
+#, fuzzy
+#| msgid "zero sabers"
+#| msgid_plural "zero sabers"
+msgid "zero sabers (off)"
+msgid_plural "zero sabers (off)"
 msgstr[0] "нуль-сабля"
 msgstr[1] "нуль-сабли"
 msgstr[2] "нуль-сабель"
 
-#. ~ Use action transform.msg for {'str': 'zero sabers', 'str_pl': 'zero
-#. sabers'}.
+#. ~ Use action transform.msg for {'str_sp': 'zero sabers (off)'}.
 #: items/item_common/sq_unrand.json
 msgid "You turn on zero saber."
 msgstr "Вы включаете нуль-саблю."
 
-#. ~ Description for {'str': 'zero sabers', 'str_pl': 'zero sabers'}
+#. ~ Description for {'str_sp': 'zero sabers (off)'}
 #: items/item_common/sq_unrand.json
-#| msgid ""
-#| "A particle sword with a triangular hilt. Features an wide attack and a "
-#| "spinning slash."
 msgid ""
 "A particle sword with a triangular hilt. Features a wide attack and a "
 "spinning slash."
@@ -8722,17 +8634,23 @@ msgstr ""
 "Меч с клинком из частиц и треугольной рукоятью. Позволяет наносить "
 "размашистые и круговые рубящие удары."
 
-#. ~ Use action transform.msg for {'str': 'zero sabers', 'str_pl': 'zero
-#. sabers'}.
+#: items/item_common/sq_unrand.json
+#, fuzzy
+#| msgid "zero sabers"
+#| msgid_plural "zero sabers"
+msgid "zero sabers (on)"
+msgid_plural "zero sabers (on)"
+msgstr[0] "нуль-сабля"
+msgstr[1] "нуль-сабли"
+msgstr[2] "нуль-сабель"
+
+#. ~ Use action transform.msg for {'str_sp': 'zero sabers (on)'}.
 #: items/item_common/sq_unrand.json
 msgid "You turned off the zero saber."
 msgstr "Вы выключаете нуль-саблю."
 
-#. ~ Description for {'str': 'zero sabers', 'str_pl': 'zero sabers'}
+#. ~ Description for {'str_sp': 'zero sabers (on)'}
 #: items/item_common/sq_unrand.json
-#| msgid ""
-#| "A particle sword with a triangular hilt. Features an wide attack and a "
-#| "spinning slash. Use to turn off."
 msgid ""
 "A particle sword with a triangular hilt. Features a wide attack and a "
 "spinning slash. Use to turn off."
@@ -9072,22 +8990,44 @@ msgid "graphene"
 msgstr "графен"
 
 #: miscs/sq_requirements.json
+#, fuzzy
+#| msgid "ripped"
+msgctxt "material damage verb"
 msgid "ripped"
 msgstr "порвано"
 
 #: miscs/sq_requirements.json
+#, fuzzy
+#| msgid "cut"
+msgctxt "material damage verb"
 msgid "cut"
 msgstr "порезано"
 
 #: miscs/sq_requirements.json
+#, fuzzy
+#| msgid "ripped"
+msgctxt "material damage adjective"
+msgid "ripped"
+msgstr "порвано"
+
+#: miscs/sq_requirements.json
+#, fuzzy
+#| msgid "torn"
+msgctxt "material damage adjective"
 msgid "torn"
 msgstr "разорванный"
 
 #: miscs/sq_requirements.json
+#, fuzzy
+#| msgid "shredded"
+msgctxt "material damage adjective"
 msgid "shredded"
 msgstr "изодранный"
 
 #: miscs/sq_requirements.json
+#, fuzzy
+#| msgid "tattered"
+msgctxt "material damage adjective"
 msgid "tattered"
 msgstr "изорванный"
 
@@ -9705,13 +9645,6 @@ msgstr[2] "МЭК «Исследователь» (режим езды)"
 #. ~ Description for {'str': 'mech: explorer (ride mode)'}
 #. ~ Description for {'str': 'inactive mech: explorer (ride mode)'}
 #: monsters/sq_mechs.json
-#| msgid ""
-#| "An standardized multi-role mech drone with a modified military "
-#| "reconnaissance exoskeleton system and a drone authorized for autonomous "
-#| "behavior. A loadout centered around optical weapons, it features average "
-#| "melee capabilities and strong energy projection. You may be able to hack it "
-#| "to accept you as its pilot.  Like all mech-suits it can act as a UPS from "
-#| "its large battery."
 msgid ""
 "A standardized multi-role mech drone with a modified military reconnaissance"
 " exoskeleton system and a drone authorized for autonomous behavior. A "
@@ -9738,12 +9671,6 @@ msgstr[2] "МЭК «Исследователь» (автономный режи�
 #. ~ Description for {'str': 'mech: explorer (standalone mode)'}
 #. ~ Description for {'str': 'inactive mech: explorer (standalone mode)'}
 #: monsters/sq_mechs.json
-#| msgid ""
-#| "An standardized multi-role mech drone with a modified reconnaissance "
-#| "exoskeleton system and a drone authorized for autonomous behavior. The "
-#| "loadout is centered around optical weapons, with average melee capabilities "
-#| "and strong energy projection. It is capable of operating unattended, but can"
-#| " also be equipped with a pilot to increase its engagement capabilities."
 msgid ""
 "A standardized multi-role mech drone with a modified reconnaissance "
 "exoskeleton system and a drone authorized for autonomous behavior. The "
@@ -10067,9 +9994,6 @@ msgstr[2] "шагоботов «Бомбардир»"
 #. ~ Description for {'str': 'walker: bombardier'}
 #. ~ Description for {'str': 'inactive walker: bombardier'}
 #: monsters/sq_walkers.json
-#| msgid ""
-#| "An automated drone for anti-personal use. A medium-sized bipedal robot with "
-#| "a small grenade launcher."
 msgid ""
 "An automated drone for anti-personnel use. A medium-sized bipedal robot with"
 " a small grenade launcher."
@@ -11156,13 +11080,15 @@ msgstr ""
 "обострит ваш слух."
 
 #: mutations/item.json
-msgid "Elven hearing serum"
-msgid_plural "Elven hearing serums"
+#| msgid "Elven hearing serum"
+#| msgid_plural "Elven hearing serums"
+msgid "Fey hearing serum"
+msgid_plural "Fey hearing serums"
 msgstr[0] "сыворотка слуха фейри"
 msgstr[1] "сыворотки слуха фейри"
 msgstr[2] "сывороток слуха фейри"
 
-#. ~ Description for Elven hearing serum
+#. ~ Description for Fey hearing serum
 #: mutations/item.json
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. This one "
@@ -11216,9 +11142,6 @@ msgstr[2] "сывороток скорости"
 
 #. ~ Description for Quickening serum
 #: mutations/item.json
-#| msgid ""
-#| "A special mutagenic serum designed to give you a single mutation. This one "
-#| "will make faster in general."
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. This one "
 "will make you faster in general."
@@ -11282,7 +11205,6 @@ msgstr[1] "сыворотки безмятежного засыпания"
 msgstr[2] "сывороток безмятежного засыпания"
 
 #. ~ Description for Practised sleeper serum
-#. ~ Description for Toxic skin serum
 #: mutations/item.json
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. This one "
@@ -11534,10 +11456,6 @@ msgstr[2] "сывороток гурмана"
 
 #. ~ Description for Gourmand serum
 #: mutations/item.json
-#| msgid ""
-#| "A special mutagenic serum designed to give you a single mutation. Increases "
-#| "dopamine production in response to ingesting good-tasting foods and expands "
-#| "digestive system to accomodate more volume."
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. Increases "
 "dopamine production in response to ingesting good-tasting foods and expands "
@@ -11981,8 +11899,6 @@ msgstr ""
 "не входит."
 
 #: mutations/item.json
-#| msgid "Bird eyes serums"
-#| msgid_plural "Bird eyes serumss"
 msgid "Bird eyes serum"
 msgid_plural "Bird eyes serums"
 msgstr[0] "сыворотка птичьих глаз"
@@ -12600,9 +12516,6 @@ msgstr[2] "сывороток длинных игл"
 
 #. ~ Description for Quills serum
 #: mutations/item.json
-#| msgid ""
-#| "A special mutagenic serum designed to give you a single mutation. Covers "
-#| "your large sharp quills for defense."
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. Covers you"
 " in large sharp quills for defense."
@@ -12739,10 +12652,6 @@ msgstr[2] "сывороток испарения"
 
 #. ~ Description for Transpiration serum
 #: mutations/item.json
-#| msgid ""
-#| "A special mutagenic serum designed to give you a single mutation. Changes "
-#| "your to use the evaporation of water as a way to move nutrients, if your "
-#| "body supports it."
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. Changes "
 "your body to use the evaporation of water as a way to move nutrients, if "
@@ -12909,10 +12818,6 @@ msgstr[2] "сывороток выпирающего резервуара"
 
 #. ~ Description for Bulging reservoir serum
 #: mutations/item.json
-#| msgid ""
-#| "A special mutagenic serum designed to give you a single mutation. This one "
-#| "makes you develop a reservoir of fluids that buldges out of your abdomen "
-#| "allowing you to adapt to containing extra liquids."
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. This one "
 "makes you develop a reservoir of fluids that bulges out of your abdomen "
@@ -12931,9 +12836,6 @@ msgstr[2] "сывороток больших когтей"
 
 #. ~ Description for Talons serum
 #: mutations/item.json
-#| msgid ""
-#| "A special mutagenic serum designed to give you a single mutation. Grows your"
-#| " index fingers into hude talons."
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. Grows your"
 " index fingers into huge talons."
@@ -12985,10 +12887,6 @@ msgstr[2] "сывороток феромонов млекопитающих"
 
 #. ~ Description for Mammal pheromones serum
 #: mutations/item.json
-#| msgid ""
-#| "A special mutagenic serum designed to give you a single mutation. Makes your"
-#| " body produce mammal pheromones that calms most mammals and makes them more "
-#| "friendly."
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. Makes your"
 " body produce mammal pheromones that calm most mammals and make them more "
@@ -13125,9 +13023,6 @@ msgstr[2] "сывороток эластичных конечностей"
 
 #. ~ Description for Rubbery limbs serum
 #: mutations/item.json
-#| msgid ""
-#| "A special mutagenic serum designed to give you a single mutation. "
-#| "Signifigantly flexifies your limbs, if your body supports it."
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. "
 "Significantly flexifies your limbs, if your body supports it."
@@ -13352,14 +13247,18 @@ msgstr[2] "сывороток питания подножным кормом"
 
 #. ~ Description for Grazer serum
 #: mutations/item.json
+#| msgid ""
+#| "A special mutagenic serum designed to give you a single mutation. This one "
+#| "will make your tail as strong and powerful as an anaconda's. if your body "
+#| "supports it."
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. This one "
-"will make you capable of falling asleep just about anywhere, if your body "
-"supports it, if your body supports it."
+"will allow you to get nutrition from grass, underbrush and shrubs, if your "
+"body supports it."
 msgstr ""
 "Особая мутагенная сыворотка, вызывающая одну определённую мутацию. Если ваш "
-"организм способен принять такое изменение, она позволит вам питаться "
-"подножным кормом — травой и кустарниками."
+"организм способен принять такое изменение, она позволит вам получать "
+"питательные вещества из травы, подлеска и кустарников."
 
 #: mutations/item.json
 msgid "Intestinal fortitude serum"
@@ -13853,9 +13752,6 @@ msgstr[2] "сывороток птичьих крыльев"
 
 #. ~ Description for Bird wings serum
 #: mutations/item.json
-#| msgid ""
-#| "A special mutagenic serum designed to give you a single mutation. Grows "
-#| "feathery wings that won't fly but will stop falls form hurting."
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. Grows "
 "feathery wings that won't fly but will stop falls from hurting."
@@ -13905,9 +13801,6 @@ msgstr[2] "сывороток жвал"
 
 #. ~ Description for Mandibles serum
 #: mutations/item.json
-#| msgid ""
-#| "A special mutagenic serum designed to give you a single mutation. TUrns your"
-#| " mouth into a system that uses insectoid mandibles."
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. Turns your"
 " mouth into a system that uses insectoid mandibles."
@@ -14070,9 +13963,6 @@ msgstr[2] "сывороток паутинных манёвров"
 
 #. ~ Description for Web diver serum
 #: mutations/item.json
-#| msgid ""
-#| "A special mutagenic serum designed to give you a single mutation. Allows you"
-#| " to use your webs as a way to scale shear drops, if your body supports it."
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. Allows you"
 " to use your webs as a way to scale sheer drops, if your body supports it."
@@ -14174,11 +14064,6 @@ msgstr[2] "сывороток крупного тела"
 
 #. ~ Description for Enlargening serum
 #: mutations/item.json
-#| msgid ""
-#| "A special mutagenic serum designed to give you a single mutation, if your "
-#| "body supports it. Try this enlargement serum and get bigger, today! Large "
-#| "Inc. is not responsible for any lack of growth due to unsupported "
-#| "infratructure."
 msgid ""
 "A special mutagenic serum designed to give you a single mutation, if your "
 "body supports it. Try this enlargement serum and get bigger, today! Large "
@@ -14390,7 +14275,16 @@ msgstr ""
 "организм способен принять такое изменение, ничто вокруг не ускользнёт от "
 "вашего внимания."
 
-#. ~ Description for Alpha intelligence serum
+#: mutations/item.json
+#| msgid "Alpha strength serum"
+#| msgid_plural "Alpha strength serums"
+msgid "Alpha perception serum"
+msgid_plural "Alpha perception serums"
+msgstr[0] "сыворотка совершенного восприятия"
+msgstr[1] "сыворотки совершенного восприятия"
+msgstr[2] "сывороток совершенного восприятия"
+
+#. ~ Description for Alpha perception serum
 #: mutations/item.json
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. Alphas are"
@@ -14954,10 +14848,6 @@ msgstr[2] "сывороток широких лап"
 
 #. ~ Description for Broad paws serum
 #: mutations/item.json
-#| msgid ""
-#| "A special mutagenic serum designed to give you a single mutation. Turn your "
-#| "hands into large paws that're better at swimming but manula dexteriry and "
-#| "manipulation is going to be a problem."
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. Turn your "
 "hands into large paws that're better at swimming but manual dexterity and "
@@ -15078,9 +14968,6 @@ msgstr[2] "сывороток аморфного тела"
 
 #. ~ Description for Amorphous body serum
 #: mutations/item.json
-#| msgid ""
-#| "A special mutagenic serum designed to give you a single mutation. Make your "
-#| "flesh and pleasing gel-like consistency, if your body supports it."
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. Give your "
 "flesh a pleasing gel-like consistency, if your body supports it."
@@ -15539,9 +15426,6 @@ msgstr[2] "сывороток земноводности"
 
 #. ~ Description for Amphibious serum
 #: mutations/item.json
-#| msgid ""
-#| "A special mutagenic serum designed to give you a single mutation. Become "
-#| "amphibiousm comfortable both on land and in water if your body supports it."
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. Become "
 "amphibious, comfortable both on land and in water if your body supports it."
@@ -15624,6 +15508,21 @@ msgid_plural "Toxic skin serums"
 msgstr[0] "сыворотка токсичной кожи"
 msgstr[1] "сыворотки токсичной кожи"
 msgstr[2] "сывороток токсичной кожи"
+
+#. ~ Description for Toxic skin serum
+#: mutations/item.json
+#| msgid ""
+#| "A special mutagenic serum designed to give you a single mutation. This one "
+#| "will make you hear as good as elves of fantasy settings, if your body "
+#| "supports it."
+msgid ""
+"A special mutagenic serum designed to give you a single mutation. This one "
+"is intended to make your flesh poisonous to creatures that bite you, if your"
+" body supports it."
+msgstr ""
+"Особая мутагенная сыворотка, вызывающая одну определённую мутацию. Если ваш "
+"организм способен принять такое изменение, она должна сделать вашу плоть "
+"ядовитой для существ, которые вас кусают."
 
 #: mutations/item.json
 msgid "Shark teeth serum"
@@ -15806,10 +15705,6 @@ msgstr[2] "сывороток змеевидного тела"
 
 #. ~ Description for Serpentine body serum
 #: mutations/item.json
-#| msgid ""
-#| "A special mutagenic serum designed to give you a single mutation. With the "
-#| "lower body of a giant snake, you can glide effortlessly over any terrain., "
-#| "if your body supports it."
 msgid ""
 "A special mutagenic serum designed to give you a single mutation. With the "
 "lower body of a giant snake, you can glide effortlessly over any terrain, if"
@@ -16352,6 +16247,15 @@ msgstr "Нашёл сыр."
 msgctxt "memorial_female"
 msgid "Found the cheese."
 msgstr "Нашла сыр."
+
+#~ msgid ""
+#~ "A special mutagenic serum designed to give you a single mutation. This one "
+#~ "will make you capable of falling asleep just about anywhere, if your body "
+#~ "supports it, if your body supports it."
+#~ msgstr ""
+#~ "Особая мутагенная сыворотка, вызывающая одну определённую мутацию. Если ваш "
+#~ "организм способен принять такое изменение, она позволит вам питаться "
+#~ "подножным кормом — травой и кустарниками."
 
 #~ msgid ""
 #~ "A custom-built backpack hiking, reinforced with Kevlar and made of Nomex "
