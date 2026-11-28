@@ -358,9 +358,14 @@
     "elec_resist": 30,
     "chip_resist": 20,
     "repaired_with": "sq_depleted_uranium",
-    "dmg_adj": [ "marked", "dented", "smashed", "shattered" ],
-    "bash_dmg_verb": "dented",
-    "cut_dmg_verb": "scratched"
+    "dmg_adj": [
+      { "ctxt": "material damage adjective", "str": "marked" },
+      { "ctxt": "material damage adjective", "str": "dented" },
+      { "ctxt": "material damage adjective", "str": "smashed" },
+      { "ctxt": "material damage adjective", "str": "shattered" }
+    ],
+    "bash_dmg_verb": { "ctxt": "material damage verb", "str": "dented" },
+    "cut_dmg_verb": { "ctxt": "material damage verb", "str": "scratched" }
   },
   {
     "id": "sq_depleted_uranium",

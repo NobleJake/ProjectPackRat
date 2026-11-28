@@ -80,9 +80,14 @@
     "elec_resist": 30,
     "chip_resist": 20,
     "repaired_with": "graphene",
-    "dmg_adj": [ "ripped", "torn", "shredded", "tattered" ],
-    "bash_dmg_verb": "ripped",
-    "cut_dmg_verb": "cut"
+    "dmg_adj": [
+      { "ctxt": "material damage adjective", "str": "ripped" },
+      { "ctxt": "material damage adjective", "str": "torn" },
+      { "ctxt": "material damage adjective", "str": "shredded" },
+      { "ctxt": "material damage adjective", "str": "tattered" }
+    ],
+    "bash_dmg_verb": { "ctxt": "material damage verb", "str": "ripped" },
+    "cut_dmg_verb": { "ctxt": "material damage verb", "str": "cut" }
   },
   {
     "type": "material",
@@ -102,8 +107,13 @@
     "chip_resist": 20,
     "salvaged_into": "graphene",
     "repaired_with": "carbide_plate",
-    "dmg_adj": [ "marked", "dented", "smashed", "shattered" ],
-    "bash_dmg_verb": "dented",
-    "cut_dmg_verb": "scratched"
+    "dmg_adj": [
+      { "ctxt": "material damage adjective", "str": "marked" },
+      { "ctxt": "material damage adjective", "str": "dented" },
+      { "ctxt": "material damage adjective", "str": "smashed" },
+      { "ctxt": "material damage adjective", "str": "shattered" }
+    ],
+    "bash_dmg_verb": { "ctxt": "material damage verb", "str": "dented" },
+    "cut_dmg_verb": { "ctxt": "material damage verb", "str": "scratched" }
   }
 ]
